@@ -1,0 +1,10091 @@
+[
+    {
+        "id": 0,
+        "name": "Oeuf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 1,
+        "name": "Bulbizarre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Herbizarre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Florizarre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Salamèche",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Reptincel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dracaufeu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Carapuce",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Carabaffe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Tortank",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Chenipan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Chrysacier",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Papilusion",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Aspicot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Coconfort",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Dardargnan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Roucool",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Roucoups",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Roucarnage",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Rattata",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Rattatac",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Piafabec",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Rapasdepic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Abo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Arbok",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Pikachu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 2,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 3,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 4,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 5,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 6,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 7,
+                "sex": "mo",
+                "event": true
+            },
+            {
+                "id": 9,
+                "sex": "mo",
+                "event": true
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Raichu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Sabelette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Sablaireau",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Nidoran♀",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Nidorina",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Nidoqueen",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Nidoran♂",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Nidorino",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Nidoking",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Mélofée",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Mélodelfe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Goupix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Feunard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Rondoudou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Grodoudou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Nosferapti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Nosferalto",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Mystherbe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Ortide",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Rafflesia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Paras",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Parasect",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Mimitoss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Aéromite",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Taupiqueur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Triopikeur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Miaouss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Persian",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Psykokwak",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Akwakwak",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Férosinge",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Colossinge",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Caninos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Arcanin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Ptitard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Têtarte",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Tartard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Abra",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Kadabra",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Alakazam",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Machoc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Machopeur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Mackogneur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Chétiflor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Boustiflor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Empiflor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Tentacool",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Tentacruel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Racaillou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Gravalanch",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Grolem",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Ponyta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Galopa",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Ramoloss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Flagadoss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Magnéti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Magnéton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Canarticho",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Doduo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Dodrio",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Otaria",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Lamantine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Tadmorv",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Grotadmorv",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Kokiyas",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Crustabri",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Fantominus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Spectrum",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Ectoplasma",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Onix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Soporifik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Hypnomade",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Krabby",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Krabboss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Voltorbe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Électrode",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Noeunoeuf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Noadkoko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Osselait",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Ossatueur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "ALOLA"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Kicklee",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Tygnon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Excelangue",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Smogo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Smogogo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Rhinocorne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Rhinoféros",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Leveinard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Saquedeneu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Kangourex",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "name": "Hypotrempe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "name": "Hypocéan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "name": "Poissirène",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "name": "Poissoroy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "name": "Stari",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "name": "Staross",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "name": "M. Mime",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "name": "Insécateur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "name": "Lippoutou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "name": "Élektek",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "name": "Magmar",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "name": "Scarabrute",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "name": "Tauros",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "name": "Magicarpe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 130,
+        "name": "Léviator",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "name": "Lokhlass",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "name": "Métamorph",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "name": "Évoli",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "name": "Aquali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "name": "Voltali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "name": "Pyroli",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "name": "Porygon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "name": "Amonita",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "name": "Amonistar",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "name": "Kabuto",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 141,
+        "name": "Kabutops",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 142,
+        "name": "Ptéra",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "name": "Ronflex",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "name": "Artikodin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "name": "Électhor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "name": "Sulfura",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "name": "Minidraco",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "name": "Draco",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "name": "Dracolosse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "name": "Mewtwo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "name": "Mew",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "name": "Germignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "name": "Macronium",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "name": "Méganium",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "name": "Héricendre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "name": "Feurisson",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "name": "Typhlosion",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "name": "Kaiminus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "name": "Crocrodil",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "name": "Aligatueur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "name": "Fouinette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "name": "Fouinar",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "name": "Hoothoot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "name": "Noarfang",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "name": "Coxy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "name": "Coxyclaque",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "name": "Mimigal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "name": "Migalos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "name": "Nostenfer",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "name": "Loupio",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "name": "Lanturn",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "name": "Pichu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "name": "Mélo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "name": "Toudoudou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "name": "Togepi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "name": "Togetic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 177,
+        "name": "Natu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "name": "Xatu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "name": "Wattouat",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "name": "Lainergie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "name": "Pharamp",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "name": "Joliflor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "name": "Marill",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "name": "Azumarill",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "name": "Simularbre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "name": "Tarpaud",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "name": "Granivol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "name": "Floravol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "name": "Cotovol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "name": "Capumain",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "name": "Tournegrin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "name": "Héliatronc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "name": "Yanma",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "name": "Axoloto",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "name": "Maraiste",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "name": "Mentali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "name": "Noctali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "name": "Cornèbre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "name": "Roigada",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "name": "Feuforêve",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "name": "Zarbi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            },
+            {
+                "id": 4,
+                "sex": "uk"
+            },
+            {
+                "id": 5,
+                "sex": "uk"
+            },
+            {
+                "id": 6,
+                "sex": "uk"
+            },
+            {
+                "id": 7,
+                "sex": "uk"
+            },
+            {
+                "id": 8,
+                "sex": "uk"
+            },
+            {
+                "id": 9,
+                "sex": "uk"
+            },
+            {
+                "id": 10,
+                "sex": "uk"
+            },
+            {
+                "id": 11,
+                "sex": "uk"
+            },
+            {
+                "id": 12,
+                "sex": "uk"
+            },
+            {
+                "id": 13,
+                "sex": "uk"
+            },
+            {
+                "id": 14,
+                "sex": "uk"
+            },
+            {
+                "id": 15,
+                "sex": "uk"
+            },
+            {
+                "id": 16,
+                "sex": "uk"
+            },
+            {
+                "id": 17,
+                "sex": "uk"
+            },
+            {
+                "id": 18,
+                "sex": "uk"
+            },
+            {
+                "id": 19,
+                "sex": "uk"
+            },
+            {
+                "id": 20,
+                "sex": "uk"
+            },
+            {
+                "id": 21,
+                "sex": "uk"
+            },
+            {
+                "id": 22,
+                "sex": "uk"
+            },
+            {
+                "id": 23,
+                "sex": "uk"
+            },
+            {
+                "id": 24,
+                "sex": "uk"
+            },
+            {
+                "id": 25,
+                "sex": "uk"
+            },
+            {
+                "id": 26,
+                "sex": "uk"
+            },
+            {
+                "id": 27,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 202,
+        "name": "Qulbutoké",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "name": "Girafarig",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "name": "Pomdepik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "name": "Foretress",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "name": "Insolourdo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "name": "Scorplane",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "name": "Steelix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "name": "Snubbull",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "name": "Granbull",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 211,
+        "name": "Qwilfish",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "name": "Cizayox",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "name": "Caratroc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "name": "Scarhino",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "name": "Farfuret",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "fd",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "name": "Teddiursa",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 217,
+        "name": "Ursaring",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 218,
+        "name": "Limagma",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "name": "Volcaropod",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "name": "Marcacrin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "name": "Cochignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "name": "Corayon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "name": "Rémoraid",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "name": "Octillery",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "name": "Cadoizo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "name": "Démanta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "name": "Airmure",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "name": "Malosse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 229,
+        "name": "Démolosse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "name": "Hyporoi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 231,
+        "name": "Phanpy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 232,
+        "name": "Donphan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 233,
+        "name": "Porygon2",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 234,
+        "name": "Cerfrousse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 235,
+        "name": "Queulorior",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 236,
+        "name": "Debugant",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 237,
+        "name": "Kapoera",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 238,
+        "name": "Lippouti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 239,
+        "name": "Élekid",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 240,
+        "name": "Magby",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 241,
+        "name": "Écrémeuh",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 242,
+        "name": "Leuphorie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "name": "Raikou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 244,
+        "name": "Entei",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 245,
+        "name": "Suicune",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 246,
+        "name": "Embrylex",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 247,
+        "name": "Ymphect",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 248,
+        "name": "Tyranocif",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 249,
+        "name": "Lugia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 250,
+        "name": "Ho-Oh",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 251,
+        "name": "Celebi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 252,
+        "name": "Arcko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 253,
+        "name": "Massko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 254,
+        "name": "Jungko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 255,
+        "name": "Poussifeu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 256,
+        "name": "Galifeu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 257,
+        "name": "Braségali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 258,
+        "name": "Gobou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 259,
+        "name": "Flobio",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 260,
+        "name": "Laggron",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 261,
+        "name": "Medhyèna",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 262,
+        "name": "Grahyèna",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 263,
+        "name": "Zigzaton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 264,
+        "name": "Linéon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 265,
+        "name": "Chenipotte",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 266,
+        "name": "Armulys",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 267,
+        "name": "Charmillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 268,
+        "name": "Blindalys",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 269,
+        "name": "Papinox",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 270,
+        "name": "Nénupiot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 271,
+        "name": "Lombre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 272,
+        "name": "Ludicolo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 273,
+        "name": "Grainipiot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 274,
+        "name": "Pifeuil",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 275,
+        "name": "Tengalice",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 276,
+        "name": "Nirondelle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 277,
+        "name": "Hélédelle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 278,
+        "name": "Goélise",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 279,
+        "name": "Bekipan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 280,
+        "name": "Tarsal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 281,
+        "name": "Kirlia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 282,
+        "name": "Gardevoir",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 283,
+        "name": "Arakdo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 284,
+        "name": "Maskadra",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 285,
+        "name": "Balignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 286,
+        "name": "Chapignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 287,
+        "name": "Parecool",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 288,
+        "name": "Vigoroth",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 289,
+        "name": "Monaflèmit",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 290,
+        "name": "Ningale",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 291,
+        "name": "Ninjask",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 292,
+        "name": "Munja",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 293,
+        "name": "Chuchmur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 294,
+        "name": "Ramboum",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 295,
+        "name": "Brouhabam",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 296,
+        "name": "Makuhita",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 297,
+        "name": "Hariyama",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 298,
+        "name": "Azurill",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 299,
+        "name": "Tarinor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 300,
+        "name": "Skitty",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 301,
+        "name": "Delcatty",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 302,
+        "name": "Ténéfix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 303,
+        "name": "Mysdibule",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 304,
+        "name": "Galekid",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 305,
+        "name": "Galegon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 306,
+        "name": "Galeking",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 307,
+        "name": "Méditikka",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 308,
+        "name": "Charmina",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 309,
+        "name": "Dynavolt",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 310,
+        "name": "Élecsprint",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "name": "Posipi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 312,
+        "name": "Négapi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "name": "Muciole",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 314,
+        "name": "Lumivole",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 315,
+        "name": "Rosélia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 316,
+        "name": "Gloupti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 317,
+        "name": "Avaltout",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 318,
+        "name": "Carvanha",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 319,
+        "name": "Sharpedo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 320,
+        "name": "Wailmer",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 321,
+        "name": "Wailord",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 322,
+        "name": "Chamallot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 323,
+        "name": "Camérupt",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 324,
+        "name": "Chartor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 325,
+        "name": "Spoink",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 326,
+        "name": "Groret",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 327,
+        "name": "Spinda",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 328,
+        "name": "Kraknoix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 329,
+        "name": "Vibraninf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 330,
+        "name": "Libégon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 331,
+        "name": "Cacnea",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 332,
+        "name": "Cacturne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 333,
+        "name": "Tylton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 334,
+        "name": "Altaria",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 335,
+        "name": "Mangriff",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 336,
+        "name": "Séviper",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 337,
+        "name": "Séléroc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 338,
+        "name": "Solaroc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 339,
+        "name": "Barloche",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 340,
+        "name": "Barbicha",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 341,
+        "name": "Écrapince",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 342,
+        "name": "Colhomard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 343,
+        "name": "Balbuto",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 344,
+        "name": "Kaorine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 345,
+        "name": "Lilia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 346,
+        "name": "Vacilys",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 347,
+        "name": "Anorith",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 348,
+        "name": "Armaldo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 349,
+        "name": "Barpau",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 350,
+        "name": "Milobellus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 351,
+        "name": "Morphéo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 352,
+        "name": "Kecleon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 353,
+        "name": "Polichombr",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 354,
+        "name": "Branette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 355,
+        "name": "Skelénox",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 356,
+        "name": "Téraclope",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 357,
+        "name": "Tropius",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 358,
+        "name": "Éoko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 359,
+        "name": "Absol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 360,
+        "name": "Okéoké",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 361,
+        "name": "Stalgamin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 362,
+        "name": "Oniglali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 363,
+        "name": "Obalie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 364,
+        "name": "Phogleur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 365,
+        "name": "Kaimorse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 366,
+        "name": "Coquiperl",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 367,
+        "name": "Serpang",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 368,
+        "name": "Rosabyss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 369,
+        "name": "Relicanth",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 370,
+        "name": "Lovdisc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 371,
+        "name": "Draby",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 372,
+        "name": "Drackhaus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 373,
+        "name": "Drattak",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 374,
+        "name": "Terhal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 375,
+        "name": "Métang",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 376,
+        "name": "Métalosse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 377,
+        "name": "Regirock",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 378,
+        "name": "Regice",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 379,
+        "name": "Registeel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 380,
+        "name": "Latias",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 381,
+        "name": "Latios",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 382,
+        "name": "Kyogre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 383,
+        "name": "Groudon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 384,
+        "name": "Rayquaza",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 385,
+        "name": "Jirachi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 386,
+        "name": "Deoxys",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 387,
+        "name": "Tortipouss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 388,
+        "name": "Boskara",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 389,
+        "name": "Torterra",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 390,
+        "name": "Ouisticram",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 391,
+        "name": "Chimpenfeu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 392,
+        "name": "Simiabraz",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 393,
+        "name": "Tiplouf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 394,
+        "name": "Prinplouf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 395,
+        "name": "Pingoléon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 396,
+        "name": "Étourmi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 397,
+        "name": "Étourvol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 398,
+        "name": "Étouraptor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 399,
+        "name": "Keunotor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 400,
+        "name": "Castorno",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 401,
+        "name": "Crikzik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 402,
+        "name": "Mélokrik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 403,
+        "name": "Lixy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 404,
+        "name": "Luxio",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 405,
+        "name": "Luxray",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 406,
+        "name": "Rozbouton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 407,
+        "name": "Roserade",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 408,
+        "name": "Kranidos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 409,
+        "name": "Charkos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 410,
+        "name": "Dinoclier",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 411,
+        "name": "Bastiodon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 412,
+        "name": "Cheniti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            }
+        ],
+        "formType": "CHANGE"
+    },
+    {
+        "id": 413,
+        "name": "Cheniselle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            },
+            {
+                "id": 2,
+                "sex": "fo"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 414,
+        "name": "Papilord",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 415,
+        "name": "Apitrini",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 416,
+        "name": "Apireine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 417,
+        "name": "Pachirisu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 418,
+        "name": "Mustébouée",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 419,
+        "name": "Mustéflott",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 420,
+        "name": "Ceribou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 421,
+        "name": "Ceriflor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 422,
+        "name": "Sancoki",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 423,
+        "name": "Tritosor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 424,
+        "name": "Capidextre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 425,
+        "name": "Baudrive",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 426,
+        "name": "Grodrive",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 427,
+        "name": "Laporeille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 428,
+        "name": "Lockpin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 429,
+        "name": "Magirêve",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 430,
+        "name": "Corboss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 431,
+        "name": "Chaglam",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "name": "Chaffreux",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 433,
+        "name": "Korillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 434,
+        "name": "Moufouette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 435,
+        "name": "Moufflair",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 436,
+        "name": "Archéomire",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 437,
+        "name": "Archéodong",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 438,
+        "name": "Manzaï",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 439,
+        "name": "Mime Jr.",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 440,
+        "name": "Ptiravi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 441,
+        "name": "Pijako",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 442,
+        "name": "Spiritomb",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 443,
+        "name": "Griknot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 444,
+        "name": "Carmache",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 445,
+        "name": "Carchacrok",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 446,
+        "name": "Goinfrex",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 447,
+        "name": "Riolu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 448,
+        "name": "Lucario",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 449,
+        "name": "Hippopotas",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 450,
+        "name": "Hippodocus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 451,
+        "name": "Rapion",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 452,
+        "name": "Drascore",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 453,
+        "name": "Cradopaud",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 454,
+        "name": "Coatox",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 455,
+        "name": "Vortente",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 456,
+        "name": "Écayon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 457,
+        "name": "Luminéon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 458,
+        "name": "Babimanta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 459,
+        "name": "Blizzi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 460,
+        "name": "Blizzaroi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 461,
+        "name": "Dimoret",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 462,
+        "name": "Magnézone",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 463,
+        "name": "Coudlangue",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 464,
+        "name": "Rhinastoc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 465,
+        "name": "Bouldeneu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 466,
+        "name": "Élekable",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 467,
+        "name": "Maganon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 468,
+        "name": "Togekiss",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 469,
+        "name": "Yanmega",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 470,
+        "name": "Phyllali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 471,
+        "name": "Givrali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 472,
+        "name": "Scorvol",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 473,
+        "name": "Mammochon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 474,
+        "name": "Porygon-Z",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 475,
+        "name": "Gallame",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 476,
+        "name": "Tarinorme",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 477,
+        "name": "Noctunoir",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 478,
+        "name": "Momartik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 479,
+        "name": "Motisma",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            },
+            {
+                "id": 4,
+                "sex": "uk"
+            },
+            {
+                "id": 5,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE"
+    },
+    {
+        "id": 480,
+        "name": "Créhelf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 481,
+        "name": "Créfollet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 482,
+        "name": "Créfadet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 483,
+        "name": "Dialga",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 484,
+        "name": "Palkia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 485,
+        "name": "Heatran",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 486,
+        "name": "Regigigas",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 487,
+        "name": "Giratina",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 488,
+        "name": "Cresselia",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 489,
+        "name": "Phione",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 490,
+        "name": "Manaphy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 491,
+        "name": "Darkrai",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 492,
+        "name": "Shaymin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 493,
+        "name": "Arceus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            },
+            {
+                "id": 4,
+                "sex": "uk"
+            },
+            {
+                "id": 5,
+                "sex": "uk"
+            },
+            {
+                "id": 6,
+                "sex": "uk"
+            },
+            {
+                "id": 7,
+                "sex": "uk"
+            },
+            {
+                "id": 8,
+                "sex": "uk"
+            },
+            {
+                "id": 9,
+                "sex": "uk"
+            },
+            {
+                "id": 10,
+                "sex": "uk"
+            },
+            {
+                "id": 11,
+                "sex": "uk"
+            },
+            {
+                "id": 12,
+                "sex": "uk"
+            },
+            {
+                "id": 13,
+                "sex": "uk"
+            },
+            {
+                "id": 14,
+                "sex": "uk"
+            },
+            {
+                "id": 15,
+                "sex": "uk"
+            },
+            {
+                "id": 16,
+                "sex": "uk"
+            },
+            {
+                "id": 17,
+                "sex": "uk"
+            },
+            {
+                "id": 18,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 494,
+        "name": "Victini",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 495,
+        "name": "Vipélierre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 496,
+        "name": "Lianaja",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 497,
+        "name": "Majaspic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 498,
+        "name": "Gruikui",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 499,
+        "name": "Grotichon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 500,
+        "name": "Roitiflam",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 501,
+        "name": "Moustillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 502,
+        "name": "Mateloutre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 503,
+        "name": "Clamiral",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 504,
+        "name": "Ratentif",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 505,
+        "name": "Miradar",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 506,
+        "name": "Ponchiot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 507,
+        "name": "Ponchien",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 508,
+        "name": "Mastouffe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 509,
+        "name": "Chacripan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 510,
+        "name": "Léopardus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 511,
+        "name": "Feuillajou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 512,
+        "name": "Feuiloutan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 513,
+        "name": "Flamajou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 514,
+        "name": "Flamoutan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 515,
+        "name": "Flotajou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 516,
+        "name": "Flotoutan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 517,
+        "name": "Munna",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 518,
+        "name": "Mushana",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 519,
+        "name": "Poichigeon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 520,
+        "name": "Colombeau",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 521,
+        "name": "Déflaisan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 522,
+        "name": "Zébibron",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 523,
+        "name": "Zéblitz",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 524,
+        "name": "Nodulithe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 525,
+        "name": "Géolithe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 526,
+        "name": "Gigalithe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 527,
+        "name": "Chovsourir",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 528,
+        "name": "Rhinolove",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 529,
+        "name": "Rototaupe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 530,
+        "name": "Minotaupe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 531,
+        "name": "Nanméouïe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 532,
+        "name": "Charpenti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 533,
+        "name": "Ouvrifier",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 534,
+        "name": "Bétochef",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 535,
+        "name": "Tritonde",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 536,
+        "name": "Batracné",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 537,
+        "name": "Crapustule",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 538,
+        "name": "Judokrak",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 539,
+        "name": "Karaclée",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 540,
+        "name": "Larveyette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 541,
+        "name": "Couverdure",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 542,
+        "name": "Manternel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 543,
+        "name": "Venipatte",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 544,
+        "name": "Scobolide",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 545,
+        "name": "Brutapode",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 546,
+        "name": "Doudouvet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 547,
+        "name": "Farfaduvet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 548,
+        "name": "Chlorobule",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 549,
+        "name": "Fragilady",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 550,
+        "name": "Bargantua",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 551,
+        "name": "Mascaïman",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 552,
+        "name": "Escroco",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 553,
+        "name": "Crocorible",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 554,
+        "name": "Darumarond",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 555,
+        "name": "Darumacho",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 556,
+        "name": "Maracachi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 557,
+        "name": "Crabicoque",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 558,
+        "name": "Crabaraque",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 559,
+        "name": "Baggiguane",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 560,
+        "name": "Baggaïd",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 561,
+        "name": "Cryptéro",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 562,
+        "name": "Tutafeh",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 563,
+        "name": "Tutankafer",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 564,
+        "name": "Carapagos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 565,
+        "name": "Mégapagos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 566,
+        "name": "Arkéapti",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 567,
+        "name": "Aéroptéryx",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 568,
+        "name": "Miamiasme",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 569,
+        "name": "Miasmax",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 570,
+        "name": "Zorua",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 571,
+        "name": "Zoroark",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 572,
+        "name": "Chinchidou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 573,
+        "name": "Pashmilla",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 574,
+        "name": "Scrutella",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 575,
+        "name": "Mesmérella",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 576,
+        "name": "Sidérella",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 577,
+        "name": "Nucléos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 578,
+        "name": "Méios",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 579,
+        "name": "Symbios",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 580,
+        "name": "Couaneton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 581,
+        "name": "Lakmécygne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 582,
+        "name": "Sorbébé",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 583,
+        "name": "Sorboul",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 584,
+        "name": "Sorbouboul",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 585,
+        "name": "Vivaldaim",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 586,
+        "name": "Haydaim",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 587,
+        "name": "Emolga",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 588,
+        "name": "Carabing",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 589,
+        "name": "Lançargot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 590,
+        "name": "Trompignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 591,
+        "name": "Gaulet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 592,
+        "name": "Viskuse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 593,
+        "name": "Moyade",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 594,
+        "name": "Mamanbo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 595,
+        "name": "Statitik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 596,
+        "name": "Mygavolt",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 597,
+        "name": "Grindur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 598,
+        "name": "Noacier",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 599,
+        "name": "Tic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 600,
+        "name": "Clic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 601,
+        "name": "Cliticlic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 602,
+        "name": "Anchwatt",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 603,
+        "name": "Lampéroie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 604,
+        "name": "Ohmassacre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 605,
+        "name": "Lewsor",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 606,
+        "name": "Neitram",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 607,
+        "name": "Funécire",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 608,
+        "name": "Mélancolux",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 609,
+        "name": "Lugulabre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 610,
+        "name": "Coupenotte",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 611,
+        "name": "Incisache",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 612,
+        "name": "Tranchodon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 613,
+        "name": "Polarhume",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 614,
+        "name": "Polagriffe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 615,
+        "name": "Hexagel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 616,
+        "name": "Escargaume",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 617,
+        "name": "Limaspeed",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 618,
+        "name": "Limonde",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "GALAR"
+            }
+        ]
+    },
+    {
+        "id": 619,
+        "name": "Kungfouine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 620,
+        "name": "Shaofouine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 621,
+        "name": "Drakkarmin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 622,
+        "name": "Gringolem",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 623,
+        "name": "Golemastoc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 624,
+        "name": "Scalpion",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 625,
+        "name": "Scalproie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 626,
+        "name": "Frison",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 627,
+        "name": "Furaiglon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 628,
+        "name": "Gueriaigle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 629,
+        "name": "Vostourno",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 630,
+        "name": "Vaututrice",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 631,
+        "name": "Aflamanoir",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 632,
+        "name": "Fermite",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 633,
+        "name": "Solochi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 634,
+        "name": "Diamat",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 635,
+        "name": "Trioxhydre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 636,
+        "name": "Pyronille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 637,
+        "name": "Pyrax",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 638,
+        "name": "Cobaltium",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 639,
+        "name": "Terrakium",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 640,
+        "name": "Viridium",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 641,
+        "name": "Boréas",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 642,
+        "name": "Fulguris",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 643,
+        "name": "Reshiram",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 644,
+        "name": "Zekrom",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 645,
+        "name": "Démétéros",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 646,
+        "name": "Kyurem",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 647,
+        "name": "Keldeo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 648,
+        "name": "Meloetta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 649,
+        "name": "Genesect",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 650,
+        "name": "Marisson",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 651,
+        "name": "Boguérisse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 652,
+        "name": "Blindépique",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 653,
+        "name": "Feunnec",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 654,
+        "name": "Roussil",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 655,
+        "name": "Goupelin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 656,
+        "name": "Grenousse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 657,
+        "name": "Croâporal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 658,
+        "name": "Amphinobi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mo",
+                "event": true
+            }
+        ]
+    },
+    {
+        "id": 659,
+        "name": "Sapereau",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 660,
+        "name": "Excavarenne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 661,
+        "name": "Passerouge",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 662,
+        "name": "Braisillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 663,
+        "name": "Flambusard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 664,
+        "name": "Lépidonille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 665,
+        "name": "Pérégrain",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 666,
+        "name": "Prismillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            },
+            {
+                "id": 4,
+                "sex": "mf"
+            },
+            {
+                "id": 5,
+                "sex": "mf"
+            },
+            {
+                "id": 6,
+                "sex": "mf"
+            },
+            {
+                "id": 7,
+                "sex": "mf"
+            },
+            {
+                "id": 8,
+                "sex": "mf"
+            },
+            {
+                "id": 9,
+                "sex": "mf"
+            },
+            {
+                "id": 10,
+                "sex": "mf"
+            },
+            {
+                "id": 11,
+                "sex": "mf"
+            },
+            {
+                "id": 12,
+                "sex": "mf"
+            },
+            {
+                "id": 13,
+                "sex": "mf"
+            },
+            {
+                "id": 14,
+                "sex": "mf"
+            },
+            {
+                "id": 15,
+                "sex": "mf"
+            },
+            {
+                "id": 16,
+                "sex": "mf"
+            },
+            {
+                "id": 17,
+                "sex": "mf"
+            },
+            {
+                "id": 18,
+                "sex": "mf"
+            },
+            {
+                "id": 19,
+                "sex": "mf",
+                "event": true
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 667,
+        "name": "Hélionceau",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 668,
+        "name": "Némélios",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fd"
+            }
+        ]
+    },
+    {
+        "id": 669,
+        "name": "Flabébé",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            },
+            {
+                "id": 2,
+                "sex": "fo"
+            },
+            {
+                "id": 3,
+                "sex": "fo"
+            },
+            {
+                "id": 4,
+                "sex": "fo"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 670,
+        "name": "Floette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            },
+            {
+                "id": 2,
+                "sex": "fo"
+            },
+            {
+                "id": 3,
+                "sex": "fo"
+            },
+            {
+                "id": 4,
+                "sex": "fo"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 671,
+        "name": "Florges",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            },
+            {
+                "id": 2,
+                "sex": "fo"
+            },
+            {
+                "id": 3,
+                "sex": "fo"
+            },
+            {
+                "id": 4,
+                "sex": "fo"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 672,
+        "name": "Cabriolaine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 673,
+        "name": "Chevroum",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 674,
+        "name": "Pandespiègle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 675,
+        "name": "Pandarbare",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 676,
+        "name": "Couafarel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 677,
+        "name": "Psystigri",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 678,
+        "name": "Mistigrix",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            }
+        ],
+        "formType": "SEX"
+    },
+    {
+        "id": 679,
+        "name": "Monorpale",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 680,
+        "name": "Dimoclès",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 681,
+        "name": "Exagide",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 682,
+        "name": "Fluvetin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 683,
+        "name": "Cocotine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 684,
+        "name": "Sucroquin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 685,
+        "name": "Cupcanaille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 686,
+        "name": "Sepiatop",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 687,
+        "name": "Sepiatroce",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 688,
+        "name": "Opermine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 689,
+        "name": "Golgopathe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 690,
+        "name": "Venalgue",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 691,
+        "name": "Kravarech",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 692,
+        "name": "Flingouste",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 693,
+        "name": "Gamblast",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 694,
+        "name": "Galvaran",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 695,
+        "name": "Iguolta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 696,
+        "name": "Ptyranidur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 697,
+        "name": "Rexillius",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 698,
+        "name": "Amagara",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 699,
+        "name": "Dragmara",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 700,
+        "name": "Nymphali",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 701,
+        "name": "Brutalibré",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 702,
+        "name": "Dedenne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 703,
+        "name": "Strassie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 704,
+        "name": "Mucuscule",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 705,
+        "name": "Colimucus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 706,
+        "name": "Muplodocus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 707,
+        "name": "Trousselin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 708,
+        "name": "Brocélôme",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 709,
+        "name": "Desséliande",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 710,
+        "name": "Pitrouille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 711,
+        "name": "Banshitrouye",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 712,
+        "name": "Grelaçon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 713,
+        "name": "Séracrawl",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 714,
+        "name": "Sonistrelle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 715,
+        "name": "Bruyverne",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 716,
+        "name": "Xerneas",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 717,
+        "name": "Yveltal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 718,
+        "name": "Zygarde",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 719,
+        "name": "Diancie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 720,
+        "name": "Hoopa",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 721,
+        "name": "Volcanion",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 722,
+        "name": "Brindibou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 723,
+        "name": "Efflèche",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 724,
+        "name": "Archéduc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "HISUI"
+            }
+        ]
+    },
+    {
+        "id": 725,
+        "name": "Flamiaou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 726,
+        "name": "Matoufeu",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 727,
+        "name": "Félinferno",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 728,
+        "name": "Otaquin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 729,
+        "name": "Otarlette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 730,
+        "name": "Oratoria",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 731,
+        "name": "Picassaut",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 732,
+        "name": "Piclairon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 733,
+        "name": "Bazoucan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 734,
+        "name": "Manglouton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 735,
+        "name": "Argouste",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 736,
+        "name": "Larvibule",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 737,
+        "name": "Chrysapile",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 738,
+        "name": "Lucanon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 739,
+        "name": "Crabagarre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 740,
+        "name": "Crabominable",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 741,
+        "name": "Plumeline",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            },
+            {
+                "id": 3,
+                "sex": "mf"
+            }
+        ],
+        "formType": "CHANGE"
+    },
+    {
+        "id": 742,
+        "name": "Bombydou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 743,
+        "name": "Rubombelle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 744,
+        "name": "Rocabot",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 745,
+        "name": "Lougaroc",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            },
+            {
+                "id": 2,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 746,
+        "name": "Froussardine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 747,
+        "name": "Vorastérie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 748,
+        "name": "Prédastérie",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 749,
+        "name": "Tiboudet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 750,
+        "name": "Bourrinos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 751,
+        "name": "Araqua",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 752,
+        "name": "Tarenbulle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 753,
+        "name": "Mimantis",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 754,
+        "name": "Floramantis",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 755,
+        "name": "Spododo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 756,
+        "name": "Lampignon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 757,
+        "name": "Tritox",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 758,
+        "name": "Malamandre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 759,
+        "name": "Nounourson",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 760,
+        "name": "Chelours",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 761,
+        "name": "Croquine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 762,
+        "name": "Candine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 763,
+        "name": "Sucreine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 764,
+        "name": "Guérilande",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 765,
+        "name": "Gouroutan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 766,
+        "name": "Quartermac",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 767,
+        "name": "Sovkipou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 768,
+        "name": "Sarmuraï",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 769,
+        "name": "Bacabouh",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 770,
+        "name": "Trépassable",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 771,
+        "name": "Concombaffe",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 772,
+        "name": "Type:0",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 773,
+        "name": "Silvallié",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            },
+            {
+                "id": 3,
+                "sex": "uk"
+            },
+            {
+                "id": 4,
+                "sex": "uk"
+            },
+            {
+                "id": 5,
+                "sex": "uk"
+            },
+            {
+                "id": 6,
+                "sex": "uk"
+            },
+            {
+                "id": 7,
+                "sex": "uk"
+            },
+            {
+                "id": 8,
+                "sex": "uk"
+            },
+            {
+                "id": 9,
+                "sex": "uk"
+            },
+            {
+                "id": 10,
+                "sex": "uk"
+            },
+            {
+                "id": 11,
+                "sex": "uk"
+            },
+            {
+                "id": 12,
+                "sex": "uk"
+            },
+            {
+                "id": 13,
+                "sex": "uk"
+            },
+            {
+                "id": 14,
+                "sex": "uk"
+            },
+            {
+                "id": 15,
+                "sex": "uk"
+            },
+            {
+                "id": 16,
+                "sex": "uk"
+            },
+            {
+                "id": 17,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 774,
+        "name": "Météno",
+        "forms": [
+            {
+                "id": 7,
+                "sex": "uk"
+            },
+            {
+                "id": 8,
+                "sex": "uk"
+            },
+            {
+                "id": 9,
+                "sex": "uk"
+            },
+            {
+                "id": 10,
+                "sex": "uk"
+            },
+            {
+                "id": 11,
+                "sex": "uk"
+            },
+            {
+                "id": 12,
+                "sex": "uk"
+            },
+            {
+                "id": 13,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 775,
+        "name": "Dodoala",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 776,
+        "name": "Boumata",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 777,
+        "name": "Togedemaru",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 778,
+        "name": "Mimiqui",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 779,
+        "name": "Denticrisse",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 780,
+        "name": "Draïeul",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 781,
+        "name": "Sinistrail",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 782,
+        "name": "Bébécaille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 783,
+        "name": "Écaïd",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 784,
+        "name": "Ékaïser",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 785,
+        "name": "Tokorico",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 786,
+        "name": "Tokopiyon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 787,
+        "name": "Tokotoro",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 788,
+        "name": "Tokopisco",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 789,
+        "name": "Cosmog",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 790,
+        "name": "Cosmovum",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 791,
+        "name": "Solgaleo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 792,
+        "name": "Lunala",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 793,
+        "name": "Zéroïd",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 794,
+        "name": "Mouscoto",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 795,
+        "name": "Cancrelove",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 796,
+        "name": "Câblifère",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 797,
+        "name": "Bamboiselle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 798,
+        "name": "Katagami",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 799,
+        "name": "Engloutyran",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 800,
+        "name": "Necrozma",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 801,
+        "name": "Magearna",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 802,
+        "name": "Marshadow",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 803,
+        "name": "Vémini",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 804,
+        "name": "Mandrillon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 805,
+        "name": "Ama-Ama",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 806,
+        "name": "Pierroteknik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 807,
+        "name": "Zeraora",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 808,
+        "name": "Meltan",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 809,
+        "name": "Melmetal",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 810,
+        "name": "Ouistempo",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 811,
+        "name": "Badabouin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 812,
+        "name": "Gorythmic",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 813,
+        "name": "Flambino",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 814,
+        "name": "Lapyro",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 815,
+        "name": "Pyrobut",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 816,
+        "name": "Larméléon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 817,
+        "name": "Arrozard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 818,
+        "name": "Lézargus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 819,
+        "name": "Rongourmand",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 820,
+        "name": "Rongrigou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 821,
+        "name": "Minisange",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 822,
+        "name": "Bleuseille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 823,
+        "name": "Corvaillus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 824,
+        "name": "Larvadar",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 825,
+        "name": "Coléodôme",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 826,
+        "name": "Astronelle",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 827,
+        "name": "Goupilou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 828,
+        "name": "Roublenard",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 829,
+        "name": "Tournicoton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 830,
+        "name": "Blancoton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 831,
+        "name": "Moumouton",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 832,
+        "name": "Moumouflon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 833,
+        "name": "Khélocrok",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 834,
+        "name": "Torgamord",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 835,
+        "name": "Voltoutou",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 836,
+        "name": "Fulgudog",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 837,
+        "name": "Charbi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 838,
+        "name": "Wagomine",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 839,
+        "name": "Monthracite",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 840,
+        "name": "Verpom",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 841,
+        "name": "Pomdrapi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 842,
+        "name": "Dratatin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 843,
+        "name": "Dunaja",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 844,
+        "name": "Dunaconda",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 845,
+        "name": "Nigosier",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 846,
+        "name": "Embrochet",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 847,
+        "name": "Hastacuda",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 848,
+        "name": "Toxizap",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 849,
+        "name": "Salarsen",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 850,
+        "name": "Grillepattes",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 851,
+        "name": "Scolocendre",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 852,
+        "name": "Poulpaf",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 853,
+        "name": "Krakos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 854,
+        "name": "Théffroi",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 855,
+        "name": "Polthégeist",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 856,
+        "name": "Bibichut",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 857,
+        "name": "Chapotus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 858,
+        "name": "Sorcilence",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 859,
+        "name": "Grimalin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 860,
+        "name": "Fourbelin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 861,
+        "name": "Angoliath",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 862,
+        "name": "Ixon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 863,
+        "name": "Berserkatt",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 864,
+        "name": "Corayôme",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 865,
+        "name": "Palarticho",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 866,
+        "name": "M. Glaquette",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 867,
+        "name": "Tutétékri",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 868,
+        "name": "Crèmy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 869,
+        "name": "Charmilly",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            },
+            {
+                "id": 2,
+                "sex": "fo"
+            },
+            {
+                "id": 3,
+                "sex": "fo"
+            },
+            {
+                "id": 4,
+                "sex": "fo"
+            },
+            {
+                "id": 5,
+                "sex": "fo"
+            },
+            {
+                "id": 6,
+                "sex": "fo"
+            },
+            {
+                "id": 7,
+                "sex": "fo"
+            },
+            {
+                "id": 8,
+                "sex": "fo"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 870,
+        "name": "Hexadron",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 871,
+        "name": "Wattapik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 872,
+        "name": "Frissonille",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 873,
+        "name": "Beldeneige",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 874,
+        "name": "Dolman",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 875,
+        "name": "Bekaglaçon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 876,
+        "name": "Wimessir",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            }
+        ],
+        "formType": "SEX"
+    },
+    {
+        "id": 877,
+        "name": "Morpeko",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 878,
+        "name": "Charibari",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 879,
+        "name": "Pachyradjah",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 880,
+        "name": "Galvagon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 881,
+        "name": "Galvagla",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 882,
+        "name": "Hydragon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 883,
+        "name": "Hydragla",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 884,
+        "name": "Duralugon",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 885,
+        "name": "Fantyrm",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 886,
+        "name": "Dispareptil",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 887,
+        "name": "Lanssorien",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 888,
+        "name": "Zacian",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 889,
+        "name": "Zamazenta",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 890,
+        "name": "Éthernatos",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 891,
+        "name": "Wushours",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 892,
+        "name": "Shifours",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf"
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 893,
+        "name": "Zarude",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "event": true
+            }
+        ]
+    },
+    {
+        "id": 894,
+        "name": "Regieleki",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 895,
+        "name": "Regidrago",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 896,
+        "name": "Blizzeval",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 897,
+        "name": "Spectreval",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 898,
+        "name": "Sylveroy",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk"
+            },
+            {
+                "id": 2,
+                "sex": "uk"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 899,
+        "name": "Cerbyllin",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 900,
+        "name": "Hachécateur",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 901,
+        "name": "Ursaking",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 902,
+        "name": "Paragruel",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            }
+        ],
+        "formType": "SEX"
+    },
+    {
+        "id": 903,
+        "name": "Farfurex",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 904,
+        "name": "Qwilpik",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 905,
+        "name": "Amovénus",
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo"
+            }
+        ],
+        "formType": "CHANGE_LEG"
+    }
+]
