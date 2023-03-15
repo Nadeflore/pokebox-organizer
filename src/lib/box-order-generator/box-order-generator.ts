@@ -18,12 +18,23 @@ export enum Sex {
     F = "F"
 }
 
+interface LocalizedName {
+    ja?: string;
+    ko?: string;
+    fr?: string;
+    de?: string;
+    es?: string;
+    it?: string;
+    en?: string;
+}
+
 export interface Pokemon {
     id: number;
     imageName: string;
     name: string;
     region?: Region;
     formIds: number[];
+    formNames: LocalizedName[];
     sex: string;
     sexes: string[];
     sexForm?: boolean;
@@ -33,6 +44,7 @@ export interface Pokemon {
 
 interface FormData {
     id: number;
+    name?: LocalizedName;
     sex: string;
     region?: Region;
     event?: boolean;
@@ -74,6 +86,7 @@ function getPokemonList(maleFemaleForms: boolean, types: FormType[]): Pokemon[] 
                 imageName: getImageFileName(pokemon.id, form.id, form.sex),
                 name: pokemon.name,
                 formIds: [form.id],
+                formNames: [form.name?.fr || form.name?.en || form.id],
                 region: form.region ? Region[form.region as keyof typeof Region] : null,
                 sexForm: form.sexForm,
                 sexes: form.sexes,
@@ -93,12 +106,13 @@ function getPokemonList(maleFemaleForms: boolean, types: FormType[]): Pokemon[] 
                 otherForms = [otherForms.reduce((a, b) => ({
                     ...a,
                     formIds: a.formIds.concat(b.formIds),
+                    formNames: a.formNames.concat(b.formNames),
                     sexes: [...new Set(a.sexes.concat(b.sexes))],
                 }))]
             }
         }
 
-        return eventAndRegionalForms.concat(otherForms)
+        return otherForms.concat(eventAndRegionalForms)
     });
 
     return result;

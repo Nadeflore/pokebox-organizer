@@ -12,7 +12,17 @@
 	 * @param {import("./box-order-generator/box-order-generator").Pokemon} pokemon
 	 */
 	function getTitleFromPokemon(pokemon) {
-		return `${pokemon.id} ${pokemon.name} Region ${pokemon.region} forms ${pokemon.formIds} Sexes ${pokemon.sexes}`;
+		let title = `${pokemon.id} ${pokemon.name}`;
+		if (pokemon.region) {
+			title += ` Region ${pokemon.region}`;
+		}
+		if (pokemon.formNames.length) {
+			title += ` forms ${pokemon.formNames}`;
+		}
+		if (pokemon.sexes.length) {
+			title += ` Sexes ${pokemon.sexes}`;
+		}
+		return title;
 	}
 </script>
 

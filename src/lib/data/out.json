@@ -2235,115 +2235,227 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "A",
+                    "en": "A"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "B",
+                    "en": "B"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "C",
+                    "en": "C"
+                }
             },
             {
                 "id": 3,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "D",
+                    "en": "D"
+                }
             },
             {
                 "id": 4,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "E",
+                    "en": "E"
+                }
             },
             {
                 "id": 5,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "F",
+                    "en": "F"
+                }
             },
             {
                 "id": 6,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "G",
+                    "en": "G"
+                }
             },
             {
                 "id": 7,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "H",
+                    "en": "H"
+                }
             },
             {
                 "id": 8,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "I",
+                    "en": "I"
+                }
             },
             {
                 "id": 9,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "J",
+                    "en": "J"
+                }
             },
             {
                 "id": 10,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "K",
+                    "en": "K"
+                }
             },
             {
                 "id": 11,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "L",
+                    "en": "L"
+                }
             },
             {
                 "id": 12,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "M",
+                    "en": "M"
+                }
             },
             {
                 "id": 13,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "N",
+                    "en": "N"
+                }
             },
             {
                 "id": 14,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "O",
+                    "en": "O"
+                }
             },
             {
                 "id": 15,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "P",
+                    "en": "P"
+                }
             },
             {
                 "id": 16,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "Q",
+                    "en": "Q"
+                }
             },
             {
                 "id": 17,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "R",
+                    "en": "R"
+                }
             },
             {
                 "id": 18,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "S",
+                    "en": "S"
+                }
             },
             {
                 "id": 19,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "T",
+                    "en": "T"
+                }
             },
             {
                 "id": 20,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "U",
+                    "en": "U"
+                }
             },
             {
                 "id": 21,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "V",
+                    "en": "V"
+                }
             },
             {
                 "id": 22,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "W",
+                    "en": "W"
+                }
             },
             {
                 "id": 23,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "X",
+                    "en": "X"
+                }
             },
             {
                 "id": 24,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "Y",
+                    "en": "Y"
+                }
             },
             {
                 "id": 25,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "Z",
+                    "en": "Z"
+                }
             },
             {
                 "id": 26,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "！",
+                    "en": "!"
+                }
             },
             {
                 "id": 27,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "？",
+                    "en": "?"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -4219,19 +4331,39 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ノーマルフォルム",
+                    "en": "Normal Forme",
+                    "fr": "Forme Normale"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "アタックフォルム",
+                    "en": "Attack Forme",
+                    "fr": "Forme Attaque"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ディフェンスフォルム",
+                    "en": "Defense Forme",
+                    "fr": "Forme Défense"
+                }
             },
             {
                 "id": 3,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "スピードフォルム",
+                    "en": "Speed Forme",
+                    "fr": "Forme Vitesse"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -4492,15 +4624,42 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "くさきのミノ",
+                    "en": "Plant Cloak",
+                    "fr": "Cape Plante",
+                    "de": "Pflanzenumhang",
+                    "es": "Tronco Planta",
+                    "it": "Manto Pianta",
+                    "ko": "초목도롱"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "すなちのミノ",
+                    "en": "Sandy Cloak",
+                    "fr": "Cape Sable",
+                    "de": "Sandumhang",
+                    "es": "Tronco Arena",
+                    "it": "Manto Sabbia",
+                    "ko": "모래땅도롱"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ゴミのミノ",
+                    "en": "Trash Cloak",
+                    "fr": "Cape Déchet",
+                    "de": "Lumpenumhang",
+                    "es": "Tronco Basura",
+                    "it": "Manto Scarti",
+                    "ko": "슈레도롱"
+                }
             }
         ],
         "formType": "CHANGE"
@@ -4511,15 +4670,42 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "くさきのミノ",
+                    "en": "Plant Cloak",
+                    "fr": "Cape Plante",
+                    "de": "Pflanzenumhang",
+                    "es": "Tronco Planta",
+                    "it": "Manto Pianta",
+                    "ko": "초목도롱"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "すなちのミノ",
+                    "en": "Sandy Cloak",
+                    "fr": "Cape Sable",
+                    "de": "Sandumhang",
+                    "es": "Tronco Arena",
+                    "it": "Manto Sabbia",
+                    "ko": "모래땅도롱"
+                }
             },
             {
                 "id": 2,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ゴミのミノ",
+                    "en": "Trash Cloak",
+                    "fr": "Cape Déchet",
+                    "de": "Lumpenumhang",
+                    "es": "Tronco Basura",
+                    "it": "Manto Scarti",
+                    "ko": "슈레도롱"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -4610,11 +4796,33 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "にしのうみ",
+                    "en": "West Sea",
+                    "fr": "Mer Occident",
+                    "de": "Westliches Meer",
+                    "es": "Mar Oeste",
+                    "it": "Mare Ovest",
+                    "ko": "서쪽바다",
+                    "zh-Hant": "西海",
+                    "zh-Hans": "西海"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ひがしのうみ",
+                    "en": "East Sea",
+                    "fr": "Mer Orient",
+                    "de": "Östliches Meer",
+                    "es": "Mar Este",
+                    "it": "Mare Est",
+                    "ko": "동쪽바다",
+                    "zh-Hant": "東海",
+                    "zh-Hans": "东海"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -4625,11 +4833,33 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "にしのうみ",
+                    "en": "West Sea",
+                    "fr": "Mer Occident",
+                    "de": "Westliches Meer",
+                    "es": "Mar Oeste",
+                    "it": "Mare Ovest",
+                    "ko": "서쪽바다",
+                    "zh-Hant": "西海",
+                    "zh-Hans": "西海"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ひがしのうみ",
+                    "en": "East Sea",
+                    "fr": "Mer Orient",
+                    "de": "Östliches Meer",
+                    "es": "Mar Este",
+                    "it": "Mare Est",
+                    "ko": "동쪽바다",
+                    "zh-Hant": "東海",
+                    "zh-Hans": "东海"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -5190,27 +5420,57 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ロトムのすがた",
+                    "en": "Rotom",
+                    "fr": "Motisma"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ヒートロトム",
+                    "en": "Heat Rotom",
+                    "fr": "Motisma Chaleur"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ウォッシュロトム",
+                    "en": "Wash Rotom",
+                    "fr": "Motisma Lavage"
+                }
             },
             {
                 "id": 3,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "フロストロトム",
+                    "en": "Frost Rotom",
+                    "fr": "Motisma Froid"
+                }
             },
             {
                 "id": 4,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "スピンロトム",
+                    "en": "Fan Rotom",
+                    "fr": "Motisma Hélice"
+                }
             },
             {
                 "id": 5,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "カットロトム",
+                    "en": "Mow Rotom",
+                    "fr": "Motisma Tonte"
+                }
             }
         ],
         "formType": "CHANGE"
@@ -5251,11 +5511,19 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ディアルガ"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -5266,11 +5534,19 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "パルキア"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -5301,11 +5577,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "アナザーフォルム",
+                    "en": "Altered Forme",
+                    "fr": "Forme Alternative"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -5356,11 +5642,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ランドフォルム",
+                    "en": "Land Forme",
+                    "fr": "Forme Terrestre"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "スカイフォルム",
+                    "en": "Sky Forme",
+                    "fr": "Forme Céleste"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -5371,79 +5667,231 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ノーマルタイプ",
+                    "en": "Normal Type",
+                    "fr": "Normal",
+                    "de": "Normalform",
+                    "es": "Tipo Normal",
+                    "it": "Tipo Normale"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "かくとうタイプ",
+                    "en": "Fighting Type",
+                    "fr": "Combat",
+                    "de": "Kampf",
+                    "es": "Tipo Lucha",
+                    "it": "Tipo Lotta"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ひこうタイプ",
+                    "en": "Flying Type",
+                    "fr": "Vol",
+                    "de": "Flug",
+                    "es": "Tipo Volador",
+                    "it": "Tipo Volante"
+                }
             },
             {
                 "id": 3,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "どくタイプ",
+                    "en": "Poison Type",
+                    "fr": "Poison",
+                    "de": "Gift",
+                    "es": "Tipo Veneno",
+                    "it": "Tipo Veleno"
+                }
             },
             {
                 "id": 4,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "じめんタイプ",
+                    "en": "Ground Type",
+                    "fr": "Sol",
+                    "de": "Boden",
+                    "es": "Tipo Tierra",
+                    "it": "Tipo Terra"
+                }
             },
             {
                 "id": 5,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "いわタイプ",
+                    "en": "Rock Type",
+                    "fr": "Roche",
+                    "de": "Gestein",
+                    "es": "Tipo Roca",
+                    "it": "Tipo Roccia"
+                }
             },
             {
                 "id": 6,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "むしタイプ",
+                    "en": "Bug Type",
+                    "fr": "Insecte",
+                    "de": "Käfer",
+                    "es": "Tipo Bicho",
+                    "it": "Tipo Coleottero"
+                }
             },
             {
                 "id": 7,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ゴーストタイプ",
+                    "en": "Ghost Type",
+                    "fr": "Spectre",
+                    "de": "Geist",
+                    "es": "Tipo Fantasma",
+                    "it": "Tipo Spettro"
+                }
             },
             {
                 "id": 8,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "はがねタイプ",
+                    "en": "Steel Type",
+                    "fr": "Acier",
+                    "de": "Stahl",
+                    "es": "Tipo Acero",
+                    "it": "Tipo Acciaio"
+                }
             },
             {
                 "id": 9,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ほのおタイプ",
+                    "en": "Fire Type",
+                    "fr": "Feu",
+                    "de": "Feuer",
+                    "es": "Tipo Fuego",
+                    "it": "Tipo Fuoco"
+                }
             },
             {
                 "id": 10,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "みずタイプ",
+                    "en": "Water Type",
+                    "fr": "Eau",
+                    "de": "Wasser",
+                    "es": "Tipo Agua",
+                    "it": "Tipo Acqua"
+                }
             },
             {
                 "id": 11,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "くさタイプ",
+                    "en": "Grass Type",
+                    "fr": "Plante",
+                    "de": "Pflanze",
+                    "es": "Tipo Planta",
+                    "it": "Tipo Erba"
+                }
             },
             {
                 "id": 12,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "でんきタイプ",
+                    "en": "Electric Type",
+                    "fr": "Électrik",
+                    "de": "Elektro",
+                    "es": "Tipo Eléctrico",
+                    "it": "Tipo Elettro"
+                }
             },
             {
                 "id": 13,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "エスパータイプ",
+                    "en": "Psychic Type",
+                    "fr": "Psy",
+                    "de": "Psycho",
+                    "es": "Tipo Psíquico",
+                    "it": "Tipo Psico"
+                }
             },
             {
                 "id": 14,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "こおりタイプ",
+                    "en": "Ice Type",
+                    "fr": "Glace",
+                    "de": "Eis",
+                    "es": "Tipo Hielo",
+                    "it": "Tipo Ghiaccio"
+                }
             },
             {
                 "id": 15,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ドラゴンタイプ",
+                    "en": "Dragon Type",
+                    "fr": "Dragon",
+                    "de": "Drache",
+                    "es": "Tipo Dragón",
+                    "it": "Tipo Drago"
+                }
             },
             {
                 "id": 16,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "あくタイプ",
+                    "en": "Dark Type",
+                    "fr": "Ténèbres",
+                    "de": "Unlicht",
+                    "es": "Tipo Siniestro",
+                    "it": "Tipo Buio"
+                }
             },
             {
                 "id": 17,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "フェアリータイプ",
+                    "en": "Fairy Type",
+                    "fr": "Fée",
+                    "de": "Fee",
+                    "es": "Tipo Hada",
+                    "it": "Tipo Folletto"
+                }
             },
             {
                 "id": 18,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "？？？タイプ",
+                    "en": "??? Type",
+                    "fr": "???",
+                    "de": "???",
+                    "es": "Tipo ???",
+                    "it": "Tipo ???"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -6024,15 +6472,30 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "あかすじのすがた",
+                    "en": "Red-Striped Form",
+                    "fr": "Motif Rouge"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "あおすじのすがた",
+                    "en": "Blue-Striped Form",
+                    "fr": "Motif Bleu"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "しろすじのすがた",
+                    "en": "White-Striped Form",
+                    "fr": "Motif Blanc"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -6088,12 +6551,18 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ノーマルモード"
+                }
             },
             {
                 "id": 2,
                 "sex": "mf",
-                "region": "GALAR"
+                "region": "GALAR",
+                "name": {
+                    "ja": "ノーマルモード"
+                }
             }
         ]
     },
@@ -6408,19 +6877,55 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "はるのすがた",
+                    "en": "Spring Form",
+                    "fr": "Forme Printemps",
+                    "de": "Frühlingsform",
+                    "es": "Forma Primavera",
+                    "it": "Forma Primavera",
+                    "ko": "봄의 모습"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "なつのすがた",
+                    "en": "Summer Form",
+                    "fr": "Forme Été",
+                    "de": "Sommerform",
+                    "es": "Forma Verano",
+                    "it": "Forma Estate",
+                    "ko": "여름의 모습"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "あきのすがた",
+                    "en": "Autumn Form",
+                    "fr": "Forme Automne",
+                    "de": "Herbstform",
+                    "es": "Forma Otoño",
+                    "it": "Forma Autunno",
+                    "ko": "가을의 모습"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ふゆのすがた",
+                    "en": "Winter Form",
+                    "fr": "Forme Hiver",
+                    "de": "Winterform",
+                    "es": "Forma Invierno",
+                    "it": "Forma Inverno",
+                    "ko": "겨울의 모습"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -6431,19 +6936,55 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "はるのすがた",
+                    "en": "Spring Form",
+                    "fr": "Forme Printemps",
+                    "de": "Frühlingsform",
+                    "es": "Forma Primavera",
+                    "it": "Forma Primavera",
+                    "ko": "봄의 모습"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "なつのすがた",
+                    "en": "Summer Form",
+                    "fr": "Forme Été",
+                    "de": "Sommerform",
+                    "es": "Forma Verano",
+                    "it": "Forma Estate",
+                    "ko": "여름의 모습"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "あきのすがた",
+                    "en": "Autumn Form",
+                    "fr": "Forme Automne",
+                    "de": "Herbstform",
+                    "es": "Forma Otoño",
+                    "it": "Forma Autunno",
+                    "ko": "가을의 모습"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ふゆのすがた",
+                    "en": "Winter Form",
+                    "fr": "Forme Hiver",
+                    "de": "Winterform",
+                    "es": "Forma Invierno",
+                    "it": "Forma Inverno",
+                    "ko": "겨울의 모습"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7004,11 +7545,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "けしんフォルム",
+                    "en": "Incarnate Forme",
+                    "fr": "Forme Avatar"
+                }
             },
             {
                 "id": 1,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "れいじゅうフォルム",
+                    "en": "Therian Forme",
+                    "fr": "Forme Totémique"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -7019,11 +7570,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "けしんフォルム",
+                    "en": "Incarnate Forme",
+                    "fr": "Forme Avatar"
+                }
             },
             {
                 "id": 1,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "れいじゅうフォルム",
+                    "en": "Therian Forme",
+                    "fr": "Forme Totémique"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -7054,11 +7615,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "けしんフォルム",
+                    "en": "Incarnate Forme",
+                    "fr": "Forme Avatar"
+                }
             },
             {
                 "id": 1,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "れいじゅうフォルム",
+                    "en": "Therian Forme",
+                    "fr": "Forme Totémique"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -7069,15 +7640,30 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "キュレムのすがた",
+                    "en": "Kyurem",
+                    "fr": "Kyurem"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ホワイトキュレム",
+                    "en": "White Kyurem",
+                    "fr": "Kyurem Blanc"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ブラックキュレム",
+                    "en": "Black Kyurem",
+                    "fr": "Kyurem Noir"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -7088,11 +7674,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "いつものすがた",
+                    "en": "Ordinary Form",
+                    "fr": "Aspect Normal"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "かくごのすがた",
+                    "en": "Resolute Form",
+                    "fr": "Aspect Décidé"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -7288,84 +7884,264 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ひょうせつのもよう",
+                    "en": "Icy Snow Pattern",
+                    "fr": "Motif Blizzard",
+                    "de": "Frostmuster",
+                    "es": "Motivo Polar",
+                    "it": "Motivo Nevi Perenni",
+                    "ko": "빙설의 모양"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ゆきぐにのもよう",
+                    "en": "Polar Pattern",
+                    "fr": "Motif Banquise",
+                    "de": "Schneefeldmuster",
+                    "es": "Motivo Taiga",
+                    "it": "Motivo Nordico",
+                    "ko": "설국의 모양"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "せつげんのもよう",
+                    "en": "Tundra Pattern",
+                    "fr": "Motif Glace",
+                    "de": "Flockenmuster",
+                    "es": "Motivo Tundra",
+                    "it": "Motivo Manto di Neve",
+                    "ko": "설원의 모양"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "たいりくのもよう",
+                    "en": "Continental Pattern",
+                    "fr": "Motif Continent",
+                    "de": "Kontinentalmuster",
+                    "es": "Motivo Continental",
+                    "it": "Motivo Continentale",
+                    "ko": "대륙의 모양"
+                }
             },
             {
                 "id": 4,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ていえんのもよう",
+                    "en": "Garden Pattern",
+                    "fr": "Motif Verdure",
+                    "de": "Ziergartenmuster",
+                    "es": "Motivo Vergel",
+                    "it": "Motivo Prato",
+                    "ko": "정원의 모양"
+                }
             },
             {
                 "id": 5,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "みやびなもよう",
+                    "en": "Elegant Pattern",
+                    "fr": "Motif Monarchie",
+                    "de": "Prunkmuster",
+                    "es": "Motivo Oriental",
+                    "it": "Motivo Eleganza",
+                    "ko": "우아한 모양"
+                }
             },
             {
                 "id": 6,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "はなぞののもよう",
+                    "en": "Meadow Pattern",
+                    "fr": "Motif Floraison",
+                    "de": "Blumenmeermuster",
+                    "es": "Motivo Floral",
+                    "it": "Motivo Giardinfiore",
+                    "ko": "화원의 모양"
+                }
             },
             {
                 "id": 7,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "モダンなもよう",
+                    "en": "Modern Pattern",
+                    "fr": "Motif Métropole",
+                    "de": "Innovationsmuster",
+                    "es": "Motivo Moderno",
+                    "it": "Motivo Trendy",
+                    "ko": "모던한 모양"
+                }
             },
             {
                 "id": 8,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "マリンのもよう",
+                    "en": "Marine Pattern",
+                    "fr": "Motif Rivage",
+                    "de": "Aquamarinmuster",
+                    "es": "Motivo Marino",
+                    "it": "Motivo Marino",
+                    "ko": "마린의 모양"
+                }
             },
             {
                 "id": 9,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ぐんとうのもよう",
+                    "en": "Archipelago Pattern",
+                    "fr": "Motif Archipel",
+                    "de": "Archipelmuster",
+                    "es": "Motivo Isleño",
+                    "it": "Motivo Arcipelago",
+                    "ko": "군도의 모양"
+                }
             },
             {
                 "id": 10,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "こうやのもよう",
+                    "en": "High Plains Pattern",
+                    "fr": "Motif Sécheresse",
+                    "de": "Dürremuster",
+                    "es": "Motivo Estepa",
+                    "it": "Motivo Deserto",
+                    "ko": "황야의 모양"
+                }
             },
             {
                 "id": 11,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "さじんのもよう",
+                    "en": "Sandstorm Pattern",
+                    "fr": "Motif Sable",
+                    "de": "Sandmuster",
+                    "es": "Motivo Desierto",
+                    "it": "Motivo Sabbia",
+                    "ko": "사진의 모양"
+                }
             },
             {
                 "id": 12,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "たいがのもよう",
+                    "en": "River Pattern",
+                    "fr": "Motif Delta",
+                    "de": "Flussdeltamuster",
+                    "es": "Motivo Oasis",
+                    "it": "Motivo Fluviale",
+                    "ko": "대하의 모양"
+                }
             },
             {
                 "id": 13,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "スコールのもよう",
+                    "en": "Monsoon Pattern",
+                    "fr": "Motif Cyclone",
+                    "de": "Monsunmuster",
+                    "es": "Motivo Monzón",
+                    "it": "Motivo Pluviale",
+                    "ko": "스콜의 모양"
+                }
             },
             {
                 "id": 14,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "サバンナのもよう",
+                    "en": "Savanna Pattern",
+                    "fr": "Motif Mangrove",
+                    "de": "Savannenmuster",
+                    "es": "Motivo Pantano",
+                    "it": "Motivo Savana",
+                    "ko": "사바나의 모양"
+                }
             },
             {
                 "id": 15,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "たいようのもよう",
+                    "en": "Sun Pattern",
+                    "fr": "Motif Zénith",
+                    "de": "Sonnenmuster",
+                    "es": "Motivo Solar",
+                    "it": "Motivo Solare",
+                    "ko": "태양의 모양"
+                }
             },
             {
                 "id": 16,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "オーシャンのもよう",
+                    "en": "Ocean Pattern",
+                    "fr": "Motif Soleil Levant",
+                    "de": "Ozeanmuster",
+                    "es": "Motivo Océano",
+                    "it": "Motivo Oceanico",
+                    "ko": "오션의 모양"
+                }
             },
             {
                 "id": 17,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ジャングルのもよう",
+                    "en": "Jungle Pattern",
+                    "fr": "Motif Jungle",
+                    "de": "Dschungelmuster",
+                    "es": "Motivo Jungla",
+                    "it": "Motivo Giungla",
+                    "ko": "정글의 모양"
+                }
             },
             {
                 "id": 18,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ファンシーなもよう",
+                    "en": "Fancy Pattern",
+                    "fr": "Motif Fantaisie",
+                    "de": "Fantasiemuster",
+                    "es": "Motivo Fantasía",
+                    "it": "Motivo Sbarazzino",
+                    "ko": "팬시한 모양"
+                }
             },
             {
                 "id": 19,
                 "sex": "mf",
-                "event": true
+                "event": true,
+                "name": {
+                    "ja": "ボールのもよう",
+                    "en": "Poké Ball Pattern",
+                    "fr": "Motif Poké Ball",
+                    "de": "Pokéball-Muster",
+                    "es": "Motivo Poké Ball",
+                    "it": "Motivo Poké Ball",
+                    "ko": "볼의 모양"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7396,23 +8172,68 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あかいはな",
+                    "en": "Red Flower",
+                    "fr": "Fleur Rouge",
+                    "de": "Rotblütler",
+                    "es": "Flor Roja",
+                    "it": "Fiore Rosso",
+                    "ko": "빨간 꽃"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "きいろのはな",
+                    "en": "Yellow Flower",
+                    "fr": "Fleur Jaune",
+                    "de": "Gelbblütler",
+                    "es": "Flor Amarilla",
+                    "it": "Fiore Giallo",
+                    "ko": "노란 꽃"
+                }
             },
             {
                 "id": 2,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "オレンジいろのはな",
+                    "en": "Orange Flower",
+                    "fr": "Fleur Orange",
+                    "de": "Orangeblütler",
+                    "es": "Flor Naranja",
+                    "it": "Fiore Arancione",
+                    "ko": "오렌지색 꽃"
+                }
             },
             {
                 "id": 3,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あおいはな",
+                    "en": "Blue Flower",
+                    "fr": "Fleur Bleue",
+                    "de": "Blaublütler",
+                    "es": "Flor Azul",
+                    "it": "Fiore Blu",
+                    "ko": "파란 꽃"
+                }
             },
             {
                 "id": 4,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "しろいはな",
+                    "en": "White Flower",
+                    "fr": "Fleur Blanche",
+                    "de": "Weißblütler",
+                    "es": "Flor Blanca",
+                    "it": "Fiore Bianco",
+                    "ko": "하얀 꽃"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7423,23 +8244,68 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あかいはな",
+                    "en": "Red Flower",
+                    "fr": "Fleur Rouge",
+                    "de": "Rotblütler",
+                    "es": "Flor Roja",
+                    "it": "Fiore Rosso",
+                    "ko": "빨간 꽃"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "きいろのはな",
+                    "en": "Yellow Flower",
+                    "fr": "Fleur Jaune",
+                    "de": "Gelbblütler",
+                    "es": "Flor Amarilla",
+                    "it": "Fiore Giallo",
+                    "ko": "노란 꽃"
+                }
             },
             {
                 "id": 2,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "オレンジいろのはな",
+                    "en": "Orange Flower",
+                    "fr": "Fleur Orange",
+                    "de": "Orangeblütler",
+                    "es": "Flor Naranja",
+                    "it": "Fiore Arancione",
+                    "ko": "오렌지색 꽃"
+                }
             },
             {
                 "id": 3,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あおいはな",
+                    "en": "Blue Flower",
+                    "fr": "Fleur Bleue",
+                    "de": "Blaublütler",
+                    "es": "Flor Azul",
+                    "it": "Fiore Blu",
+                    "ko": "파란 꽃"
+                }
             },
             {
                 "id": 4,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "しろいはな",
+                    "en": "White Flower",
+                    "fr": "Fleur Blanche",
+                    "de": "Weißblütler",
+                    "es": "Flor Blanca",
+                    "it": "Fiore Bianco",
+                    "ko": "하얀 꽃"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7450,23 +8316,68 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あかいはな",
+                    "en": "Red Flower",
+                    "fr": "Fleur Rouge",
+                    "de": "Rotblütler",
+                    "es": "Flor Roja",
+                    "it": "Fiore Rosso",
+                    "ko": "빨간 꽃"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "きいろのはな",
+                    "en": "Yellow Flower",
+                    "fr": "Fleur Jaune",
+                    "de": "Gelbblütler",
+                    "es": "Flor Amarilla",
+                    "it": "Fiore Giallo",
+                    "ko": "노란 꽃"
+                }
             },
             {
                 "id": 2,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "オレンジいろのはな",
+                    "en": "Orange Flower",
+                    "fr": "Fleur Orange",
+                    "de": "Orangeblütler",
+                    "es": "Flor Naranja",
+                    "it": "Fiore Arancione",
+                    "ko": "오렌지색 꽃"
+                }
             },
             {
                 "id": 3,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "あおいはな",
+                    "en": "Blue Flower",
+                    "fr": "Fleur Bleue",
+                    "de": "Blaublütler",
+                    "es": "Flor Azul",
+                    "it": "Fiore Blu",
+                    "ko": "파란 꽃"
+                }
             },
             {
                 "id": 4,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "しろいはな",
+                    "en": "White Flower",
+                    "fr": "Fleur Blanche",
+                    "de": "Weißblütler",
+                    "es": "Flor Blanca",
+                    "it": "Fiore Bianco",
+                    "ko": "하얀 꽃"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7537,11 +8448,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "オスのすがた",
+                    "en": "Male",
+                    "fr": "Mâle"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "メスのすがた",
+                    "en": "Female",
+                    "fr": "Femelle"
+                }
             }
         ],
         "formType": "SEX"
@@ -7872,19 +8793,39 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ふつうのサイズ",
+                    "en": "Average Size",
+                    "fr": "Taille Normale"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ちいさいサイズ",
+                    "en": "Small Size",
+                    "fr": "Taille Mini"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "おおきいサイズ",
+                    "en": "Large Size",
+                    "fr": "Taille Maxi"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "とくだいサイズ",
+                    "en": "Super Size",
+                    "fr": "Taille Ultra"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7895,19 +8836,39 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ふつうのサイズ",
+                    "en": "Average Size",
+                    "fr": "Taille Normale"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ちいさいサイズ",
+                    "en": "Small Size",
+                    "fr": "Taille Mini"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "おおきいサイズ",
+                    "en": "Large Size",
+                    "fr": "Taille Maxi"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "とくだいサイズ",
+                    "en": "Super Size",
+                    "fr": "Taille Ultra"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -7983,15 +8944,30 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "５０％フォルム",
+                    "en": "50% Forme",
+                    "fr": "Forme 50%"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "１０％フォルム",
+                    "en": "10% Forme",
+                    "fr": "Forme 10%"
+                }
             },
             {
-                "id": 3,
-                "sex": "uk"
+                "id": 4,
+                "sex": "uk",
+                "name": {
+                    "ja": "パーフェクトフォルム",
+                    "en": "Complete Forme",
+                    "fr": "Forme Parfaite"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -8012,11 +8988,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "いましめられしフーパ",
+                    "en": "Hoopa Confined",
+                    "fr": "Hoopa Enchaîné"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ときはなたれしフーパ",
+                    "en": "Hoopa Unbound",
+                    "fr": "Hoopa Déchaîné"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -8232,19 +9218,39 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "めらめらスタイル",
+                    "en": "Baile Style",
+                    "fr": "Style Flamenco"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ぱちぱちスタイル",
+                    "en": "Pom-Pom Style",
+                    "fr": "Style Pom-Pom"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ふらふらスタイル",
+                    "en": "Pa'u Style",
+                    "fr": "Style Hula"
+                }
             },
             {
                 "id": 3,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "まいまいスタイル",
+                    "en": "Sensu Style",
+                    "fr": "Style Buyō"
+                }
             }
         ],
         "formType": "CHANGE"
@@ -8285,15 +9291,30 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "まひるのすがた",
+                    "en": "Midday Form",
+                    "fr": "Forme Diurne"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "まよなかのすがた",
+                    "en": "Midnight Form",
+                    "fr": "Forme Nocturne"
+                }
             },
             {
                 "id": 2,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "たそがれのすがた",
+                    "en": "Dusk Form",
+                    "fr": "Forme Crépusculaire"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -8574,75 +9595,273 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ノーマル",
+                    "en": "Type: Normal",
+                    "fr": "Type : Normal",
+                    "de": "Typ:Normal",
+                    "es": "Tipo: Normal",
+                    "it": "Tipo Normale",
+                    "ko": "타입:노말",
+                    "zh-Hant": "屬性：一般",
+                    "zh-Hans": "属性：一般"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ファイト",
+                    "en": "Type: Fighting",
+                    "fr": "Type : Combat",
+                    "de": "Typ:Kampf",
+                    "es": "Tipo: Lucha",
+                    "it": "Tipo Lotta",
+                    "ko": "타입:파이팅",
+                    "zh-Hant": "屬性：戰鬥",
+                    "zh-Hans": "属性：战斗"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：フライング",
+                    "en": "Type: Flying",
+                    "fr": "Type : Vol",
+                    "de": "Typ:Flug",
+                    "es": "Tipo: Volador",
+                    "it": "Tipo Volante",
+                    "ko": "타입:플라잉",
+                    "zh-Hant": "屬性：飛翔",
+                    "zh-Hans": "属性：飞翔"
+                }
             },
             {
                 "id": 3,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ポイズン",
+                    "en": "Type: Poison",
+                    "fr": "Type : Poison",
+                    "de": "Typ:Gift",
+                    "es": "Tipo: Veneno",
+                    "it": "Tipo Veleno",
+                    "ko": "타입:포이즌",
+                    "zh-Hant": "屬性：毒",
+                    "zh-Hans": "属性：毒"
+                }
             },
             {
                 "id": 4,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：グラウンド",
+                    "en": "Type: Ground",
+                    "fr": "Type : Sol",
+                    "de": "Typ:Boden",
+                    "es": "Tipo: Tierra",
+                    "it": "Tipo Terra",
+                    "ko": "타입:그라운드",
+                    "zh-Hant": "屬性：大地",
+                    "zh-Hans": "属性：大地"
+                }
             },
             {
                 "id": 5,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ロック",
+                    "en": "Type: Rock",
+                    "fr": "Type : Roche",
+                    "de": "Typ:Gestein",
+                    "es": "Tipo: Roca",
+                    "it": "Tipo Roccia",
+                    "ko": "타입:락",
+                    "zh-Hant": "屬性：岩石",
+                    "zh-Hans": "属性：岩石"
+                }
             },
             {
                 "id": 6,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：バグ",
+                    "en": "Type: Bug",
+                    "fr": "Type : Insecte",
+                    "de": "Typ:Käfer",
+                    "es": "Tipo: Bicho",
+                    "it": "Tipo Coleottero",
+                    "ko": "타입:버그",
+                    "zh-Hant": "屬性：蟲子",
+                    "zh-Hans": "属性：虫子"
+                }
             },
             {
                 "id": 7,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ゴースト",
+                    "en": "Type: Ghost",
+                    "fr": "Type : Spectre",
+                    "de": "Typ:Geist",
+                    "es": "Tipo: Fantasma",
+                    "it": "Tipo Spettro",
+                    "ko": "타입:고스트",
+                    "zh-Hant": "屬性：幽靈",
+                    "zh-Hans": "属性：幽灵"
+                }
             },
             {
                 "id": 8,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：スチール",
+                    "en": "Type: Steel",
+                    "fr": "Type : Acier",
+                    "de": "Typ:Stahl",
+                    "es": "Tipo: Acero",
+                    "it": "Tipo Acciaio",
+                    "ko": "타입:스틸",
+                    "zh-Hant": "屬性：鋼鐵",
+                    "zh-Hans": "属性：钢铁"
+                }
             },
             {
                 "id": 9,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ファイヤー",
+                    "en": "Type: Fire",
+                    "fr": "Type : Feu",
+                    "de": "Typ:Feuer",
+                    "es": "Tipo: Fuego",
+                    "it": "Tipo Fuoco",
+                    "ko": "타입:파이어",
+                    "zh-Hant": "屬性：火焰",
+                    "zh-Hans": "属性：火焰"
+                }
             },
             {
                 "id": 10,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ウオーター",
+                    "en": "Type: Water",
+                    "fr": "Type : Eau",
+                    "de": "Typ:Wasser",
+                    "es": "Tipo: Agua",
+                    "it": "Tipo Acqua",
+                    "ko": "타입:워터",
+                    "zh-Hant": "屬性：清水",
+                    "zh-Hans": "属性：清水"
+                }
             },
             {
                 "id": 11,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：グラス",
+                    "en": "Type: Grass",
+                    "fr": "Type : Plante",
+                    "de": "Typ:Pflanze",
+                    "es": "Tipo: Planta",
+                    "it": "Tipo Erba",
+                    "ko": "타입:그래스",
+                    "zh-Hant": "屬性：青草",
+                    "zh-Hans": "属性：青草"
+                }
             },
             {
                 "id": 12,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：エレクトロ",
+                    "en": "Type: Electric",
+                    "fr": "Type : Électrik",
+                    "de": "Typ:Elektro",
+                    "es": "Tipo: Eléctrico",
+                    "it": "Tipo Elettro",
+                    "ko": "타입:일렉트릭",
+                    "zh-Hant": "屬性：電子",
+                    "zh-Hans": "属性：电子"
+                }
             },
             {
                 "id": 13,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：サイキック",
+                    "en": "Type: Psychic",
+                    "fr": "Type : Psy",
+                    "de": "Typ:Psycho",
+                    "es": "Tipo: Psíquico",
+                    "it": "Tipo Psico",
+                    "ko": "타입:사이킥",
+                    "zh-Hant": "屬性：精神",
+                    "zh-Hans": "属性：精神"
+                }
             },
             {
                 "id": 14,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：アイス",
+                    "en": "Type: Ice",
+                    "fr": "Type : Glace",
+                    "de": "Typ:Eis",
+                    "es": "Tipo: Hielo",
+                    "it": "Tipo Ghiaccio",
+                    "ko": "타입:아이스",
+                    "zh-Hant": "屬性：冰雪",
+                    "zh-Hans": "属性：冰雪"
+                }
             },
             {
                 "id": 15,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ドラゴン",
+                    "en": "Type: Dragon",
+                    "fr": "Type : Dragon",
+                    "de": "Typ:Drache",
+                    "es": "Tipo: Dragón",
+                    "it": "Tipo Drago",
+                    "ko": "타입:드래곤",
+                    "zh-Hant": "屬性：龍",
+                    "zh-Hans": "属性：龙"
+                }
             },
             {
                 "id": 16,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ダーク",
+                    "en": "Type: Dark",
+                    "fr": "Type : Ténèbres",
+                    "de": "Typ:Unlicht",
+                    "es": "Tipo: Siniestro",
+                    "it": "Tipo Buio",
+                    "ko": "타입:다크",
+                    "zh-Hant": "屬性：黑暗",
+                    "zh-Hans": "属性：黑暗"
+                }
             },
             {
                 "id": 17,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：フェアリー",
+                    "en": "Type: Fairy",
+                    "fr": "Type : Fée",
+                    "de": "Typ:Fee",
+                    "es": "Tipo: Hada",
+                    "it": "Tipo Folletto",
+                    "ko": "타입:페어리",
+                    "zh-Hant": "屬性：妖精",
+                    "zh-Hans": "属性：妖精"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -8653,31 +9872,66 @@
         "forms": [
             {
                 "id": 7,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "あかいろのコア",
+                    "en": "Red Core",
+                    "fr": "Noyau Rouge"
+                }
             },
             {
                 "id": 8,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "だいだいいろのコア",
+                    "en": "Orange Core",
+                    "fr": "Noyau Orange"
+                }
             },
             {
                 "id": 9,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "きいろのコア",
+                    "en": "Yellow Core",
+                    "fr": "Noyau Jaune"
+                }
             },
             {
                 "id": 10,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "みどりいろのコア",
+                    "en": "Green Core",
+                    "fr": "Noyau Vert"
+                }
             },
             {
                 "id": 11,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "みずいろのコア",
+                    "en": "Blue Core",
+                    "fr": "Noyau Bleu"
+                }
             },
             {
                 "id": 12,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "あおいろのコア",
+                    "en": "Indigo Core",
+                    "fr": "Noyau Indigo"
+                }
             },
             {
                 "id": 13,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "むらさきいろのコア",
+                    "en": "Violet Core",
+                    "fr": "Noyau Violet"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -8938,15 +10192,28 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ネクロズマ"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "たそがれのたてがみ",
+                    "en": "Dusk Mane",
+                    "fr": "Crinière du Couchant"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "あかつきのつばさ",
+                    "en": "Dawn Wings",
+                    "fr": "Ailes de l'Aurore"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -9442,11 +10709,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ハイなすがた",
+                    "en": "Amped Form",
+                    "fr": "Forme Aigüe"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ローなすがた",
+                    "en": "Low Key Form",
+                    "fr": "Forme Grave"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -9497,11 +10774,23 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "がんさくフォルム",
+                    "en": "Phony Form",
+                    "fr": "Forme Contrefaçon",
+                    "de": "Fälschungsform"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "しんさくフォルム",
+                    "en": "Antique Form",
+                    "fr": "Forme Authentique",
+                    "de": "Originalform"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -9512,11 +10801,23 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "がんさくフォルム",
+                    "en": "Phony Form",
+                    "fr": "Forme Contrefaçon",
+                    "de": "Fälschungsform"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "しんさくフォルム",
+                    "en": "Antique Form",
+                    "fr": "Forme Authentique",
+                    "de": "Originalform"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -9657,39 +10958,138 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィバニラ",
+                    "en": "Vanilla Cream",
+                    "fr": "Lait Vanille",
+                    "de": "Vanille-Creme",
+                    "es": "Crema de Vainilla",
+                    "it": "Lattevaniglia",
+                    "ko": "밀키바닐라",
+                    "zh-Hant": "奶香香草",
+                    "zh-Hans": "奶香香草"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィルビー",
+                    "en": "Ruby Cream",
+                    "fr": "Lait Ruby",
+                    "de": "Ruby-Creme",
+                    "es": "Crema Rosa",
+                    "it": "Latterosa",
+                    "ko": "밀키루비",
+                    "zh-Hant": "奶香紅鑽",
+                    "zh-Hans": "奶香红钻"
+                }
             },
             {
                 "id": 2,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィまっちゃ",
+                    "en": "Matcha Cream",
+                    "fr": "Lait Matcha",
+                    "de": "Matcha-Creme",
+                    "es": "Crema de Té",
+                    "it": "Lattematcha",
+                    "ko": "밀키말차",
+                    "zh-Hant": "奶香抹茶",
+                    "zh-Hans": "奶香抹茶"
+                }
             },
             {
                 "id": 3,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィミント",
+                    "en": "Mint Cream",
+                    "fr": "Lait Menthe",
+                    "de": "Minz-Creme",
+                    "es": "Crema de Menta",
+                    "it": "Lattementa",
+                    "ko": "밀키민트",
+                    "zh-Hant": "奶香薄荷",
+                    "zh-Hans": "奶香薄荷"
+                }
             },
             {
                 "id": 4,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィレモン",
+                    "en": "Lemon Cream",
+                    "fr": "Lait Citron",
+                    "de": "Zitronen-Creme",
+                    "es": "Crema de Limón",
+                    "it": "Lattelimone",
+                    "ko": "밀키레몬",
+                    "zh-Hant": "奶香檸檬",
+                    "zh-Hans": "奶香柠檬"
+                }
             },
             {
                 "id": 5,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ミルキィソルト",
+                    "en": "Salted Cream",
+                    "fr": "Lait Salé",
+                    "de": "Salz-Creme",
+                    "es": "Crema Salada",
+                    "it": "Lattesale",
+                    "ko": "밀키솔트",
+                    "zh-Hant": "奶香雪鹽",
+                    "zh-Hans": "奶香雪盐"
+                }
             },
             {
                 "id": 6,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "ルビーミックス",
+                    "en": "Ruby Swirl",
+                    "fr": "Mélange Ruby",
+                    "de": "Ruby-Mix",
+                    "es": "Mezcla Rosa",
+                    "it": "Rosamix",
+                    "ko": "루비믹스",
+                    "zh-Hant": "紅鑽綜合",
+                    "zh-Hans": "红钻综合"
+                }
             },
             {
                 "id": 7,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "キャラメルミックス",
+                    "en": "Caramel Swirl",
+                    "fr": "Mélange Caramel",
+                    "de": "Karamell-Mix",
+                    "es": "Mezcla Caramelo",
+                    "it": "Caramelmix",
+                    "ko": "캐러멜믹스",
+                    "zh-Hant": "焦糖綜合",
+                    "zh-Hans": "焦糖综合"
+                }
             },
             {
                 "id": 8,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "トリプルミックス",
+                    "en": "Rainbow Swirl",
+                    "fr": "Mélange Tricolore",
+                    "de": "Trio-Mix",
+                    "es": "Tres Sabores",
+                    "it": "Triplomix",
+                    "ko": "트리플믹스",
+                    "zh-Hant": "三色綜合",
+                    "zh-Hans": "三色综合"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -9760,11 +11160,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "オスのすがた",
+                    "en": "Male",
+                    "fr": "Mâle"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "メスのすがた",
+                    "en": "Female",
+                    "fr": "Femelle"
+                }
             }
         ],
         "formType": "SEX"
@@ -9925,11 +11335,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "いちげきのかた",
+                    "en": "Single Strike Style",
+                    "fr": "Style Poing Final"
+                }
             },
             {
                 "id": 1,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "れんげきのかた",
+                    "en": "Rapid Strike Style",
+                    "fr": "Style Mille Poings"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -9995,15 +11415,29 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "バドレックス",
+                    "fr": "Forme normale"
+                }
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "はくばじょうのすがた",
+                    "en": "Ice Rider",
+                    "fr": "Cavalier du Froid"
+                }
             },
             {
                 "id": 2,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "こくばじょうのすがた",
+                    "en": "Shadow Rider",
+                    "fr": "Cavalier d'Effroi"
+                }
             }
         ],
         "formType": "CHANGE_LEG"
@@ -10044,11 +11478,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "オスのすがた",
+                    "en": "Male",
+                    "fr": "Mâle"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "メスのすがた",
+                    "en": "Female",
+                    "fr": "Femelle"
+                }
             }
         ],
         "formType": "SEX"
@@ -10079,11 +11523,21 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "けしんフォルム",
+                    "en": "Incarnate Forme",
+                    "fr": "Forme Avatar"
+                }
             },
             {
                 "id": 1,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "れいじゅうフォルム",
+                    "en": "Therian Forme",
+                    "fr": "Forme Totémique"
+                }
             }
         ],
         "formType": "CHANGE_LEG"

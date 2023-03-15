@@ -63,13 +63,32 @@ with open('data.csv', newline='') as csvfile:
     pokemon_names_by_id = {int(e['id']): e['name_fr'] for e in cf}
 
 
-    print(str(pokemon_names_by_id))
+    # print(str(pokemon_names_by_id))
 
 with open('forms_info', newline='') as csvfile:
     cf = csv.DictReader(csvfile, delimiter=";", fieldnames=['id', 'form_type'])
 
     forms_info = {e['id']: FormType[e['form_type']] for e in cf}
-    print(str(forms_info))
+    # print(str(forms_info))
+
+form_names = {}
+with open('formnames.csv', newline='') as csvfile:
+    cf = csv.DictReader(csvfile)
+
+    for formname in cf:
+        id = int(formname["id"])
+        form_id = int(formname["formId"])
+        if id not in form_names:
+            form_names[id] = {}
+
+        namei18n = {}
+        for lang, name in formname.items():
+            if lang not in ["id", "formId"] and name:
+                namei18n[lang] = name
+
+        form_names[id][form_id] = namei18n
+
+print(form_names)
 
 
 # Get images filenames
@@ -85,7 +104,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
     forms.sort(key=lambda e: e.form_id)
-    print("Pokemon {}".format(pokemon_names_by_id[dex_id]))
+    # print("Pokemon {}".format(pokemon_names_by_id[dex_id]))
 
     forms_json = []
 
@@ -94,10 +113,10 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
     pokemonFormType = None
     normalCount = 0
 
-    print(subFormsByFormId)
+    # print(subFormsByFormId)
     for form_id, subforms in subFormsByFormId.items():
         subforms = list(subforms)
-        print(subforms)
+        # print(subforms)
         sexes = [subform.sex for subform in subforms]
         
         if len(sexes) != len(set(sexes)):
@@ -119,7 +138,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
             raise Exception("unexpected sex size")
 
 
-        print("form {}, sex {}".format(form_id, sex))
+        # print("form {}, sex {}".format(form_id, sex))
 
         dexform = "{}_{}".format(dex_id, form_id)
 
@@ -163,13 +182,14 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 info = FormType.CHANGE_TEMP
 
             if info:
-                print(info)
                 append_to_file("forms_info", "{}_{};{}".format(dex_id, form_id, info.name))
 
             else:
                 info = FormType.NORMAL
 
         form_json = {"id": form_id, "sex": sex.name, }
+
+
         if info:
             if info in [FormType.SEX, FormType.CHANGE, FormType.CHANGE_LEG]:
                 if pokemonFormType and pokemonFormType != info:
@@ -183,7 +203,16 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
             elif info == FormType.EVENT:
                 form_json["event"] = True
 
+            # add form info
+            form_names_for_pokemon = form_names.get(dex_id)
+            if form_names_for_pokemon and form_names_for_pokemon.get(form_id):
+                form_json["name"] = form_names_for_pokemon[form_id]
+            elif not form_json.get("region"):
+                print("Missing form name for {} form {}".format(pokemon_names_by_id[dex_id], form_id))
+
+
         forms_json.append(form_json)
+
 
     pokemonJson = {"id": dex_id, "name": pokemon_names_by_id[dex_id], "forms": forms_json}
 
@@ -201,7 +230,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
 cv2.destroyAllWindows()
 
-print(str(pokemons_json))
+# print(str(pokemons_json))
 
 with open("out.json", "w") as jsonfile:
     jsonfile.write(
