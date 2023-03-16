@@ -4,15 +4,20 @@
 
 	let maleFemaleForms = true;
 	let event = false;
+	let hisui = false;
 	/**
 	 * @type {FormType[]}
 	 */
 	let types = [FormType.NORMAL, FormType.SEX, FormType.CHANGE];
 
-	$: boxes = getPokemonBoxes(maleFemaleForms, event, types);
+	$: boxes = getPokemonBoxes(maleFemaleForms, event, types, hisui);
 </script>
 
 <div class="header">
+	<label>
+		<input type="checkbox" bind:checked={hisui} />
+		Hisui special mode
+	</label>
 	<label>
 		<input type="checkbox" bind:checked={maleFemaleForms} />
 		Male and female forms

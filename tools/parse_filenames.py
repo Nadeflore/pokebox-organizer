@@ -57,13 +57,32 @@ def append_to_file(filename, value):
 # Open Pokemon data
 import csv
 
-with open('data.csv', newline='') as csvfile:
-    cf = csv.DictReader(csvfile, delimiter=";", fieldnames=['id', 'name_en', 'name_jp', 'name_fr', 'name_de', 'name_kr', 'name_ch', 'name_cz'])
+with open('pokemondata.csv', newline='') as csvfile:
+    cf = csv.DictReader(csvfile) 
 
-    pokemon_names_by_id = {int(e['id']): e['name_fr'] for e in cf}
+    pokemon_data_by_id = {}
+    for pokemondata in cf:
+        #pokemon_names_by_id = {int(e['id']): e['name_fr'] for e in cf}
+        id = int(pokemondata["national"])
+        if id not in pokemon_data_by_id:
+            pokemon_data_by_id[id] = {"id": id}
+
+        namei18n = {}
+        for lang, name in pokemondata.items():
+            if lang.startswith("name_") and name:
+                namei18n[lang[5:]] = name
+
+        pokemon_data_by_id[id]["name"] = namei18n
+
+        regionalId = {}
+        for region, number in pokemondata.items():
+            if not region.startswith("name_") and number:
+                regionalId[region] = int(number)
+
+        pokemon_data_by_id[id]["regionalId"] = regionalId
 
 
-    # print(str(pokemon_names_by_id))
+print(str(pokemon_data_by_id))
 
 with open('forms_info', newline='') as csvfile:
     cf = csv.DictReader(csvfile, delimiter=";", fieldnames=['id', 'form_type'])
@@ -100,6 +119,9 @@ pictures.sort(key=lambda pic: pic.dex_id)
 pokemons_json = []
 
 for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
+    if dex_id == 0:
+        continue
+
     # Remove gigamax and back images
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
@@ -150,7 +172,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
             img = cv2.imread(FOLDER_PATH + "/" + subforms[0].filename, cv2.IMREAD_ANYCOLOR)
             cv2.imshow("p", img)
-            cv2.setWindowTitle("p", "{} - {}".format(pokemon_names_by_id[dex_id], subforms[0].filename))
+            cv2.setWindowTitle("p", "{} - {}".format(dex_id, subforms[0].filename))
             key = cv2.waitKey(0)
 
             print("Pressed {}".format(key))
@@ -208,13 +230,16 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
             if form_names_for_pokemon and form_names_for_pokemon.get(form_id):
                 form_json["name"] = form_names_for_pokemon[form_id]
             elif not form_json.get("region"):
-                print("Missing form name for {} form {}".format(pokemon_names_by_id[dex_id], form_id))
+                print("Missing form name for {} form {}".format(dex_id, form_id))
 
 
         forms_json.append(form_json)
 
 
-    pokemonJson = {"id": dex_id, "name": pokemon_names_by_id[dex_id], "forms": forms_json}
+    pokemonJson = pokemon_data_by_id[dex_id]
+    if forms_json:
+        pokemonJson["forms"] = forms_json
+
 
     if normalCount > 1:
         if pokemonFormType:

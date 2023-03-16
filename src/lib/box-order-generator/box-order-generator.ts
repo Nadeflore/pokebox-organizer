@@ -1,4 +1,4 @@
-import pokemons from '../data/out.json';
+import pokemonsData from '../data/out.json';
 
 export enum FormType {
     NORMAL = "NORMAL",
@@ -30,8 +30,9 @@ interface LocalizedName {
 
 export interface Pokemon {
     id: number;
+    regionalId: object
     imageName: string;
-    name: string;
+    name: LocalizedName;
     region?: Region;
     formIds: number[];
     formNames: LocalizedName[];
@@ -54,14 +55,25 @@ interface PokemonData {
     forms: FormData[];
     formType: "NORMAL" | "CHANGE_LEG" | "CHANGE" | "SEX";
     id: number;
-    name: string;
+    name: LocalizedName;
+    regionalId: object
 }
 
-function getPokemonList(maleFemaleForms: boolean, types: FormType[]): Pokemon[] {
+function getPokemonList(maleFemaleForms: boolean, types: FormType[], hisui: boolean): Pokemon[] {
+
+    // Special filter and sort
+    // let pokemons = pokemonsData.filter(p => p.regionalId.swsh && p.id < 810 && !p.forms.find(f => f.region == Region.GALAR));
+    // pokemons.sort((a, b) => a.regionalId.swsh - b.regionalId.swsh)
+    let pokemons = pokemonsData
+    if (hisui) {
+        pokemons = pokemons.filter(p => p.regionalId.la && p.id < 899 && p.id != 550 && !(p.id >= 387 && p.id <= 493) && !p.forms.find(f => f.region == Region.HISUI));
+        pokemons.sort((a, b) => a.regionalId.la - b.regionalId.la)
+    }
+
     const result = (pokemons as PokemonData[]).flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
 
-        let forms = pokemon.forms
+        const forms = pokemon.forms
             .flatMap((form: FormData) => {
                 switch (form.sex) {
                     case 'fd':
@@ -83,6 +95,7 @@ function getPokemonList(maleFemaleForms: boolean, types: FormType[]): Pokemon[] 
                 }
             }).map(form => ({
                 id: pokemon.id,
+                regionalId: pokemon.regionalId,
                 imageName: getImageFileName(pokemon.id, form.id, form.sex),
                 name: pokemon.name,
                 formIds: [form.id],
@@ -142,13 +155,14 @@ function splitByGeneration(pokemons: Pokemon[]) {
     });
 }
 
-export function getPokemonBoxes(maleFemaleForms: boolean, event: boolean, types: FormType[]): Pokemon[][] {
-    const pokemons = getPokemonList(maleFemaleForms, types).filter(p => event || !p.event);
+export function getPokemonBoxes(maleFemaleForms: boolean, event: boolean, types: FormType[], hisui: boolean): Pokemon[][] {
+    const pokemons = getPokemonList(maleFemaleForms, types, hisui).filter(p => (event || !p.event) && (!hisui || !p.region));
 
     const nonRegionalForms = pokemons.filter(p => !p.region)
     const regionalFormsByRegion = Object.values(Region).map(region => pokemons.filter(p => p.region == region))
 
-    const groups = splitByGeneration(nonRegionalForms).concat(regionalFormsByRegion);
+    const nregforms = hisui ? [nonRegionalForms] : splitByGeneration(nonRegionalForms);
+    const groups = nregforms.concat(regionalFormsByRegion);
 
     return groups.flatMap((pokemons) => splitArray(pokemons, 30));
 }
