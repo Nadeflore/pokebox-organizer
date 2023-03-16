@@ -59,15 +59,18 @@ interface PokemonData {
     regionalId: object
 }
 
-function getPokemonList(maleFemaleForms: boolean, types: FormType[], hisui: boolean): Pokemon[] {
+function getPokemonList(maleFemaleForms: boolean, types: FormType[], specialMode: string): Pokemon[] {
 
     // Special filter and sort
     // let pokemons = pokemonsData.filter(p => p.regionalId.swsh && p.id < 810 && !p.forms.find(f => f.region == Region.GALAR));
     // pokemons.sort((a, b) => a.regionalId.swsh - b.regionalId.swsh)
     let pokemons = pokemonsData
-    if (hisui) {
+    if (specialMode == "hisui") {
         pokemons = pokemons.filter(p => p.regionalId.la && p.id < 899 && p.id != 550 && !(p.id >= 387 && p.id <= 493) && !p.forms.find(f => f.region == Region.HISUI));
         pokemons.sort((a, b) => a.regionalId.la - b.regionalId.la)
+    } else if (specialMode == "paldea") {
+        pokemons = pokemons.filter(p => p.regionalId.sv && p.id != 128 && p.id != 194);
+        pokemons.sort((a, b) => a.regionalId.sv - b.regionalId.sv)
     }
 
     const result = (pokemons as PokemonData[]).flatMap((pokemon) => {
@@ -155,13 +158,13 @@ function splitByGeneration(pokemons: Pokemon[]) {
     });
 }
 
-export function getPokemonBoxes(maleFemaleForms: boolean, event: boolean, types: FormType[], hisui: boolean): Pokemon[][] {
-    const pokemons = getPokemonList(maleFemaleForms, types, hisui).filter(p => (event || !p.event) && (!hisui || !p.region));
+export function getPokemonBoxes(maleFemaleForms: boolean, event: boolean, types: FormType[], specialMode: string): Pokemon[][] {
+    const pokemons = getPokemonList(maleFemaleForms, types, specialMode).filter(p => (event || !p.event) && (!specialMode || !p.region));
 
     const nonRegionalForms = pokemons.filter(p => !p.region)
     const regionalFormsByRegion = Object.values(Region).map(region => pokemons.filter(p => p.region == region))
 
-    const nregforms = hisui ? [nonRegionalForms] : splitByGeneration(nonRegionalForms);
+    const nregforms = specialMode ? [nonRegionalForms] : splitByGeneration(nonRegionalForms);
     const groups = nregforms.concat(regionalFormsByRegion);
 
     return groups.flatMap((pokemons) => splitArray(pokemons, 30));
