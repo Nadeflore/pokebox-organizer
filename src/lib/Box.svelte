@@ -1,17 +1,9 @@
-<script>
+<script lang="ts">
+	import type { Pokemon } from './box-order-generator/box-order-generator';
 	import PokemonPicture from './PokemonPicture.svelte';
-	/**
-	 * @type {import("./box-order-generator/box-order-generator").Pokemon[]}
-	 */
-	export let box;
-	/**
-	 * @type {number}
-	 */
-	export let boxNumber;
-	/**
-	 * @param {import("./box-order-generator/box-order-generator").Pokemon} pokemon
-	 */
-	function getTitleFromPokemon(pokemon) {
+	export let box: Pokemon[];
+	export let boxNumber: number;
+	function getTitleFromPokemon(pokemon: Pokemon) {
 		let title = `${pokemon.id} ${pokemon.name['fr']}`;
 		if (pokemon.region) {
 			title += ` Region ${pokemon.region}`;

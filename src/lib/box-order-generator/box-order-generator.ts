@@ -1,4 +1,3 @@
-import pokemonsData from '../data/out.json';
 
 export enum FormType {
     NORMAL = "NORMAL",
@@ -51,7 +50,7 @@ interface FormData {
     event?: boolean;
 }
 
-interface PokemonData {
+export interface PokemonData {
     forms: FormData[];
     formType: "NORMAL" | "CHANGE_LEG" | "CHANGE" | "SEX";
     id: number;
@@ -59,7 +58,7 @@ interface PokemonData {
     regionalId: object
 }
 
-function getPokemonList(maleFemaleForms: boolean, types: FormType[], specialMode: string): Pokemon[] {
+function getPokemonList(pokemonsData: PokemonData[], maleFemaleForms: boolean, types: FormType[], specialMode: string): Pokemon[] {
 
     // Special filter and sort
     // let pokemons = pokemonsData.filter(p => p.regionalId.swsh && p.id < 810 && !p.forms.find(f => f.region == Region.GALAR));
@@ -158,8 +157,8 @@ function splitByGeneration(pokemons: Pokemon[]) {
     });
 }
 
-export function getPokemonBoxes(maleFemaleForms: boolean, event: boolean, types: FormType[], specialMode: string): Pokemon[][] {
-    const pokemons = getPokemonList(maleFemaleForms, types, specialMode).filter(p => (event || !p.event) && (!specialMode || !p.region));
+export function getPokemonBoxes(pokemonsData: PokemonData[], maleFemaleForms: boolean, event: boolean, types: FormType[], specialMode: string): Pokemon[][] {
+    const pokemons = getPokemonList(pokemonsData, maleFemaleForms, types, specialMode).filter(p => (event || !p.event) && (!specialMode || !p.region));
 
     const nonRegionalForms = pokemons.filter(p => !p.region)
     const regionalFormsByRegion = Object.values(Region).map(region => pokemons.filter(p => p.region == region))

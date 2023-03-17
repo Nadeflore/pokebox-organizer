@@ -1,16 +1,18 @@
-<script>
+<script lang="ts">
 	import Box from './Box.svelte';
-	import { getPokemonBoxes, FormType } from './box-order-generator/box-order-generator';
+	import {
+		getPokemonBoxes,
+		FormType,
+		type PokemonData
+	} from './box-order-generator/box-order-generator';
 
 	let maleFemaleForms = true;
 	let event = false;
 	let specialMode = '';
-	/**
-	 * @type {FormType[]}
-	 */
 	let types = [FormType.NORMAL, FormType.SEX, FormType.CHANGE];
+	export let pokemonsData: PokemonData[];
 
-	$: boxes = getPokemonBoxes(maleFemaleForms, event, types, specialMode);
+	$: boxes = getPokemonBoxes(pokemonsData, maleFemaleForms, event, types, specialMode);
 </script>
 
 <div class="header">
