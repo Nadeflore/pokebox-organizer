@@ -70,6 +70,9 @@ function getPokemonList(pokemonsData: PokemonData[], maleFemaleForms: boolean, t
     } else if (specialMode == "paldea") {
         pokemons = pokemons.filter(p => p.regionalId.sv && p.id != 128 && p.id != 194);
         pokemons.sort((a, b) => a.regionalId.sv - b.regionalId.sv)
+    } else if (specialMode == "sinnoh") {
+        pokemons = pokemons.filter(p => p.regionalId.dp && !(p.id >= 387 && p.id <= 493));
+        pokemons.sort((a, b) => a.regionalId.dp - b.regionalId.dp)
     }
 
     const result = (pokemons as PokemonData[]).flatMap((pokemon) => {

@@ -20,6 +20,7 @@
 		<option value=""> All pokemons </option>
 		<option value="hisui"> Hisui special mode </option>
 		<option value="paldea"> Paldea special mode</option>
+		<option value="sinnoh"> Sinnoh special mode</option>
 	</select>
 	<label>
 		<input type="checkbox" bind:checked={maleFemaleForms} />
