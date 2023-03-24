@@ -1,0 +1,92 @@
+[
+ {
+   "id": 1,
+   "name": {
+      "fr": "1ère Génération",
+      "en": "Generation I"
+   },
+   "start": 1,
+   "end": 151
+},
+ {
+   "id": 2,
+   "name": {
+      "fr": "2ème Génération",
+      "en": "Generation II"
+   },
+   "start": 152,
+   "end": 251
+},
+ {
+   "id": 3,
+   "name": {
+      "fr": "3ème Génération",
+      "en": "Generation III"
+   },
+   "start": 252,
+   "end": 386
+},
+ {
+   "id": 4,
+   "name": {
+      "fr": "4ème Génération",
+      "en": "Generation IV"
+   },
+   "start": 387,
+   "end": 493
+},
+ {
+   "id": 5,
+   "name": {
+      "fr": "5ème Génération",
+      "en": "Generation V"
+   },
+   "start": 494,
+   "end": 649
+},
+ {
+   "id": 6,
+   "name": {
+      "fr": "6ème Génération",
+      "en": "Generation VI"
+   },
+   "start": 650,
+   "end": 721
+},
+ {
+   "id": 7,
+   "name": {
+      "fr": "7ème Génération",
+      "en": "Generation VII"
+   },
+   "start": 722,
+   "end": 809
+},
+ {
+   "id": 8,
+   "name": {
+      "fr": "8ème Génération (Epée Bouclier)",
+      "en": "Generation VIII (Sword Shield)"
+   },
+   "start": 810,
+   "end": 898
+},
+ {
+   "id": 8.5,
+   "name": {
+      "fr": "8ème Génération (Légendes : Arceus)",
+      "en": "Generation VIII (Legends: Arceus)"
+   },
+   "start": 899,
+   "end": 905
+},
+ {
+   "id": 9,
+   "name": {
+      "fr": "9ème Génération",
+      "en": "Generation IX"
+   },
+   "start": 906,
+   "end": 1008
+}
+]

@@ -21,7 +21,7 @@
 <div class="box">
 	<h3>Boite {boxNumber}</h3>
 	<div class="box-content">
-		{#each box as pokemon}
+		{#each box as pokemon (pokemon.imageName)}
 			<div
 				class="pokemon"
 				class:sexform={pokemon.sexForm}

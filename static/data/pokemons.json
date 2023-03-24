@@ -648,8 +648,8 @@
             "usum_melemele": 32,
             "swsh": 194,
             "swsh_armor": 85,
-            "sv": 74,
-            "la": 56
+            "la": 56,
+            "sv": 74
         },
         "forms": [
             {
@@ -722,8 +722,8 @@
             "usum_melemele": 33,
             "swsh": 195,
             "swsh_armor": 86,
-            "sv": 75,
-            "la": 57
+            "la": 57,
+            "sv": 75
         },
         "forms": [
             {
@@ -1561,8 +1561,8 @@
             "usum_akala": 32,
             "usum_poni": 51,
             "swsh_armor": 146,
-            "sv": 55,
-            "la": 68
+            "la": 68,
+            "sv": 55
         },
         "forms": [
             {
@@ -1597,8 +1597,8 @@
             "usum_akala": 33,
             "usum_poni": 52,
             "swsh_armor": 147,
-            "sv": 56,
-            "la": 69
+            "la": 69,
+            "sv": 56
         },
         "forms": [
             {
@@ -1680,8 +1680,8 @@
             "usum": 64,
             "usum_melemele": 64,
             "swsh": 70,
-            "sv": 213,
-            "la": 150
+            "la": 150,
+            "sv": 213
         },
         "forms": [
             {
@@ -1714,8 +1714,8 @@
             "usum": 65,
             "usum_melemele": 65,
             "swsh": 71,
-            "sv": 214,
-            "la": 151
+            "la": 151,
+            "sv": 214
         },
         "forms": [
             {
@@ -2405,8 +2405,8 @@
             "usum": 54,
             "usum_melemele": 54,
             "swsh_armor": 105,
-            "sv": 209,
-            "la": 177
+            "la": 177,
+            "sv": 209
         },
         "forms": [
             {
@@ -2438,8 +2438,8 @@
             "usum": 55,
             "usum_melemele": 55,
             "swsh_armor": 106,
-            "sv": 210,
-            "la": 178
+            "la": 178,
+            "sv": 210
         },
         "forms": [
             {
@@ -2730,8 +2730,8 @@
             "usum_melemele": 73,
             "usum_akala": 23,
             "swsh": 141,
-            "sv": 68,
-            "la": 136
+            "la": 136,
+            "sv": 68
         },
         "forms": [
             {
@@ -2762,8 +2762,8 @@
             "usum_melemele": 74,
             "usum_akala": 24,
             "swsh": 142,
-            "sv": 69,
-            "la": 137
+            "la": 137,
+            "sv": 69
         },
         "forms": [
             {
@@ -2794,8 +2794,8 @@
             "usum_melemele": 75,
             "usum_akala": 25,
             "swsh": 143,
-            "sv": 70,
-            "la": 138
+            "la": 138,
+            "sv": 70
         },
         "forms": [
             {
@@ -2955,8 +2955,8 @@
             "hgss": 121,
             "xy_mountain": 72,
             "oras": 87,
-            "sv": 207,
-            "la": 192
+            "la": 192,
+            "sv": 207
         },
         "forms": [
             {
@@ -2988,8 +2988,8 @@
             "hgss": 122,
             "xy_mountain": 73,
             "oras": 88,
-            "sv": 208,
-            "la": 193
+            "la": 193,
+            "sv": 208
         },
         "forms": [
             {
@@ -3340,8 +3340,8 @@
             "usum_akala": 17,
             "usum_poni": 16,
             "swsh_armor": 7,
-            "sv": 44,
-            "la": 87
+            "la": 87,
+            "sv": 44
         },
         "forms": [
             {
@@ -3638,8 +3638,8 @@
             "usum": 365,
             "usum_poni": 112,
             "swsh_armor": 118,
-            "sv": 260,
-            "la": 72
+            "la": 72,
+            "sv": 260
         },
         "forms": [
             {
@@ -3819,8 +3819,8 @@
             "swsh": 144,
             "swsh_armor": 42,
             "swsh_tundra": 62,
-            "sv": 134,
-            "la": 80
+            "la": 80,
+            "sv": 134
         },
         "forms": [
             {
@@ -3856,8 +3856,8 @@
             "swsh": 145,
             "swsh_armor": 43,
             "swsh_tundra": 63,
-            "sv": 135,
-            "la": 81
+            "la": 81,
+            "sv": 135
         },
         "forms": [
             {
@@ -3946,8 +3946,8 @@
             "usum_akala": 54,
             "swsh": 196,
             "swsh_tundra": 74,
-            "sv": 179,
-            "la": 25
+            "la": 25,
+            "sv": 179
         },
         "forms": [
             {
@@ -3978,8 +3978,8 @@
             "usum_akala": 55,
             "swsh": 197,
             "swsh_tundra": 75,
-            "sv": 180,
-            "la": 26
+            "la": 26,
+            "sv": 180
         },
         "forms": [
             {
@@ -4010,8 +4010,8 @@
             "usum_akala": 56,
             "swsh": 198,
             "swsh_tundra": 76,
-            "sv": 181,
-            "la": 27
+            "la": 27,
+            "sv": 181
         },
         "forms": [
             {
@@ -4042,8 +4042,8 @@
             "usum_akala": 57,
             "swsh": 199,
             "swsh_tundra": 77,
-            "sv": 182,
-            "la": 28
+            "la": 28,
+            "sv": 182
         },
         "forms": [
             {
@@ -5006,8 +5006,8 @@
             "usum_melemele": 31,
             "swsh": 193,
             "swsh_armor": 84,
-            "sv": 73,
-            "la": 55
+            "la": 55,
+            "sv": 73
         },
         "forms": [
             {
@@ -5380,8 +5380,8 @@
             "usum_melemele": 38,
             "usum_akala": 15,
             "swsh": 253,
-            "sv": 88,
-            "la": 124
+            "la": 124,
+            "sv": 88
         },
         "forms": [
             {
@@ -5676,8 +5676,8 @@
             "usum_akala": 58,
             "swsh": 200,
             "swsh_tundra": 79,
-            "sv": 183,
-            "la": 29
+            "la": 29,
+            "sv": 183
         },
         "forms": [
             {
@@ -5708,8 +5708,8 @@
             "usum_akala": 59,
             "swsh": 201,
             "swsh_tundra": 78,
-            "sv": 184,
-            "la": 30
+            "la": 30,
+            "sv": 184
         },
         "forms": [
             {
@@ -5738,8 +5738,8 @@
             "xy_mountain": 51,
             "usum": 78,
             "usum_melemele": 78,
-            "sv": 232,
-            "la": 140
+            "la": 140,
+            "sv": 232
         },
         "forms": [
             {
@@ -5800,8 +5800,8 @@
             "hgss": 219,
             "usum": 372,
             "usum_poni": 119,
-            "sv": 114,
-            "la": 197
+            "la": 197,
+            "sv": 114
         },
         "forms": [
             {
@@ -6316,8 +6316,8 @@
             "hgss": 163,
             "xy_coastal": 38,
             "swsh": 304,
-            "sv": 331,
-            "la": 84
+            "la": 84,
+            "sv": 331
         },
         "forms": [
             {
@@ -6351,8 +6351,8 @@
             "usum": 366,
             "usum_poni": 113,
             "swsh_armor": 119,
-            "sv": 261,
-            "la": 74
+            "la": 74,
+            "sv": 261
         },
         "forms": [
             {
@@ -6412,8 +6412,8 @@
             "usum": 367,
             "usum_poni": 114,
             "swsh_armor": 121,
-            "sv": 262,
-            "la": 75
+            "la": 75,
+            "sv": 262
         },
         "forms": [
             {
@@ -6444,8 +6444,8 @@
             "usum": 326,
             "swsh": 292,
             "swsh_tundra": 28,
-            "sv": 230,
-            "la": 202
+            "la": 202,
+            "sv": 230
         },
         "forms": [
             {
@@ -6475,8 +6475,8 @@
             "gsc": 193,
             "hgss": 198,
             "xy_mountain": 132,
-            "sv": 215,
-            "la": 112
+            "la": 112,
+            "sv": 215
         },
         "forms": [
             {
@@ -6501,8 +6501,8 @@
             "gsc": 194,
             "hgss": 199,
             "xy_mountain": 133,
-            "sv": 216,
-            "la": 113
+            "la": 113,
+            "sv": 216
         },
         "forms": [
             {
@@ -6991,8 +6991,8 @@
             "national": 234,
             "gsc": 129,
             "hgss": 131,
-            "sv": 204,
-            "la": 49
+            "la": 49,
+            "sv": 204
         },
         "forms": [
             {
@@ -7209,8 +7209,8 @@
             "usum_akala": 18,
             "usum_poni": 17,
             "swsh_armor": 8,
-            "sv": 45,
-            "la": 88
+            "la": 88,
+            "sv": 45
         },
         "forms": [
             {
@@ -8176,8 +8176,8 @@
             "oras": 29,
             "swsh": 120,
             "swsh_armor": 34,
-            "sv": 62,
-            "la": 101
+            "la": 101,
+            "sv": 62
         },
         "forms": [
             {
@@ -8205,8 +8205,8 @@
             "oras": 30,
             "swsh": 121,
             "swsh_armor": 35,
-            "sv": 63,
-            "la": 102
+            "la": 102,
+            "sv": 63
         },
         "forms": [
             {
@@ -8234,8 +8234,8 @@
             "oras": 31,
             "swsh": 122,
             "swsh_armor": 36,
-            "sv": 64,
-            "la": 103
+            "la": 103,
+            "sv": 64
         },
         "forms": [
             {
@@ -9734,8 +9734,8 @@
             "swsh": 228,
             "swsh_armor": 137,
             "swsh_tundra": 60,
-            "sv": 168,
-            "la": 97
+            "la": 97,
+            "sv": 168
         },
         "forms": [
             {
@@ -9769,8 +9769,8 @@
             "swsh": 229,
             "swsh_armor": 138,
             "swsh_tundra": 61,
-            "sv": 169,
-            "la": 98
+            "la": 98,
+            "sv": 169
         },
         "forms": [
             {
@@ -10339,8 +10339,8 @@
             "usum": 323,
             "swsh": 79,
             "swsh_tundra": 25,
-            "sv": 357,
-            "la": 205
+            "la": 205,
+            "sv": 357
         },
         "forms": [
             {
@@ -10368,8 +10368,8 @@
             "usum": 324,
             "swsh": 80,
             "swsh_tundra": 26,
-            "sv": 358,
-            "la": 206
+            "la": 206,
+            "sv": 358
         },
         "forms": [
             {
@@ -11249,8 +11249,8 @@
             "dp": 10,
             "pt": 10,
             "xy_coastal": 99,
-            "sv": 97,
-            "la": 12
+            "la": 12,
+            "sv": 97
         },
         "forms": [
             {
@@ -11275,8 +11275,8 @@
             "dp": 11,
             "pt": 11,
             "xy_coastal": 100,
-            "sv": 98,
-            "la": 13
+            "la": 13,
+            "sv": 98
         },
         "forms": [
             {
@@ -11301,8 +11301,8 @@
             "dp": 12,
             "pt": 12,
             "xy_coastal": 101,
-            "sv": 99,
-            "la": 14
+            "la": 14,
+            "sv": 99
         },
         "forms": [
             {
@@ -11376,8 +11376,8 @@
             "national": 401,
             "dp": 15,
             "pt": 15,
-            "sv": 33,
-            "la": 39
+            "la": 39,
+            "sv": 33
         },
         "forms": [
             {
@@ -11401,8 +11401,8 @@
             "national": 402,
             "dp": 16,
             "pt": 16,
-            "sv": 34,
-            "la": 40
+            "la": 40,
+            "sv": 34
         },
         "forms": [
             {
@@ -11427,8 +11427,8 @@
             "dp": 17,
             "pt": 17,
             "swsh_armor": 25,
-            "sv": 94,
-            "la": 15
+            "la": 15,
+            "sv": 94
         },
         "forms": [
             {
@@ -11453,8 +11453,8 @@
             "dp": 18,
             "pt": 18,
             "swsh_armor": 26,
-            "sv": 95,
-            "la": 16
+            "la": 16,
+            "sv": 95
         },
         "forms": [
             {
@@ -11479,8 +11479,8 @@
             "dp": 19,
             "pt": 19,
             "swsh_armor": 27,
-            "sv": 96,
-            "la": 17
+            "la": 17,
+            "sv": 96
         },
         "forms": [
             {
@@ -11815,8 +11815,8 @@
             "xy_central": 76,
             "swsh": 116,
             "swsh_armor": 203,
-            "sv": 38,
-            "la": 70
+            "la": 70,
+            "sv": 38
         },
         "forms": [
             {
@@ -11844,8 +11844,8 @@
             "xy_central": 77,
             "swsh": 117,
             "swsh_armor": 204,
-            "sv": 39,
-            "la": 71
+            "la": 71,
+            "sv": 39
         },
         "forms": [
             {
@@ -11870,8 +11870,8 @@
             "dp": 55,
             "pt": 55,
             "xy_coastal": 132,
-            "sv": 201,
-            "la": 109
+            "la": 109,
+            "sv": 201
         },
         "forms": [
             {
@@ -11897,8 +11897,8 @@
             "pt": 56,
             "b2w2": 149,
             "xy_mountain": 58,
-            "sv": 51,
-            "la": 41
+            "la": 41,
+            "sv": 51
         },
         "forms": [
             {
@@ -11924,8 +11924,8 @@
             "pt": 57,
             "b2w2": 150,
             "xy_mountain": 59,
-            "sv": 52,
-            "la": 42
+            "la": 42,
+            "sv": 52
         },
         "forms": [
             {
@@ -12002,8 +12002,8 @@
             "usum": 341,
             "usum_poni": 88,
             "swsh": 230,
-            "sv": 327,
-            "la": 82
+            "la": 82,
+            "sv": 327
         },
         "forms": [
             {
@@ -12057,8 +12057,8 @@
             "usum": 342,
             "usum_poni": 89,
             "swsh": 231,
-            "sv": 328,
-            "la": 83
+            "la": 83,
+            "sv": 328
         },
         "forms": [
             {
@@ -12142,8 +12142,8 @@
             "usum_melemele": 76,
             "swsh": 124,
             "swsh_armor": 135,
-            "sv": 143,
-            "la": 37
+            "la": 37,
+            "sv": 143
         },
         "forms": [
             {
@@ -12173,8 +12173,8 @@
             "usum_melemele": 77,
             "swsh": 125,
             "swsh_armor": 136,
-            "sv": 144,
-            "la": 38
+            "la": 38,
+            "sv": 144
         },
         "forms": [
             {
@@ -12258,8 +12258,8 @@
             "pt": 73,
             "usum": 373,
             "usum_poni": 120,
-            "sv": 115,
-            "la": 198
+            "la": 198,
+            "sv": 115
         },
         "forms": [
             {
@@ -12286,8 +12286,8 @@
             "xy_mountain": 52,
             "usum": 79,
             "usum_melemele": 79,
-            "sv": 233,
-            "la": 141
+            "la": 141,
+            "sv": 233
         },
         "forms": [
             {
@@ -12387,8 +12387,8 @@
             "pt": 84,
             "xy_coastal": 102,
             "swsh": 130,
-            "sv": 226,
-            "la": 110
+            "la": 110,
+            "sv": 226
         },
         "forms": [
             {
@@ -12414,8 +12414,8 @@
             "pt": 85,
             "xy_coastal": 103,
             "swsh": 131,
-            "sv": 227,
-            "la": 111
+            "la": 111,
+            "sv": 227
         },
         "forms": [
             {
@@ -12442,8 +12442,8 @@
             "b2w2": 250,
             "swsh": 118,
             "swsh_tundra": 87,
-            "sv": 153,
-            "la": 180
+            "la": 180,
+            "sv": 153
         },
         "forms": [
             {
@@ -12470,8 +12470,8 @@
             "b2w2": 251,
             "swsh": 119,
             "swsh_tundra": 88,
-            "sv": 154,
-            "la": 181
+            "la": 181,
+            "sv": 154
         },
         "forms": [
             {
@@ -12500,8 +12500,8 @@
             "usum_melemele": 37,
             "usum_akala": 14,
             "swsh": 252,
-            "sv": 87,
-            "la": 123
+            "la": 123,
+            "sv": 87
         },
         "forms": [
             {
@@ -12559,8 +12559,8 @@
             "usum_akala": 16,
             "usum_poni": 15,
             "swsh_armor": 6,
-            "sv": 43,
-            "la": 86
+            "la": 86,
+            "sv": 43
         },
         "forms": [
             {
@@ -12610,8 +12610,8 @@
             "dp": 108,
             "pt": 108,
             "swsh_tundra": 47,
-            "sv": 302,
-            "la": 139
+            "la": 139,
+            "sv": 302
         },
         "forms": [
             {
@@ -12638,8 +12638,8 @@
             "xy_mountain": 6,
             "usum": 307,
             "swsh_tundra": 116,
-            "sv": 126,
-            "la": 187
+            "la": 187,
+            "sv": 126
         },
         "forms": [
             {
@@ -12666,8 +12666,8 @@
             "xy_mountain": 7,
             "usum": 308,
             "swsh_tundra": 117,
-            "sv": 127,
-            "la": 188
+            "la": 188,
+            "sv": 127
         },
         "forms": [
             {
@@ -12694,8 +12694,8 @@
             "xy_mountain": 8,
             "usum": 309,
             "swsh_tundra": 118,
-            "sv": 128,
-            "la": 189
+            "la": 189,
+            "sv": 128
         },
         "forms": [
             {
@@ -12754,8 +12754,8 @@
             "usum_poni": 124,
             "swsh": 298,
             "swsh_tundra": 134,
-            "sv": 163,
-            "la": 223
+            "la": 223,
+            "sv": 163
         },
         "forms": [
             {
@@ -12785,8 +12785,8 @@
             "usum_poni": 125,
             "swsh": 299,
             "swsh_tundra": 135,
-            "sv": 164,
-            "la": 224
+            "la": 224,
+            "sv": 164
         },
         "forms": [
             {
@@ -12812,8 +12812,8 @@
             "pt": 122,
             "xy_coastal": 48,
             "swsh": 314,
-            "sv": 265,
-            "la": 107
+            "la": 107,
+            "sv": 265
         },
         "forms": [
             {
@@ -12839,8 +12839,8 @@
             "pt": 123,
             "xy_coastal": 49,
             "swsh": 315,
-            "sv": 266,
-            "la": 108
+            "la": 108,
+            "sv": 266
         },
         "forms": [
             {
@@ -12924,8 +12924,8 @@
             "xy_central": 125,
             "swsh": 222,
             "swsh_armor": 82,
-            "sv": 175,
-            "la": 99
+            "la": 99,
+            "sv": 175
         },
         "forms": [
             {
@@ -12953,8 +12953,8 @@
             "xy_central": 126,
             "swsh": 223,
             "swsh_armor": 83,
-            "sv": 176,
-            "la": 100
+            "la": 100,
+            "sv": 176
         },
         "forms": [
             {
@@ -13008,8 +13008,8 @@
             "usum_melemele": 131,
             "usum_akala": 40,
             "usum_poni": 69,
-            "sv": 333,
-            "la": 172
+            "la": 172,
+            "sv": 333
         },
         "forms": [
             {
@@ -13037,8 +13037,8 @@
             "usum_melemele": 132,
             "usum_akala": 41,
             "usum_poni": 70,
-            "sv": 334,
-            "la": 173
+            "la": 173,
+            "sv": 334
         },
         "forms": [
             {
@@ -13096,8 +13096,8 @@
             "xy_mountain": 88,
             "swsh": 96,
             "swsh_tundra": 31,
-            "sv": 352,
-            "la": 217
+            "la": 217,
+            "sv": 352
         },
         "forms": [
             {
@@ -13124,8 +13124,8 @@
             "xy_mountain": 89,
             "swsh": 97,
             "swsh_tundra": 32,
-            "sv": 353,
-            "la": 218
+            "la": 218,
+            "sv": 353
         },
         "forms": [
             {
@@ -13154,8 +13154,8 @@
             "usum": 327,
             "swsh": 293,
             "swsh_tundra": 29,
-            "sv": 231,
-            "la": 204
+            "la": 204,
+            "sv": 231
         },
         "forms": [
             {
@@ -13184,8 +13184,8 @@
             "usum": 56,
             "usum_melemele": 56,
             "swsh_armor": 107,
-            "sv": 211,
-            "la": 179
+            "la": 179,
+            "sv": 211
         },
         "forms": [
             {
@@ -13399,8 +13399,8 @@
             "usum_akala": 60,
             "swsh": 202,
             "swsh_tundra": 81,
-            "sv": 185,
-            "la": 31
+            "la": 31,
+            "sv": 185
         },
         "forms": [
             {
@@ -13429,8 +13429,8 @@
             "usum_akala": 61,
             "swsh": 203,
             "swsh_tundra": 80,
-            "sv": 186,
-            "la": 32
+            "la": 32,
+            "sv": 186
         },
         "forms": [
             {
@@ -13535,8 +13535,8 @@
             "oras": 32,
             "swsh": 123,
             "swsh_armor": 37,
-            "sv": 65,
-            "la": 104
+            "la": 104,
+            "sv": 65
         },
         "forms": [
             {
@@ -13616,8 +13616,8 @@
             "usum": 325,
             "swsh": 81,
             "swsh_tundra": 27,
-            "sv": 359,
-            "la": 207
+            "la": 207,
+            "sv": 359
         },
         "forms": [
             {
@@ -13642,8 +13642,8 @@
             "pt": 152,
             "xy_mountain": 68,
             "swsh": 372,
-            "sv": 310,
-            "la": 194
+            "la": 194,
+            "sv": 310
         },
         "forms": [
             {
@@ -15660,8 +15660,8 @@
             "usum_melemele": 103,
             "usum_poni": 47,
             "swsh_armor": 201,
-            "sv": 104,
-            "la": 93
+            "la": 93,
+            "sv": 104
         },
         "forms": [
             {
@@ -15689,8 +15689,8 @@
             "usum_melemele": 104,
             "usum_poni": 48,
             "swsh_armor": 202,
-            "sv": 105,
-            "la": 94
+            "la": 94,
+            "sv": 105
         },
         "forms": [
             {
@@ -15725,8 +15725,8 @@
             "usum_poni": 75,
             "swsh": 154,
             "swsh_tundra": 64,
-            "sv": 138,
-            "la": 166
+            "la": 166,
+            "sv": 138
         },
         "forms": [
             {
@@ -16290,8 +16290,8 @@
             "usum_melemele": 28,
             "usum_poni": 12,
             "swsh_armor": 87,
-            "sv": 228,
-            "la": 219
+            "la": 219,
+            "sv": 228
         },
         "forms": [
             {
@@ -16325,8 +16325,8 @@
             "usum_melemele": 29,
             "usum_poni": 13,
             "swsh_armor": 88,
-            "sv": 229,
-            "la": 220
+            "la": 220,
+            "sv": 229
         },
         "forms": [
             {
@@ -17888,8 +17888,8 @@
             "usum_poni": 35,
             "swsh": 281,
             "swsh_armor": 179,
-            "sv": 365,
-            "la": 221
+            "la": 221,
+            "sv": 365
         },
         "forms": [
             {
@@ -17918,8 +17918,8 @@
             "usum_poni": 36,
             "swsh": 282,
             "swsh_armor": 180,
-            "sv": 366,
-            "la": 222
+            "la": 222,
+            "sv": 366
         },
         "forms": [
             {
@@ -20219,8 +20219,8 @@
             "usum_akala": 62,
             "swsh": 204,
             "swsh_tundra": 82,
-            "sv": 187,
-            "la": 33
+            "la": 33,
+            "sv": 187
         },
         "forms": [
             {
@@ -20325,8 +20325,8 @@
             "usum_poni": 79,
             "swsh": 389,
             "swsh_armor": 60,
-            "sv": 172,
-            "la": 115
+            "la": 115,
+            "sv": 172
         },
         "forms": [
             {
@@ -20354,8 +20354,8 @@
             "usum_poni": 80,
             "swsh": 390,
             "swsh_armor": 61,
-            "sv": 173,
-            "la": 116
+            "la": 116,
+            "sv": 173
         },
         "forms": [
             {
@@ -20388,8 +20388,8 @@
             "usum_poni": 81,
             "swsh": 391,
             "swsh_armor": 62,
-            "sv": 174,
-            "la": 117
+            "la": 117,
+            "sv": 174
         },
         "forms": [
             {
@@ -20608,8 +20608,8 @@
             "xy_mountain": 79,
             "swsh": 358,
             "swsh_tundra": 142,
-            "sv": 363,
-            "la": 215
+            "la": 215,
+            "sv": 363
         },
         "forms": [
             {
@@ -20634,8 +20634,8 @@
             "xy_mountain": 80,
             "swsh": 359,
             "swsh_tundra": 143,
-            "sv": 364,
-            "la": 216
+            "la": 216,
+            "sv": 364
         },
         "forms": [
             {

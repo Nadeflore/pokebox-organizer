@@ -1,3 +1,30 @@
+export interface Generation {
+    id: number;
+    name: LocalizedName;
+    start: number;
+    end: number;
+}
+
+export interface PokemonMatcher {
+    id?: number;
+    generation?: Generation;
+    pokedex?: string;
+}
+
+export interface PokemonFilterConfig {
+    include: PokemonMatcher[];
+    exclude: PokemonMatcher[];
+    sort: string;
+    newBoxAtGenerations: Generation[];
+    forms: PokemonFormsFilter
+}
+
+interface PokemonFormsFilter {
+    maleFemaleForms: boolean;
+    types: FormType[];
+    event: boolean;
+    regions: Region[];
+}
 
 export enum FormType {
     NORMAL = "NORMAL",
@@ -32,13 +59,12 @@ export interface Pokemon {
     regionalId: object
     imageName: string;
     name: LocalizedName;
-    region?: Region;
+    region: Region | null;
     formIds: number[];
     formNames: LocalizedName[];
-    sex: string;
     sexes: string[];
     sexForm?: boolean;
-    multipleForms: boolean;
+    multipleForms?: boolean;
     event: boolean;
 }
 
@@ -55,46 +81,30 @@ export interface PokemonData {
     formType: "NORMAL" | "CHANGE_LEG" | "CHANGE" | "SEX";
     id: number;
     name: LocalizedName;
-    regionalId: object
+    regionalId: Record<string, number>
 }
 
-function getPokemonList(pokemonsData: PokemonData[], maleFemaleForms: boolean, types: FormType[], specialMode: string): Pokemon[] {
-
-    // Special filter and sort
-    // let pokemons = pokemonsData.filter(p => p.regionalId.swsh && p.id < 810 && !p.forms.find(f => f.region == Region.GALAR));
-    // pokemons.sort((a, b) => a.regionalId.swsh - b.regionalId.swsh)
-    let pokemons = pokemonsData
-    if (specialMode == "hisui") {
-        pokemons = pokemons.filter(p => p.regionalId.la && p.id < 899 && p.id != 550 && !(p.id >= 387 && p.id <= 493) && !p.forms.find(f => f.region == Region.HISUI));
-        pokemons.sort((a, b) => a.regionalId.la - b.regionalId.la)
-    } else if (specialMode == "paldea") {
-        pokemons = pokemons.filter(p => p.regionalId.sv && p.id != 128 && p.id != 194);
-        pokemons.sort((a, b) => a.regionalId.sv - b.regionalId.sv)
-    } else if (specialMode == "sinnoh") {
-        pokemons = pokemons.filter(p => p.regionalId.dp && !(p.id >= 387 && p.id <= 493));
-        pokemons.sort((a, b) => a.regionalId.dp - b.regionalId.dp)
-    }
-
-    const result = (pokemons as PokemonData[]).flatMap((pokemon) => {
+function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonFormsFilter): Pokemon[] {
+    const result = pokemons.flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
 
         const forms = pokemon.forms
             .flatMap((form: FormData) => {
                 switch (form.sex) {
                     case 'fd':
-                        if (maleFemaleForms) {
+                        if (formsFilter.maleFemaleForms) {
                             return [{ ...form, sex: 'md', sexes: [Sex.M], sexForm: true }, { ...form, sexes: [Sex.F], sexForm: true }];
                         } else {
-                            return [{ ...form, sexes: [Sex.M, Sex.F] }];
+                            return [{ ...form, sexes: [Sex.M, Sex.F], sexForm: false }];
                         }
                     case 'mf':
-                        return [{ ...form, sexes: [Sex.M, Sex.F] }];
+                        return [{ ...form, sexes: [Sex.M, Sex.F], sexForm: false }];
                     case 'mo':
-                        return [{ ...form, sexes: [Sex.M] }];
+                        return [{ ...form, sexes: [Sex.M], sexForm: false }];
                     case 'fo':
-                        return [{ ...form, sexes: [Sex.F] }];
+                        return [{ ...form, sexes: [Sex.F], sexForm: false }];
                     case 'uk':
-                        return [{ ...form, sexes: [] }];
+                        return [{ ...form, sexes: [], sexForm: false }];
                     default:
                         throw new Error("Invalid sex: " + form.sex)
                 }
@@ -114,11 +124,11 @@ function getPokemonList(pokemonsData: PokemonData[], maleFemaleForms: boolean, t
 
         // Regional and event forms are always separated, but may be excluded (never squashed)
         // Squash other forms if the form type is not requested
-        const eventAndRegionalForms = forms.filter(form => form.event || form.region)
+        const eventAndRegionalForms = forms.filter(form => (form.event || form.region) && (formsFilter.event || !form.event) && (!form.region || formsFilter.regions.includes(form.region)));
         let otherForms = forms.filter(form => !form.event && !form.region)
 
         if (formType) {
-            if (types.includes(formType)) {
+            if (formsFilter.types.includes(formType)) {
                 otherForms = otherForms.map(form => ({ ...form, multipleForms: true }))
             } else {
                 otherForms = [otherForms.reduce((a, b) => ({
@@ -148,26 +158,69 @@ function splitArray<Type>(arr: Array<Type>, size: number): Array<Array<Type>> {
     return result;
 }
 
+/** 
+ * A findIndex method which returns undefined when nothing match the predicate
+ */
+function findIndex<Type>(arr: Array<Type>, predicate: (value: Type, index: number, obj: Type[]) => boolean): number | undefined {
+    const index = arr.findIndex(predicate)
+    return index == -1 ? undefined : index
 
-function splitByGeneration(pokemons: Pokemon[]) {
-    const splits = [1, 152, 252, 387, 494, 650, 722, 810];
-    return splits.map((start, i, array) => {
-        const end = array[i + 1];
-        const startIndex = pokemons.findIndex((p) => p.id >= start);
-        const endIndex = end ? pokemons.findIndex((p) => p.id >= end) : pokemons.length;
-
-        return pokemons.slice(startIndex, endIndex);
-    });
 }
 
-export function getPokemonBoxes(pokemonsData: PokemonData[], maleFemaleForms: boolean, event: boolean, types: FormType[], specialMode: string): Pokemon[][] {
-    const pokemons = getPokemonList(pokemonsData, maleFemaleForms, types, specialMode).filter(p => (event || !p.event) && (!specialMode || !p.region));
+function splitByGeneration(pokemons: Pokemon[], generations: Generation[]) {
+    const splits = [1].concat(generations.map(g => g.start));
+    return splits.map((start, i, array) => {
+        const end = array[i + 1];
+        const startIndex = findIndex(pokemons, (p) => p.id >= start);
+        if (startIndex === undefined) {
+            return [];
+        }
+        const endIndex = end ? findIndex(pokemons, (p) => p.id >= end) : pokemons.length;
+        return pokemons.slice(startIndex, endIndex);
+    }).filter(e => e.length);
+}
 
-    const nonRegionalForms = pokemons.filter(p => !p.region)
-    const regionalFormsByRegion = Object.values(Region).map(region => pokemons.filter(p => p.region == region))
+export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[][] {
+    if (!filter) {
+        return [];
+    }
+    // Filter pokemons to keep
+    const pokemons = pokemonsData.filter(p => isPokemonIncluded(p, filter));
+    // Sort
+    const sort = !filter.sort ? "national" : filter.sort;
+    pokemons.sort((a, b) => (a.regionalId[sort] || 10000) - (b.regionalId[sort] || 10000))
 
-    const nregforms = specialMode ? [nonRegionalForms] : splitByGeneration(nonRegionalForms);
-    const groups = nregforms.concat(regionalFormsByRegion);
 
-    return groups.flatMap((pokemons) => splitArray(pokemons, 30));
+    const pokemonsWithForms = getPokemonsWithForms(pokemons, filter.forms);
+
+    const newBoxAtGenerations = sort == "national" ? filter.newBoxAtGenerations : [];
+    return splitByGeneration(pokemonsWithForms, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30));
+}
+
+function isPokemonIncluded(pokemonData: PokemonData, filter: PokemonFilterConfig) {
+    if (filter.include.length && !filter.include.some(m => isPokemonMatch(pokemonData, m))) {
+        return false;
+    }
+
+    if (filter.exclude.some(m => isPokemonMatch(pokemonData, m))) {
+        return false;
+    }
+
+    return true;
+}
+
+function isPokemonMatch(pokemonData: PokemonData, matcher: PokemonMatcher) {
+    if (matcher.id) {
+        return pokemonData.id === matcher.id
+    }
+
+    if (matcher.generation) {
+        return pokemonData.id >= matcher.generation.start && pokemonData.id <= matcher.generation.end;
+    }
+
+    if (matcher.pokedex) {
+        return !!pokemonData.regionalId[matcher.pokedex]
+    }
+
+    return false
 }

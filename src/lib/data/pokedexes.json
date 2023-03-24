@@ -1,0 +1,191 @@
+[
+ {
+   "id": "national",
+   "name": {
+      "fr": "Pokédex National",
+      "en": "National Pokédex "
+   }
+},
+ {
+   "id": "gsc",
+   "name": {
+      "fr": "Pokédex de Johto (OAC)",
+      "en": "Johto Pokédex (GSC)"
+   }
+},
+ {
+   "id": "rse",
+   "name": {
+      "fr": "Pokédex de Hoenn (RSE)",
+      "en": "Hoenn Pokédex (RSE)"
+   }
+},
+ {
+   "id": "dp",
+   "name": {
+      "fr": "Pokédex de Sinnoh (DP)",
+      "en": "Sinnoh Pokédex (DP)"
+   }
+},
+ {
+   "id": "pt",
+   "name": {
+      "fr": "Pokédex de Sinnoh (Platine)",
+      "en": "Sinnoh Pokédex (Platinum)"
+   }
+},
+ {
+   "id": "hgss",
+   "name": {
+      "fr": "Pokédex de Johto (HGSS)",
+      "en": "Johto Pokédex (HGSS)"
+   }
+},
+ {
+   "id": "bw",
+   "name": {
+      "fr": "Pokédex d'Unys (NB)",
+      "en": "Unova Pokédex (BW)"
+   }
+},
+ {
+   "id": "b2w2",
+   "name": {
+      "fr": "Pokédex d'Unys (N2B2)",
+      "en": "Unova Pokédex (B2W2)"
+   }
+},
+ {
+   "id": "xy_central",
+   "name": {
+      "fr": "Pokédex de Kalos : Centre",
+      "en": "Central Kalos Pokédex"
+   }
+},
+ {
+   "id": "xy_coastal",
+   "name": {
+      "fr": "Pokédex de Kalos : Côtes",
+      "en": "Coastal Kalos Pokédex"
+   }
+},
+ {
+   "id": "xy_mountain",
+   "name": {
+      "fr": "Pokédex de Kalos : Monts",
+      "en": "Mountain Kalos Pokédex"
+   }
+},
+ {
+   "id": "oras",
+   "name": {
+      "fr": "Pokédex de Hoenn (ROSA)",
+      "en": "Hoenn Pokédex (ORAS)"
+   }
+},
+ {
+   "id": "sm",
+   "name": {
+      "fr": "Pokédex d'Alola (USUM)",
+      "en": "Alola Pokédex (SM)"
+   }
+},
+ {
+   "id": "sm_melemele",
+   "name": {
+      "fr": "Pokédex d'Alola : Mele-Mele (USUM)",
+      "en": "Alola Pokédex : Melemele (SM)"
+   }
+},
+ {
+   "id": "sm_akala",
+   "name": {
+      "fr": "Pokédex d'Alola : Akala (USUM)",
+      "en": "Alola Pokédex : Akala (SM)"
+   }
+},
+ {
+   "id": "sm_ulaula",
+   "name": {
+      "fr": "Pokédex d'Alola : Ula-Ula (USUM)",
+      "en": "Alola Pokédex : Ula’ula (SM)"
+   }
+},
+ {
+   "id": "sm_poni",
+   "name": {
+      "fr": "Pokédex d'Alola : Poni (USUM)",
+      "en": "Alola Pokédex : Poni (SM)"
+   }
+},
+ {
+   "id": "usum",
+   "name": {
+      "fr": "Pokédex d'Alola (USUL)",
+      "en": "Alola Pokédex (USUM)"
+   }
+},
+ {
+   "id": "usum_melemele",
+   "name": {
+      "fr": "Pokédex d'Alola : Mele-Mele (USUL)",
+      "en": "Alola Pokédex : Melemele (USUM)"
+   }
+},
+ {
+   "id": "usum_akala",
+   "name": {
+      "fr": "Pokédex d'Alola : Akala (USUL)",
+      "en": "Alola Pokédex : Akala (USUM)"
+   }
+},
+ {
+   "id": "usum_ulaula",
+   "name": {
+      "fr": "Pokédex d'Alola : Ula-Ula (USUL)",
+      "en": "Alola Pokédex : Ula’ula (USUM)"
+   }
+},
+ {
+   "id": "usum_poni",
+   "name": {
+      "fr": "Pokédex d'Alola : Poni (USUL)",
+      "en": "Alola Pokédex : Poni (USUM)"
+   }
+},
+ {
+   "id": "swsh",
+   "name": {
+      "fr": "Pokédex de Galar",
+      "en": "Galar Pokédex"
+   }
+},
+ {
+   "id": "swsh_armor",
+   "name": {
+      "fr": "Pokédex d'Isolarmure",
+      "en": "Isle of Armor Pokédex"
+   }
+},
+ {
+   "id": "swsh_tundra",
+   "name": {
+      "fr": "Pokédex de Couronneige",
+      "en": "Crown Tundra Pokédex"
+   }
+},
+ {
+   "id": "la",
+   "name": {
+      "fr": "Pokédex de Hisui",
+      "en": "Hisui Pokédex"
+   }
+},
+ {
+   "id": "sv",
+   "name": {
+      "fr": "Pokédex de Paldea",
+      "en": "Paldea Pokédex"
+   }
+}
+]

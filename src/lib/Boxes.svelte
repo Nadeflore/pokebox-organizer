@@ -1,43 +1,8 @@
 <script lang="ts">
+	import type { Pokemon } from './box-order-generator/box-order-generator';
 	import Box from './Box.svelte';
-	import {
-		getPokemonBoxes,
-		FormType,
-		type PokemonData
-	} from './box-order-generator/box-order-generator';
-
-	let maleFemaleForms = true;
-	let event = false;
-	let specialMode = '';
-	let types = [FormType.NORMAL, FormType.SEX, FormType.CHANGE];
-	export let pokemonsData: PokemonData[];
-
-	$: boxes = getPokemonBoxes(pokemonsData, maleFemaleForms, event, types, specialMode);
+	export let boxes: Pokemon[][];
 </script>
-
-<div class="header">
-	<select bind:value={specialMode}>
-		<option value=""> All pokemons </option>
-		<option value="hisui"> Hisui special mode </option>
-		<option value="paldea"> Paldea special mode</option>
-		<option value="sinnoh"> Sinnoh special mode</option>
-	</select>
-	<label>
-		<input type="checkbox" bind:checked={maleFemaleForms} />
-		Male and female forms
-	</label>
-	<label>
-		<input type="checkbox" bind:checked={event} />
-		Event forms
-	</label>
-
-	{#each Object.values(FormType) as type}
-		<label>
-			<input type="checkbox" bind:group={types} name="flavours" value={type} />
-			{type}
-		</label>
-	{/each}
-</div>
 
 <div class="storage">
 	{#each boxes as box, i}
@@ -46,20 +11,9 @@
 </div>
 
 <style>
-	.header {
-		background-color: white;
-		padding: 10px;
-		position: sticky;
-		top: 0;
-		z-index: 999;
-	}
 	.storage {
 		display: flex;
 		flex-wrap: wrap;
 		font-family: Arial, Helvetica, sans-serif;
-	}
-
-	:global(body) {
-		margin: 0px;
 	}
 </style>

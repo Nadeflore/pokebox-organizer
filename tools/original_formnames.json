@@ -1,0 +1,2613 @@
+{
+    "201": [
+        {
+            "en": "A"
+        },
+        {
+            "en": "B"
+        },
+        {
+            "en": "C"
+        },
+        {
+            "en": "D"
+        },
+        {
+            "en": "E"
+        },
+        {
+            "en": "F"
+        },
+        {
+            "en": "G"
+        },
+        {
+            "en": "H"
+        },
+        {
+            "en": "I"
+        },
+        {
+            "en": "J"
+        },
+        {
+            "en": "K"
+        },
+        {
+            "en": "L"
+        },
+        {
+            "en": "M"
+        },
+        {
+            "en": "N"
+        },
+        {
+            "en": "O"
+        },
+        {
+            "en": "P"
+        },
+        {
+            "en": "Q"
+        },
+        {
+            "en": "R"
+        },
+        {
+            "en": "S"
+        },
+        {
+            "en": "T"
+        },
+        {
+            "en": "U"
+        },
+        {
+            "en": "V"
+        },
+        {
+            "en": "W"
+        },
+        {
+            "en": "X"
+        },
+        {
+            "en": "Y"
+        },
+        {
+            "en": "Z"
+        },
+        {
+            "en": "!"
+        },
+        {
+            "en": "?"
+        }
+    ],
+    "412": [
+        {
+            "ja": "くさきのミノ",
+            "ko": "초목도롱",
+            "fr": "Cape Plante",
+            "de": "Pflanzenumhang",
+            "es": "Tronco Planta",
+            "it": "Manto Pianta",
+            "en": "Plant Cloak"
+        },
+        {
+            "ja": "すなちのミノ",
+            "ko": "모래땅도롱",
+            "fr": "Cape Sable",
+            "de": "Sandumhang",
+            "es": "Tronco Arena",
+            "it": "Manto Sabbia",
+            "en": "Sandy Cloak"
+        },
+        {
+            "ja": "ゴミのミノ",
+            "ko": "슈레도롱",
+            "fr": "Cape Déchet",
+            "de": "Lumpenumhang",
+            "es": "Tronco Basura",
+            "it": "Manto Scarti",
+            "en": "Trash Cloak"
+        }
+    ],
+    "413": [
+        {
+            "ja": "くさきのミノ",
+            "ko": "초목도롱",
+            "fr": "Cape Plante",
+            "de": "Pflanzenumhang",
+            "es": "Tronco Planta",
+            "it": "Manto Pianta",
+            "en": "Plant Cloak"
+        },
+        {
+            "ja": "すなちのミノ",
+            "ko": "모래땅도롱",
+            "fr": "Cape Sable",
+            "de": "Sandumhang",
+            "es": "Tronco Arena",
+            "it": "Manto Sabbia",
+            "en": "Sandy Cloak"
+        },
+        {
+            "ja": "ゴミのミノ",
+            "ko": "슈레도롱",
+            "fr": "Cape Déchet",
+            "de": "Lumpenumhang",
+            "es": "Tronco Basura",
+            "it": "Manto Scarti",
+            "en": "Trash Cloak"
+        }
+    ],
+    "421": [
+        {
+            "ja": "ネガフォルム",
+            "ko": "네거폼",
+            "zh-Hant": "陰天形態",
+            "fr": "Temps Couvert",
+            "de": "Wolkenform",
+            "es": "Forma Encapotado",
+            "it": "Forma Nuvola",
+            "en": "Overcast Form",
+            "zh-Hans": "阴天形态"
+        },
+        {
+            "ja": "ポジフォルム",
+            "ko": "포지폼",
+            "zh-Hant": "晴天形態",
+            "fr": "Temps Ensoleillé",
+            "de": "Sonnenform",
+            "es": "Forma Soleado",
+            "it": "Forma Splendore",
+            "en": "Sunshine Form",
+            "zh-Hans": "晴天形态"
+        }
+    ],
+    "422": [
+        {
+            "ja": "にしのうみ",
+            "ko": "서쪽바다",
+            "zh-Hant": "西海",
+            "fr": "Mer Occident",
+            "de": "Westliches Meer",
+            "es": "Mar Oeste",
+            "it": "Mare Ovest",
+            "en": "West Sea",
+            "zh-Hans": "西海"
+        },
+        {
+            "ja": "ひがしのうみ",
+            "ko": "동쪽바다",
+            "zh-Hant": "東海",
+            "fr": "Mer Orient",
+            "de": "Östliches Meer",
+            "es": "Mar Este",
+            "it": "Mare Est",
+            "en": "East Sea",
+            "zh-Hans": "东海"
+        }
+    ],
+    "423": [
+        {
+            "ja": "にしのうみ",
+            "ko": "서쪽바다",
+            "zh-Hant": "西海",
+            "fr": "Mer Occident",
+            "de": "Westliches Meer",
+            "es": "Mar Oeste",
+            "it": "Mare Ovest",
+            "en": "West Sea",
+            "zh-Hans": "西海"
+        },
+        {
+            "ja": "ひがしのうみ",
+            "ko": "동쪽바다",
+            "zh-Hant": "東海",
+            "fr": "Mer Orient",
+            "de": "Östliches Meer",
+            "es": "Mar Este",
+            "it": "Mare Est",
+            "en": "East Sea",
+            "zh-Hans": "东海"
+        }
+    ],
+    "479": [
+        {
+            "ja": "ロトムのすがた",
+            "fr": "Motisma",
+            "en": "Rotom"
+        },
+        {
+            "ja": "ヒートロトム",
+            "fr": "Motisma",
+            "en": "Rotom"
+        },
+        {
+            "ja": "ウォッシュロトム",
+            "fr": "Motisma",
+            "en": "Rotom"
+        },
+        {
+            "ja": "フロストロトム",
+            "fr": "Motisma",
+            "en": "Rotom"
+        },
+        {
+            "ja": "スピンロトム",
+            "fr": "Motisma",
+            "en": "Rotom"
+        },
+        {
+            "ja": "カットロトム",
+            "fr": "Motisma",
+            "en": "Rotom"
+        }
+    ],
+    "493": [
+        {
+            "ja": "ノーマルタイプ",
+            "fr": "Normal",
+            "de": "Normalform",
+            "es": "Tipo Normal",
+            "it": "Tipo Normale",
+            "en": "Normal Type"
+        },
+        {
+            "ja": "むしタイプ",
+            "fr": "Insecte",
+            "de": "Käfer",
+            "es": "Tipo Bicho",
+            "it": "Tipo Coleottero",
+            "en": "Bug Type"
+        },
+        {
+            "ja": "あくタイプ",
+            "fr": "Ténèbres",
+            "de": "Unlicht",
+            "es": "Tipo Siniestro",
+            "it": "Tipo Buio",
+            "en": "Dark Type"
+        },
+        {
+            "ja": "ドラゴンタイプ",
+            "fr": "Dragon",
+            "de": "Drache",
+            "es": "Tipo Dragón",
+            "it": "Tipo Drago",
+            "en": "Dragon Type"
+        },
+        {
+            "ja": "でんきタイプ",
+            "fr": "Électrik",
+            "de": "Elektro",
+            "es": "Tipo Eléctrico",
+            "it": "Tipo Elettro",
+            "en": "Electric Type"
+        },
+        {
+            "ja": "かくとうタイプ",
+            "fr": "Combat",
+            "de": "Kampf",
+            "es": "Tipo Lucha",
+            "it": "Tipo Lotta",
+            "en": "Fighting Type"
+        },
+        {
+            "ja": "ほのおタイプ",
+            "fr": "Feu",
+            "de": "Feuer",
+            "es": "Tipo Fuego",
+            "it": "Tipo Fuoco",
+            "en": "Fire Type"
+        },
+        {
+            "ja": "ひこうタイプ",
+            "fr": "Vol",
+            "de": "Flug",
+            "es": "Tipo Volador",
+            "it": "Tipo Volante",
+            "en": "Flying Type"
+        },
+        {
+            "ja": "ゴーストタイプ",
+            "fr": "Spectre",
+            "de": "Geist",
+            "es": "Tipo Fantasma",
+            "it": "Tipo Spettro",
+            "en": "Ghost Type"
+        },
+        {
+            "ja": "くさタイプ",
+            "fr": "Plante",
+            "de": "Pflanze",
+            "es": "Tipo Planta",
+            "it": "Tipo Erba",
+            "en": "Grass Type"
+        },
+        {
+            "ja": "じめんタイプ",
+            "fr": "Sol",
+            "de": "Boden",
+            "es": "Tipo Tierra",
+            "it": "Tipo Terra",
+            "en": "Ground Type"
+        },
+        {
+            "ja": "こおりタイプ",
+            "fr": "Glace",
+            "de": "Eis",
+            "es": "Tipo Hielo",
+            "it": "Tipo Ghiaccio",
+            "en": "Ice Type"
+        },
+        {
+            "ja": "どくタイプ",
+            "fr": "Poison",
+            "de": "Gift",
+            "es": "Tipo Veneno",
+            "it": "Tipo Veleno",
+            "en": "Poison Type"
+        },
+        {
+            "ja": "エスパータイプ",
+            "fr": "Psy",
+            "de": "Psycho",
+            "es": "Tipo Psíquico",
+            "it": "Tipo Psico",
+            "en": "Psychic Type"
+        },
+        {
+            "ja": "いわタイプ",
+            "fr": "Roche",
+            "de": "Gestein",
+            "es": "Tipo Roca",
+            "it": "Tipo Roccia",
+            "en": "Rock Type"
+        },
+        {
+            "ja": "はがねタイプ",
+            "fr": "Acier",
+            "de": "Stahl",
+            "es": "Tipo Acero",
+            "it": "Tipo Acciaio",
+            "en": "Steel Type"
+        },
+        {
+            "ja": "みずタイプ",
+            "fr": "Eau",
+            "de": "Wasser",
+            "es": "Tipo Agua",
+            "it": "Tipo Acqua",
+            "en": "Water Type"
+        },
+        {
+            "ja": "？？？タイプ",
+            "fr": "???",
+            "de": "???",
+            "es": "Tipo ???",
+            "it": "Tipo ???",
+            "en": "??? Type"
+        },
+        {
+            "ja": "フェアリータイプ",
+            "fr": "Fée",
+            "de": "Fee",
+            "es": "Tipo Hada",
+            "it": "Tipo Folletto",
+            "en": "Fairy Type"
+        }
+    ],
+    "585": [
+        {
+            "ja": "はるのすがた",
+            "ko": "봄의 모습",
+            "fr": "Forme Printemps",
+            "de": "Frühlingsform",
+            "es": "Forma Primavera",
+            "it": "Forma Primavera",
+            "en": "Spring Form"
+        },
+        {
+            "ja": "なつのすがた",
+            "ko": "여름의 모습",
+            "fr": "Forme Été",
+            "de": "Sommerform",
+            "es": "Forma Verano",
+            "it": "Forma Estate",
+            "en": "Summer Form"
+        },
+        {
+            "ja": "あきのすがた",
+            "ko": "가을의 모습",
+            "fr": "Forme Automne",
+            "de": "Herbstform",
+            "es": "Forma Otoño",
+            "it": "Forma Autunno",
+            "en": "Autumn Form"
+        },
+        {
+            "ja": "ふゆのすがた",
+            "ko": "겨울의 모습",
+            "fr": "Forme Hiver",
+            "de": "Winterform",
+            "es": "Forma Invierno",
+            "it": "Forma Inverno",
+            "en": "Winter Form"
+        }
+    ],
+    "586": [
+        {
+            "ja": "はるのすがた",
+            "ko": "봄의 모습",
+            "fr": "Forme Printemps",
+            "de": "Frühlingsform",
+            "es": "Forma Primavera",
+            "it": "Forma Primavera",
+            "en": "Spring Form"
+        },
+        {
+            "ja": "なつのすがた",
+            "ko": "여름의 모습",
+            "fr": "Forme Été",
+            "de": "Sommerform",
+            "es": "Forma Verano",
+            "it": "Forma Estate",
+            "en": "Summer Form"
+        },
+        {
+            "ja": "あきのすがた",
+            "ko": "가을의 모습",
+            "fr": "Forme Automne",
+            "de": "Herbstform",
+            "es": "Forma Otoño",
+            "it": "Forma Autunno",
+            "en": "Autumn Form"
+        },
+        {
+            "ja": "ふゆのすがた",
+            "ko": "겨울의 모습",
+            "fr": "Forme Hiver",
+            "de": "Winterform",
+            "es": "Forma Invierno",
+            "it": "Forma Inverno",
+            "en": "Winter Form"
+        }
+    ],
+    "649": [
+        {},
+        {
+            "ja": "アクアカセット",
+            "ko": "아쿠아카세트",
+            "fr": "Module Aqua",
+            "de": "Aquamodul",
+            "es": "HidroROM",
+            "it": "Idromodulo",
+            "en": "Douse Drive"
+        },
+        {
+            "ja": "イナズマカセット",
+            "ko": "번개카세트",
+            "fr": "Module Choc",
+            "de": "Blitzmodul",
+            "es": "FulgoROM",
+            "it": "Voltmodulo",
+            "en": "Shock Drive"
+        },
+        {
+            "ja": "ブレイズカセット",
+            "ko": "블레이즈카세트",
+            "fr": "Module Pyro",
+            "de": "Flammenmodul",
+            "es": "PiroROM",
+            "it": "Piromodulo",
+            "en": "Burn Drive"
+        },
+        {
+            "ja": "フリーズカセット",
+            "ko": "프리즈카세트",
+            "fr": "Module Cryo",
+            "de": "Gefriermodul",
+            "es": "CrioROM",
+            "it": "Gelomodulo",
+            "en": "Chill Drive"
+        }
+    ],
+    "666": [
+        {
+            "ja": "ひょうせつのもよう",
+            "ko": "빙설의 모양",
+            "fr": "Motif Blizzard",
+            "de": "Frostmuster",
+            "es": "Motivo Polar",
+            "it": "Motivo Nevi Perenni",
+            "en": "Icy Snow Pattern"
+        },
+        {
+            "ja": "ゆきぐにのもよう",
+            "ko": "설국의 모양",
+            "fr": "Motif Banquise",
+            "de": "Schneefeldmuster",
+            "es": "Motivo Taiga",
+            "it": "Motivo Nordico",
+            "en": "Polar Pattern"
+        },
+        {
+            "ja": "せつげんのもよう",
+            "ko": "설원의 모양",
+            "fr": "Motif Glace",
+            "de": "Flockenmuster",
+            "es": "Motivo Tundra",
+            "it": "Motivo Manto di Neve",
+            "en": "Tundra Pattern"
+        },
+        {
+            "ja": "たいりくのもよう",
+            "ko": "대륙의 모양",
+            "fr": "Motif Continent",
+            "de": "Kontinentalmuster",
+            "es": "Motivo Continental",
+            "it": "Motivo Continentale",
+            "en": "Continental Pattern"
+        },
+        {
+            "ja": "ていえんのもよう",
+            "ko": "정원의 모양",
+            "fr": "Motif Verdure",
+            "de": "Ziergartenmuster",
+            "es": "Motivo Vergel",
+            "it": "Motivo Prato",
+            "en": "Garden Pattern"
+        },
+        {
+            "ja": "はなぞののもよう",
+            "ko": "화원의 모양",
+            "fr": "Motif Floraison",
+            "de": "Blumenmeermuster",
+            "es": "Motivo Floral",
+            "it": "Motivo Giardinfiore",
+            "en": "Meadow Pattern"
+        },
+        {
+            "ja": "みやびなもよう",
+            "ko": "우아한 모양",
+            "fr": "Motif Monarchie",
+            "de": "Prunkmuster",
+            "es": "Motivo Oriental",
+            "it": "Motivo Eleganza",
+            "en": "Elegant Pattern"
+        },
+        {
+            "ja": "モダンなもよう",
+            "ko": "모던한 모양",
+            "fr": "Motif Métropole",
+            "de": "Innovationsmuster",
+            "es": "Motivo Moderno",
+            "it": "Motivo Trendy",
+            "en": "Modern Pattern"
+        },
+        {
+            "ja": "マリンのもよう",
+            "ko": "마린의 모양",
+            "fr": "Motif Rivage",
+            "de": "Aquamarinmuster",
+            "es": "Motivo Marino",
+            "it": "Motivo Marino",
+            "en": "Marine Pattern"
+        },
+        {
+            "ja": "ぐんとうのもよう",
+            "ko": "군도의 모양",
+            "fr": "Motif Archipel",
+            "de": "Archipelmuster",
+            "es": "Motivo Isleño",
+            "it": "Motivo Arcipelago",
+            "en": "Archipelago Pattern"
+        },
+        {
+            "ja": "こうやのもよう",
+            "ko": "황야의 모양",
+            "fr": "Motif Sécheresse",
+            "de": "Dürremuster",
+            "es": "Motivo Estepa",
+            "it": "Motivo Deserto",
+            "en": "High Plains Pattern"
+        },
+        {
+            "ja": "さじんのもよう",
+            "ko": "사진의 모양",
+            "fr": "Motif Sable",
+            "de": "Sandmuster",
+            "es": "Motivo Desierto",
+            "it": "Motivo Sabbia",
+            "en": "Sandstorm Pattern"
+        },
+        {
+            "ja": "たいがのもよう",
+            "ko": "대하의 모양",
+            "fr": "Motif Delta",
+            "de": "Flussdeltamuster",
+            "es": "Motivo Oasis",
+            "it": "Motivo Fluviale",
+            "en": "River Pattern"
+        },
+        {
+            "ja": "スコールのもよう",
+            "ko": "스콜의 모양",
+            "fr": "Motif Cyclone",
+            "de": "Monsunmuster",
+            "es": "Motivo Monzón",
+            "it": "Motivo Pluviale",
+            "en": "Monsoon Pattern"
+        },
+        {
+            "ja": "サバンナのもよう",
+            "ko": "사바나의 모양",
+            "fr": "Motif Mangrove",
+            "de": "Savannenmuster",
+            "es": "Motivo Pantano",
+            "it": "Motivo Savana",
+            "en": "Savanna Pattern"
+        },
+        {
+            "ja": "たいようのもよう",
+            "ko": "태양의 모양",
+            "fr": "Motif Zénith",
+            "de": "Sonnenmuster",
+            "es": "Motivo Solar",
+            "it": "Motivo Solare",
+            "en": "Sun Pattern"
+        },
+        {
+            "ja": "オーシャンのもよう",
+            "ko": "오션의 모양",
+            "fr": "Motif Soleil Levant",
+            "de": "Ozeanmuster",
+            "es": "Motivo Océano",
+            "it": "Motivo Oceanico",
+            "en": "Ocean Pattern"
+        },
+        {
+            "ja": "ジャングルのもよう",
+            "ko": "정글의 모양",
+            "fr": "Motif Jungle",
+            "de": "Dschungelmuster",
+            "es": "Motivo Jungla",
+            "it": "Motivo Giungla",
+            "en": "Jungle Pattern"
+        },
+        {
+            "ja": "ファンシーなもよう",
+            "ko": "팬시한 모양",
+            "fr": "Motif Fantaisie",
+            "de": "Fantasiemuster",
+            "es": "Motivo Fantasía",
+            "it": "Motivo Sbarazzino",
+            "en": "Fancy Pattern"
+        },
+        {
+            "ja": "ボールのもよう",
+            "ko": "볼의 모양",
+            "fr": "Motif Poké Ball",
+            "de": "Pokéball-Muster",
+            "es": "Motivo Poké Ball",
+            "it": "Motivo Poké Ball",
+            "en": "Poké Ball Pattern"
+        }
+    ],
+    "669": [
+        {
+            "ja": "あかいはな",
+            "ko": "빨간 꽃",
+            "fr": "Fleur Rouge",
+            "de": "Rotblütler",
+            "es": "Flor Roja",
+            "it": "Fiore Rosso",
+            "en": "Red Flower"
+        },
+        {
+            "ja": "きいろのはな",
+            "ko": "노란 꽃",
+            "fr": "Fleur Jaune",
+            "de": "Gelbblütler",
+            "es": "Flor Amarilla",
+            "it": "Fiore Giallo",
+            "en": "Yellow Flower"
+        },
+        {
+            "ja": "オレンジいろのはな",
+            "ko": "오렌지색 꽃",
+            "fr": "Fleur Orange",
+            "de": "Orangeblütler",
+            "es": "Flor Naranja",
+            "it": "Fiore Arancione",
+            "en": "Orange Flower"
+        },
+        {
+            "ja": "あおいはな",
+            "ko": "파란 꽃",
+            "fr": "Fleur Bleue",
+            "de": "Blaublütler",
+            "es": "Flor Azul",
+            "it": "Fiore Blu",
+            "en": "Blue Flower"
+        },
+        {
+            "ja": "しろいはな",
+            "ko": "하얀 꽃",
+            "fr": "Fleur Blanche",
+            "de": "Weißblütler",
+            "es": "Flor Blanca",
+            "it": "Fiore Bianco",
+            "en": "White Flower"
+        }
+    ],
+    "670": [
+        {
+            "ja": "あかいはな",
+            "ko": "빨간 꽃",
+            "fr": "Fleur Rouge",
+            "de": "Rotblütler",
+            "es": "Flor Roja",
+            "it": "Fiore Rosso",
+            "en": "Red Flower"
+        },
+        {
+            "ja": "きいろのはな",
+            "ko": "노란 꽃",
+            "fr": "Fleur Jaune",
+            "de": "Gelbblütler",
+            "es": "Flor Amarilla",
+            "it": "Fiore Giallo",
+            "en": "Yellow Flower"
+        },
+        {
+            "ja": "オレンジいろのはな",
+            "ko": "오렌지색 꽃",
+            "fr": "Fleur Orange",
+            "de": "Orangeblütler",
+            "es": "Flor Naranja",
+            "it": "Fiore Arancione",
+            "en": "Orange Flower"
+        },
+        {
+            "ja": "あおいはな",
+            "ko": "파란 꽃",
+            "fr": "Fleur Bleue",
+            "de": "Blaublütler",
+            "es": "Flor Azul",
+            "it": "Fiore Blu",
+            "en": "Blue Flower"
+        },
+        {
+            "ja": "しろいはな",
+            "ko": "하얀 꽃",
+            "fr": "Fleur Blanche",
+            "de": "Weißblütler",
+            "es": "Flor Blanca",
+            "it": "Fiore Bianco",
+            "en": "White Flower"
+        }
+    ],
+    "671": [
+        {
+            "ja": "あかいはな",
+            "ko": "빨간 꽃",
+            "fr": "Fleur Rouge",
+            "de": "Rotblütler",
+            "es": "Flor Roja",
+            "it": "Fiore Rosso",
+            "en": "Red Flower"
+        },
+        {
+            "ja": "きいろのはな",
+            "ko": "노란 꽃",
+            "fr": "Fleur Jaune",
+            "de": "Gelbblütler",
+            "es": "Flor Amarilla",
+            "it": "Fiore Giallo",
+            "en": "Yellow Flower"
+        },
+        {
+            "ja": "オレンジいろのはな",
+            "ko": "오렌지색 꽃",
+            "fr": "Fleur Orange",
+            "de": "Orangeblütler",
+            "es": "Flor Naranja",
+            "it": "Fiore Arancione",
+            "en": "Orange Flower"
+        },
+        {
+            "ja": "あおいはな",
+            "ko": "파란 꽃",
+            "fr": "Fleur Bleue",
+            "de": "Blaublütler",
+            "es": "Flor Azul",
+            "it": "Fiore Blu",
+            "en": "Blue Flower"
+        },
+        {
+            "ja": "しろいはな",
+            "ko": "하얀 꽃",
+            "fr": "Fleur Blanche",
+            "de": "Weißblütler",
+            "es": "Flor Blanca",
+            "it": "Fiore Bianco",
+            "en": "White Flower"
+        }
+    ],
+    "676": [
+        {
+            "ja": "やせいのすがた",
+            "ko": "야생의 모습",
+            "fr": "Forme Sauvage",
+            "de": "Zottelform",
+            "es": "Forma Salvaje",
+            "it": "Forma Selvatica",
+            "en": "Natural Form"
+        },
+        {
+            "ja": "ハートカット",
+            "ko": "하트컷",
+            "fr": "Coupe Cœur",
+            "de": "Herzchenschnitt",
+            "es": "Corte Corazón",
+            "it": "Taglio Cuore",
+            "en": "Heart Trim"
+        },
+        {
+            "ja": "スターカット",
+            "ko": "스타컷",
+            "fr": "Coupe Étoile",
+            "de": "Sternchenschnitt",
+            "es": "Corte Estrella",
+            "it": "Taglio Stella",
+            "en": "Star Trim"
+        },
+        {
+            "ja": "ダイヤカット",
+            "ko": "다이아컷",
+            "fr": "Coupe Diamant",
+            "de": "Diamantenschnitt",
+            "es": "Corte Rombo",
+            "it": "Taglio Diamante",
+            "en": "Diamond Trim"
+        },
+        {
+            "ja": "レディカット",
+            "ko": "레이디컷",
+            "fr": "Coupe Demoiselle",
+            "de": "Fräuleinschnitt",
+            "es": "Corte Señorita",
+            "it": "Taglio Signorina",
+            "en": "Debutante Trim"
+        },
+        {
+            "ja": "マダムカット",
+            "ko": "마담컷",
+            "fr": "Coupe Madame",
+            "de": "Damenschnitt",
+            "es": "Corte Dama",
+            "it": "Taglio Gentildonna",
+            "en": "Matron Trim"
+        },
+        {
+            "ja": "ジェントルカット",
+            "ko": "젠틀컷",
+            "fr": "Coupe Monsieur",
+            "de": "Kavaliersschnitt",
+            "es": "Corte Caballero",
+            "it": "Taglio Gentiluomo",
+            "en": "Dandy Trim"
+        },
+        {
+            "ja": "クイーンカット",
+            "ko": "퀸컷",
+            "fr": "Coupe Reine",
+            "de": "Königinnenschnitt",
+            "es": "Corte Aristocrático",
+            "it": "Taglio Regina",
+            "en": "La Reine Trim"
+        },
+        {
+            "ja": "カブキカット",
+            "ko": "가부키컷",
+            "fr": "Coupe Kabuki",
+            "de": "Kabuki-Schnitt",
+            "es": "Corte Kabuki",
+            "it": "Taglio Kabuki",
+            "en": "Kabuki Trim"
+        },
+        {
+            "ja": "キングダムカット",
+            "ko": "킹덤컷",
+            "fr": "Coupe Pharaon",
+            "de": "Herrscherschnitt",
+            "es": "Corte Faraónico",
+            "it": "Taglio Faraone",
+            "en": "Pharaoh Trim"
+        }
+    ],
+    "716": [
+        {
+            "ja": "アクティブモード",
+            "ko": "액티브모드",
+            "zh-Hant": "活躍模式",
+            "fr": "Mode Déchaîné",
+            "de": "Aktiv-Modus",
+            "es": "Modo Activo",
+            "it": "Modo Attivo",
+            "en": "Active Mode",
+            "zh-Hans": "活跃模式"
+        },
+        {
+            "ja": "リラックスモード",
+            "ko": "릴랙스모드",
+            "zh-Hant": "放鬆模式",
+            "fr": "Mode Paisible",
+            "de": "Ruhe-Modus",
+            "es": "Modo Relajado",
+            "it": "Modo Relax",
+            "en": "Neutral Mode",
+            "zh-Hans": "放松模式"
+        }
+    ],
+    "773": [
+        {
+            "ja": "タイプ：ノーマル",
+            "ko": "타입:노말",
+            "zh-Hant": "屬性：一般",
+            "fr": "Type : Normal",
+            "de": "Typ:Normal",
+            "es": "Tipo: Normal",
+            "it": "Tipo Normale",
+            "en": "Type: Normal",
+            "zh-Hans": "属性：一般"
+        },
+        {
+            "ja": "タイプ：ファイト",
+            "ko": "타입:파이팅",
+            "zh-Hant": "屬性：戰鬥",
+            "fr": "Type : Combat",
+            "de": "Typ:Kampf",
+            "es": "Tipo: Lucha",
+            "it": "Tipo Lotta",
+            "en": "Type: Fighting",
+            "zh-Hans": "属性：战斗"
+        },
+        {
+            "ja": "タイプ：フライング",
+            "ko": "타입:플라잉",
+            "zh-Hant": "屬性：飛翔",
+            "fr": "Type : Vol",
+            "de": "Typ:Flug",
+            "es": "Tipo: Volador",
+            "it": "Tipo Volante",
+            "en": "Type: Flying",
+            "zh-Hans": "属性：飞翔"
+        },
+        {
+            "ja": "タイプ：ポイズン",
+            "ko": "타입:포이즌",
+            "zh-Hant": "屬性：毒",
+            "fr": "Type : Poison",
+            "de": "Typ:Gift",
+            "es": "Tipo: Veneno",
+            "it": "Tipo Veleno",
+            "en": "Type: Poison",
+            "zh-Hans": "属性：毒"
+        },
+        {
+            "ja": "タイプ：グラウンド",
+            "ko": "타입:그라운드",
+            "zh-Hant": "屬性：大地",
+            "fr": "Type : Sol",
+            "de": "Typ:Boden",
+            "es": "Tipo: Tierra",
+            "it": "Tipo Terra",
+            "en": "Type: Ground",
+            "zh-Hans": "属性：大地"
+        },
+        {
+            "ja": "タイプ：ロック",
+            "ko": "타입:락",
+            "zh-Hant": "屬性：岩石",
+            "fr": "Type : Roche",
+            "de": "Typ:Gestein",
+            "es": "Tipo: Roca",
+            "it": "Tipo Roccia",
+            "en": "Type: Rock",
+            "zh-Hans": "属性：岩石"
+        },
+        {
+            "ja": "タイプ：バグ",
+            "ko": "타입:버그",
+            "zh-Hant": "屬性：蟲子",
+            "fr": "Type : Insecte",
+            "de": "Typ:Käfer",
+            "es": "Tipo: Bicho",
+            "it": "Tipo Coleottero",
+            "en": "Type: Bug",
+            "zh-Hans": "属性：虫子"
+        },
+        {
+            "ja": "タイプ：ゴースト",
+            "ko": "타입:고스트",
+            "zh-Hant": "屬性：幽靈",
+            "fr": "Type : Spectre",
+            "de": "Typ:Geist",
+            "es": "Tipo: Fantasma",
+            "it": "Tipo Spettro",
+            "en": "Type: Ghost",
+            "zh-Hans": "属性：幽灵"
+        },
+        {
+            "ja": "タイプ：スチール",
+            "ko": "타입:스틸",
+            "zh-Hant": "屬性：鋼鐵",
+            "fr": "Type : Acier",
+            "de": "Typ:Stahl",
+            "es": "Tipo: Acero",
+            "it": "Tipo Acciaio",
+            "en": "Type: Steel",
+            "zh-Hans": "属性：钢铁"
+        },
+        {
+            "ja": "タイプ：ファイヤー",
+            "ko": "타입:파이어",
+            "zh-Hant": "屬性：火焰",
+            "fr": "Type : Feu",
+            "de": "Typ:Feuer",
+            "es": "Tipo: Fuego",
+            "it": "Tipo Fuoco",
+            "en": "Type: Fire",
+            "zh-Hans": "属性：火焰"
+        },
+        {
+            "ja": "タイプ：ウオーター",
+            "ko": "타입:워터",
+            "zh-Hant": "屬性：清水",
+            "fr": "Type : Eau",
+            "de": "Typ:Wasser",
+            "es": "Tipo: Agua",
+            "it": "Tipo Acqua",
+            "en": "Type: Water",
+            "zh-Hans": "属性：清水"
+        },
+        {
+            "ja": "タイプ：グラス",
+            "ko": "타입:그래스",
+            "zh-Hant": "屬性：青草",
+            "fr": "Type : Plante",
+            "de": "Typ:Pflanze",
+            "es": "Tipo: Planta",
+            "it": "Tipo Erba",
+            "en": "Type: Grass",
+            "zh-Hans": "属性：青草"
+        },
+        {
+            "ja": "タイプ：エレクトロ",
+            "ko": "타입:일렉트릭",
+            "zh-Hant": "屬性：電子",
+            "fr": "Type : Électrik",
+            "de": "Typ:Elektro",
+            "es": "Tipo: Eléctrico",
+            "it": "Tipo Elettro",
+            "en": "Type: Electric",
+            "zh-Hans": "属性：电子"
+        },
+        {
+            "ja": "タイプ：サイキック",
+            "ko": "타입:사이킥",
+            "zh-Hant": "屬性：精神",
+            "fr": "Type : Psy",
+            "de": "Typ:Psycho",
+            "es": "Tipo: Psíquico",
+            "it": "Tipo Psico",
+            "en": "Type: Psychic",
+            "zh-Hans": "属性：精神"
+        },
+        {
+            "ja": "タイプ：アイス",
+            "ko": "타입:아이스",
+            "zh-Hant": "屬性：冰雪",
+            "fr": "Type : Glace",
+            "de": "Typ:Eis",
+            "es": "Tipo: Hielo",
+            "it": "Tipo Ghiaccio",
+            "en": "Type: Ice",
+            "zh-Hans": "属性：冰雪"
+        },
+        {
+            "ja": "タイプ：ドラゴン",
+            "ko": "타입:드래곤",
+            "zh-Hant": "屬性：龍",
+            "fr": "Type : Dragon",
+            "de": "Typ:Drache",
+            "es": "Tipo: Dragón",
+            "it": "Tipo Drago",
+            "en": "Type: Dragon",
+            "zh-Hans": "属性：龙"
+        },
+        {
+            "ja": "タイプ：ダーク",
+            "ko": "타입:다크",
+            "zh-Hant": "屬性：黑暗",
+            "fr": "Type : Ténèbres",
+            "de": "Typ:Unlicht",
+            "es": "Tipo: Siniestro",
+            "it": "Tipo Buio",
+            "en": "Type: Dark",
+            "zh-Hans": "属性：黑暗"
+        },
+        {
+            "ja": "タイプ：フェアリー",
+            "ko": "타입:페어리",
+            "zh-Hant": "屬性：妖精",
+            "fr": "Type : Fée",
+            "de": "Typ:Fee",
+            "es": "Tipo: Hada",
+            "it": "Tipo Folletto",
+            "en": "Type: Fairy",
+            "zh-Hans": "属性：妖精"
+        }
+    ],
+    "854": [
+        {
+            "ja": "がんさくフォルム",
+            "de": "Fälschungsform",
+            "en": "Phony Form"
+        },
+        {
+            "ja": "しんさくフォルム",
+            "de": "Originalform",
+            "en": "Antique Form"
+        }
+    ],
+    "855": [
+        {
+            "ja": "がんさくフォルム",
+            "de": "Fälschungsform",
+            "en": "Phony Form"
+        },
+        {
+            "ja": "しんさくフォルム",
+            "de": "Originalform",
+            "en": "Antique Form"
+        }
+    ],
+    "869": [
+        {
+            "ja": "ミルキィバニラ",
+            "ko": "밀키바닐라",
+            "zh-Hant": "奶香香草",
+            "fr": "Lait Vanille",
+            "de": "Vanille-Creme",
+            "es": "Crema de Vainilla",
+            "it": "Lattevaniglia",
+            "en": "Vanilla Cream",
+            "zh-Hans": "奶香香草"
+        },
+        {
+            "ja": "ミルキィルビー",
+            "ko": "밀키루비",
+            "zh-Hant": "奶香紅鑽",
+            "fr": "Lait Ruby",
+            "de": "Ruby-Creme",
+            "es": "Crema Rosa",
+            "it": "Latterosa",
+            "en": "Ruby Cream",
+            "zh-Hans": "奶香红钻"
+        },
+        {
+            "ja": "ミルキィまっちゃ",
+            "ko": "밀키말차",
+            "zh-Hant": "奶香抹茶",
+            "fr": "Lait Matcha",
+            "de": "Matcha-Creme",
+            "es": "Crema de Té",
+            "it": "Lattematcha",
+            "en": "Matcha Cream",
+            "zh-Hans": "奶香抹茶"
+        },
+        {
+            "ja": "ミルキィミント",
+            "ko": "밀키민트",
+            "zh-Hant": "奶香薄荷",
+            "fr": "Lait Menthe",
+            "de": "Minz-Creme",
+            "es": "Crema de Menta",
+            "it": "Lattementa",
+            "en": "Mint Cream",
+            "zh-Hans": "奶香薄荷"
+        },
+        {
+            "ja": "ミルキィレモン",
+            "ko": "밀키레몬",
+            "zh-Hant": "奶香檸檬",
+            "fr": "Lait Citron",
+            "de": "Zitronen-Creme",
+            "es": "Crema de Limón",
+            "it": "Lattelimone",
+            "en": "Lemon Cream",
+            "zh-Hans": "奶香柠檬"
+        },
+        {
+            "ja": "ミルキィソルト",
+            "ko": "밀키솔트",
+            "zh-Hant": "奶香雪鹽",
+            "fr": "Lait Salé",
+            "de": "Salz-Creme",
+            "es": "Crema Salada",
+            "it": "Lattesale",
+            "en": "Salted Cream",
+            "zh-Hans": "奶香雪盐"
+        },
+        {
+            "ja": "ルビーミックス",
+            "ko": "루비믹스",
+            "zh-Hant": "紅鑽綜合",
+            "fr": "Mélange Ruby",
+            "de": "Ruby-Mix",
+            "es": "Mezcla Rosa",
+            "it": "Rosamix",
+            "en": "Ruby Swirl",
+            "zh-Hans": "红钻综合"
+        },
+        {
+            "ja": "キャラメルミックス",
+            "ko": "캐러멜믹스",
+            "zh-Hant": "焦糖綜合",
+            "fr": "Mélange Caramel",
+            "de": "Karamell-Mix",
+            "es": "Mezcla Caramelo",
+            "it": "Caramelmix",
+            "en": "Caramel Swirl",
+            "zh-Hans": "焦糖综合"
+        },
+        {
+            "ja": "トリプルミックス",
+            "ko": "트리플믹스",
+            "zh-Hant": "三色綜合",
+            "fr": "Mélange Tricolore",
+            "de": "Trio-Mix",
+            "es": "Tres Sabores",
+            "it": "Triplomix",
+            "en": "Rainbow Swirl",
+            "zh-Hans": "三色综合"
+        }
+    ],
+    "3": [
+        {
+            "ja": "フシギバナ"
+        },
+        {
+            "ja": "メガフシギバナ"
+        }
+    ],
+    "6": [
+        {
+            "ja": "リザードン"
+        },
+        {
+            "ja": "メガリザードンＸ"
+        },
+        {
+            "ja": "メガリザードンＹ"
+        }
+    ],
+    "9": [
+        {
+            "ja": "カメックス"
+        },
+        {
+            "ja": "メガカメックス"
+        }
+    ],
+    "12": [
+        {
+            "ja": "バタフリー"
+        }
+    ],
+    "15": [
+        {
+            "ja": "スピアー"
+        },
+        {
+            "ja": "メガスピアー"
+        }
+    ],
+    "18": [
+        {
+            "ja": "ピジョット"
+        },
+        {
+            "ja": "メガピジョット"
+        }
+    ],
+    "19": [
+        {
+            "ja": "コラッタ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "20": [
+        {
+            "ja": "ラッタ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "25": [
+        {
+            "ja": "ピカチュウ"
+        }
+    ],
+    "26": [
+        {
+            "ja": "ライチュウ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "27": [
+        {
+            "ja": "サンド"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "28": [
+        {
+            "ja": "サンドパン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "37": [
+        {
+            "ja": "ロコン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "38": [
+        {
+            "ja": "キュウコン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "50": [
+        {
+            "ja": "ディグダ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "51": [
+        {
+            "ja": "ダグトリオ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "52": [
+        {
+            "ja": "ニャース"
+        },
+        {
+            "ja": "アローラのすがた"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "53": [
+        {
+            "ja": "ペルシアン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "58": [
+        {
+            "ja": "ガーディ"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "59": [
+        {
+            "ja": "ウインディ"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "65": [
+        {
+            "ja": "フーディン"
+        },
+        {
+            "ja": "メガフーディン"
+        }
+    ],
+    "68": [
+        {
+            "ja": "カイリキー"
+        }
+    ],
+    "74": [
+        {
+            "ja": "イシツブテ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "75": [
+        {
+            "ja": "ゴローン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "76": [
+        {
+            "ja": "ゴローニャ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "77": [
+        {
+            "ja": "ポニータ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "78": [
+        {
+            "ja": "ギャロップ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "79": [
+        {
+            "ja": "ヤドン"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "80": [
+        {
+            "ja": "ヤドラン"
+        },
+        {
+            "ja": "メガヤドラン"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "83": [
+        {
+            "ja": "カモネギ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "88": [
+        {
+            "ja": "ベトベター"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "89": [
+        {
+            "ja": "ベトベトン"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "94": [
+        {
+            "ja": "ゲンガー"
+        },
+        {
+            "ja": "メガゲンガー"
+        }
+    ],
+    "99": [
+        {
+            "ja": "キングラー"
+        }
+    ],
+    "100": [
+        {
+            "ja": "ビリリダマ"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "101": [
+        {
+            "ja": "マルマイン"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "103": [
+        {
+            "ja": "ナッシー"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "105": [
+        {
+            "ja": "ガラガラ"
+        },
+        {
+            "ja": "アローラのすがた"
+        }
+    ],
+    "110": [
+        {
+            "ja": "マタドガス"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "115": [
+        {
+            "ja": "ガルーラ"
+        },
+        {
+            "ja": "メガガルーラ"
+        }
+    ],
+    "122": [
+        {
+            "ja": "バリヤード"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "127": [
+        {
+            "ja": "カイロス"
+        },
+        {
+            "ja": "メガカイロス"
+        }
+    ],
+    "128": [
+        {
+            "ja": "ケンタロス"
+        },
+        {
+            "ja": "パルデアのすがた・コンバットしゅ"
+        },
+        {
+            "ja": "パルデアのすがた・ブレイズしゅ"
+        },
+        {
+            "ja": "パルデアのすがた・ウォーターしゅ"
+        }
+    ],
+    "130": [
+        {
+            "ja": "ギャラドス"
+        },
+        {
+            "ja": "メガギャラドス"
+        }
+    ],
+    "131": [
+        {
+            "ja": "ラプラス"
+        }
+    ],
+    "133": [
+        {
+            "ja": "イーブイ"
+        }
+    ],
+    "142": [
+        {
+            "ja": "プテラ"
+        },
+        {
+            "ja": "メガプテラ"
+        }
+    ],
+    "143": [
+        {
+            "ja": "カビゴン"
+        }
+    ],
+    "144": [
+        {
+            "ja": "フリーザー"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "145": [
+        {
+            "ja": "サンダー"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "146": [
+        {
+            "ja": "ファイヤー"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "150": [
+        {
+            "ja": "ミュウツー"
+        },
+        {
+            "ja": "メガミュウツーＸ"
+        },
+        {
+            "ja": "メガミュウツーＹ"
+        }
+    ],
+    "157": [
+        {
+            "ja": "バクフーン"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "181": [
+        {
+            "ja": "デンリュウ"
+        },
+        {
+            "ja": "メガデンリュウ"
+        }
+    ],
+    "194": [
+        {
+            "ja": "ウパー"
+        },
+        {
+            "ja": "パルデアのすがた"
+        }
+    ],
+    "199": [
+        {
+            "ja": "ヤドキング"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "208": [
+        {
+            "ja": "ハガネール"
+        },
+        {
+            "ja": "メガハガネール"
+        }
+    ],
+    "211": [
+        {
+            "ja": "ハリーセン"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "212": [
+        {
+            "ja": "ハッサム"
+        },
+        {
+            "ja": "メガハッサム"
+        }
+    ],
+    "214": [
+        {
+            "ja": "ヘラクロス"
+        },
+        {
+            "ja": "メガヘラクロス"
+        }
+    ],
+    "215": [
+        {
+            "ja": "ニューラ"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "222": [
+        {
+            "ja": "サニーゴ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "229": [
+        {
+            "ja": "ヘルガー"
+        },
+        {
+            "ja": "メガヘルガー"
+        }
+    ],
+    "248": [
+        {
+            "ja": "バンギラス"
+        },
+        {
+            "ja": "メガバンギラス"
+        }
+    ],
+    "254": [
+        {
+            "ja": "ジュカイン"
+        },
+        {
+            "ja": "メガジュカイン"
+        }
+    ],
+    "257": [
+        {
+            "ja": "バシャーモ"
+        },
+        {
+            "ja": "メガバシャーモ"
+        }
+    ],
+    "260": [
+        {
+            "ja": "ラグラージ"
+        },
+        {
+            "ja": "メガラグラージ"
+        }
+    ],
+    "263": [
+        {
+            "ja": "ジグザグマ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "264": [
+        {
+            "ja": "マッスグマ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "282": [
+        {
+            "ja": "サーナイト"
+        },
+        {
+            "ja": "メガサーナイト"
+        }
+    ],
+    "302": [
+        {
+            "ja": "ヤミラミ"
+        },
+        {
+            "ja": "メガヤミラミ"
+        }
+    ],
+    "303": [
+        {
+            "ja": "クチート"
+        },
+        {
+            "ja": "メガクチート"
+        }
+    ],
+    "306": [
+        {
+            "ja": "ボスゴドラ"
+        },
+        {
+            "ja": "メガボスゴドラ"
+        }
+    ],
+    "308": [
+        {
+            "ja": "チャーレム"
+        },
+        {
+            "ja": "メガチャーレム"
+        }
+    ],
+    "310": [
+        {
+            "ja": "ライボルト"
+        },
+        {
+            "ja": "メガライボルト"
+        }
+    ],
+    "319": [
+        {
+            "ja": "サメハダー"
+        },
+        {
+            "ja": "メガサメハダー"
+        }
+    ],
+    "323": [
+        {
+            "ja": "バクーダ"
+        },
+        {
+            "ja": "メガバクーダ"
+        }
+    ],
+    "334": [
+        {
+            "ja": "チルタリス"
+        },
+        {
+            "ja": "メガチルタリス"
+        }
+    ],
+    "354": [
+        {
+            "ja": "ジュペッタ"
+        },
+        {
+            "ja": "メガジュペッタ"
+        }
+    ],
+    "359": [
+        {
+            "ja": "アブソル"
+        },
+        {
+            "ja": "メガアブソル"
+        }
+    ],
+    "362": [
+        {
+            "ja": "オニゴーリ"
+        },
+        {
+            "ja": "メガオニゴーリ"
+        }
+    ],
+    "373": [
+        {
+            "ja": "ボーマンダ"
+        },
+        {
+            "ja": "メガボーマンダ"
+        }
+    ],
+    "376": [
+        {
+            "ja": "メタグロス"
+        },
+        {
+            "ja": "メガメタグロス"
+        }
+    ],
+    "380": [
+        {
+            "ja": "ラティアス"
+        },
+        {
+            "ja": "メガラティアス"
+        }
+    ],
+    "381": [
+        {
+            "ja": "ラティオス"
+        },
+        {
+            "ja": "メガラティオス"
+        }
+    ],
+    "382": [
+        {
+            "ja": "カイオーガ"
+        },
+        {
+            "ja": "ゲンシカイオーガ"
+        }
+    ],
+    "383": [
+        {
+            "ja": "グラードン"
+        },
+        {
+            "ja": "ゲンシグラードン"
+        }
+    ],
+    "384": [
+        {
+            "ja": "レックウザ"
+        },
+        {
+            "ja": "メガレックウザ"
+        }
+    ],
+    "386": [
+        {
+            "ja": "ノーマルフォルム"
+        },
+        {
+            "ja": "アタックフォルム"
+        },
+        {
+            "ja": "ディフェンスフォルム"
+        },
+        {
+            "ja": "スピードフォルム"
+        }
+    ],
+    "428": [
+        {
+            "ja": "ミミロップ"
+        },
+        {
+            "ja": "メガミミロップ"
+        }
+    ],
+    "445": [
+        {
+            "ja": "ガブリアス"
+        },
+        {
+            "ja": "メガガブリアス"
+        }
+    ],
+    "448": [
+        {
+            "ja": "ルカリオ"
+        },
+        {
+            "ja": "メガルカリオ"
+        }
+    ],
+    "460": [
+        {
+            "ja": "ユキノオー"
+        },
+        {
+            "ja": "メガユキノオー"
+        }
+    ],
+    "475": [
+        {
+            "ja": "エルレイド"
+        },
+        {
+            "ja": "メガエルレイド"
+        }
+    ],
+    "483": [
+        {
+            "ja": "ディアルガ"
+        },
+        {
+            "ja": "オリジンフォルム"
+        }
+    ],
+    "484": [
+        {
+            "ja": "パルキア"
+        },
+        {
+            "ja": "オリジンフォルム"
+        }
+    ],
+    "487": [
+        {
+            "ja": "アナザーフォルム"
+        },
+        {
+            "ja": "オリジンフォルム"
+        }
+    ],
+    "492": [
+        {
+            "ja": "ランドフォルム"
+        },
+        {
+            "ja": "スカイフォルム"
+        }
+    ],
+    "503": [
+        {
+            "ja": "ダイケンキ"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "521": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "531": [
+        {
+            "ja": "タブンネ"
+        },
+        {
+            "ja": "メガタブンネ"
+        }
+    ],
+    "549": [
+        {
+            "ja": "ドレディア"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "550": [
+        {
+            "ja": "あかすじのすがた"
+        },
+        {
+            "ja": "あおすじのすがた"
+        },
+        {
+            "ja": "しろすじのすがた"
+        }
+    ],
+    "554": [
+        {
+            "ja": "ダルマッカ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "555": [
+        {
+            "ja": "ノーマルモード"
+        },
+        {
+            "ja": "ダルマモード"
+        },
+        {
+            "ja": "ガラルのすがた"
+        },
+        {
+            "ja": "ガラルのすがた・ダルマモード"
+        }
+    ],
+    "562": [
+        {
+            "ja": "デスマス"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "569": [
+        {
+            "ja": "ダストダス"
+        }
+    ],
+    "570": [
+        {
+            "ja": "ゾロア"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "571": [
+        {
+            "ja": "ゾロアーク"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "592": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "593": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "618": [
+        {
+            "ja": "マッギョ"
+        },
+        {
+            "ja": "ガラルのすがた"
+        }
+    ],
+    "628": [
+        {
+            "ja": "ウォーグル"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "641": [
+        {
+            "ja": "けしんフォルム"
+        },
+        {
+            "ja": "れいじゅうフォルム"
+        }
+    ],
+    "642": [
+        {
+            "ja": "けしんフォルム"
+        },
+        {
+            "ja": "れいじゅうフォルム"
+        }
+    ],
+    "645": [
+        {
+            "ja": "けしんフォルム"
+        },
+        {
+            "ja": "れいじゅうフォルム"
+        }
+    ],
+    "646": [
+        {
+            "ja": "キュレムのすがた"
+        },
+        {
+            "ja": "ホワイトキュレム"
+        },
+        {
+            "ja": "ブラックキュレム"
+        }
+    ],
+    "647": [
+        {
+            "ja": "いつものすがた"
+        },
+        {
+            "ja": "かくごのすがた"
+        }
+    ],
+    "648": [
+        {
+            "ja": "ボイスフォルム"
+        },
+        {
+            "ja": "ステップフォルム"
+        }
+    ],
+    "668": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "678": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "681": [
+        {
+            "ja": "シールドフォルム"
+        },
+        {
+            "ja": "ブレードフォルム"
+        }
+    ],
+    "705": [
+        {
+            "ja": "ヌメイル"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "706": [
+        {
+            "ja": "ヌメルゴン"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "713": [
+        {
+            "ja": "クレベース"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "718": [
+        {
+            "ja": "５０％フォルム"
+        },
+        {
+            "ja": "１０％フォルム"
+        },
+        {
+            "ja": "パーフェクトフォルム"
+        }
+    ],
+    "719": [
+        {
+            "ja": "ディアンシー"
+        },
+        {
+            "ja": "メガディアンシー"
+        }
+    ],
+    "720": [
+        {
+            "ja": "いましめられしフーパ"
+        },
+        {
+            "ja": "ときはなたれしフーパ"
+        }
+    ],
+    "724": [
+        {
+            "ja": "ジュナイパー"
+        },
+        {
+            "ja": "ヒスイのすがた"
+        }
+    ],
+    "741": [
+        {
+            "ja": "めらめらスタイル"
+        },
+        {
+            "ja": "ぱちぱちスタイル"
+        },
+        {
+            "ja": "ふらふらスタイル"
+        },
+        {
+            "ja": "まいまいスタイル"
+        }
+    ],
+    "745": [
+        {
+            "ja": "まひるのすがた"
+        },
+        {
+            "ja": "まよなかのすがた"
+        },
+        {
+            "ja": "たそがれのすがた"
+        }
+    ],
+    "746": [
+        {
+            "ja": "たんどくのすがた"
+        },
+        {
+            "ja": "むれたすがた"
+        }
+    ],
+    "774": [
+        {
+            "ja": "りゅうせいのすがた"
+        },
+        {
+            "ja": "あかいろのコア"
+        }
+    ],
+    "800": [
+        {
+            "ja": "ネクロズマ"
+        },
+        {
+            "ja": "たそがれのたてがみ"
+        },
+        {
+            "ja": "あかつきのつばさ"
+        },
+        {
+            "ja": "ウルトラネクロズマ"
+        }
+    ],
+    "809": [
+        {
+            "ja": "メルメタル"
+        }
+    ],
+    "812": [
+        {
+            "ja": "ゴリランダー"
+        }
+    ],
+    "815": [
+        {
+            "ja": "エースバーン"
+        }
+    ],
+    "818": [
+        {
+            "ja": "インテレオン"
+        }
+    ],
+    "823": [
+        {
+            "ja": "アーマーガア"
+        }
+    ],
+    "826": [
+        {
+            "ja": "イオルブ"
+        }
+    ],
+    "834": [
+        {
+            "ja": "カジリガメ"
+        }
+    ],
+    "839": [
+        {
+            "ja": "セキタンザン"
+        }
+    ],
+    "841": [
+        {
+            "ja": "アップリュー"
+        }
+    ],
+    "842": [
+        {
+            "ja": "タルップル"
+        }
+    ],
+    "844": [
+        {
+            "ja": "サダイジャ"
+        }
+    ],
+    "849": [
+        {
+            "ja": "ハイなすがた"
+        },
+        {
+            "ja": "ローなすがた"
+        }
+    ],
+    "851": [
+        {
+            "ja": "マルヤクデ"
+        }
+    ],
+    "858": [
+        {
+            "ja": "ブリムオン"
+        }
+    ],
+    "861": [
+        {
+            "ja": "オーロンゲ"
+        }
+    ],
+    "875": [
+        {
+            "ja": "アイスフェイス"
+        },
+        {
+            "ja": "ナイスフェイス"
+        }
+    ],
+    "876": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "877": [
+        {
+            "ja": "まんぷくもよう"
+        },
+        {
+            "ja": "はらぺこもよう"
+        }
+    ],
+    "879": [
+        {
+            "ja": "ダイオウドウ"
+        }
+    ],
+    "884": [
+        {
+            "ja": "ジュラルドン"
+        }
+    ],
+    "888": [
+        {
+            "ja": "れきせんのゆうしゃ"
+        },
+        {
+            "ja": "けんのおう"
+        }
+    ],
+    "889": [
+        {
+            "ja": "れきせんのゆうしゃ"
+        },
+        {
+            "ja": "たてのおう"
+        }
+    ],
+    "892": [
+        {
+            "ja": "いちげきのかた"
+        },
+        {
+            "ja": "れんげきのかた"
+        }
+    ],
+    "898": [
+        {
+            "ja": "バドレックス"
+        },
+        {
+            "ja": "はくばじょうのすがた"
+        },
+        {
+            "ja": "こくばじょうのすがた"
+        }
+    ],
+    "902": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "905": [
+        {
+            "ja": "けしんフォルム"
+        },
+        {
+            "ja": "れいじゅうフォルム"
+        }
+    ],
+    "916": [
+        {
+            "ja": "オスのすがた"
+        },
+        {
+            "ja": "メスのすがた"
+        }
+    ],
+    "925": [
+        {
+            "ja": "３びきかぞく"
+        },
+        {
+            "ja": "４ひきかぞく"
+        }
+    ],
+    "931": [
+        {
+            "ja": "グリーンフェザー"
+        },
+        {
+            "ja": "ブルーフェザー"
+        },
+        {
+            "ja": "イエローフェザー"
+        },
+        {
+            "ja": "ホワイトフェザー"
+        }
+    ],
+    "964": [
+        {
+            "ja": "ナイーブフォルム"
+        },
+        {
+            "ja": "マイティフォルム"
+        }
+    ],
+    "978": [
+        {
+            "ja": "そったすがた"
+        },
+        {
+            "ja": "たれたすがた"
+        },
+        {
+            "ja": "のびたすがた"
+        }
+    ],
+    "982": [
+        {
+            "ja": "ふたふしフォルム"
+        },
+        {
+            "ja": "みつふしフォルム"
+        }
+    ],
+    "999": [
+        {
+            "ja": "はこフォルム"
+        },
+        {
+            "ja": "とほフォルム"
+        }
+    ]
+}

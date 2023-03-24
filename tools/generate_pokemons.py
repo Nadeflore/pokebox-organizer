@@ -1,3 +1,5 @@
+""" Generate pokemons data json from: pokemon home images, csv file containing pokemon names and id in various dex, a csv file containing form names, and a csv file containing type of each form
+"""
 import os
 import sys
 import re
@@ -257,7 +259,7 @@ cv2.destroyAllWindows()
 
 # print(str(pokemons_json))
 
-with open("out.json", "w") as jsonfile:
+with open("../static/data/pokemons.json", "w") as jsonfile:
     jsonfile.write(
         json.dumps(
             pokemons_json,
