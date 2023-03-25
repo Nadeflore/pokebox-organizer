@@ -1,3 +1,5 @@
+import generations from '../data/generations.json'
+import pokedexes from '../data/pokedexes.json'
 export interface Generation {
     id: number;
     name: LocalizedName;
@@ -5,19 +7,26 @@ export interface Generation {
     end: number;
 }
 
-export interface PokemonMatcher {
-    id?: number;
-    generation?: Generation;
-    pokedex?: string;
-}
-
 export interface PokemonFilterConfig {
-    include: PokemonMatcher[];
-    exclude: PokemonMatcher[];
-    sort: string;
-    newBoxAtGenerations: Generation[];
+    include: string[];
+    exclude: string[];
+    pokedex: string;
+    newBoxAtGenerations: number[];
     forms: PokemonFormsFilter
 }
+
+export const defaultConfig = {
+    pokedex: 'national',
+    include: [],
+    exclude: [],
+    newBoxAtGenerations: [],
+    forms: {
+        maleFemaleForms: false,
+        types: [],
+        event: false,
+        regions: []
+    }
+};
 
 interface PokemonFormsFilter {
     maleFemaleForms: boolean;
@@ -62,10 +71,12 @@ export interface Pokemon {
     region: Region | null;
     formIds: number[];
     formNames: LocalizedName[];
-    sexes: string[];
+    sexes: Sex[];
     sexForm?: boolean;
     multipleForms?: boolean;
     event: boolean;
+    matchSearch?: boolean;
+    checked: boolean;
 }
 
 interface FormData {
@@ -81,7 +92,7 @@ export interface PokemonData {
     formType: "NORMAL" | "CHANGE_LEG" | "CHANGE" | "SEX";
     id: number;
     name: LocalizedName;
-    regionalId: Record<string, number>
+    regionalDexId: Record<string, number>
 }
 
 function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonFormsFilter): Pokemon[] {
@@ -110,7 +121,7 @@ function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonForms
                 }
             }).map(form => ({
                 id: pokemon.id,
-                regionalId: pokemon.regionalId,
+                regionalId: pokemon.regionalDexId,
                 imageName: getImageFileName(pokemon.id, form.id, form.sex),
                 name: pokemon.name,
                 formIds: [form.id],
@@ -119,6 +130,7 @@ function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonForms
                 sexForm: form.sexForm,
                 sexes: form.sexes,
                 event: form.event,
+                matchSearch: pokemon.matchSearch,
             }));
 
 
@@ -167,8 +179,8 @@ function findIndex<Type>(arr: Array<Type>, predicate: (value: Type, index: numbe
 
 }
 
-function splitByGeneration(pokemons: Pokemon[], generations: Generation[]) {
-    const splits = [1].concat(generations.map(g => g.start));
+function splitByGeneration(pokemons: Pokemon[], genIds: number[]) {
+    const splits = [1].concat(genIds.map(gid => generations.find(g => g.id == gid)?.start || -1));
     return splits.map((start, i, array) => {
         const end = array[i + 1];
         const startIndex = findIndex(pokemons, (p) => p.id >= start);
@@ -180,24 +192,31 @@ function splitByGeneration(pokemons: Pokemon[], generations: Generation[]) {
     }).filter(e => e.length);
 }
 
-export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[][] {
+export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig, search: string[]): Pokemon[][] {
     if (!filter) {
         return [];
     }
     // Filter pokemons to keep
-    const pokemons = pokemonsData.filter(p => isPokemonIncluded(p, filter));
+    let pokemons = pokemonsData.filter(p => isPokemonIncluded(p, filter));
+
+    // Check which pokemon matches search 
+    if (search.length) {
+        pokemons = pokemons.map(p => search.some(m => isPokemonMatch(p, m)) ? { ...p, matchSearch: true } : p)
+    }
     // Sort
-    const sort = !filter.sort ? "national" : filter.sort;
-    pokemons.sort((a, b) => (a.regionalId[sort] || 10000) - (b.regionalId[sort] || 10000))
+    pokemons.sort((a, b) => (a.regionalDexId[filter.pokedex]) - (b.regionalDexId[filter.pokedex]))
 
 
     const pokemonsWithForms = getPokemonsWithForms(pokemons, filter.forms);
 
-    const newBoxAtGenerations = sort == "national" ? filter.newBoxAtGenerations : [];
+    const newBoxAtGenerations = filter.pokedex == "national" ? filter.newBoxAtGenerations : [];
     return splitByGeneration(pokemonsWithForms, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30));
 }
 
 function isPokemonIncluded(pokemonData: PokemonData, filter: PokemonFilterConfig) {
+    if (pokemonData.regionalDexId[filter.pokedex] === undefined) {
+        return false;
+    }
     if (filter.include.length && !filter.include.some(m => isPokemonMatch(pokemonData, m))) {
         return false;
     }
@@ -209,17 +228,32 @@ function isPokemonIncluded(pokemonData: PokemonData, filter: PokemonFilterConfig
     return true;
 }
 
-function isPokemonMatch(pokemonData: PokemonData, matcher: PokemonMatcher) {
-    if (matcher.id) {
-        return pokemonData.id === matcher.id
+function isPokemonMatch(pokemonData: PokemonData, matcher: string) {
+    const matchPokemon = matcher.match(/p-(\d+)/)
+    if (matchPokemon) {
+        return pokemonData.id === +matchPokemon[1]
     }
 
-    if (matcher.generation) {
-        return pokemonData.id >= matcher.generation.start && pokemonData.id <= matcher.generation.end;
+    const matchGeneration = matcher.match(/g-(\d+)/)
+    if (matchGeneration) {
+        const genId = +matchGeneration[1]
+        const generation = generations.find(g => g.id === genId)
+        if (!generation) {
+            return false;
+        }
+        return pokemonData.id >= generation.start && pokemonData.id <= generation.end;
     }
 
-    if (matcher.pokedex) {
-        return !!pokemonData.regionalId[matcher.pokedex]
+    const matchPokedex = matcher.match(/d-(\w+)/)
+    if (matchPokedex) {
+        const dexId = matchPokedex[1]
+        return pokemonData.regionalDexId[dexId] !== undefined
+    }
+
+    const matchRegionalForm = matcher.match(/r-(\w+)/)
+    if (matchRegionalForm) {
+        const region = matchRegionalForm[1]
+        return pokemonData.forms.some(f => f.region === region)
     }
 
     return false

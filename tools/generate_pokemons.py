@@ -81,7 +81,7 @@ with open('pokemondata.csv', newline='') as csvfile:
             if not region.startswith("name_") and number:
                 regionalId[region] = int(number)
 
-        pokemon_data_by_id[id]["regionalId"] = regionalId
+        pokemon_data_by_id[id]["regionalDexId"] = regionalId
 
 
 print(str(pokemon_data_by_id))
