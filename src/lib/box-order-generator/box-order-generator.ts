@@ -159,7 +159,9 @@ function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonForms
 }
 
 function getImageFileName(pokemonId: number, formId: number, sex: string): string {
-    return `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_00000000_f_n.webp`;
+    const formId2 = pokemonId == 869 ? formId % 7 : 0;
+    const name = `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_${String(formId2).padStart(8, '0')}_f_n.webp`;
+    return name
 }
 
 function splitArray<Type>(arr: Array<Type>, size: number): Array<Array<Type>> {
