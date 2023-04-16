@@ -1,8 +1,11 @@
 <script lang="ts">
-	import { pokemonsData, config, checked } from '$lib/stores';
+	import { pokemonsData, config, checked, state } from '$lib/stores';
 	import Boxes from '$lib/Boxes.svelte';
 	import PokemonsMatcherField from '$lib/PokemonsMatcherField.svelte';
 	import SettingsPanel from '$lib/SettingsPanel.svelte';
+	import Button from '$lib/Button.svelte';
+	import Header from '$lib/Header.svelte';
+	import Tabs from '$lib/Tabs.svelte';
 	export let data;
 	$: pokemonsData.set(data.pokemonsData);
 
@@ -11,57 +14,75 @@
 </script>
 
 <div class="page" class:panel-open={settingsPanelOpen}>
-	<div class="content">
-		<div class="header">
-			<div class="search">
-				<PokemonsMatcherField bind:value={search} placeholder="Search" />
-			</div>
-			<div class="controls">
-				<button on:click={() => checked.set([])}>Uncheck all</button>
-				<button on:click={() => (settingsPanelOpen = !settingsPanelOpen)}>Settings</button>
-			</div>
-		</div>
-		<div class="pc-boxes">
-			<Boxes config={$config} {search} />
-		</div>
+	<div class="header">
+		<Header bind:search bind:settingsPanelOpen />
 	</div>
-	<SettingsPanel bind:open={settingsPanelOpen} />
+	<div class="content">
+		<Boxes config={$config} {search} />
+	</div>
+	<div class="panel" class:closed={!settingsPanelOpen}>
+		<SettingsPanel />
+	</div>
+	<div class="tabs">
+		<Tabs />
+	</div>
 </div>
 
 <style>
 	@media only screen and (max-width: 800px) {
-		.page.panel-open .content {
-			display: none;
+		.page.panel-open {
+			grid-template-columns: 0 1fr;
 		}
 	}
 	.page {
 		height: 100vh;
-		display: flex;
-	}
-	.content {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-	}
-
-	.pc-boxes {
-		overflow-y: auto;
+		display: grid;
+		grid:
+			'header header' auto
+			'content panel' 1fr
+			'tabs tabs' auto
+			/ 1fr auto;
 	}
 
 	.header {
-		display: flex;
-		justify-content: space-between;
-		background-color: white;
-		padding: 10px;
+		grid-area: header;
+		box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+		z-index: 10;
+	}
+	.content {
+		grid-area: content;
+		overflow-y: auto;
 	}
 
-	.search {
-		min-width: 300px;
+	.panel {
+		grid-area: panel;
+		overflow-y: auto;
+		box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+	}
+
+	.panel.closed {
+		display: none;
+	}
+
+	.tabs {
+		grid-area: tabs;
+		box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+		z-index: 10;
 	}
 
 	:global(body) {
 		margin: 0px;
 		height: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	:global(button) {
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
 	}
 </style>

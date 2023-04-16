@@ -9,8 +9,6 @@
 
 	export let value: string[];
 
-	$: console.log(value);
-
 	$: pokemonsOptions = $pokemonsData.map((p) => ({ value: `p-${p.id}`, text: p.name.fr }));
 
 	const generationsOptions = generations.map((g) => ({

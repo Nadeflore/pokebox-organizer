@@ -9,6 +9,8 @@
 
 <style scoped>
 	img {
-		width: 50px;
+		width: 80%;
+		padding: 10%;
+		display: block;
 	}
 </style>

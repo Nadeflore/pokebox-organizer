@@ -19,8 +19,9 @@
 
 <style>
 	.boxes {
+		margin: 10px 0px;
 		display: flex;
 		flex-wrap: wrap;
-		font-family: Arial, Helvetica, sans-serif;
+		justify-content: center;
 	}
 </style>

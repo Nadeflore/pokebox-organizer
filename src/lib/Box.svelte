@@ -37,7 +37,7 @@
 	<h3>Boite {boxNumber}</h3>
 	<div class="box-content">
 		{#each box as pokemon (pokemon.imageName)}
-			<div
+			<button
 				on:click={() => {
 					onPokemonClicked(pokemon);
 				}}
@@ -50,15 +50,16 @@
 			>
 				<PokemonPicture {pokemon} title={getTitleFromPokemon(pokemon)} />
 				<!-- <div class="name">{pokemon.name}</div> -->
-			</div>
+			</button>
 		{/each}
 	</div>
 </div>
 
 <style>
 	.box {
-		margin: 20px;
+		margin: 10px;
 		background-color: rgb(248, 246, 246);
+		max-width: 400px;
 	}
 	.box h3 {
 		text-align: center;
@@ -68,12 +69,14 @@
 		display: grid;
 		grid-template-rows: repeat(5, 1fr); /* creates 5 rows */
 		grid-template-columns: repeat(6, 1fr); /* creates 6 columns */
-		grid-gap: 10px; /* sets the gap between the grid items */
+		grid-gap: 5px; /* sets the gap between the grid items */
 		width: auto;
+		height: auto;
 	}
 
-	.pokemon {
-		padding: 5px;
+	.pokemon:hover,
+	.pokemon:focus {
+		border: 1px solid grey;
 	}
 
 	.pokemon.form {

@@ -1,10 +1,16 @@
-import { writable } from 'svelte/store';
+import { derived, writable } from 'svelte/store';
 import { defaultConfig, type PokemonData, type PokemonFilterConfig } from './box-order-generator/box-order-generator';
 import { browser } from '$app/environment';
 
-function fromLocalStorage(storageKey: string, fallbackValue: any, serverFallbackValue: any) {
+export interface Tab {
+    name: string;
+    config: PokemonFilterConfig;
+    checked: string[];
+}
+
+function fromLocalStorage(storageKey: string, fallbackValue: any, serverFallbackValue?: any) {
     if (!browser) {
-        return serverFallbackValue;
+        return serverFallbackValue ?? fallbackValue;
     }
 
     const storedValue = window.localStorage.getItem(storageKey)
@@ -29,11 +35,58 @@ function toLocalStorage(store, storageKey: string) {
     }
 }
 
-
 export const pokemonsData = writable([] as PokemonData[]);
 
-export const config = writable(fromLocalStorage("config", defaultConfig, { ...defaultConfig, pokedex: '' }) as PokemonFilterConfig)
-toLocalStorage(config, "config")
+// compatibility with previous format stored in local storage under keys "config" and "checked"
+const stateDefaultValueWithRetroCompat = { activeTabId: 0, tabs: [{ name: "Config 1", config: fromLocalStorage("config", defaultConfig), checked: fromLocalStorage("checked", []) }] }
+const tabDefaultValue = { name: "New tab", config: defaultConfig, checked: [] } as Tab;
 
-export const checked = writable(fromLocalStorage("checked", [], []) as string[])
-toLocalStorage(checked, "checked")
+function createState() {
+    const { subscribe, set, update } = writable(fromLocalStorage("state", stateDefaultValueWithRetroCompat) as { activeTabId: number, tabs: Tab[] });
+
+    return {
+        subscribe,
+        set,
+        update,
+        addTab: () => update(s => ({ activeTabId: s.tabs.length, tabs: [...s.tabs, { ...tabDefaultValue }] })),
+        removeTab: (i: number) => update(s => s.tabs.length == 1 ? s : ({ activeTabId: Math.min(s.tabs.length - 2, i), tabs: s.tabs.slice(0, i).concat(s.tabs.slice(i + 1)) })),
+    };
+}
+
+export const state = createState();
+toLocalStorage(state, "state")
+
+
+function createConfig() {
+    const { subscribe } = derived(
+        state,
+        $tabs => $tabs.tabs[$tabs.activeTabId].config
+    );
+
+    return {
+        subscribe,
+        set: (value: PokemonFilterConfig) => state.update(tabs => {
+            tabs.tabs[tabs.activeTabId].config = value;
+            return tabs;
+        })
+    }
+};
+
+function createChecked() {
+    const { subscribe } = derived(
+        state,
+        $tabs => $tabs.tabs[$tabs.activeTabId].checked
+    );
+
+    return {
+        subscribe,
+        set: (value: string[]) => state.update(tabs => {
+            tabs.tabs[tabs.activeTabId].checked = value;
+            return tabs;
+        })
+    }
+};
+
+export const config = createConfig();
+
+export const checked = createChecked();
