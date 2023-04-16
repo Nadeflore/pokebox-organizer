@@ -21,6 +21,7 @@
 <style>
 	.header {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		background-color: white;
 		padding: 10px;

@@ -3,7 +3,6 @@
 	import Boxes from '$lib/Boxes.svelte';
 	import PokemonsMatcherField from '$lib/PokemonsMatcherField.svelte';
 	import SettingsPanel from '$lib/SettingsPanel.svelte';
-	import Button from '$lib/Button.svelte';
 	import Header from '$lib/Header.svelte';
 	import Tabs from '$lib/Tabs.svelte';
 	export let data;
@@ -35,7 +34,7 @@
 		}
 	}
 	.page {
-		height: 100vh;
+		height: 100%;
 		display: grid;
 		grid:
 			'header header' auto
@@ -70,6 +69,9 @@
 		z-index: 10;
 	}
 
+	:global(html) {
+		height: 100%;
+	}
 	:global(body) {
 		margin: 0px;
 		height: 100%;
