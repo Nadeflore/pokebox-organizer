@@ -14,12 +14,6 @@
 
 <style>
 	.settings-panel {
-		height: 100%;
-		width: 100%;
-	}
-
-	.content,
-	.header {
-		padding: 10px;
+		padding: 20px;
 	}
 </style>

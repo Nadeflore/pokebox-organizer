@@ -7,12 +7,13 @@
 		{@const active = $state.activeTabId === i}
 		<div class="tab" class:active>
 			<button on:click={() => ($state.activeTabId = i)}>
-				{tab.name}
+				{tab.config.name}
 			</button>
 			{#if i != 0 || $state.tabs.length > 1}
 				<button
 					class="close"
-					on:click={() => (confirm(`Remove ${tab.name} ?`) ? state.removeTab(i) : null)}>⨉</button
+					on:click={() => (confirm(`Remove ${tab.config.name} ?`) ? state.removeTab(i) : null)}
+					>⨉</button
 				>
 			{/if}
 		</div>

@@ -3,7 +3,6 @@ import { defaultConfig, type PokemonData, type PokemonFilterConfig } from './box
 import { browser } from '$app/environment';
 
 export interface Tab {
-    name: string;
     config: PokemonFilterConfig;
     checked: string[];
 }
@@ -39,7 +38,7 @@ export const pokemonsData = writable([] as PokemonData[]);
 
 // compatibility with previous format stored in local storage under keys "config" and "checked"
 const stateDefaultValueWithRetroCompat = { activeTabId: 0, tabs: [{ name: "Config 1", config: fromLocalStorage("config", defaultConfig), checked: fromLocalStorage("checked", []) }] }
-const tabDefaultValue = { name: "New tab", config: defaultConfig, checked: [] } as Tab;
+const tabDefaultValue = { config: defaultConfig, checked: [] } as Tab;
 
 function createState() {
     const { subscribe, set, update } = writable(fromLocalStorage("state", stateDefaultValueWithRetroCompat) as { activeTabId: number, tabs: Tab[] });

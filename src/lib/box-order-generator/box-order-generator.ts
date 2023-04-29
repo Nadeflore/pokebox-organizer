@@ -8,14 +8,17 @@ export interface Generation {
 }
 
 export interface PokemonFilterConfig {
+    name: string;
     include: string[];
     exclude: string[];
     pokedex: string;
     newBoxAtGenerations: number[];
-    forms: PokemonFormsFilter
+    forms: PokemonFormsFilter;
+    boxNbStart: number;
 }
 
 export const defaultConfig = {
+    name: "New config",
     pokedex: 'national',
     include: [],
     exclude: [],
@@ -25,7 +28,8 @@ export const defaultConfig = {
         types: [],
         event: false,
         regions: []
-    }
+    },
+    boxNbStart: 1,
 };
 
 interface PokemonFormsFilter {
