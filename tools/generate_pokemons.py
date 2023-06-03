@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 import cv2
-FOLDER_PATH = '../../../Downloads/[HOME] Pokémon Renders v200/Normal'
+FOLDER_PATH = '../../../Downloads/[HOME] Pokémon Renders/Normal'
 
 class Sex(Enum):
     uk = 1
@@ -34,6 +34,7 @@ class FormType(Enum):
     CHANGE = 9
     CHANGE_LEG = 10
     CHANGE_TEMP = 11
+    PALDEA = 12
 
 @dataclass
 class PokemonPicture:
@@ -128,7 +129,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
     forms.sort(key=lambda e: e.form_id)
-    # print("Pokemon {}".format(pokemon_names_by_id[dex_id]))
+    print("Pokemon {}".format(dex_id))
 
     forms_json = []
 
@@ -204,6 +205,8 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 info = FormType.CHANGE_LEG
             elif key == ord('t'):
                 info = FormType.CHANGE_TEMP
+            elif key == ord('p'):
+                info = FormType.PALDEA
 
             if info:
                 append_to_file("forms_info", "{}_{};{}".format(dex_id, form_id, info.name))
@@ -222,7 +225,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 pokemonFormType = info
             elif info == FormType.NORMAL:
                 normalCount += 1
-            elif info in [FormType.ALOLA, FormType.GALAR, FormType.HISUI]:   
+            elif info in [FormType.ALOLA, FormType.GALAR, FormType.HISUI, FormType.PALDEA]:   
                 form_json["region"] = info.name
             elif info == FormType.EVENT:
                 form_json["event"] = True

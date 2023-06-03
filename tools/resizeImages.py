@@ -2,7 +2,7 @@ import subprocess
 import json
 
 
-INPUT_PATH = "../../../Downloads/[HOME] Pokémon Renders v200/Normal"
+INPUT_PATH = "../../../Downloads/[HOME] Pokémon Renders/Normal"
 
 OUTPUT_PATH = "../static/images/pokemons"
 
@@ -12,7 +12,7 @@ def get_image_file_name(pokemon_id: int, form_id: int, sex: str, form_id2: int) 
 
 
 
-with open('pokemons.json', "rt") as jsonfile:
+with open('../static/data/pokemons.json', "rt") as jsonfile:
     pokemons = json.load(jsonfile)
 
     imagesFileNames = []

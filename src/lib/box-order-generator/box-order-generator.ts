@@ -50,6 +50,7 @@ export enum Region {
     ALOLA = "ALOLA",
     GALAR = "GALAR",
     HISUI = "HISUI",
+    PALDEA = "PALDEA",
 }
 
 export enum Sex {

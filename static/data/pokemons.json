@@ -3788,7 +3788,40 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "name": {
+                    "ja": "ケンタロス"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "region": "PALDEA",
+                "name": {
+                    "ja": "パルデアのすがた・コンバットしゅ",
+                    "en": "Combat Breed",
+                    "fr": "Race Combative"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mo",
+                "region": "PALDEA",
+                "name": {
+                    "ja": "パルデアのすがた・ブレイズしゅ",
+                    "en": "Blaze Breed",
+                    "fr": "Race Flamboyante"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "mo",
+                "region": "PALDEA",
+                "name": {
+                    "ja": "パルデアのすがた・ウォーターしゅ",
+                    "en": "Aqua Breed",
+                    "fr": "Race Aquatique"
+                }
             }
         ]
     },
@@ -5622,7 +5655,18 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd"
+                "sex": "fd",
+                "name": {
+                    "ja": "ウパー"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "region": "PALDEA",
+                "name": {
+                    "ja": "パルデアのすがた"
+                }
             }
         ]
     },
@@ -25871,5 +25915,2430 @@
             }
         ],
         "formType": "CHANGE_LEG"
+    },
+    {
+        "id": 906,
+        "name": {
+            "en": "Sprigatito",
+            "ja": "ニャオハ",
+            "fr": "Poussacha",
+            "de": "Felori",
+            "ko": "나오하",
+            "zh-Hant": "新葉喵",
+            "zh-Hans": "新叶喵"
+        },
+        "regionalDexId": {
+            "national": 906,
+            "sv": 1
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 907,
+        "name": {
+            "en": "Floragato",
+            "ja": "ニャローテ",
+            "fr": "Matourgeon",
+            "de": "Feliospa",
+            "ko": "나로테",
+            "zh-Hant": "蒂蕾喵",
+            "zh-Hans": "蒂蕾喵"
+        },
+        "regionalDexId": {
+            "national": 907,
+            "sv": 2
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 908,
+        "name": {
+            "en": "Meowscarada",
+            "ja": "マスカーニャ",
+            "fr": "Miascarade",
+            "de": "Maskagato",
+            "ko": "마스카나",
+            "zh-Hant": "魔幻假面喵",
+            "zh-Hans": "魔幻假面喵"
+        },
+        "regionalDexId": {
+            "national": 908,
+            "sv": 3
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 909,
+        "name": {
+            "en": "Fuecoco",
+            "ja": "ホゲータ",
+            "fr": "Chochodile",
+            "de": "Krokel",
+            "ko": "뜨아거",
+            "zh-Hant": "呆火鱷",
+            "zh-Hans": "呆火鳄"
+        },
+        "regionalDexId": {
+            "national": 909,
+            "sv": 4
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 910,
+        "name": {
+            "en": "Crocalor",
+            "ja": "アチゲータ",
+            "fr": "Crocogril",
+            "de": "Lokroko",
+            "ko": "악뜨거",
+            "zh-Hant": "炙燙鱷",
+            "zh-Hans": "炙烫鳄"
+        },
+        "regionalDexId": {
+            "national": 910,
+            "sv": 5
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 911,
+        "name": {
+            "en": "Skeledirge",
+            "ja": "ラウドボーン",
+            "fr": "Flâmigator",
+            "de": "Skelokrok",
+            "ko": "라우드본",
+            "zh-Hant": "骨纹巨声鳄",
+            "zh-Hans": "骨纹巨声鳄"
+        },
+        "regionalDexId": {
+            "national": 911,
+            "sv": 6
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 912,
+        "name": {
+            "en": "Quaxly",
+            "ja": "クワッス",
+            "fr": "Coiffeton",
+            "de": "Kwaks",
+            "ko": "꾸왁스",
+            "zh-Hant": "潤水鴨",
+            "zh-Hans": "润水鸭"
+        },
+        "regionalDexId": {
+            "national": 912,
+            "sv": 7
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 913,
+        "name": {
+            "en": "Quaxwell",
+            "ja": "ウェルカモ",
+            "fr": "Canarbello",
+            "de": "Fuentente",
+            "ko": "아꾸왁",
+            "zh-Hant": "湧躍鴨",
+            "zh-Hans": "涌跃鸭"
+        },
+        "regionalDexId": {
+            "national": 913,
+            "sv": 8
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 914,
+        "name": {
+            "en": "Quaquaval",
+            "ja": "ウェーニバル",
+            "fr": "Palmaval",
+            "de": "Bailonda",
+            "ko": "웨이니발",
+            "zh-Hant": "狂歡浪舞鴨",
+            "zh-Hans": "狂欢浪舞鸭"
+        },
+        "regionalDexId": {
+            "national": 914,
+            "sv": 9
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 915,
+        "name": {
+            "en": "Lechonk",
+            "ja": "グルトン",
+            "fr": "Gourmelet",
+            "de": "Ferkuli",
+            "ko": "맛보돈",
+            "zh-Hant": "愛吃豚",
+            "zh-Hans": "爱吃豚"
+        },
+        "regionalDexId": {
+            "national": 915,
+            "sv": 10
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 916,
+        "name": {
+            "en": "Oinkologne",
+            "ja": "パフュートン",
+            "fr": "Fragroin",
+            "de": "Fragrunz",
+            "ko": "퍼퓨돈",
+            "zh-Hant": "飄香豚",
+            "zh-Hans": "飘香豚"
+        },
+        "regionalDexId": {
+            "national": 916,
+            "sv": 11
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo",
+                "name": {
+                    "ja": "オスのすがた",
+                    "en": "Male",
+                    "fr": "Mâle"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "fo",
+                "name": {
+                    "ja": "メスのすがた",
+                    "en": "Female",
+                    "fr": "Femelle"
+                }
+            }
+        ],
+        "formType": "SEX"
+    },
+    {
+        "id": 917,
+        "name": {
+            "en": "Tarountula",
+            "ja": "タマンチュラ",
+            "fr": "Tissenboule",
+            "de": "Tarundel",
+            "ko": "타랜툴라",
+            "zh-Hant": "團珠蛛",
+            "zh-Hans": "团珠蛛"
+        },
+        "regionalDexId": {
+            "national": 917,
+            "sv": 12
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 918,
+        "name": {
+            "en": "Spidops",
+            "ja": "ワナイダー",
+            "fr": "Filentrappe",
+            "de": "Spinsidias",
+            "ko": "트래피더",
+            "zh-Hant": "操陷蛛",
+            "zh-Hans": "操陷蛛"
+        },
+        "regionalDexId": {
+            "national": 918,
+            "sv": 13
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 919,
+        "name": {
+            "en": "Nymble",
+            "ja": "マメバッタ",
+            "fr": "Lilliterelle",
+            "de": "Micrick",
+            "ko": "콩알뚜기",
+            "zh-Hant": "豆蟋蟀",
+            "zh-Hans": "豆蟋蟀"
+        },
+        "regionalDexId": {
+            "national": 919,
+            "sv": 14
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 920,
+        "name": {
+            "en": "Lokix",
+            "ja": "エクスレッグ",
+            "fr": "Gambex",
+            "de": "Lextremo",
+            "ko": "엑스레그",
+            "zh-Hant": "烈腿蝗",
+            "zh-Hans": "烈腿蝗"
+        },
+        "regionalDexId": {
+            "national": 920,
+            "sv": 15
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 921,
+        "name": {
+            "en": "Pawmi",
+            "ja": "パモ",
+            "fr": "Pohm",
+            "de": "Pamo",
+            "ko": "빠모",
+            "zh-Hant": "布撥",
+            "zh-Hans": "布拨"
+        },
+        "regionalDexId": {
+            "national": 921,
+            "sv": 22
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 922,
+        "name": {
+            "en": "Pawmo",
+            "ja": "パモット",
+            "fr": "Pohmotte",
+            "de": "Pamamo",
+            "ko": "빠모트",
+            "zh-Hant": "布土撥",
+            "zh-Hans": "布土拨"
+        },
+        "regionalDexId": {
+            "national": 922,
+            "sv": 23
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 923,
+        "name": {
+            "en": "Pawmot",
+            "ja": "パーモット",
+            "fr": "Pohmarmotte",
+            "de": "Pamomamo",
+            "ko": "빠르모트",
+            "zh-Hant": "巴布土撥",
+            "zh-Hans": "巴布土拨"
+        },
+        "regionalDexId": {
+            "national": 923,
+            "sv": 24
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 924,
+        "name": {
+            "en": "Tandemaus",
+            "ja": "ワッカネズミ",
+            "fr": "Compagnol",
+            "de": "Zwieps",
+            "ko": "두리쥐",
+            "zh-Hant": "一對鼠",
+            "zh-Hans": "一对鼠"
+        },
+        "regionalDexId": {
+            "national": 924,
+            "sv": 71
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 925,
+        "name": {
+            "en": "Maushold",
+            "ja": "イッカネズミ",
+            "fr": "Famignol",
+            "de": "Famieps",
+            "ko": "파밀리쥐",
+            "zh-Hant": "一家鼠",
+            "zh-Hans": "一家鼠"
+        },
+        "regionalDexId": {
+            "national": 925,
+            "sv": 72
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk",
+                "name": {
+                    "ja": "３びきかぞく",
+                    "en": "Family of Three",
+                    "fr": "Famille de Trois"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "name": {
+                    "ja": "４ひきかぞく",
+                    "en": "Family of Four",
+                    "fr": "Famille de Quatre"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 926,
+        "name": {
+            "en": "Fidough",
+            "ja": "パピモッチ",
+            "fr": "Pâtachiot",
+            "de": "Hefel",
+            "ko": "쫀도기",
+            "zh-Hant": "狗仔包",
+            "zh-Hans": "狗仔包"
+        },
+        "regionalDexId": {
+            "national": 926,
+            "sv": 76
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 927,
+        "name": {
+            "en": "Dachsbun",
+            "ja": "バウッツェル",
+            "fr": "Briochien",
+            "de": "Backel",
+            "ko": "바우첼",
+            "zh-Hant": "麻花犬",
+            "zh-Hans": "麻花犬"
+        },
+        "regionalDexId": {
+            "national": 927,
+            "sv": 77
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 928,
+        "name": {
+            "en": "Smoliv",
+            "ja": "ミニーブ",
+            "fr": "Olivini",
+            "de": "Olini",
+            "ko": "미니브",
+            "zh-Hant": "迷你芙",
+            "zh-Hans": "迷你芙"
+        },
+        "regionalDexId": {
+            "national": 928,
+            "sv": 84
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 929,
+        "name": {
+            "en": "Dolliv",
+            "ja": "オリーニョ",
+            "fr": "Olivado",
+            "de": "Olivinio",
+            "ko": "올리뇨",
+            "zh-Hant": "奧利紐",
+            "zh-Hans": "奥利纽"
+        },
+        "regionalDexId": {
+            "national": 929,
+            "sv": 85
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 930,
+        "name": {
+            "en": "Arboliva",
+            "ja": "オリーヴァ",
+            "fr": "Arboliva",
+            "de": "Olithena",
+            "ko": "올리르바",
+            "zh-Hant": "奧利瓦",
+            "zh-Hans": "奥利瓦"
+        },
+        "regionalDexId": {
+            "national": 930,
+            "sv": 86
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 931,
+        "name": {
+            "en": "Squawkabilly",
+            "ja": "イキリンコ",
+            "fr": "Tapatoès",
+            "de": "Krawalloro",
+            "ko": "시비꼬",
+            "zh-Hant": "怒鸚哥",
+            "zh-Hans": "怒鹦哥"
+        },
+        "regionalDexId": {
+            "national": 931,
+            "sv": 113
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf",
+                "name": {
+                    "ja": "グリーンフェザー",
+                    "en": "Green Plumage",
+                    "fr": "Plumage Vert"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "name": {
+                    "ja": "ブルーフェザー",
+                    "en": "Blue Plumage",
+                    "fr": "Plumage Bleu"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "name": {
+                    "ja": "イエローフェザー",
+                    "en": "Yellow Plumage",
+                    "fr": "Plumage Jaune"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "mf",
+                "name": {
+                    "ja": "ホワイトフェザー",
+                    "en": "White Plumage",
+                    "fr": "Plumage Blanc"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 932,
+        "name": {
+            "en": "Nacli",
+            "ja": "コジオ",
+            "fr": "Selutin",
+            "de": "Geosali",
+            "ko": "베베솔트",
+            "zh-Hant": "鹽石寶",
+            "zh-Hans": "盐石宝"
+        },
+        "regionalDexId": {
+            "national": 932,
+            "sv": 129
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 933,
+        "name": {
+            "en": "Naclstack",
+            "ja": "ジオヅム",
+            "fr": "Amassel",
+            "de": "Sedisal",
+            "ko": "스태솔트",
+            "zh-Hant": "鹽石壘",
+            "zh-Hans": "盐石垒"
+        },
+        "regionalDexId": {
+            "national": 933,
+            "sv": 130
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 934,
+        "name": {
+            "en": "Garganacl",
+            "ja": "キョジオーン",
+            "fr": "Gigansel",
+            "de": "Saltigant",
+            "ko": "콜로솔트",
+            "zh-Hant": "鹽石巨靈",
+            "zh-Hans": "盐石巨灵"
+        },
+        "regionalDexId": {
+            "national": 934,
+            "sv": 131
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 935,
+        "name": {
+            "en": "Charcadet",
+            "ja": "カルボウ",
+            "fr": "Charbambin",
+            "de": "Knarbon",
+            "ko": "카르본",
+            "zh-Hant": "炭小侍",
+            "zh-Hans": "炭小侍"
+        },
+        "regionalDexId": {
+            "national": 935,
+            "sv": 165
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 936,
+        "name": {
+            "en": "Armarouge",
+            "ja": "グレンアルマ",
+            "fr": "Carmadura",
+            "de": "Crimanzo",
+            "ko": "카디나르마",
+            "zh-Hant": "紅蓮鎧騎",
+            "zh-Hans": "红莲铠骑"
+        },
+        "regionalDexId": {
+            "national": 936,
+            "sv": 166
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 937,
+        "name": {
+            "en": "Ceruledge",
+            "ja": "ソウブレイズ",
+            "fr": "Malvalame",
+            "de": "Azugladis",
+            "ko": "파라블레이즈",
+            "zh-Hant": "蒼炎刃鬼",
+            "zh-Hans": "苍炎刃鬼"
+        },
+        "regionalDexId": {
+            "national": 937,
+            "sv": 167
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 938,
+        "name": {
+            "en": "Tadbulb",
+            "ja": "ズピカ",
+            "fr": "Têtampoule",
+            "de": "Blipp",
+            "ko": "빈나두",
+            "zh-Hant": "光蚪仔",
+            "zh-Hans": "光蚪仔"
+        },
+        "regionalDexId": {
+            "national": 938,
+            "sv": 170
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 939,
+        "name": {
+            "en": "Bellibolt",
+            "ja": "ハラバリー",
+            "fr": "Ampibidou",
+            "de": "Wampitz",
+            "ko": "찌리배리",
+            "zh-Hant": "電肚蛙",
+            "zh-Hans": "电肚蛙"
+        },
+        "regionalDexId": {
+            "national": 939,
+            "sv": 171
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 940,
+        "name": {
+            "en": "Wattrel",
+            "ja": "カイデン",
+            "fr": "Zapétrel",
+            "de": "Voltrel",
+            "ko": "찌리비",
+            "zh-Hant": "電海燕",
+            "zh-Hans": "电海燕"
+        },
+        "regionalDexId": {
+            "national": 940,
+            "sv": 177
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 941,
+        "name": {
+            "en": "Kilowattrel",
+            "ja": "タイカイデン",
+            "fr": "Fulgulairo",
+            "de": "Voltrean",
+            "ko": "찌리비크",
+            "zh-Hant": "大電海燕",
+            "zh-Hans": "大电海燕"
+        },
+        "regionalDexId": {
+            "national": 941,
+            "sv": 178
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 942,
+        "name": {
+            "en": "Maschiff",
+            "ja": "オラチフ",
+            "fr": "Grondogue",
+            "de": "Mobtiff",
+            "ko": "오라티프",
+            "zh-Hant": "偶叫獒",
+            "zh-Hans": "偶叫獒"
+        },
+        "regionalDexId": {
+            "national": 942,
+            "sv": 196
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 943,
+        "name": {
+            "en": "Mabosstiff",
+            "ja": "マフィティフ",
+            "fr": "Dogrino",
+            "de": "Mastifioso",
+            "ko": "마피티프",
+            "zh-Hant": "獒教父",
+            "zh-Hans": "獒教父"
+        },
+        "regionalDexId": {
+            "national": 943,
+            "sv": 197
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 944,
+        "name": {
+            "en": "Shroodle",
+            "ja": "シルシュルー",
+            "fr": "Gribouraigne",
+            "de": "Sproxi",
+            "ko": "땃쭈르",
+            "zh-Hant": "滋汁鼴",
+            "zh-Hans": "滋汁鼹"
+        },
+        "regionalDexId": {
+            "national": 944,
+            "sv": 202
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 945,
+        "name": {
+            "en": "Grafaiai",
+            "ja": "タギングル",
+            "fr": "Tag-Tag",
+            "de": "Affiti",
+            "ko": "태깅구르",
+            "zh-Hant": "塗標客",
+            "zh-Hans": "涂标客"
+        },
+        "regionalDexId": {
+            "national": 945,
+            "sv": 203
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 946,
+        "name": {
+            "en": "Bramblin",
+            "ja": "アノクサ",
+            "fr": "Virovent",
+            "de": "Weherba",
+            "ko": "그푸리",
+            "zh-Hant": "納噬草",
+            "zh-Hans": "纳噬草"
+        },
+        "regionalDexId": {
+            "national": 946,
+            "sv": 242
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 947,
+        "name": {
+            "en": "Brambleghast",
+            "ja": "アノホラグサ",
+            "fr": "Virevorreur",
+            "de": "Horrerba",
+            "ko": "공푸리",
+            "zh-Hant": "怖納噬草",
+            "zh-Hans": "怖纳噬草"
+        },
+        "regionalDexId": {
+            "national": 947,
+            "sv": 243
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 948,
+        "name": {
+            "en": "Toedscool",
+            "ja": "ノノクラゲ",
+            "fr": "Terracool",
+            "de": "Tentagra",
+            "ko": "들눈해",
+            "zh-Hant": "原野水母",
+            "zh-Hans": "原野水母"
+        },
+        "regionalDexId": {
+            "national": 948,
+            "sv": 244
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 949,
+        "name": {
+            "en": "Toedscruel",
+            "ja": "リククラゲ",
+            "fr": "Terracruel",
+            "de": "Tenterra",
+            "ko": "육파리",
+            "zh-Hant": "陸地水母",
+            "zh-Hans": "陸地水母"
+        },
+        "regionalDexId": {
+            "national": 949,
+            "sv": 245
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 950,
+        "name": {
+            "en": "Klawf",
+            "ja": "ガケガニ",
+            "fr": "Craparoi",
+            "de": "Klibbe",
+            "ko": "절벼게",
+            "zh-Hant": "毛崖蟹",
+            "zh-Hans": "毛崖蟹"
+        },
+        "regionalDexId": {
+            "national": 950,
+            "sv": 249
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 951,
+        "name": {
+            "en": "Capsakid",
+            "ja": "カプサイジ",
+            "fr": "Pimito",
+            "de": "Chilingel",
+            "ko": "캡싸이",
+            "zh-Hant": "熱辣娃",
+            "zh-Hans": "热辣娃"
+        },
+        "regionalDexId": {
+            "national": 951,
+            "sv": 250
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 952,
+        "name": {
+            "en": "Scovillain",
+            "ja": "スコヴィラン",
+            "fr": "Scovilain",
+            "de": "Halupenjo",
+            "ko": "스코빌런",
+            "zh-Hant": "狠辣椒",
+            "zh-Hans": "狠辣椒"
+        },
+        "regionalDexId": {
+            "national": 952,
+            "sv": 251
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 953,
+        "name": {
+            "en": "Rellor",
+            "ja": "シガロコ",
+            "fr": "Léboulérou",
+            "de": "Relluk",
+            "ko": "구르데",
+            "zh-Hant": "蟲滾泥",
+            "zh-Hans": "虫滚泥"
+        },
+        "regionalDexId": {
+            "national": 953,
+            "sv": 254
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 954,
+        "name": {
+            "en": "Rabsca",
+            "ja": "ベラカス",
+            "fr": "Bérasca",
+            "de": "Skarabaks",
+            "ko": "베라카스",
+            "zh-Hant": "蟲甲聖",
+            "zh-Hans": "虫甲圣"
+        },
+        "regionalDexId": {
+            "national": 954,
+            "sv": 255
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 955,
+        "name": {
+            "en": "Flittle",
+            "ja": "ヒラヒナ",
+            "fr": "Flotillon",
+            "de": "Flattutu",
+            "ko": "하느라기",
+            "zh-Hant": "飄飄雛",
+            "zh-Hans": "飘飘雏"
+        },
+        "regionalDexId": {
+            "national": 955,
+            "sv": 263
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 956,
+        "name": {
+            "en": "Espathra",
+            "ja": "クエスパトラ",
+            "fr": "Cléopsytra",
+            "de": "Psiopatra",
+            "ko": "클레스퍼트라",
+            "zh-Hant": "超能豔鴕",
+            "zh-Hans": "超能艳鸵"
+        },
+        "regionalDexId": {
+            "national": 956,
+            "sv": 264
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 957,
+        "name": {
+            "en": "Tinkatink",
+            "ja": "カヌチャン",
+            "fr": "Forgerette",
+            "de": "Forgita",
+            "ko": "어리짱",
+            "zh-Hant": "小鍛匠",
+            "zh-Hans": "小锻匠"
+        },
+        "regionalDexId": {
+            "national": 957,
+            "sv": 279
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 958,
+        "name": {
+            "en": "Tinkatuff",
+            "ja": "ナカヌチャン",
+            "fr": "Forgella",
+            "de": "Tafforgita",
+            "ko": "벼리짱",
+            "zh-Hant": "巧鍛匠",
+            "zh-Hans": "巧锻匠"
+        },
+        "regionalDexId": {
+            "national": 958,
+            "sv": 280
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 959,
+        "name": {
+            "en": "Tinkaton",
+            "ja": "デカヌチャン",
+            "fr": "Forgelina",
+            "de": "Granforgita",
+            "ko": "두드리짱",
+            "zh-Hant": "巨鍛匠",
+            "zh-Hans": "巨锻匠"
+        },
+        "regionalDexId": {
+            "national": 959,
+            "sv": 281
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 960,
+        "name": {
+            "en": "Wiglett",
+            "ja": "ウミディグダ",
+            "fr": "Taupikeau",
+            "de": "Schligda",
+            "ko": "바다그다",
+            "zh-Hant": "海地鼠",
+            "zh-Hans": "海地鼠"
+        },
+        "regionalDexId": {
+            "national": 960,
+            "sv": 288
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 961,
+        "name": {
+            "en": "Wugtrio",
+            "ja": "ウミトリオ",
+            "fr": "Triopikeau",
+            "de": "Schligdri",
+            "ko": "바닥트리오",
+            "zh-Hant": "三海地鼠",
+            "zh-Hans": "三海地鼠"
+        },
+        "regionalDexId": {
+            "national": 961,
+            "sv": 289
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 962,
+        "name": {
+            "en": "Bombirdier",
+            "ja": "オトシドリ",
+            "fr": "Lestombaile",
+            "de": "Adebom",
+            "ko": "떨구새",
+            "zh-Hant": "下石鳥",
+            "zh-Hans": "下石鸟"
+        },
+        "regionalDexId": {
+            "national": 962,
+            "sv": 290
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 963,
+        "name": {
+            "en": "Finizen",
+            "ja": "ナミイルカ",
+            "fr": "Dofin",
+            "de": "Normifin",
+            "ko": "맨돌핀",
+            "zh-Hant": "波普海豚",
+            "zh-Hans": "波普海豚"
+        },
+        "regionalDexId": {
+            "national": 963,
+            "sv": 291
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 964,
+        "name": {
+            "en": "Palafin",
+            "ja": "イルカマン",
+            "fr": "Superdofin",
+            "de": "Delfinator",
+            "ko": "돌핀맨",
+            "zh-Hant": "海豚俠",
+            "zh-Hans": "海豚侠"
+        },
+        "regionalDexId": {
+            "national": 964,
+            "sv": 292
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 965,
+        "name": {
+            "en": "Varoom",
+            "ja": "ブロロン",
+            "fr": "Vrombi",
+            "de": "Knattox",
+            "ko": "부르롱",
+            "zh-Hant": "噗隆隆",
+            "zh-Hans": "噗隆隆"
+        },
+        "regionalDexId": {
+            "national": 965,
+            "sv": 293
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 966,
+        "name": {
+            "en": "Revavroom",
+            "ja": "ブロロローム",
+            "fr": "Vrombotor",
+            "de": "Knattatox",
+            "ko": "부르르룸",
+            "zh-Hant": "普隆隆姆",
+            "zh-Hans": "普隆隆姆"
+        },
+        "regionalDexId": {
+            "national": 966,
+            "sv": 294
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 967,
+        "name": {
+            "en": "Cyclizar",
+            "ja": "モトトカゲ",
+            "fr": "Motorizard",
+            "de": "Mopex",
+            "ko": "모토마",
+            "zh-Hant": "摩托蜥",
+            "zh-Hans": "摩托蜥"
+        },
+        "regionalDexId": {
+            "national": 967,
+            "sv": 295
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 968,
+        "name": {
+            "en": "Orthworm",
+            "ja": "ミミズズ",
+            "fr": "Ferdeter",
+            "de": "Schlurm",
+            "ko": "꿈트렁",
+            "zh-Hant": "拖拖蚓",
+            "zh-Hans": "拖拖蚓"
+        },
+        "regionalDexId": {
+            "national": 968,
+            "sv": 296
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 969,
+        "name": {
+            "en": "Glimmet",
+            "ja": "キラーメ",
+            "fr": "Germéclat",
+            "de": "Lumispross",
+            "ko": "초롱순",
+            "zh-Hant": "晶光芽",
+            "zh-Hans": "晶光芽"
+        },
+        "regionalDexId": {
+            "national": 969,
+            "sv": 308
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 970,
+        "name": {
+            "en": "Glimmora",
+            "ja": "キラフロル",
+            "fr": "Floréclat",
+            "de": "Lumiflora",
+            "ko": "킬라플로르",
+            "zh-Hant": "晶光花",
+            "zh-Hans": "晶光花"
+        },
+        "regionalDexId": {
+            "national": 970,
+            "sv": 309
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 971,
+        "name": {
+            "en": "Greavard",
+            "ja": "ボチ",
+            "fr": "Toutombe",
+            "de": "Gruff",
+            "ko": "망망이",
+            "zh-Hant": "墓仔狗",
+            "zh-Hans": "墓仔狗"
+        },
+        "regionalDexId": {
+            "national": 971,
+            "sv": 311
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 972,
+        "name": {
+            "en": "Houndstone",
+            "ja": "ハカドッグ",
+            "fr": "Tomberro",
+            "de": "Friedwuff",
+            "ko": "묘두기",
+            "zh-Hant": "墓揚犬",
+            "zh-Hans": "墓扬犬"
+        },
+        "regionalDexId": {
+            "national": 972,
+            "sv": 312
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 973,
+        "name": {
+            "en": "Flamigo",
+            "ja": "カラミンゴ",
+            "fr": "Flamenroule",
+            "de": "Flaminkno",
+            "ko": "꼬이밍고",
+            "zh-Hant": "纏紅鶴",
+            "zh-Hans": "缠红鹤"
+        },
+        "regionalDexId": {
+            "national": 973,
+            "sv": 346
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 974,
+        "name": {
+            "en": "Cetoddle",
+            "ja": "アルクジラ",
+            "fr": "Piétacé",
+            "de": "Flaniwal",
+            "ko": "터벅고래",
+            "zh-Hant": "走鯨",
+            "zh-Hans": "走鲸"
+        },
+        "regionalDexId": {
+            "national": 974,
+            "sv": 361
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 975,
+        "name": {
+            "en": "Cetitan",
+            "ja": "ハルクジラ",
+            "fr": "Balbalèze",
+            "de": "Kolowal",
+            "ko": "우락고래",
+            "zh-Hant": "浩大鯨",
+            "zh-Hans": "浩大鲸"
+        },
+        "regionalDexId": {
+            "national": 975,
+            "sv": 362
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 976,
+        "name": {
+            "en": "Veluza",
+            "ja": "ミガルーサ",
+            "fr": "Délestin",
+            "de": "Agiluza",
+            "ko": "가비루사",
+            "zh-Hant": "輕身鱈",
+            "zh-Hans": "轻身鳕"
+        },
+        "regionalDexId": {
+            "national": 976,
+            "sv": 373
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 977,
+        "name": {
+            "en": "Dondozo",
+            "ja": "ヘイラッシャ",
+            "fr": "Oyacata",
+            "de": "Heerashai",
+            "ko": "어써러셔",
+            "zh-Hant": "吃吼霸",
+            "zh-Hans": "吃吼霸"
+        },
+        "regionalDexId": {
+            "national": 977,
+            "sv": 374
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 978,
+        "name": {
+            "en": "Tatsugiri",
+            "ja": "シャリタツ",
+            "fr": "Nigirigon",
+            "de": "Nigiragi",
+            "ko": "싸리용",
+            "zh-Hant": "米立龍",
+            "zh-Hans": "米立龙"
+        },
+        "regionalDexId": {
+            "national": 978,
+            "sv": 375
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf",
+                "name": {
+                    "ja": "そったすがた",
+                    "en": "Curly Form",
+                    "fr": "Forme Courbée"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "name": {
+                    "ja": "たれたすがた",
+                    "en": "Droopy Form",
+                    "fr": "Forme Affalée"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "name": {
+                    "ja": "のびたすがた",
+                    "en": "Stretchy Form",
+                    "fr": "Forme Raide"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 979,
+        "name": {
+            "en": "Annihilape",
+            "ja": "コノヨザル",
+            "fr": "Courrousinge",
+            "de": "Epitaff",
+            "ko": "저승갓숭",
+            "zh-Hant": "棄世猴",
+            "zh-Hans": "弃世猴"
+        },
+        "regionalDexId": {
+            "national": 979,
+            "sv": 160
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 980,
+        "name": {
+            "en": "Clodsire",
+            "ja": "ドオー",
+            "fr": "Terraiste",
+            "de": "Suelord",
+            "ko": "토오",
+            "zh-Hant": "土王",
+            "zh-Hans": "土王"
+        },
+        "regionalDexId": {
+            "national": 980,
+            "sv": 54
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 981,
+        "name": {
+            "en": "Farigiraf",
+            "ja": "リキキリン",
+            "fr": "Farigiraf",
+            "de": "Farigiraf",
+            "ko": "키키링",
+            "zh-Hant": "奇麒麟",
+            "zh-Hans": "奇麒麟"
+        },
+        "regionalDexId": {
+            "national": 981,
+            "sv": 193
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 982,
+        "name": {
+            "en": "Dudunsparce",
+            "ja": "ノココッチ",
+            "fr": "Deusolourdo",
+            "de": "Dummimisel",
+            "ko": "노고고치",
+            "zh-Hant": "土龍節節",
+            "zh-Hans": "土龙节节"
+        },
+        "regionalDexId": {
+            "national": 982,
+            "sv": 189
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf",
+                "name": {
+                    "ja": "ふたふしフォルム",
+                    "en": "Two-Segment Form",
+                    "fr": "Forme Double"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "name": {
+                    "ja": "みつふしフォルム",
+                    "en": "Three-Segment Form",
+                    "fr": "Forme Triple"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 983,
+        "name": {
+            "en": "Kingambit",
+            "ja": "ドドゲザン",
+            "fr": "Scalpereur",
+            "de": "Gladimperio",
+            "ko": "대도각참",
+            "zh-Hant": "仆斬將軍",
+            "zh-Hans": "仆斬將軍"
+        },
+        "regionalDexId": {
+            "national": 983,
+            "sv": 369
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 984,
+        "name": {
+            "en": "Great Tusk",
+            "ja": "イダイナキバ",
+            "fr": "Fort-Ivoire",
+            "de": "Riesenzahn",
+            "ko": "위대한엄니",
+            "zh-Hant": "雄偉牙",
+            "zh-Hans": "雄伟牙"
+        },
+        "regionalDexId": {
+            "national": 984,
+            "sv": 376
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 985,
+        "name": {
+            "en": "Scream Tail",
+            "ja": "サケブシッポ",
+            "fr": "Hurle-Queue",
+            "de": "Brüllschweif",
+            "ko": "우렁찬꼬리",
+            "zh-Hant": "吼叫尾",
+            "zh-Hans": "吼叫尾"
+        },
+        "regionalDexId": {
+            "national": 985,
+            "sv": 377
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 986,
+        "name": {
+            "en": "Brute Bonnet",
+            "ja": "アラブルタケ",
+            "fr": "Fongus-Furie",
+            "de": "Wutpilz",
+            "ko": "사나운버섯",
+            "zh-Hant": "猛惡菇",
+            "zh-Hans": "猛恶菇"
+        },
+        "regionalDexId": {
+            "national": 986,
+            "sv": 378
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 987,
+        "name": {
+            "en": "Flutter Mane",
+            "ja": "ハバタクカミ",
+            "fr": "Flotte-Mèche",
+            "de": "Flatterhaar",
+            "ko": "날개치는머리",
+            "zh-Hant": "振翼髮",
+            "zh-Hans": "振翼发"
+        },
+        "regionalDexId": {
+            "national": 987,
+            "sv": 379
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 988,
+        "name": {
+            "en": "Slither Wing",
+            "ja": "チヲハウハネ",
+            "fr": "Rampe-Ailes",
+            "de": "Kriechflügel",
+            "ko": "땅을기는날개",
+            "zh-Hant": "爬地翅",
+            "zh-Hans": "爬地翅"
+        },
+        "regionalDexId": {
+            "national": 988,
+            "sv": 380
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 989,
+        "name": {
+            "en": "Sandy Shocks",
+            "ja": "スナノケガワ",
+            "fr": "Pelage-Sablé",
+            "de": "Sandfell",
+            "ko": "모래털가죽",
+            "zh-Hant": "沙鐵皮",
+            "zh-Hans": "沙铁皮"
+        },
+        "regionalDexId": {
+            "national": 989,
+            "sv": 381
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 990,
+        "name": {
+            "en": "Iron Treads",
+            "ja": "テツノワダチ",
+            "fr": "Roue-de-Fer",
+            "de": "Eisenrad",
+            "ko": "무쇠바퀴",
+            "zh-Hant": "鐵轍跡",
+            "zh-Hans": "铁辙迹"
+        },
+        "regionalDexId": {
+            "national": 990,
+            "sv": 382
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 991,
+        "name": {
+            "en": "Iron Bundle",
+            "ja": "テツノツツミ",
+            "fr": "Hotte-de-Fer",
+            "de": "Eisenbündel",
+            "ko": "무쇠보따리",
+            "zh-Hant": "鐵包袱",
+            "zh-Hans": "铁包袱"
+        },
+        "regionalDexId": {
+            "national": 991,
+            "sv": 383
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 992,
+        "name": {
+            "en": "Iron Hands",
+            "ja": "テツノカイナ",
+            "fr": "Paume-de-Fer",
+            "de": "Eisenhand",
+            "ko": "무쇠손",
+            "zh-Hant": "鐵臂膀",
+            "zh-Hans": "铁臂膀"
+        },
+        "regionalDexId": {
+            "national": 992,
+            "sv": 384
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 993,
+        "name": {
+            "en": "Iron Jugulis",
+            "ja": "テツノコウベ",
+            "fr": "Têtes-de-Fer",
+            "de": "Eisenhals",
+            "ko": "무쇠머리",
+            "zh-Hant": "鐵脖頸",
+            "zh-Hans": "铁脖颈"
+        },
+        "regionalDexId": {
+            "national": 993,
+            "sv": 385
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 994,
+        "name": {
+            "en": "Iron Moth",
+            "ja": "テツノドクガ",
+            "fr": "Mite-de-Fer",
+            "de": "Eisenfalter",
+            "ko": "무쇠독나방",
+            "zh-Hant": "鐵毒蛾",
+            "zh-Hans": "铁毒蛾"
+        },
+        "regionalDexId": {
+            "national": 994,
+            "sv": 386
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 995,
+        "name": {
+            "en": "Iron Thorns",
+            "ja": "テツノイバラ",
+            "fr": "Épine-de-Fer",
+            "de": "Eisendorn",
+            "ko": "무쇠가시",
+            "zh-Hant": "鐵荊棘",
+            "zh-Hans": "铁荆棘"
+        },
+        "regionalDexId": {
+            "national": 995,
+            "sv": 387
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 996,
+        "name": {
+            "en": "Frigibax",
+            "ja": "セビエ",
+            "fr": "Frigodo",
+            "de": "Frospino",
+            "ko": "드니차",
+            "zh-Hant": "涼脊龍",
+            "zh-Hans": "凉脊龙"
+        },
+        "regionalDexId": {
+            "national": 996,
+            "sv": 388
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 997,
+        "name": {
+            "en": "Arctibax",
+            "ja": "セゴール",
+            "fr": "Cryodo",
+            "de": "Cryospino",
+            "ko": "드니꽁",
+            "zh-Hant": "凍脊龍",
+            "zh-Hans": "冻脊龙"
+        },
+        "regionalDexId": {
+            "national": 997,
+            "sv": 389
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 998,
+        "name": {
+            "en": "Baxcalibur",
+            "ja": "セグレイブ",
+            "fr": "Glaivodo",
+            "de": "Espinodon",
+            "ko": "드닐레이브",
+            "zh-Hant": "戟脊龍",
+            "zh-Hans": "戟脊龙"
+        },
+        "regionalDexId": {
+            "national": 998,
+            "sv": 390
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 999,
+        "name": {
+            "en": "Gimmighoul",
+            "ja": "コレクレー",
+            "fr": "Mordudor",
+            "de": "Gierspenst",
+            "ko": "모으령",
+            "zh-Hant": "索財靈",
+            "zh-Hans": "索财灵"
+        },
+        "regionalDexId": {
+            "national": 999,
+            "sv": 391
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk",
+                "name": {
+                    "ja": "はこフォルム",
+                    "en": "Chest Form",
+                    "fr": "Forme Coffre"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "name": {
+                    "ja": "とほフォルム",
+                    "en": "Roaming Form",
+                    "fr": "Forme Marche"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 1000,
+        "name": {
+            "en": "Gholdengo",
+            "ja": "サーフゴー",
+            "fr": "Gromago",
+            "de": "Monetigo",
+            "ko": "타부자고",
+            "zh-Hant": "賽富豪",
+            "zh-Hans": "赛富豪"
+        },
+        "regionalDexId": {
+            "national": 1000,
+            "sv": 392
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1001,
+        "name": {
+            "en": "Wo-Chien",
+            "ja": "チオンジェン",
+            "fr": "Chongjian",
+            "de": "Chongjian",
+            "ko": "총지엔",
+            "zh-Hant": "古簡蝸",
+            "zh-Hans": "古简蜗"
+        },
+        "regionalDexId": {
+            "national": 1001,
+            "sv": 393
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1002,
+        "name": {
+            "en": "Chien-Pao",
+            "ja": "パオジアン",
+            "fr": "Baojian",
+            "de": "Baojian",
+            "ko": "파오젠",
+            "zh-Hant": "古劍豹",
+            "zh-Hans": "古剑豹"
+        },
+        "regionalDexId": {
+            "national": 1002,
+            "sv": 394
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1003,
+        "name": {
+            "en": "Ting-Lu",
+            "ja": "ディンルー",
+            "fr": "Dinglu",
+            "de": "Dinglu",
+            "ko": "딩루",
+            "zh-Hant": "古鼎鹿",
+            "zh-Hans": "古鼎鹿"
+        },
+        "regionalDexId": {
+            "national": 1003,
+            "sv": 395
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1004,
+        "name": {
+            "en": "Chi-Yu",
+            "ja": "イーユイ",
+            "fr": "Yuyu",
+            "de": "Yuyu",
+            "ko": "위유이",
+            "zh-Hant": "古玉魚",
+            "zh-Hans": "古玉鱼"
+        },
+        "regionalDexId": {
+            "national": 1004,
+            "sv": 396
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1005,
+        "name": {
+            "en": "Roaring Moon",
+            "ja": "トドロクツキ",
+            "fr": "Rugit-Lune",
+            "de": "Donnersichel",
+            "ko": "고동치는달",
+            "zh-Hant": "轟鳴月",
+            "zh-Hans": "轰鸣月"
+        },
+        "regionalDexId": {
+            "national": 1005,
+            "sv": 397
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1006,
+        "name": {
+            "en": "Iron Valiant",
+            "ja": "テツノブジン",
+            "fr": "Garde-de-Fer",
+            "de": "Eisenkrieger",
+            "ko": "무쇠무인",
+            "zh-Hant": "鐵武者",
+            "zh-Hans": "铁武者"
+        },
+        "regionalDexId": {
+            "national": 1006,
+            "sv": 398
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1007,
+        "name": {
+            "en": "Koraidon",
+            "ja": "コライドン",
+            "fr": "Koraidon",
+            "de": "Koraidon",
+            "ko": "코라이돈",
+            "zh-Hant": "故勒頓",
+            "zh-Hans": "故勒顿"
+        },
+        "regionalDexId": {
+            "national": 1007,
+            "sv": 399
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1008,
+        "name": {
+            "en": "Miraidon",
+            "ja": "ミライドン",
+            "fr": "Miraidon",
+            "de": "Miraidon",
+            "ko": "미라이돈",
+            "zh-Hant": "密勒頓",
+            "zh-Hans": "密勒顿"
+        },
+        "regionalDexId": {
+            "national": 1008,
+            "sv": 400
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1009,
+        "name": {
+            "en": "Walking Wake",
+            "ja": "ウネルミナモ",
+            "fr": "Serpente-Eau",
+            "de": "Windewoge",
+            "ko": "굽이치는물결",
+            "zh-Hant": "波盪水",
+            "zh-Hans": "波荡水"
+        },
+        "regionalDexId": {
+            "national": 1009
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1010,
+        "name": {
+            "en": "Iron Leaves",
+            "ja": "テツノイサハ",
+            "fr": "Vert-de-Fer",
+            "de": "Eisenblatt",
+            "ko": "무쇠잎새",
+            "zh-Hant": "鐵斑葉",
+            "zh-Hans": "铁斑叶"
+        },
+        "regionalDexId": {
+            "national": 1010
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
     }
 ]
