@@ -25795,8 +25795,18 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "name": {
+                    "ja": "アカツキ",
+                    "en": "Bloodmoon",
+                    "fr": "Lune Vermeille"
+                }
             }
-        ]
+        ],
+        "formType": "NORMAL"
     },
     {
         "id": 902,
@@ -28338,6 +28348,147 @@
             {
                 "id": 0,
                 "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1011,
+        "name": {
+            "en": "Dipplin",
+            "ja": "カミッチュ",
+            "fr": "Pomdramour"
+        },
+        "regionalDexId": {
+            "national": 1011
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 1012,
+        "name": {
+            "en": "Poltchageist",
+            "ja": "チャデス",
+            "fr": "Poltchageist"
+        },
+        "regionalDexId": {
+            "national": 1012
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk",
+                "name": {
+                    "fr": "Forme Imitation"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "name": {
+                    "fr": "Forme Onéreuse"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 1013,
+        "name": {
+            "en": "Sinistcha",
+            "ja": "ヤバソチャ ",
+            "fr": "Théffroyable"
+        },
+        "regionalDexId": {
+            "national": 1013
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk",
+                "name": {
+                    "fr": "Forme Médiocre"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "name": {
+                    "fr": "Forme Exceptionnelle"
+                }
+            }
+        ],
+        "formType": "NORMAL"
+    },
+    {
+        "id": 1014,
+        "name": {
+            "en": "Okidogi",
+            "ja": "イイネイヌ",
+            "fr": "Félicanis"
+        },
+        "regionalDexId": {
+            "national": 1014
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 1015,
+        "name": {
+            "en": "Munkidori",
+            "ja": "マシマシラ",
+            "fr": "Fortusimia"
+        },
+        "regionalDexId": {
+            "national": 1015
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 1016,
+        "name": {
+            "en": "Fezandipiti",
+            "ja": "キチキギス",
+            "fr": "Favianos"
+        },
+        "regionalDexId": {
+            "national": 1016
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mo"
+            }
+        ]
+    },
+    {
+        "id": 1017,
+        "name": {
+            "en": "Ogerpon",
+            "ja": "オーガポン",
+            "fr": "Ogerpon"
+        },
+        "regionalDexId": {
+            "national": 1017
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "fo"
             }
         ]
     }
