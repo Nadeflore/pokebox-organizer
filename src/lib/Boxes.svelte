@@ -13,7 +13,7 @@
 
 <div class="boxes">
 	{#each boxes as box, i}
-		<Box {box} boxNumber={i + config.boxNbStart} />
+		<Box {box}/>
 	{/each}
 </div>
 

@@ -115,8 +115,8 @@
 	<section>
 		<h3>Box name</h3>
 		<label>
-			Start numbering at
-			<input min="0" type="number" bind:value={$config.boxNbStart} />
+			Pattern
+			<input bind:value={$config.boxNamePattern} />
 		</label>
 	</section>
 </div>

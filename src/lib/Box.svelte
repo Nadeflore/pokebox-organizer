@@ -3,8 +3,7 @@
 	import type { Pokemon } from './box-order-generator/box-order-generator';
 	import PokemonPicture from './PokemonPicture.svelte';
 	import { checked } from './stores';
-	export let box: Pokemon[];
-	export let boxNumber: number;
+	export let box: {name: string, pokemons: Pokemon[]};
 	function getTitleFromPokemon(pokemon: Pokemon) {
 		let title = `${pokemon.id} ${pokemon.name['fr']}`;
 		if (pokemon.region) {
@@ -34,9 +33,9 @@
 </script>
 
 <div class="box">
-	<h3>Boite {boxNumber}</h3>
+	<h3>{box.name}</h3>
 	<div class="box-content">
-		{#each box as pokemon (pokemon.imageName)}
+		{#each box.pokemons as pokemon (pokemon.imageName)}
 			<button
 				on:click={() => {
 					onPokemonClicked(pokemon);

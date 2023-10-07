@@ -14,7 +14,7 @@ export interface PokemonFilterConfig {
     pokedex: string;
     newBoxAtGenerations: number[];
     forms: PokemonFormsFilter;
-    boxNbStart: number;
+    boxNamePattern: string;
 }
 
 export const defaultConfig = {
@@ -29,7 +29,7 @@ export const defaultConfig = {
         event: false,
         regions: []
     },
-    boxNbStart: 1,
+    boxNamePattern: "{gen}G - {genboxnb}",
 };
 
 interface PokemonFormsFilter {
@@ -199,7 +199,7 @@ function splitByGeneration(pokemons: Pokemon[], genIds: number[]) {
     }).filter(e => e.length);
 }
 
-export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig, search: string[]): Pokemon[][] {
+export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig, search: string[]) {
     if (!filter) {
         return [];
     }
@@ -217,7 +217,41 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
     const pokemonsWithForms = getPokemonsWithForms(pokemons, filter.forms);
 
     const newBoxAtGenerations = filter.pokedex == "national" ? filter.newBoxAtGenerations : [];
-    return splitByGeneration(pokemonsWithForms, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30));
+    return addBoxNames(splitByGeneration(pokemonsWithForms, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30)), filter.boxNamePattern);
+}
+
+function getGeneration(pokemon: Pokemon) {
+    const generation =  generations.find(g => pokemon.id >= g.start && pokemon.id <= g.end);
+    if (generation === undefined) {
+        throw Error("Unable to find generation for pokemon : " + pokemon.id);
+    }
+
+    return generation;
+}
+
+function addBoxNames(boxes:Pokemon [][], namePattern: string) {
+    let currentGen: Generation | null = null;
+    let currentGenBox = 0;
+    return boxes.map(box => {
+        const gensInBox = box.map(p => getGeneration(p));
+        const gensInBoxUniques = gensInBox.filter((g, i) => gensInBox.indexOf(g) === i)
+
+        const boxName = gensInBoxUniques.map(g => {
+            if (g === currentGen) {
+                currentGenBox++;
+            } else {
+                currentGen = g;
+                currentGenBox = 1;
+            }
+
+            return namePattern.replaceAll("{gen}", g.id.toString()).replaceAll("{genboxnb}", currentGenBox.toString());
+        }).join(", ");
+
+        return {
+            name: boxName,
+            pokemons: box
+        }
+    });
 }
 
 function isPokemonIncluded(pokemonData: PokemonData, filter: PokemonFilterConfig) {
