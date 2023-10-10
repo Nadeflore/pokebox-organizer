@@ -221,7 +221,7 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
 }
 
 function getGeneration(pokemon: Pokemon) {
-    const generation =  generations.find(g => pokemon.id >= g.start && pokemon.id <= g.end);
+    const generation = generations.find(g => pokemon.id >= g.start && pokemon.id <= g.end);
     if (generation === undefined) {
         throw Error("Unable to find generation for pokemon : " + pokemon.id);
     }
@@ -229,7 +229,11 @@ function getGeneration(pokemon: Pokemon) {
     return generation;
 }
 
-function addBoxNames(boxes:Pokemon [][], namePattern: string) {
+function addBoxNames(boxes: Pokemon[][], namePattern: string) {
+    // Fallback to default pattern
+    if (!namePattern) {
+        namePattern = defaultConfig.boxNamePattern;
+    }
     let currentGen: Generation | null = null;
     let currentGenBox = 0;
     return boxes.map(box => {
