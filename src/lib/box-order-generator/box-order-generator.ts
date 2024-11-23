@@ -27,7 +27,8 @@ export const defaultConfig = {
         maleFemaleForms: false,
         types: [],
         event: false,
-        regions: []
+        regions: [],
+        onlySpecialForms: false
     },
     boxNamePattern: "{gen}G - {genboxnb}",
 };
@@ -37,6 +38,7 @@ interface PokemonFormsFilter {
     types: FormType[];
     event: boolean;
     regions: Region[];
+    onlySpecialForms: boolean;
 }
 
 export enum FormType {
@@ -157,7 +159,11 @@ function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonForms
             }
         }
 
-        return otherForms.concat(eventAndRegionalForms)
+        if (formsFilter.onlySpecialForms) {
+            return eventAndRegionalForms;
+        } else {
+            return otherForms.concat(eventAndRegionalForms)
+        }
     });
 
     return result;
@@ -236,20 +242,21 @@ function addBoxNames(boxes: Pokemon[][], namePattern: string) {
     }
     let currentGen: Generation | null = null;
     let currentGenBox = 0;
+    let boxNb = 0;
     return boxes.map(box => {
+        boxNb++;
         const gensInBox = box.map(p => getGeneration(p));
         const gensInBoxUniques = gensInBox.filter((g, i) => gensInBox.indexOf(g) === i)
 
-        const boxName = gensInBoxUniques.map(g => {
+        const boxName = [...new Set(gensInBoxUniques.map(g => {
             if (g === currentGen) {
                 currentGenBox++;
             } else {
                 currentGen = g;
                 currentGenBox = 1;
             }
-
-            return namePattern.replaceAll("{gen}", g.id.toString()).replaceAll("{genboxnb}", currentGenBox.toString());
-        }).join(", ");
+            return namePattern.replaceAll("{gen}", g.id.toString()).replaceAll("{genboxnb}", currentGenBox.toString()).replaceAll("{boxnb}", boxNb.toString());
+        }))].join(", ");
 
         return {
             name: boxName,

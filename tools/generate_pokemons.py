@@ -150,8 +150,10 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
         if len(sexes) == 1:
             sex = sexes[0]
-            if sex in [Sex.fd, Sex.md]:
-                raise Exception("missing double sex form")
+            if sex == Sex.fd:
+                sex = Sex.fo
+            elif sex == Sex.md:
+                sex = Sex.mo
 
         elif len(sexes) == 2:
             if not (Sex.fd in sexes and Sex.md in sexes):

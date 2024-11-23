@@ -47,7 +47,7 @@ function createState() {
         subscribe,
         set,
         update,
-        addTab: () => update(s => ({ activeTabId: s.tabs.length, tabs: [...s.tabs, { ...tabDefaultValue }] })),
+        addTab: () => update(s => ({ activeTabId: s.tabs.length, tabs: [...s.tabs, structuredClone(tabDefaultValue)] })),
         removeTab: (i: number) => update(s => s.tabs.length == 1 ? s : ({ activeTabId: Math.min(s.tabs.length - 2, i), tabs: s.tabs.slice(0, i).concat(s.tabs.slice(i + 1)) })),
     };
 }

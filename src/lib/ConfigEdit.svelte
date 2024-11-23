@@ -82,6 +82,12 @@
 				{/each}
 			</ul>
 		</div>
+		<div>
+			<label>
+				<input type="checkbox" bind:checked={$config.forms.onlySpecialForms} />
+				Only special forms
+			</label>
+		</div>
 	</section>
 	<section>
 		<h3>Grouping options</h3>

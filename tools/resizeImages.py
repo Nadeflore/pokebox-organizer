@@ -37,7 +37,7 @@ with open('../static/data/pokemons.json', "rt") as jsonfile:
 
 for filename in imagesFileNames:
     subprocess.run([
-        "convert",
+        "magick",
         INPUT_PATH + "/" + filename + ".png",
         "-resize",
         "128x128",

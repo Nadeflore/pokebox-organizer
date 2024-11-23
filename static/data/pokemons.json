@@ -15,7 +15,8 @@
             "gsc": 226,
             "hgss": 231,
             "xy_central": 80,
-            "swsh_armor": 68
+            "swsh_armor": 68,
+            "sv_blueberry": 164
         },
         "forms": [
             {
@@ -40,7 +41,8 @@
             "gsc": 227,
             "hgss": 232,
             "xy_central": 81,
-            "swsh_armor": 69
+            "swsh_armor": 69,
+            "sv_blueberry": 165
         },
         "forms": [
             {
@@ -65,7 +67,8 @@
             "gsc": 228,
             "hgss": 233,
             "xy_central": 82,
-            "swsh_armor": 70
+            "swsh_armor": 70,
+            "sv_blueberry": 166
         },
         "forms": [
             {
@@ -90,7 +93,8 @@
             "gsc": 229,
             "hgss": 234,
             "xy_central": 83,
-            "swsh": 378
+            "swsh": 378,
+            "sv_blueberry": 167
         },
         "forms": [
             {
@@ -115,7 +119,8 @@
             "gsc": 230,
             "hgss": 235,
             "xy_central": 84,
-            "swsh": 379
+            "swsh": 379,
+            "sv_blueberry": 168
         },
         "forms": [
             {
@@ -140,7 +145,8 @@
             "gsc": 231,
             "hgss": 236,
             "xy_central": 85,
-            "swsh": 380
+            "swsh": 380,
+            "sv_blueberry": 169
         },
         "forms": [
             {
@@ -165,7 +171,8 @@
             "gsc": 232,
             "hgss": 237,
             "xy_central": 86,
-            "swsh_armor": 71
+            "swsh_armor": 71,
+            "sv_blueberry": 170
         },
         "forms": [
             {
@@ -190,7 +197,8 @@
             "gsc": 233,
             "hgss": 238,
             "xy_central": 87,
-            "swsh_armor": 72
+            "swsh_armor": 72,
+            "sv_blueberry": 171
         },
         "forms": [
             {
@@ -215,7 +223,8 @@
             "gsc": 234,
             "hgss": 239,
             "xy_central": 88,
-            "swsh_armor": 73
+            "swsh_armor": 73,
+            "sv_blueberry": 172
         },
         "forms": [
             {
@@ -240,6 +249,9 @@
             "gsc": 24,
             "hgss": 24,
             "xy_central": 23,
+            "sm": 17,
+            "sm_melemele": 17,
+            "sm_akala": 8,
             "usum": 17,
             "usum_melemele": 17,
             "usum_akala": 8,
@@ -268,6 +280,9 @@
             "gsc": 25,
             "hgss": 25,
             "xy_central": 24,
+            "sm": 18,
+            "sm_melemele": 18,
+            "sm_akala": 9,
             "usum": 18,
             "usum_melemele": 18,
             "usum_akala": 9,
@@ -296,6 +311,9 @@
             "gsc": 26,
             "hgss": 26,
             "xy_central": 25,
+            "sm": 19,
+            "sm_melemele": 19,
+            "sm_akala": 10,
             "usum": 19,
             "usum_melemele": 19,
             "usum_akala": 10,
@@ -468,6 +486,11 @@
             "gsc": 17,
             "hgss": 17,
             "b2w2": 59,
+            "sm": 15,
+            "sm_melemele": 15,
+            "sm_akala": 6,
+            "sm_ulaula": 6,
+            "sm_poni": 6,
             "usum": 15,
             "usum_melemele": 15,
             "usum_akala": 6,
@@ -501,6 +524,11 @@
             "gsc": 18,
             "hgss": 18,
             "b2w2": 60,
+            "sm": 16,
+            "sm_melemele": 16,
+            "sm_akala": 7,
+            "sm_ulaula": 7,
+            "sm_poni": 7,
             "usum": 16,
             "usum_melemele": 16,
             "usum_akala": 7,
@@ -534,6 +562,10 @@
             "gsc": 13,
             "hgss": 13,
             "xy_mountain": 109,
+            "sm": 73,
+            "sm_melemele": 73,
+            "sm_ulaula": 40,
+            "sm_poni": 24,
             "usum": 87,
             "usum_melemele": 87,
             "usum_poni": 33
@@ -561,6 +593,10 @@
             "gsc": 14,
             "hgss": 14,
             "xy_mountain": 110,
+            "sm": 74,
+            "sm_melemele": 74,
+            "sm_ulaula": 41,
+            "sm_poni": 25,
             "usum": 88,
             "usum_melemele": 88,
             "usum_poni": 34
@@ -589,7 +625,8 @@
             "hgss": 50,
             "xy_mountain": 37,
             "usum": 61,
-            "usum_melemele": 61
+            "usum_melemele": 61,
+            "sv_kitakami": 18
         },
         "forms": [
             {
@@ -615,7 +652,8 @@
             "hgss": 51,
             "xy_mountain": 38,
             "usum": 62,
-            "usum_melemele": 62
+            "usum_melemele": 62,
+            "sv_kitakami": 19
         },
         "forms": [
             {
@@ -644,12 +682,15 @@
             "hgss": 22,
             "xy_central": 36,
             "oras": 163,
+            "sm": 25,
+            "sm_melemele": 25,
             "usum": 32,
             "usum_melemele": 32,
             "swsh": 194,
             "swsh_armor": 85,
             "la": 56,
-            "sv": 74
+            "sv": 74,
+            "sv_kitakami": 21
         },
         "forms": [
             {
@@ -718,12 +759,15 @@
             "hgss": 23,
             "xy_central": 37,
             "oras": 164,
+            "sm": 26,
+            "sm_melemele": 26,
             "usum": 33,
             "usum_melemele": 33,
             "swsh": 195,
             "swsh_armor": 86,
             "la": 57,
-            "sv": 75
+            "sv": 75,
+            "sv_kitakami": 22
         },
         "forms": [
             {
@@ -757,7 +801,9 @@
             "xy_mountain": 97,
             "oras": 117,
             "usum": 328,
-            "swsh_armor": 168
+            "swsh_armor": 168,
+            "sv_kitakami": 110,
+            "sv_blueberry": 155
         },
         "forms": [
             {
@@ -791,7 +837,9 @@
             "xy_mountain": 98,
             "oras": 118,
             "usum": 329,
-            "swsh_armor": 169
+            "swsh_armor": 169,
+            "sv_kitakami": 111,
+            "sv_blueberry": 156
         },
         "forms": [
             {
@@ -973,10 +1021,13 @@
             "pt": 100,
             "hgss": 41,
             "b2w2": 89,
+            "sm": 211,
+            "sm_ulaula": 83,
             "usum": 273,
             "swsh": 255,
             "swsh_tundra": 44,
-            "la": 200
+            "la": 200,
+            "sv_kitakami": 146
         },
         "forms": [
             {
@@ -1003,10 +1054,13 @@
             "pt": 101,
             "hgss": 42,
             "b2w2": 90,
+            "sm": 212,
+            "sm_ulaula": 84,
             "usum": 274,
             "swsh": 256,
             "swsh_tundra": 45,
-            "la": 201
+            "la": 201,
+            "sv_kitakami": 147
         },
         "forms": [
             {
@@ -1035,7 +1089,9 @@
             "oras": 160,
             "usum": 330,
             "swsh": 68,
-            "la": 168
+            "la": 168,
+            "sv_kitakami": 37,
+            "sv_blueberry": 157
         },
         "forms": [
             {
@@ -1069,7 +1125,9 @@
             "oras": 161,
             "usum": 331,
             "swsh": 69,
-            "la": 169
+            "la": 169,
+            "sv_kitakami": 38,
+            "sv_blueberry": 158
         },
         "forms": [
             {
@@ -1102,6 +1160,8 @@
             "b2w2": 282,
             "xy_mountain": 120,
             "oras": 143,
+            "sm": 135,
+            "sm_akala": 62,
             "usum": 168,
             "usum_akala": 69,
             "swsh_armor": 12,
@@ -1133,6 +1193,8 @@
             "b2w2": 283,
             "xy_mountain": 121,
             "oras": 144,
+            "sm": 136,
+            "sm_akala": 63,
             "usum": 169,
             "usum_akala": 70,
             "swsh_armor": 13,
@@ -1166,6 +1228,11 @@
             "b2w2": 61,
             "xy_central": 145,
             "oras": 65,
+            "sm": 68,
+            "sm_melemele": 68,
+            "sm_akala": 26,
+            "sm_ulaula": 35,
+            "sm_poni": 19,
             "usum": 80,
             "usum_melemele": 80,
             "usum_akala": 26,
@@ -1201,6 +1268,11 @@
             "b2w2": 62,
             "xy_central": 146,
             "oras": 66,
+            "sm": 69,
+            "sm_melemele": 69,
+            "sm_akala": 27,
+            "sm_ulaula": 36,
+            "sm_poni": 20,
             "usum": 81,
             "usum_melemele": 81,
             "usum_akala": 27,
@@ -1233,7 +1305,8 @@
             "hgss": 83,
             "xy_central": 105,
             "oras": 91,
-            "swsh": 55
+            "swsh": 55,
+            "sv_blueberry": 62
         },
         "forms": [
             {
@@ -1260,7 +1333,8 @@
             "hgss": 84,
             "xy_central": 106,
             "oras": 92,
-            "swsh": 56
+            "swsh": 56,
+            "sv_blueberry": 63
         },
         "forms": [
             {
@@ -1287,7 +1361,8 @@
             "hgss": 85,
             "xy_central": 107,
             "oras": 93,
-            "swsh": 57
+            "swsh": 57,
+            "sv_blueberry": 64
         },
         "forms": [
             {
@@ -1311,6 +1386,9 @@
             "national": 46,
             "gsc": 70,
             "hgss": 70,
+            "sm": 147,
+            "sm_akala": 74,
+            "sm_ulaula": 66,
             "usum": 180,
             "usum_akala": 81,
             "la": 53
@@ -1337,6 +1415,9 @@
             "national": 47,
             "gsc": 71,
             "hgss": 71,
+            "sm": 148,
+            "sm_akala": 75,
+            "sm_ulaula": 67,
             "usum": 181,
             "usum_akala": 82,
             "la": 54
@@ -1363,7 +1444,8 @@
             "national": 48,
             "gsc": 108,
             "hgss": 109,
-            "sv": 256
+            "sv": 256,
+            "sv_blueberry": 8
         },
         "forms": [
             {
@@ -1387,7 +1469,8 @@
             "national": 49,
             "gsc": 109,
             "hgss": 110,
-            "sv": 257
+            "sv": 257,
+            "sv_blueberry": 9
         },
         "forms": [
             {
@@ -1412,12 +1495,18 @@
             "gsc": 132,
             "hgss": 134,
             "xy_mountain": 1,
+            "sm": 71,
+            "sm_melemele": 71,
+            "sm_akala": 29,
+            "sm_ulaula": 38,
+            "sm_poni": 22,
             "usum": 85,
             "usum_melemele": 85,
             "usum_akala": 29,
             "usum_poni": 31,
             "swsh": 164,
-            "sv": 148
+            "sv": 148,
+            "sv_blueberry": 66
         },
         "forms": [
             {
@@ -1447,12 +1536,18 @@
             "gsc": 133,
             "hgss": 135,
             "xy_mountain": 2,
+            "sm": 72,
+            "sm_melemele": 72,
+            "sm_akala": 30,
+            "sm_ulaula": 39,
+            "sm_poni": 23,
             "usum": 86,
             "usum_melemele": 86,
             "usum_akala": 30,
             "usum_poni": 32,
             "swsh": 165,
-            "sv": 149
+            "sv": 149,
+            "sv_blueberry": 67
         },
         "forms": [
             {
@@ -1481,6 +1576,9 @@
             "national": 52,
             "gsc": 136,
             "hgss": 138,
+            "sm": 45,
+            "sm_melemele": 45,
+            "sm_ulaula": 23,
             "usum": 52,
             "usum_melemele": 52,
             "swsh": 182,
@@ -1518,6 +1616,9 @@
             "national": 53,
             "gsc": 137,
             "hgss": 139,
+            "sm": 46,
+            "sm_melemele": 46,
+            "sm_ulaula": 24,
             "usum": 53,
             "usum_melemele": 53,
             "swsh": 184,
@@ -1556,6 +1657,11 @@
             "b2w2": 28,
             "xy_central": 59,
             "oras": 165,
+            "sm": 89,
+            "sm_melemele": 89,
+            "sm_akala": 32,
+            "sm_ulaula": 49,
+            "sm_poni": 39,
             "usum": 107,
             "usum_melemele": 107,
             "usum_akala": 32,
@@ -1592,6 +1698,11 @@
             "b2w2": 29,
             "xy_central": 60,
             "oras": 166,
+            "sm": 90,
+            "sm_melemele": 90,
+            "sm_akala": 33,
+            "sm_ulaula": 50,
+            "sm_poni": 40,
             "usum": 108,
             "usum_melemele": 108,
             "usum_akala": 33,
@@ -1622,10 +1733,14 @@
             "national": 56,
             "gsc": 134,
             "hgss": 136,
+            "sm": 79,
+            "sm_melemele": 79,
+            "sm_poni": 30,
             "usum": 93,
             "usum_melemele": 93,
             "usum_poni": 39,
-            "sv": 158
+            "sv": 158,
+            "sv_kitakami": 93
         },
         "forms": [
             {
@@ -1649,10 +1764,14 @@
             "national": 57,
             "gsc": 135,
             "hgss": 137,
+            "sm": 80,
+            "sm_melemele": 80,
+            "sm_poni": 31,
             "usum": 94,
             "usum_melemele": 94,
             "usum_poni": 40,
-            "sv": 159
+            "sv": 159,
+            "sv_kitakami": 94
         },
         "forms": [
             {
@@ -1677,11 +1796,14 @@
             "gsc": 127,
             "hgss": 129,
             "b2w2": 51,
+            "sm": 52,
+            "sm_melemele": 52,
             "usum": 64,
             "usum_melemele": 64,
             "swsh": 70,
             "la": 150,
-            "sv": 213
+            "sv": 213,
+            "sv_kitakami": 72
         },
         "forms": [
             {
@@ -1711,11 +1833,14 @@
             "gsc": 128,
             "hgss": 130,
             "b2w2": 52,
+            "sm": 53,
+            "sm_melemele": 53,
             "usum": 65,
             "usum_melemele": 65,
             "swsh": 71,
             "la": 151,
-            "sv": 214
+            "sv": 214,
+            "sv_kitakami": 73
         },
         "forms": [
             {
@@ -1745,9 +1870,13 @@
             "gsc": 72,
             "hgss": 72,
             "xy_mountain": 33,
+            "sm": 149,
+            "sm_akala": 76,
+            "sm_ulaula": 68,
             "usum": 182,
             "usum_akala": 83,
-            "swsh_armor": 142
+            "swsh_armor": 142,
+            "sv_kitakami": 38
         },
         "forms": [
             {
@@ -1772,9 +1901,13 @@
             "gsc": 73,
             "hgss": 73,
             "xy_mountain": 34,
+            "sm": 150,
+            "sm_akala": 77,
+            "sm_ulaula": 69,
             "usum": 183,
             "usum_akala": 84,
-            "swsh_armor": 143
+            "swsh_armor": 143,
+            "sv_kitakami": 38
         },
         "forms": [
             {
@@ -1799,9 +1932,13 @@
             "gsc": 74,
             "hgss": 74,
             "xy_mountain": 35,
+            "sm": 151,
+            "sm_akala": 78,
+            "sm_ulaula": 70,
             "usum": 184,
             "usum_akala": 85,
-            "swsh_armor": 144
+            "swsh_armor": 144,
+            "sv_kitakami": 38
         },
         "forms": [
             {
@@ -1830,6 +1967,8 @@
             "hgss": 89,
             "xy_central": 102,
             "oras": 40,
+            "sm": 42,
+            "sm_melemele": 42,
             "usum": 49,
             "usum_melemele": 49,
             "swsh_armor": 31,
@@ -1862,6 +2001,8 @@
             "hgss": 90,
             "xy_central": 103,
             "oras": 41,
+            "sm": 43,
+            "sm_melemele": 43,
             "usum": 50,
             "usum_melemele": 50,
             "swsh_armor": 32,
@@ -1894,6 +2035,8 @@
             "hgss": 91,
             "xy_central": 104,
             "oras": 42,
+            "sm": 44,
+            "sm_melemele": 44,
             "usum": 51,
             "usum_melemele": 51,
             "swsh_armor": 33,
@@ -1926,6 +2069,9 @@
             "hgss": 142,
             "xy_coastal": 57,
             "oras": 75,
+            "sm": 95,
+            "sm_melemele": 95,
+            "sm_poni": 45,
             "usum": 117,
             "usum_melemele": 117,
             "usum_poni": 57,
@@ -1959,6 +2105,9 @@
             "hgss": 143,
             "xy_coastal": 58,
             "oras": 76,
+            "sm": 96,
+            "sm_melemele": 96,
+            "sm_poni": 46,
             "usum": 118,
             "usum_melemele": 118,
             "usum_poni": 58,
@@ -1992,6 +2141,9 @@
             "hgss": 144,
             "xy_coastal": 59,
             "oras": 77,
+            "sm": 97,
+            "sm_melemele": 97,
+            "sm_poni": 47,
             "usum": 119,
             "usum_melemele": 119,
             "usum_poni": 59,
@@ -2020,7 +2172,8 @@
             "national": 69,
             "gsc": 64,
             "hgss": 64,
-            "xy_mountain": 26
+            "xy_mountain": 26,
+            "sv_kitakami": 23
         },
         "forms": [
             {
@@ -2044,7 +2197,8 @@
             "national": 70,
             "gsc": 65,
             "hgss": 65,
-            "xy_mountain": 27
+            "xy_mountain": 27,
+            "sv_kitakami": 24
         },
         "forms": [
             {
@@ -2068,7 +2222,8 @@
             "national": 71,
             "gsc": 66,
             "hgss": 66,
-            "xy_mountain": 28
+            "xy_mountain": 28,
+            "sv_kitakami": 25
         },
         "forms": [
             {
@@ -2097,12 +2252,18 @@
             "hgss": 164,
             "xy_coastal": 25,
             "oras": 68,
+            "sm": 106,
+            "sm_melemele": 106,
+            "sm_akala": 38,
+            "sm_ulaula": 53,
+            "sm_poni": 55,
             "usum": 129,
             "usum_melemele": 129,
             "usum_akala": 38,
             "usum_poni": 67,
             "swsh_armor": 40,
-            "la": 170
+            "la": 170,
+            "sv_blueberry": 50
         },
         "forms": [
             {
@@ -2131,12 +2292,18 @@
             "hgss": 165,
             "xy_coastal": 26,
             "oras": 69,
+            "sm": 107,
+            "sm_melemele": 107,
+            "sm_akala": 39,
+            "sm_ulaula": 54,
+            "sm_poni": 56,
             "usum": 130,
             "usum_melemele": 130,
             "usum_akala": 39,
             "usum_poni": 68,
             "swsh_armor": 41,
-            "la": 171
+            "la": 171,
+            "sv_blueberry": 51
         },
         "forms": [
             {
@@ -2165,8 +2332,12 @@
             "hgss": 34,
             "xy_mountain": 9,
             "oras": 58,
+            "sm": 229,
+            "sm_ulaula": 101,
             "usum": 298,
-            "la": 46
+            "la": 46,
+            "sv_kitakami": 74,
+            "sv_blueberry": 96
         },
         "forms": [
             {
@@ -2200,8 +2371,12 @@
             "hgss": 35,
             "xy_mountain": 10,
             "oras": 59,
+            "sm": 230,
+            "sm_ulaula": 102,
             "usum": 299,
-            "la": 47
+            "la": 47,
+            "sv_kitakami": 75,
+            "sv_blueberry": 97
         },
         "forms": [
             {
@@ -2235,8 +2410,12 @@
             "hgss": 36,
             "xy_mountain": 11,
             "oras": 60,
+            "sm": 231,
+            "sm_ulaula": 103,
             "usum": 300,
-            "la": 48
+            "la": 48,
+            "sv_kitakami": 76,
+            "sv_blueberry": 98
         },
         "forms": [
             {
@@ -2332,10 +2511,14 @@
             "gsc": 80,
             "hgss": 80,
             "xy_coastal": 133,
+            "sm": 37,
+            "sm_melemele": 37,
+            "sm_ulaula": 18,
             "usum": 44,
             "usum_melemele": 44,
             "swsh_armor": 1,
-            "sv": 324
+            "sv": 324,
+            "sv_blueberry": 75
         },
         "forms": [
             {
@@ -2365,10 +2548,14 @@
             "gsc": 81,
             "hgss": 81,
             "xy_coastal": 134,
+            "sm": 38,
+            "sm_melemele": 38,
+            "sm_ulaula": 19,
             "usum": 45,
             "usum_melemele": 45,
             "swsh_armor": 2,
-            "sv": 325
+            "sv": 325,
+            "sv_blueberry": 76
         },
         "forms": [
             {
@@ -2402,11 +2589,15 @@
             "b2w2": 48,
             "xy_mountain": 69,
             "oras": 84,
+            "sm": 47,
+            "sm_melemele": 47,
+            "sm_ulaula": 25,
             "usum": 54,
             "usum_melemele": 54,
             "swsh_armor": 105,
             "la": 177,
-            "sv": 209
+            "sv": 209,
+            "sv_blueberry": 116
         },
         "forms": [
             {
@@ -2435,11 +2626,15 @@
             "b2w2": 49,
             "xy_mountain": 70,
             "oras": 85,
+            "sm": 48,
+            "sm_melemele": 48,
+            "sm_ulaula": 26,
             "usum": 55,
             "usum_melemele": 55,
             "swsh_armor": 106,
             "la": 178,
-            "sv": 210
+            "sv": 210,
+            "sv_blueberry": 117
         },
         "forms": [
             {
@@ -2495,7 +2690,8 @@
             "rse": 92,
             "hgss": 204,
             "xy_central": 94,
-            "oras": 95
+            "oras": 95,
+            "sv_blueberry": 1
         },
         "forms": [
             {
@@ -2521,7 +2717,8 @@
             "rse": 93,
             "hgss": 205,
             "xy_central": 95,
-            "oras": 96
+            "oras": 96,
+            "sv_blueberry": 2
         },
         "forms": [
             {
@@ -2547,7 +2744,8 @@
             "hgss": 178,
             "b2w2": 265,
             "usum": 115,
-            "usum_melemele": 115
+            "usum_melemele": 115,
+            "sv_blueberry": 143
         },
         "forms": [
             {
@@ -2573,7 +2771,8 @@
             "hgss": 179,
             "b2w2": 266,
             "usum": 116,
-            "usum_melemele": 116
+            "usum_melemele": 116,
+            "sv_blueberry": 144
         },
         "forms": [
             {
@@ -2600,9 +2799,13 @@
             "hgss": 117,
             "b2w2": 64,
             "oras": 111,
+            "sm": 50,
+            "sm_melemele": 50,
+            "sm_ulaula": 28,
             "usum": 57,
             "usum_melemele": 57,
-            "sv": 194
+            "sv": 194,
+            "sv_blueberry": 68
         },
         "forms": [
             {
@@ -2634,9 +2837,13 @@
             "hgss": 118,
             "b2w2": 65,
             "oras": 112,
+            "sm": 51,
+            "sm_melemele": 51,
+            "sm_ulaula": 29,
             "usum": 58,
             "usum_melemele": 58,
-            "sv": 195
+            "sv": 195,
+            "sv_blueberry": 69
         },
         "forms": [
             {
@@ -2666,6 +2873,8 @@
             "gsc": 169,
             "hgss": 171,
             "xy_coastal": 36,
+            "sm": 115,
+            "sm_melemele": 115,
             "usum": 138,
             "usum_melemele": 138,
             "swsh": 150,
@@ -2695,6 +2904,8 @@
             "gsc": 170,
             "hgss": 172,
             "xy_coastal": 37,
+            "sm": 116,
+            "sm_melemele": 116,
             "usum": 139,
             "usum_melemele": 139,
             "swsh": 151,
@@ -2726,12 +2937,17 @@
             "pt": 69,
             "hgss": 58,
             "xy_mountain": 30,
+            "sm": 61,
+            "sm_melemele": 61,
+            "sm_akala": 23,
+            "sm_ulaula": 32,
             "usum": 73,
             "usum_melemele": 73,
             "usum_akala": 23,
             "swsh": 141,
             "la": 136,
-            "sv": 68
+            "sv": 68,
+            "sv_kitakami": 112
         },
         "forms": [
             {
@@ -2758,12 +2974,17 @@
             "pt": 70,
             "hgss": 59,
             "xy_mountain": 31,
+            "sm": 62,
+            "sm_melemele": 62,
+            "sm_akala": 24,
+            "sm_ulaula": 33,
             "usum": 74,
             "usum_melemele": 74,
             "usum_akala": 24,
             "swsh": 142,
             "la": 137,
-            "sv": 69
+            "sv": 69,
+            "sv_kitakami": 113
         },
         "forms": [
             {
@@ -2790,12 +3011,17 @@
             "pt": 71,
             "hgss": 60,
             "xy_mountain": 32,
+            "sm": 63,
+            "sm_melemele": 63,
+            "sm_akala": 25,
+            "sm_ulaula": 34,
             "usum": 75,
             "usum_melemele": 75,
             "usum_akala": 25,
             "swsh": 143,
             "la": 138,
-            "sv": 70
+            "sv": 70,
+            "sv_kitakami": 114
         },
         "forms": [
             {
@@ -2848,6 +3074,9 @@
             "national": 96,
             "gsc": 87,
             "hgss": 87,
+            "sm": 54,
+            "sm_melemele": 54,
+            "sm_poni": 13,
             "usum": 66,
             "usum_melemele": 66,
             "usum_poni": 20,
@@ -2875,6 +3104,9 @@
             "national": 97,
             "gsc": 88,
             "hgss": 88,
+            "sm": 55,
+            "sm_melemele": 55,
+            "sm_poni": 14,
             "usum": 67,
             "usum_melemele": 67,
             "usum_poni": 21,
@@ -3021,7 +3253,8 @@
             "xy_coastal": 136,
             "usum": 355,
             "usum_poni": 102,
-            "swsh_armor": 205
+            "swsh_armor": 205,
+            "sv_blueberry": 3
         },
         "forms": [
             {
@@ -3048,7 +3281,8 @@
             "xy_coastal": 137,
             "usum": 356,
             "usum_poni": 103,
-            "swsh_armor": 206
+            "swsh_armor": 206,
+            "sv_blueberry": 4
         },
         "forms": [
             {
@@ -3078,6 +3312,8 @@
             "gsc": 203,
             "hgss": 208,
             "xy_coastal": 60,
+            "sm": 163,
+            "sm_akala": 90,
             "usum": 197,
             "usum_akala": 98,
             "swsh_armor": 170
@@ -3105,6 +3341,8 @@
             "gsc": 204,
             "hgss": 209,
             "xy_coastal": 61,
+            "sm": 164,
+            "sm_akala": 91,
             "usum": 198,
             "usum_akala": 99,
             "swsh_armor": 171
@@ -3136,7 +3374,8 @@
             "national": 106,
             "gsc": 144,
             "hgss": 146,
-            "swsh": 108
+            "swsh": 108,
+            "sv_blueberry": 93
         },
         "forms": [
             {
@@ -3160,7 +3399,8 @@
             "national": 107,
             "gsc": 145,
             "hgss": 147,
-            "swsh": 109
+            "swsh": 109,
+            "sv_blueberry": 94
         },
         "forms": [
             {
@@ -3217,7 +3457,8 @@
             "hgss": 115,
             "b2w2": 46,
             "oras": 113,
-            "swsh": 250
+            "swsh": 250,
+            "sv_kitakami": 129
         },
         "forms": [
             {
@@ -3244,7 +3485,8 @@
             "hgss": 116,
             "b2w2": 47,
             "oras": 114,
-            "swsh": 251
+            "swsh": 251,
+            "sv_kitakami": 130
         },
         "forms": [
             {
@@ -3279,7 +3521,8 @@
             "oras": 176,
             "swsh": 264,
             "swsh_armor": 183,
-            "la": 120
+            "la": 120,
+            "sv_blueberry": 5
         },
         "forms": [
             {
@@ -3309,7 +3552,8 @@
             "oras": 177,
             "swsh": 265,
             "swsh_armor": 184,
-            "la": 121
+            "la": 121,
+            "sv_blueberry": 6
         },
         "forms": [
             {
@@ -3335,13 +3579,19 @@
             "dp": 97,
             "pt": 97,
             "hgss": 222,
+            "sm": 33,
+            "sm_melemele": 33,
+            "sm_akala": 17,
+            "sm_ulaula": 16,
+            "sm_poni": 9,
             "usum": 40,
             "usum_melemele": 40,
             "usum_akala": 17,
             "usum_poni": 16,
             "swsh_armor": 7,
             "la": 87,
-            "sv": 44
+            "sv": 44,
+            "sv_blueberry": 17
         },
         "forms": [
             {
@@ -3393,6 +3643,8 @@
             "gsc": 205,
             "hgss": 210,
             "xy_coastal": 62,
+            "sm": 165,
+            "sm_akala": 92,
             "usum": 199,
             "usum_akala": 100,
             "swsh_armor": 172
@@ -3422,7 +3674,8 @@
             "hgss": 190,
             "xy_coastal": 39,
             "oras": 193,
-            "swsh_armor": 198
+            "swsh_armor": 198,
+            "sv_blueberry": 52
         },
         "forms": [
             {
@@ -3449,7 +3702,8 @@
             "hgss": 191,
             "xy_coastal": 40,
             "oras": 194,
-            "swsh_armor": 199
+            "swsh_armor": 199,
+            "sv_blueberry": 53
         },
         "forms": [
             {
@@ -3478,6 +3732,9 @@
             "hgss": 78,
             "xy_central": 53,
             "oras": 51,
+            "sm": 153,
+            "sm_akala": 80,
+            "sm_ulaula": 72,
             "usum": 186,
             "usum_akala": 87,
             "swsh": 146,
@@ -3510,6 +3767,9 @@
             "hgss": 79,
             "xy_central": 54,
             "oras": 52,
+            "sm": 154,
+            "sm_akala": 81,
+            "sm_ulaula": 73,
             "usum": 187,
             "usum_akala": 88,
             "swsh": 147,
@@ -3541,6 +3801,8 @@
             "b2w2": 238,
             "xy_coastal": 34,
             "oras": 148,
+            "sm": 184,
+            "sm_akala": 111,
             "usum": 223,
             "usum_akala": 124,
             "swsh_armor": 98
@@ -3571,6 +3833,8 @@
             "b2w2": 239,
             "xy_coastal": 35,
             "oras": 149,
+            "sm": 185,
+            "sm_akala": 112,
             "usum": 224,
             "usum_akala": 125,
             "swsh_armor": 99
@@ -3639,7 +3903,8 @@
             "usum_poni": 112,
             "swsh_armor": 118,
             "la": 72,
-            "sv": 260
+            "sv": 260,
+            "sv_blueberry": 19
         },
         "forms": [
             {
@@ -3692,9 +3957,12 @@
             "pt": 198,
             "hgss": 157,
             "b2w2": 57,
+            "sm": 227,
+            "sm_ulaula": 99,
             "usum": 296,
             "swsh_tundra": 16,
-            "la": 183
+            "la": 183,
+            "sv_blueberry": 11
         },
         "forms": [
             {
@@ -3720,10 +3988,13 @@
             "pt": 201,
             "hgss": 153,
             "b2w2": 54,
+            "sm": 167,
+            "sm_akala": 94,
             "usum": 201,
             "usum_akala": 102,
             "swsh_tundra": 19,
-            "la": 175
+            "la": 175,
+            "sv_blueberry": 14
         },
         "forms": [
             {
@@ -3751,6 +4022,9 @@
             "b2w2": 146,
             "xy_coastal": 130,
             "oras": 174,
+            "sm": 175,
+            "sm_akala": 102,
+            "sm_poni": 65,
             "usum": 211,
             "usum_akala": 112,
             "usum_poni": 78,
@@ -3779,11 +4053,15 @@
             "gsc": 148,
             "hgss": 150,
             "xy_coastal": 125,
+            "sm": 137,
+            "sm_akala": 64,
+            "sm_poni": 61,
             "usum": 170,
             "usum_akala": 71,
             "usum_poni": 73,
             "swsh_armor": 116,
-            "sv": 223
+            "sv": 223,
+            "sv_blueberry": 22
         },
         "forms": [
             {
@@ -3845,6 +4123,11 @@
             "hgss": 76,
             "xy_central": 49,
             "oras": 53,
+            "sm": 91,
+            "sm_melemele": 91,
+            "sm_akala": 34,
+            "sm_ulaula": 51,
+            "sm_poni": 41,
             "usum": 111,
             "usum_melemele": 111,
             "usum_akala": 34,
@@ -3853,7 +4136,8 @@
             "swsh_armor": 42,
             "swsh_tundra": 62,
             "la": 80,
-            "sv": 134
+            "sv": 134,
+            "sv_kitakami": 39
         },
         "forms": [
             {
@@ -3882,6 +4166,11 @@
             "hgss": 77,
             "xy_central": 50,
             "oras": 54,
+            "sm": 92,
+            "sm_melemele": 92,
+            "sm_akala": 35,
+            "sm_ulaula": 52,
+            "sm_poni": 42,
             "usum": 112,
             "usum_melemele": 112,
             "usum_akala": 35,
@@ -3890,7 +4179,8 @@
             "swsh_armor": 43,
             "swsh_tundra": 63,
             "la": 81,
-            "sv": 135
+            "sv": 135,
+            "sv_kitakami": 39
         },
         "forms": [
             {
@@ -3919,7 +4209,8 @@
             "usum": 353,
             "usum_poni": 100,
             "swsh": 361,
-            "swsh_tundra": 190
+            "swsh_tundra": 190,
+            "sv_blueberry": 145
         },
         "forms": [
             {
@@ -3945,6 +4236,8 @@
             "hgss": 92,
             "b2w2": 261,
             "xy_mountain": 138,
+            "sm": 209,
+            "sm_ulaula": 81,
             "usum": 271,
             "swsh": 373,
             "swsh_armor": 207,
@@ -3975,6 +4268,8 @@
             "hgss": 184,
             "b2w2": 91,
             "xy_coastal": 77,
+            "sm": 123,
+            "sm_akala": 50,
             "usum": 153,
             "usum_akala": 54,
             "swsh": 196,
@@ -4007,6 +4302,8 @@
             "hgss": 185,
             "b2w2": 92,
             "xy_coastal": 78,
+            "sm": 124,
+            "sm_akala": 51,
             "usum": 154,
             "usum_akala": 55,
             "swsh": 197,
@@ -4039,6 +4336,8 @@
             "hgss": 186,
             "b2w2": 93,
             "xy_coastal": 79,
+            "sm": 125,
+            "sm_akala": 52,
             "usum": 155,
             "usum_akala": 56,
             "swsh": 198,
@@ -4071,6 +4370,8 @@
             "hgss": 187,
             "b2w2": 94,
             "xy_coastal": 80,
+            "sm": 126,
+            "sm_akala": 53,
             "usum": 156,
             "usum_akala": 57,
             "swsh": 199,
@@ -4101,9 +4402,12 @@
             "gsc": 215,
             "pt": 192,
             "hgss": 220,
+            "sm": 217,
+            "sm_ulaula": 89,
             "usum": 281,
             "swsh_armor": 208,
-            "la": 133
+            "la": 133,
+            "sv_blueberry": 129
         },
         "forms": [
             {
@@ -4261,11 +4565,14 @@
             "pt": 113,
             "hgss": 230,
             "xy_central": 139,
+            "sm": 36,
+            "sm_melemele": 36,
             "usum": 43,
             "usum_melemele": 43,
             "swsh": 261,
             "swsh_tundra": 173,
-            "la": 52
+            "la": 52,
+            "sv_kitakami": 97
         },
         "forms": [
             {
@@ -4509,7 +4816,8 @@
         "regionalDexId": {
             "national": 152,
             "gsc": 1,
-            "hgss": 1
+            "hgss": 1,
+            "sv_blueberry": 173
         },
         "forms": [
             {
@@ -4532,7 +4840,8 @@
         "regionalDexId": {
             "national": 153,
             "gsc": 2,
-            "hgss": 2
+            "hgss": 2,
+            "sv_blueberry": 174
         },
         "forms": [
             {
@@ -4555,7 +4864,8 @@
         "regionalDexId": {
             "national": 154,
             "gsc": 3,
-            "hgss": 3
+            "hgss": 3,
+            "sv_blueberry": 175
         },
         "forms": [
             {
@@ -4579,7 +4889,8 @@
             "national": 155,
             "gsc": 4,
             "hgss": 4,
-            "la": 4
+            "la": 4,
+            "sv_blueberry": 176
         },
         "forms": [
             {
@@ -4603,7 +4914,8 @@
             "national": 156,
             "gsc": 5,
             "hgss": 5,
-            "la": 5
+            "la": 5,
+            "sv_blueberry": 177
         },
         "forms": [
             {
@@ -4627,7 +4939,8 @@
             "national": 157,
             "gsc": 6,
             "hgss": 6,
-            "la": 6
+            "la": 6,
+            "sv_blueberry": 178
         },
         "forms": [
             {
@@ -4655,7 +4968,8 @@
         "regionalDexId": {
             "national": 158,
             "gsc": 7,
-            "hgss": 7
+            "hgss": 7,
+            "sv_blueberry": 179
         },
         "forms": [
             {
@@ -4678,7 +4992,8 @@
         "regionalDexId": {
             "national": 159,
             "gsc": 8,
-            "hgss": 8
+            "hgss": 8,
+            "sv_blueberry": 180
         },
         "forms": [
             {
@@ -4701,7 +5016,8 @@
         "regionalDexId": {
             "national": 160,
             "gsc": 9,
-            "hgss": 9
+            "hgss": 9,
+            "sv_blueberry": 181
         },
         "forms": [
             {
@@ -4725,7 +5041,8 @@
             "national": 161,
             "gsc": 19,
             "hgss": 19,
-            "xy_central": 109
+            "xy_central": 109,
+            "sv_kitakami": 26
         },
         "forms": [
             {
@@ -4749,7 +5066,8 @@
             "national": 162,
             "gsc": 20,
             "hgss": 20,
-            "xy_central": 110
+            "xy_central": 110,
+            "sv_kitakami": 27
         },
         "forms": [
             {
@@ -4778,7 +5096,8 @@
             "xy_mountain": 117,
             "usum": 212,
             "usum_akala": 113,
-            "swsh": 19
+            "swsh": 19,
+            "sv_kitakami": 39
         },
         "forms": [
             {
@@ -4807,7 +5126,8 @@
             "xy_mountain": 118,
             "usum": 213,
             "usum_akala": 114,
-            "swsh": 20
+            "swsh": 20,
+            "sv_kitakami": 40
         },
         "forms": [
             {
@@ -4832,6 +5152,9 @@
             "gsc": 30,
             "hgss": 30,
             "xy_central": 74,
+            "sm": 20,
+            "sm_melemele": 20,
+            "sm_ulaula": 8,
             "usum": 20,
             "usum_melemele": 20
         },
@@ -4858,6 +5181,9 @@
             "gsc": 31,
             "hgss": 31,
             "xy_central": 75,
+            "sm": 21,
+            "sm_melemele": 21,
+            "sm_ulaula": 9,
             "usum": 21,
             "usum_melemele": 21
         },
@@ -4884,8 +5210,12 @@
             "gsc": 32,
             "hgss": 32,
             "xy_mountain": 107,
+            "sm": 22,
+            "sm_melemele": 22,
+            "sm_ulaula": 10,
             "usum": 22,
-            "usum_melemele": 22
+            "usum_melemele": 22,
+            "sv_kitakami": 1
         },
         "forms": [
             {
@@ -4910,8 +5240,12 @@
             "gsc": 33,
             "hgss": 33,
             "xy_mountain": 108,
+            "sm": 23,
+            "sm_melemele": 23,
+            "sm_ulaula": 11,
             "usum": 23,
-            "usum_melemele": 23
+            "usum_melemele": 23,
+            "sv_kitakami": 2
         },
         "forms": [
             {
@@ -4941,6 +5275,11 @@
             "b2w2": 63,
             "xy_central": 147,
             "oras": 67,
+            "sm": 70,
+            "sm_melemele": 70,
+            "sm_akala": 28,
+            "sm_ulaula": 37,
+            "sm_poni": 21,
             "usum": 82,
             "usum_melemele": 82,
             "usum_akala": 28,
@@ -4973,10 +5312,13 @@
             "hgss": 176,
             "xy_coastal": 147,
             "oras": 190,
+            "sm": 201,
+            "sm_akala": 128,
             "usum": 257,
             "usum_akala": 158,
             "swsh": 220,
-            "swsh_armor": 188
+            "swsh_armor": 188,
+            "sv_blueberry": 78
         },
         "forms": [
             {
@@ -5003,10 +5345,13 @@
             "hgss": 177,
             "xy_coastal": 148,
             "oras": 191,
+            "sm": 202,
+            "sm_akala": 129,
             "usum": 258,
             "usum_akala": 159,
             "swsh": 221,
-            "swsh_armor": 189
+            "swsh_armor": 189,
+            "sv_blueberry": 79
         },
         "forms": [
             {
@@ -5035,12 +5380,15 @@
             "hgss": 21,
             "xy_central": 35,
             "oras": 162,
+            "sm": 24,
+            "sm_melemele": 24,
             "usum": 31,
             "usum_melemele": 31,
             "swsh": 193,
             "swsh_armor": 84,
             "la": 55,
-            "sv": 73
+            "sv": 73,
+            "sv_kitakami": 20
         },
         "forms": [
             {
@@ -5067,10 +5415,13 @@
             "pt": 99,
             "hgss": 40,
             "b2w2": 88,
+            "sm": 210,
+            "sm_ulaula": 82,
             "usum": 272,
             "swsh": 254,
             "swsh_tundra": 43,
-            "la": 199
+            "la": 199,
+            "sv_kitakami": 145
         },
         "forms": [
             {
@@ -5098,6 +5449,8 @@
             "b2w2": 281,
             "xy_mountain": 119,
             "oras": 142,
+            "sm": 134,
+            "sm_akala": 61,
             "usum": 167,
             "usum_akala": 68,
             "swsh_armor": 11,
@@ -5320,7 +5673,8 @@
             "hgss": 86,
             "xy_central": 108,
             "oras": 94,
-            "swsh": 58
+            "swsh": 58,
+            "sv_blueberry": 65
         },
         "forms": [
             {
@@ -5409,12 +5763,16 @@
             "pt": 93,
             "hgss": 107,
             "xy_mountain": 130,
+            "sm": 31,
+            "sm_melemele": 31,
+            "sm_akala": 15,
             "usum": 38,
             "usum_melemele": 38,
             "usum_akala": 15,
             "swsh": 253,
             "la": 124,
-            "sv": 88
+            "sv": 88,
+            "sv_kitakami": 78
         },
         "forms": [
             {
@@ -5439,9 +5797,13 @@
             "gsc": 75,
             "hgss": 75,
             "xy_mountain": 36,
+            "sm": 152,
+            "sm_akala": 79,
+            "sm_ulaula": 71,
             "usum": 185,
             "usum_akala": 86,
-            "swsh_armor": 145
+            "swsh_armor": 145,
+            "sv_kitakami": 39
         },
         "forms": [
             {
@@ -5544,7 +5906,8 @@
             "hgss": 123,
             "usum": 368,
             "usum_poni": 115,
-            "la": 78
+            "la": 78,
+            "sv_kitakami": 41
         },
         "forms": [
             {
@@ -5621,7 +5984,8 @@
             "hgss": 101,
             "b2w2": 286,
             "xy_coastal": 87,
-            "la": 105
+            "la": 105,
+            "sv_kitakami": 3
         },
         "forms": [
             {
@@ -5650,7 +6014,8 @@
             "xy_mountain": 17,
             "swsh": 100,
             "swsh_armor": 58,
-            "sv": 53
+            "sv": 53,
+            "sv_kitakami": 5
         },
         "forms": [
             {
@@ -5689,7 +6054,8 @@
             "hgss": 57,
             "xy_mountain": 18,
             "swsh": 101,
-            "swsh_armor": 59
+            "swsh_armor": 59,
+            "sv_kitakami": 6
         },
         "forms": [
             {
@@ -5716,6 +6082,8 @@
             "hgss": 188,
             "b2w2": 95,
             "xy_coastal": 81,
+            "sm": 127,
+            "sm_akala": 54,
             "usum": 157,
             "usum_akala": 58,
             "swsh": 200,
@@ -5748,6 +6116,8 @@
             "hgss": 189,
             "b2w2": 96,
             "xy_coastal": 82,
+            "sm": 128,
+            "sm_akala": 55,
             "usum": 158,
             "usum_akala": 59,
             "swsh": 201,
@@ -5808,10 +6178,14 @@
             "gsc": 82,
             "hgss": 82,
             "xy_coastal": 135,
+            "sm": 39,
+            "sm_melemele": 39,
+            "sm_ulaula": 20,
             "usum": 46,
             "usum_melemele": 46,
             "swsh_armor": 3,
-            "sv": 326
+            "sv": 326,
+            "sv_blueberry": 77
         },
         "forms": [
             {
@@ -5842,6 +6216,8 @@
             "dp": 72,
             "pt": 72,
             "hgss": 219,
+            "sm": 66,
+            "sm_melemele": 66,
             "usum": 372,
             "usum_poni": 119,
             "la": 197,
@@ -6147,7 +6523,8 @@
             "pt": 121,
             "hgss": 149,
             "oras": 171,
-            "sv": 192
+            "sv": 192,
+            "sv_blueberry": 25
         },
         "forms": [
             {
@@ -6226,7 +6603,8 @@
             "usum": 63,
             "usum_melemele": 63,
             "swsh_armor": 52,
-            "sv": 188
+            "sv": 188,
+            "sv_kitakami": 154
         },
         "forms": [
             {
@@ -6253,7 +6631,8 @@
             "hgss": 193,
             "b2w2": 221,
             "xy_mountain": 115,
-            "la": 185
+            "la": 185,
+            "sv_kitakami": 115
         },
         "forms": [
             {
@@ -6308,7 +6687,8 @@
             "hgss": 125,
             "xy_coastal": 71,
             "usum": 339,
-            "usum_poni": 86
+            "usum_poni": 86,
+            "sv_blueberry": 151
         },
         "forms": [
             {
@@ -6334,7 +6714,8 @@
             "hgss": 126,
             "xy_coastal": 72,
             "usum": 340,
-            "usum_poni": 87
+            "usum_poni": 87,
+            "sv_blueberry": 152
         },
         "forms": [
             {
@@ -6361,7 +6742,8 @@
             "xy_coastal": 38,
             "swsh": 304,
             "la": 84,
-            "sv": 331
+            "sv": 331,
+            "sv_blueberry": 146
         },
         "forms": [
             {
@@ -6396,7 +6778,8 @@
             "usum_poni": 113,
             "swsh_armor": 119,
             "la": 74,
-            "sv": 261
+            "sv": 261,
+            "sv_blueberry": 20
         },
         "forms": [
             {
@@ -6457,7 +6840,8 @@
             "usum_poni": 114,
             "swsh_armor": 121,
             "la": 75,
-            "sv": 262
+            "sv": 262,
+            "sv_kitakami": 43
         },
         "forms": [
             {
@@ -6485,11 +6869,14 @@
             "hgss": 218,
             "b2w2": 252,
             "xy_mountain": 91,
+            "sm": 249,
+            "sm_ulaula": 121,
             "usum": 326,
             "swsh": 292,
             "swsh_tundra": 28,
             "la": 202,
-            "sv": 230
+            "sv": 230,
+            "sv_kitakami": 164
         },
         "forms": [
             {
@@ -6572,7 +6959,8 @@
             "rse": 103,
             "hgss": 216,
             "xy_mountain": 12,
-            "oras": 108
+            "oras": 108,
+            "sv_kitakami": 138
         },
         "forms": [
             {
@@ -6598,7 +6986,8 @@
             "rse": 104,
             "hgss": 217,
             "xy_mountain": 13,
-            "oras": 109
+            "oras": 109,
+            "sv_kitakami": 139
         },
         "forms": [
             {
@@ -6627,7 +7016,8 @@
             "xy_mountain": 76,
             "swsh": 75,
             "swsh_tundra": 7,
-            "la": 212
+            "la": 212,
+            "sv_kitakami": 44
         },
         "forms": [
             {
@@ -6656,7 +7046,8 @@
             "xy_mountain": 77,
             "swsh": 76,
             "swsh_tundra": 8,
-            "la": 213
+            "la": 213,
+            "sv_kitakami": 45
         },
         "forms": [
             {
@@ -6684,6 +7075,9 @@
             "b2w2": 237,
             "xy_coastal": 146,
             "oras": 189,
+            "sm": 112,
+            "sm_melemele": 112,
+            "sm_akala": 44,
             "usum": 135,
             "usum_melemele": 135,
             "usum_akala": 44,
@@ -6784,6 +7178,8 @@
             "hgss": 194,
             "b2w2": 254,
             "xy_mountain": 90,
+            "sm": 81,
+            "sm_melemele": 81,
             "usum": 95,
             "usum_melemele": 95,
             "swsh": 78,
@@ -6849,9 +7245,13 @@
             "b2w2": 203,
             "xy_mountain": 112,
             "oras": 120,
+            "sm": 208,
+            "sm_ulaula": 80,
+            "sm_poni": 72,
             "usum": 270,
             "usum_poni": 85,
-            "swsh_armor": 153
+            "swsh_armor": 153,
+            "sv_blueberry": 113
         },
         "forms": [
             {
@@ -6878,7 +7278,8 @@
             "hgss": 214,
             "xy_coastal": 75,
             "usum": 289,
-            "sv": 25
+            "sv": 25,
+            "sv_kitakami": 117
         },
         "forms": [
             {
@@ -6905,7 +7306,8 @@
             "hgss": 215,
             "xy_coastal": 76,
             "usum": 290,
-            "sv": 26
+            "sv": 26,
+            "sv_kitakami": 118
         },
         "forms": [
             {
@@ -6932,7 +7334,8 @@
             "hgss": 192,
             "xy_coastal": 41,
             "oras": 195,
-            "swsh_armor": 200
+            "swsh_armor": 200,
+            "sv_blueberry": 54
         },
         "forms": [
             {
@@ -7009,9 +7412,12 @@
             "gsc": 216,
             "pt": 193,
             "hgss": 221,
+            "sm": 218,
+            "sm_ulaula": 90,
             "usum": 282,
             "swsh_armor": 209,
-            "la": 134
+            "la": 134,
+            "sv_blueberry": 130
         },
         "forms": [
             {
@@ -7036,7 +7442,8 @@
             "gsc": 129,
             "hgss": 131,
             "la": 49,
-            "sv": 204
+            "sv": 204,
+            "sv_kitakami": 47
         },
         "forms": [
             {
@@ -7061,8 +7468,11 @@
             "gsc": 157,
             "hgss": 159,
             "xy_central": 124,
+            "sm": 58,
+            "sm_melemele": 58,
             "usum": 70,
-            "usum_melemele": 70
+            "usum_melemele": 70,
+            "sv_blueberry": 40
         },
         "forms": [
             {
@@ -7086,7 +7496,8 @@
             "national": 236,
             "gsc": 143,
             "hgss": 145,
-            "swsh": 107
+            "swsh": 107,
+            "sv_blueberry": 92
         },
         "forms": [
             {
@@ -7110,7 +7521,8 @@
             "national": 237,
             "gsc": 146,
             "hgss": 148,
-            "swsh": 110
+            "swsh": 110,
+            "sv_blueberry": 95
         },
         "forms": [
             {
@@ -7163,9 +7575,12 @@
             "pt": 197,
             "hgss": 156,
             "b2w2": 56,
+            "sm": 226,
+            "sm_ulaula": 98,
             "usum": 295,
             "swsh_tundra": 15,
-            "la": 182
+            "la": 182,
+            "sv_blueberry": 10
         },
         "forms": [
             {
@@ -7191,10 +7606,13 @@
             "pt": 200,
             "hgss": 152,
             "b2w2": 53,
+            "sm": 166,
+            "sm_akala": 93,
             "usum": 200,
             "usum_akala": 101,
             "swsh_tundra": 18,
-            "la": 174
+            "la": 174,
+            "sv_blueberry": 13
         },
         "forms": [
             {
@@ -7219,6 +7637,9 @@
             "gsc": 149,
             "hgss": 151,
             "xy_coastal": 126,
+            "sm": 138,
+            "sm_akala": 65,
+            "sm_poni": 62,
             "usum": 171,
             "usum_akala": 72,
             "usum_poni": 74,
@@ -7248,13 +7669,19 @@
             "dp": 98,
             "pt": 98,
             "hgss": 223,
+            "sm": 34,
+            "sm_melemele": 34,
+            "sm_akala": 18,
+            "sm_ulaula": 17,
+            "sm_poni": 10,
             "usum": 41,
             "usum_melemele": 41,
             "usum_akala": 18,
             "usum_poni": 17,
             "swsh_armor": 8,
             "la": 88,
-            "sv": 45
+            "sv": 45,
+            "sv_blueberry": 18
         },
         "forms": [
             {
@@ -7505,7 +7932,8 @@
         "regionalDexId": {
             "national": 252,
             "rse": 1,
-            "oras": 1
+            "oras": 1,
+            "sv_blueberry": 182
         },
         "forms": [
             {
@@ -7528,7 +7956,8 @@
         "regionalDexId": {
             "national": 253,
             "rse": 2,
-            "oras": 2
+            "oras": 2,
+            "sv_blueberry": 183
         },
         "forms": [
             {
@@ -7551,7 +7980,8 @@
         "regionalDexId": {
             "national": 254,
             "rse": 3,
-            "oras": 3
+            "oras": 3,
+            "sv_blueberry": 184
         },
         "forms": [
             {
@@ -7574,7 +8004,8 @@
         "regionalDexId": {
             "national": 255,
             "rse": 4,
-            "oras": 4
+            "oras": 4,
+            "sv_blueberry": 185
         },
         "forms": [
             {
@@ -7597,7 +8028,8 @@
         "regionalDexId": {
             "national": 256,
             "rse": 5,
-            "oras": 5
+            "oras": 5,
+            "sv_blueberry": 186
         },
         "forms": [
             {
@@ -7620,7 +8052,8 @@
         "regionalDexId": {
             "national": 257,
             "rse": 6,
-            "oras": 6
+            "oras": 6,
+            "sv_blueberry": 187
         },
         "forms": [
             {
@@ -7643,7 +8076,8 @@
         "regionalDexId": {
             "national": 258,
             "rse": 7,
-            "oras": 7
+            "oras": 7,
+            "sv_blueberry": 188
         },
         "forms": [
             {
@@ -7666,7 +8100,8 @@
         "regionalDexId": {
             "national": 259,
             "rse": 8,
-            "oras": 8
+            "oras": 8,
+            "sv_blueberry": 189
         },
         "forms": [
             {
@@ -7689,7 +8124,8 @@
         "regionalDexId": {
             "national": 260,
             "rse": 9,
-            "oras": 9
+            "oras": 9,
+            "sv_blueberry": 190
         },
         "forms": [
             {
@@ -7713,7 +8149,8 @@
             "national": 261,
             "rse": 10,
             "xy_mountain": 44,
-            "oras": 10
+            "oras": 10,
+            "sv_kitakami": 7
         },
         "forms": [
             {
@@ -7737,7 +8174,8 @@
             "national": 262,
             "rse": 11,
             "xy_mountain": 45,
-            "oras": 11
+            "oras": 11,
+            "sv_kitakami": 8
         },
         "forms": [
             {
@@ -7954,7 +8392,8 @@
             "rse": 19,
             "xy_mountain": 55,
             "oras": 19,
-            "swsh": 36
+            "swsh": 36,
+            "sv_kitakami": 98
         },
         "forms": [
             {
@@ -7979,7 +8418,8 @@
             "rse": 20,
             "xy_mountain": 56,
             "oras": 20,
-            "swsh": 37
+            "swsh": 37,
+            "sv_kitakami": 99
         },
         "forms": [
             {
@@ -8004,7 +8444,8 @@
             "rse": 21,
             "xy_mountain": 57,
             "oras": 21,
-            "swsh": 38
+            "swsh": 38,
+            "sv_kitakami": 100
         },
         "forms": [
             {
@@ -8028,7 +8469,8 @@
             "national": 273,
             "rse": 22,
             "oras": 22,
-            "swsh": 39
+            "swsh": 39,
+            "sv_kitakami": 48
         },
         "forms": [
             {
@@ -8052,7 +8494,8 @@
             "national": 274,
             "rse": 23,
             "oras": 23,
-            "swsh": 40
+            "swsh": 40,
+            "sv_kitakami": 49
         },
         "forms": [
             {
@@ -8076,7 +8519,8 @@
             "national": 275,
             "rse": 24,
             "oras": 24,
-            "swsh": 41
+            "swsh": 41,
+            "sv_kitakami": 50
         },
         "forms": [
             {
@@ -8152,6 +8596,11 @@
             "b2w2": 212,
             "xy_coastal": 17,
             "oras": 27,
+            "sm": 40,
+            "sm_melemele": 40,
+            "sm_akala": 19,
+            "sm_ulaula": 21,
+            "sm_poni": 11,
             "usum": 47,
             "usum_melemele": 47,
             "usum_akala": 19,
@@ -8186,6 +8635,11 @@
             "b2w2": 213,
             "xy_coastal": 18,
             "oras": 28,
+            "sm": 41,
+            "sm_melemele": 41,
+            "sm_akala": 20,
+            "sm_ulaula": 22,
+            "sm_poni": 12,
             "usum": 48,
             "usum_melemele": 48,
             "usum_akala": 20,
@@ -8221,7 +8675,8 @@
             "swsh": 120,
             "swsh_armor": 34,
             "la": 101,
-            "sv": 62
+            "sv": 62,
+            "sv_kitakami": 51
         },
         "forms": [
             {
@@ -8250,7 +8705,8 @@
             "swsh": 121,
             "swsh_armor": 35,
             "la": 102,
-            "sv": 63
+            "sv": 63,
+            "sv_kitakami": 52
         },
         "forms": [
             {
@@ -8279,7 +8735,8 @@
             "swsh": 122,
             "swsh_armor": 36,
             "la": 103,
-            "sv": 64
+            "sv": 64,
+            "sv_kitakami": 53
         },
         "forms": [
             {
@@ -8304,9 +8761,13 @@
             "rse": 32,
             "xy_central": 47,
             "oras": 33,
+            "sm": 139,
+            "sm_akala": 66,
+            "sm_ulaula": 60,
             "usum": 172,
             "usum_akala": 73,
-            "sv": 49
+            "sv": 49,
+            "sv_kitakami": 143
         },
         "forms": [
             {
@@ -8331,9 +8792,13 @@
             "rse": 33,
             "xy_central": 48,
             "oras": 34,
+            "sm": 140,
+            "sm_akala": 67,
+            "sm_ulaula": 61,
             "usum": 173,
             "usum_akala": 74,
-            "sv": 50
+            "sv": 50,
+            "sv_kitakami": 144
         },
         "forms": [
             {
@@ -8406,7 +8871,8 @@
             "rse": 36,
             "b2w2": 276,
             "oras": 37,
-            "sv": 78
+            "sv": 78,
+            "sv_blueberry": 59
         },
         "forms": [
             {
@@ -8431,7 +8897,8 @@
             "rse": 37,
             "b2w2": 277,
             "oras": 38,
-            "sv": 79
+            "sv": 79,
+            "sv_blueberry": 60
         },
         "forms": [
             {
@@ -8456,7 +8923,8 @@
             "rse": 38,
             "b2w2": 278,
             "oras": 39,
-            "sv": 80
+            "sv": 80,
+            "sv_blueberry": 61
         },
         "forms": [
             {
@@ -8631,6 +9099,9 @@
             "rse": 48,
             "xy_coastal": 95,
             "oras": 49,
+            "sm": 56,
+            "sm_melemele": 56,
+            "sm_poni": 15,
             "usum": 68,
             "usum_melemele": 68,
             "usum_poni": 22,
@@ -8659,6 +9130,9 @@
             "rse": 49,
             "xy_coastal": 96,
             "oras": 50,
+            "sm": 57,
+            "sm_melemele": 57,
+            "sm_poni": 16,
             "usum": 69,
             "usum_melemele": 69,
             "usum_poni": 23,
@@ -8718,9 +9192,12 @@
             "b2w2": 164,
             "xy_coastal": 93,
             "oras": 61,
+            "sm": 198,
+            "sm_akala": 125,
             "usum": 254,
             "usum_akala": 155,
-            "la": 190
+            "la": 190,
+            "sv_kitakami": 101
         },
         "forms": [
             {
@@ -8795,6 +9272,9 @@
             "rse": 68,
             "xy_coastal": 123,
             "oras": 70,
+            "sm": 102,
+            "sm_melemele": 102,
+            "sm_poni": 52,
             "usum": 124,
             "usum_melemele": 124,
             "usum_poni": 64,
@@ -9036,7 +9516,8 @@
             "national": 311,
             "rse": 80,
             "xy_central": 96,
-            "oras": 82
+            "oras": 82,
+            "sv_blueberry": 119
         },
         "forms": [
             {
@@ -9060,7 +9541,8 @@
             "national": 312,
             "rse": 81,
             "xy_central": 97,
-            "oras": 83
+            "oras": 83,
+            "sv_blueberry": 120
         },
         "forms": [
             {
@@ -9084,7 +9566,8 @@
             "national": 313,
             "rse": 86,
             "xy_central": 133,
-            "oras": 89
+            "oras": 89,
+            "sv_kitakami": 9
         },
         "forms": [
             {
@@ -9108,7 +9591,8 @@
             "national": 314,
             "rse": 87,
             "xy_central": 134,
-            "oras": 90
+            "oras": 90,
+            "sv_kitakami": 10
         },
         "forms": [
             {
@@ -9324,7 +9808,8 @@
             "rse": 101,
             "b2w2": 204,
             "oras": 106,
-            "sv": 151
+            "sv": 151,
+            "sv_blueberry": 125
         },
         "forms": [
             {
@@ -9349,7 +9834,8 @@
             "rse": 102,
             "b2w2": 205,
             "oras": 107,
-            "sv": 152
+            "sv": 152,
+            "sv_blueberry": 126
         },
         "forms": [
             {
@@ -9374,10 +9860,13 @@
             "rse": 105,
             "xy_mountain": 96,
             "oras": 110,
+            "sm": 223,
+            "sm_ulaula": 95,
             "usum": 287,
             "swsh": 300,
             "swsh_armor": 173,
-            "sv": 150
+            "sv": 150,
+            "sv_blueberry": 86
         },
         "forms": [
             {
@@ -9403,7 +9892,8 @@
             "b2w2": 206,
             "xy_coastal": 7,
             "oras": 115,
-            "sv": 111
+            "sv": 111,
+            "sv_kitakami": 119
         },
         "forms": [
             {
@@ -9429,7 +9919,8 @@
             "b2w2": 207,
             "xy_coastal": 8,
             "oras": 116,
-            "sv": 112
+            "sv": 112,
+            "sv_kitakami": 120
         },
         "forms": [
             {
@@ -9454,6 +9945,8 @@
             "rse": 114,
             "xy_mountain": 131,
             "oras": 119,
+            "sm": 105,
+            "sm_melemele": 105,
             "usum": 128,
             "usum_melemele": 128
         },
@@ -9481,8 +9974,11 @@
             "b2w2": 121,
             "xy_mountain": 3,
             "oras": 121,
+            "sm": 235,
+            "sm_ulaula": 107,
             "usum": 304,
-            "swsh": 321
+            "swsh": 321,
+            "sv_blueberry": 44
         },
         "forms": [
             {
@@ -9508,8 +10004,11 @@
             "b2w2": 122,
             "xy_mountain": 4,
             "oras": 122,
+            "sm": 236,
+            "sm_ulaula": 108,
             "usum": 305,
-            "swsh": 322
+            "swsh": 322,
+            "sv_blueberry": 45
         },
         "forms": [
             {
@@ -9535,8 +10034,11 @@
             "b2w2": 123,
             "xy_mountain": 5,
             "oras": 123,
+            "sm": 237,
+            "sm_ulaula": 109,
             "usum": 306,
-            "swsh": 323
+            "swsh": 323,
+            "sv_blueberry": 46
         },
         "forms": [
             {
@@ -9612,7 +10114,8 @@
             "xy_mountain": 139,
             "oras": 126,
             "swsh_tundra": 35,
-            "sv": 219
+            "sv": 219,
+            "sv_blueberry": 114
         },
         "forms": [
             {
@@ -9640,7 +10143,8 @@
             "xy_mountain": 140,
             "oras": 127,
             "swsh_tundra": 36,
-            "sv": 220
+            "sv": 220,
+            "sv_blueberry": 115
         },
         "forms": [
             {
@@ -9666,7 +10170,8 @@
             "b2w2": 186,
             "xy_coastal": 5,
             "oras": 128,
-            "sv": 217
+            "sv": 217,
+            "sv_blueberry": 70
         },
         "forms": [
             {
@@ -9692,7 +10197,8 @@
             "b2w2": 187,
             "xy_coastal": 6,
             "oras": 129,
-            "sv": 218
+            "sv": 218,
+            "sv_blueberry": 71
         },
         "forms": [
             {
@@ -9771,6 +10277,10 @@
             "pt": 80,
             "xy_mountain": 40,
             "oras": 132,
+            "sm": 93,
+            "sm_melemele": 93,
+            "sm_akala": 36,
+            "sm_poni": 43,
             "usum": 113,
             "usum_melemele": 113,
             "usum_akala": 36,
@@ -9779,7 +10289,8 @@
             "swsh_armor": 137,
             "swsh_tundra": 60,
             "la": 97,
-            "sv": 168
+            "sv": 168,
+            "sv_kitakami": 156
         },
         "forms": [
             {
@@ -9806,6 +10317,10 @@
             "pt": 81,
             "xy_mountain": 41,
             "oras": 133,
+            "sm": 94,
+            "sm_melemele": 94,
+            "sm_akala": 37,
+            "sm_poni": 44,
             "usum": 114,
             "usum_melemele": 114,
             "usum_akala": 37,
@@ -9814,7 +10329,8 @@
             "swsh_armor": 138,
             "swsh_tundra": 61,
             "la": 98,
-            "sv": 169
+            "sv": 169,
+            "sv_kitakami": 157
         },
         "forms": [
             {
@@ -9843,7 +10359,8 @@
             "usum": 357,
             "usum_poni": 104,
             "swsh": 102,
-            "swsh_armor": 91
+            "swsh_armor": 91,
+            "sv_kitakami": 11
         },
         "forms": [
             {
@@ -9872,7 +10389,8 @@
             "usum": 358,
             "usum_poni": 105,
             "swsh": 103,
-            "swsh_armor": 92
+            "swsh_armor": 92,
+            "sv_kitakami": 12
         },
         "forms": [
             {
@@ -10056,10 +10574,13 @@
             "dp": 138,
             "pt": 138,
             "oras": 145,
+            "sm": 155,
+            "sm_akala": 82,
             "usum": 189,
             "usum_akala": 90,
             "swsh": 152,
-            "swsh_tundra": 188
+            "swsh_tundra": 188,
+            "sv_kitakami": 152
         },
         "forms": [
             {
@@ -10085,10 +10606,13 @@
             "dp": 139,
             "pt": 139,
             "oras": 146,
+            "sm": 156,
+            "sm_akala": 83,
             "usum": 190,
             "usum_akala": 91,
             "swsh": 153,
-            "swsh_tundra": 189
+            "swsh_tundra": 189,
+            "sv_kitakami": 153
         },
         "forms": [
             {
@@ -10113,6 +10637,10 @@
             "rse": 142,
             "b2w2": 163,
             "oras": 147,
+            "sm": 181,
+            "sm_akala": 108,
+            "sm_ulaula": 77,
+            "sm_poni": 69,
             "usum": 220,
             "usum_akala": 121,
             "usum_poni": 82
@@ -10221,7 +10749,8 @@
             "pt": 189,
             "oras": 153,
             "swsh": 135,
-            "la": 158
+            "la": 158,
+            "sv_kitakami": 133
         },
         "forms": [
             {
@@ -10247,7 +10776,8 @@
             "pt": 190,
             "oras": 154,
             "swsh": 136,
-            "la": 159
+            "la": 159,
+            "sv_kitakami": 134
         },
         "forms": [
             {
@@ -10302,7 +10832,8 @@
             "pt": 83,
             "xy_coastal": 112,
             "oras": 158,
-            "la": 196
+            "la": 196,
+            "sv_kitakami": 137
         },
         "forms": [
             {
@@ -10329,6 +10860,8 @@
             "b2w2": 216,
             "xy_coastal": 9,
             "oras": 159,
+            "sm": 245,
+            "sm_ulaula": 117,
             "usum": 322,
             "swsh_tundra": 107
         },
@@ -10380,11 +10913,14 @@
             "rse": 171,
             "pt": 206,
             "oras": 179,
+            "sm": 246,
+            "sm_ulaula": 118,
             "usum": 323,
             "swsh": 79,
             "swsh_tundra": 25,
             "la": 205,
-            "sv": 357
+            "sv": 357,
+            "sv_kitakami": 166
         },
         "forms": [
             {
@@ -10409,11 +10945,14 @@
             "rse": 172,
             "pt": 207,
             "oras": 180,
+            "sm": 247,
+            "sm_ulaula": 119,
             "usum": 324,
             "swsh": 80,
             "swsh_tundra": 26,
             "la": 206,
-            "sv": 358
+            "sv": 358,
+            "sv_kitakami": 167
         },
         "forms": [
             {
@@ -10621,10 +11160,14 @@
             "rse": 183,
             "xy_coastal": 29,
             "oras": 192,
+            "sm": 111,
+            "sm_melemele": 111,
+            "sm_akala": 43,
             "usum": 134,
             "usum_melemele": 134,
             "usum_akala": 43,
-            "sv": 332
+            "sv": 332,
+            "sv_blueberry": 82
         },
         "forms": [
             {
@@ -10649,6 +11192,8 @@
             "rse": 187,
             "xy_coastal": 14,
             "oras": 196,
+            "sm": 117,
+            "sm_melemele": 117,
             "usum": 147,
             "usum_melemele": 147,
             "swsh_tundra": 113,
@@ -10677,6 +11222,8 @@
             "rse": 188,
             "xy_coastal": 15,
             "oras": 197,
+            "sm": 118,
+            "sm_melemele": 118,
             "usum": 148,
             "usum_melemele": 148,
             "swsh_tundra": 114,
@@ -10705,6 +11252,8 @@
             "rse": 189,
             "xy_coastal": 16,
             "oras": 198,
+            "sm": 119,
+            "sm_melemele": 119,
             "usum": 149,
             "usum_melemele": 149,
             "swsh_tundra": 115,
@@ -10733,8 +11282,11 @@
             "rse": 190,
             "b2w2": 262,
             "oras": 199,
+            "sm": 214,
+            "sm_ulaula": 86,
             "usum": 278,
-            "swsh_tundra": 129
+            "swsh_tundra": 129,
+            "sv_blueberry": 137
         },
         "forms": [
             {
@@ -10759,8 +11311,11 @@
             "rse": 191,
             "b2w2": 263,
             "oras": 200,
+            "sm": 215,
+            "sm_ulaula": 87,
             "usum": 279,
-            "swsh_tundra": 130
+            "swsh_tundra": 130,
+            "sv_blueberry": 138
         },
         "forms": [
             {
@@ -10785,8 +11340,11 @@
             "rse": 192,
             "b2w2": 264,
             "oras": 201,
+            "sm": 216,
+            "sm_ulaula": 88,
             "usum": 280,
-            "swsh_tundra": 131
+            "swsh_tundra": 131,
+            "sv_blueberry": 139
         },
         "forms": [
             {
@@ -11076,7 +11634,8 @@
             "national": 387,
             "dp": 1,
             "pt": 1,
-            "la": 130
+            "la": 130,
+            "sv_blueberry": 191
         },
         "forms": [
             {
@@ -11100,7 +11659,8 @@
             "national": 388,
             "dp": 2,
             "pt": 2,
-            "la": 131
+            "la": 131,
+            "sv_blueberry": 192
         },
         "forms": [
             {
@@ -11124,7 +11684,8 @@
             "national": 389,
             "dp": 3,
             "pt": 3,
-            "la": 132
+            "la": 132,
+            "sv_blueberry": 193
         },
         "forms": [
             {
@@ -11148,7 +11709,8 @@
             "national": 390,
             "dp": 4,
             "pt": 4,
-            "la": 61
+            "la": 61,
+            "sv_blueberry": 194
         },
         "forms": [
             {
@@ -11172,7 +11734,8 @@
             "national": 391,
             "dp": 5,
             "pt": 5,
-            "la": 62
+            "la": 62,
+            "sv_blueberry": 195
         },
         "forms": [
             {
@@ -11196,7 +11759,8 @@
             "national": 392,
             "dp": 6,
             "pt": 6,
-            "la": 63
+            "la": 63,
+            "sv_blueberry": 196
         },
         "forms": [
             {
@@ -11220,7 +11784,8 @@
             "national": 393,
             "dp": 7,
             "pt": 7,
-            "la": 161
+            "la": 161,
+            "sv_blueberry": 197
         },
         "forms": [
             {
@@ -11244,7 +11809,8 @@
             "national": 394,
             "dp": 8,
             "pt": 8,
-            "la": 162
+            "la": 162,
+            "sv_blueberry": 198
         },
         "forms": [
             {
@@ -11268,7 +11834,8 @@
             "national": 395,
             "dp": 9,
             "pt": 9,
-            "la": 163
+            "la": 163,
+            "sv_blueberry": 199
         },
         "forms": [
             {
@@ -11294,7 +11861,8 @@
             "pt": 10,
             "xy_coastal": 99,
             "la": 12,
-            "sv": 97
+            "sv": 97,
+            "sv_kitakami": 28
         },
         "forms": [
             {
@@ -11320,7 +11888,8 @@
             "pt": 11,
             "xy_coastal": 100,
             "la": 13,
-            "sv": 98
+            "sv": 98,
+            "sv_kitakami": 29
         },
         "forms": [
             {
@@ -11346,7 +11915,8 @@
             "pt": 12,
             "xy_coastal": 101,
             "la": 14,
-            "sv": 99
+            "sv": 99,
+            "sv_kitakami": 30
         },
         "forms": [
             {
@@ -11421,7 +11991,8 @@
             "dp": 15,
             "pt": 15,
             "la": 39,
-            "sv": 33
+            "sv": 33,
+            "sv_kitakami": 55
         },
         "forms": [
             {
@@ -11446,7 +12017,8 @@
             "dp": 16,
             "pt": 16,
             "la": 40,
-            "sv": 34
+            "sv": 34,
+            "sv_kitakami": 56
         },
         "forms": [
             {
@@ -11472,7 +12044,8 @@
             "pt": 17,
             "swsh_armor": 25,
             "la": 15,
-            "sv": 94
+            "sv": 94,
+            "sv_kitakami": 103
         },
         "forms": [
             {
@@ -11498,7 +12071,8 @@
             "pt": 18,
             "swsh_armor": 26,
             "la": 16,
-            "sv": 95
+            "sv": 95,
+            "sv_kitakami": 104
         },
         "forms": [
             {
@@ -11524,7 +12098,8 @@
             "pt": 19,
             "swsh_armor": 27,
             "la": 17,
-            "sv": 96
+            "sv": 96,
+            "sv_kitakami": 105
         },
         "forms": [
             {
@@ -11604,9 +12179,12 @@
             "national": 408,
             "dp": 36,
             "pt": 36,
+            "sm": 188,
+            "sm_akala": 115,
             "usum": 235,
             "usum_akala": 136,
-            "la": 208
+            "la": 208,
+            "sv_blueberry": 107
         },
         "forms": [
             {
@@ -11630,9 +12208,12 @@
             "national": 409,
             "dp": 37,
             "pt": 37,
+            "sm": 189,
+            "sm_akala": 116,
             "usum": 236,
             "usum_akala": 137,
-            "la": 209
+            "la": 209,
+            "sv_blueberry": 108
         },
         "forms": [
             {
@@ -11656,9 +12237,12 @@
             "national": 410,
             "dp": 38,
             "pt": 38,
+            "sm": 190,
+            "sm_akala": 117,
             "usum": 237,
             "usum_akala": 138,
-            "la": 210
+            "la": 210,
+            "sv_blueberry": 109
         },
         "forms": [
             {
@@ -11682,9 +12266,12 @@
             "national": 411,
             "dp": 39,
             "pt": 39,
+            "sm": 191,
+            "sm_akala": 118,
             "usum": 238,
             "usum_akala": 139,
-            "la": 211
+            "la": 211,
+            "sv_blueberry": 110
         },
         "forms": [
             {
@@ -11915,7 +12502,8 @@
             "pt": 55,
             "xy_coastal": 132,
             "la": 109,
-            "sv": 201
+            "sv": 201,
+            "sv_kitakami": 57
         },
         "forms": [
             {
@@ -12156,7 +12744,8 @@
             "hgss": 124,
             "usum": 369,
             "usum_poni": 116,
-            "la": 79
+            "la": 79,
+            "sv_kitakami": 42
         },
         "forms": [
             {
@@ -12182,6 +12771,8 @@
             "pt": 65,
             "b2w2": 208,
             "xy_coastal": 1,
+            "sm": 64,
+            "sm_melemele": 64,
             "usum": 76,
             "usum_melemele": 76,
             "swsh": 124,
@@ -12213,6 +12804,8 @@
             "pt": 66,
             "b2w2": 209,
             "xy_coastal": 2,
+            "sm": 65,
+            "sm_melemele": 65,
             "usum": 77,
             "usum_melemele": 77,
             "swsh": 125,
@@ -12300,6 +12893,8 @@
             "national": 429,
             "dp": 73,
             "pt": 73,
+            "sm": 67,
+            "sm_melemele": 67,
             "usum": 373,
             "usum_poni": 120,
             "la": 198,
@@ -12405,7 +13000,8 @@
             "pt": 82,
             "xy_coastal": 111,
             "oras": 157,
-            "la": 195
+            "la": 195,
+            "sv_kitakami": 136
         },
         "forms": [
             {
@@ -12487,7 +13083,8 @@
             "swsh": 118,
             "swsh_tundra": 87,
             "la": 180,
-            "sv": 153
+            "sv": 153,
+            "sv_kitakami": 148
         },
         "forms": [
             {
@@ -12515,7 +13112,8 @@
             "swsh": 119,
             "swsh_tundra": 88,
             "la": 181,
-            "sv": 154
+            "sv": 154,
+            "sv_kitakami": 149
         },
         "forms": [
             {
@@ -12540,12 +13138,16 @@
             "dp": 92,
             "pt": 92,
             "xy_mountain": 129,
+            "sm": 30,
+            "sm_melemele": 30,
+            "sm_akala": 14,
             "usum": 37,
             "usum_melemele": 37,
             "usum_akala": 14,
             "swsh": 252,
             "la": 123,
-            "sv": 87
+            "sv": 87,
+            "sv_kitakami": 77
         },
         "forms": [
             {
@@ -12598,13 +13200,19 @@
             "national": 440,
             "dp": 96,
             "pt": 96,
+            "sm": 32,
+            "sm_melemele": 32,
+            "sm_akala": 16,
+            "sm_ulaula": 15,
+            "sm_poni": 8,
             "usum": 39,
             "usum_melemele": 39,
             "usum_akala": 16,
             "usum_poni": 15,
             "swsh_armor": 6,
             "la": 86,
-            "sv": 43
+            "sv": 43,
+            "sv_blueberry": 16
         },
         "forms": [
             {
@@ -12680,10 +13288,13 @@
             "dp": 109,
             "pt": 109,
             "xy_mountain": 6,
+            "sm": 238,
+            "sm_ulaula": 110,
             "usum": 307,
             "swsh_tundra": 116,
             "la": 187,
-            "sv": 126
+            "sv": 126,
+            "sv_kitakami": 158
         },
         "forms": [
             {
@@ -12708,10 +13319,13 @@
             "dp": 110,
             "pt": 110,
             "xy_mountain": 7,
+            "sm": 239,
+            "sm_ulaula": 111,
             "usum": 308,
             "swsh_tundra": 117,
             "la": 188,
-            "sv": 127
+            "sv": 127,
+            "sv_kitakami": 159
         },
         "forms": [
             {
@@ -12736,10 +13350,13 @@
             "dp": 111,
             "pt": 111,
             "xy_mountain": 8,
+            "sm": 240,
+            "sm_ulaula": 112,
             "usum": 309,
             "swsh_tundra": 118,
             "la": 189,
-            "sv": 128
+            "sv": 128,
+            "sv_kitakami": 160
         },
         "forms": [
             {
@@ -12764,11 +13381,14 @@
             "dp": 112,
             "pt": 112,
             "xy_central": 138,
+            "sm": 35,
+            "sm_melemele": 35,
             "usum": 42,
             "usum_melemele": 42,
             "swsh": 260,
             "swsh_tundra": 172,
-            "la": 51
+            "la": 51,
+            "sv_kitakami": 96
         },
         "forms": [
             {
@@ -12799,7 +13419,8 @@
             "swsh": 298,
             "swsh_tundra": 134,
             "la": 223,
-            "sv": 163
+            "sv": 163,
+            "sv_kitakami": 58
         },
         "forms": [
             {
@@ -12830,7 +13451,8 @@
             "swsh": 299,
             "swsh_tundra": 135,
             "la": 224,
-            "sv": 164
+            "sv": 164,
+            "sv_kitakami": 59
         },
         "forms": [
             {
@@ -13048,12 +13670,18 @@
             "national": 456,
             "dp": 134,
             "pt": 134,
+            "sm": 108,
+            "sm_melemele": 108,
+            "sm_akala": 40,
+            "sm_ulaula": 55,
+            "sm_poni": 57,
             "usum": 131,
             "usum_melemele": 131,
             "usum_akala": 40,
             "usum_poni": 69,
             "la": 172,
-            "sv": 333
+            "sv": 333,
+            "sv_blueberry": 83
         },
         "forms": [
             {
@@ -13077,12 +13705,18 @@
             "national": 457,
             "dp": 135,
             "pt": 135,
+            "sm": 109,
+            "sm_melemele": 109,
+            "sm_akala": 41,
+            "sm_ulaula": 56,
+            "sm_poni": 58,
             "usum": 132,
             "usum_melemele": 132,
             "usum_akala": 41,
             "usum_poni": 70,
             "la": 173,
-            "sv": 334
+            "sv": 334,
+            "sv_blueberry": 84
         },
         "forms": [
             {
@@ -13141,7 +13775,8 @@
             "swsh": 96,
             "swsh_tundra": 31,
             "la": 217,
-            "sv": 352
+            "sv": 352,
+            "sv_blueberry": 159
         },
         "forms": [
             {
@@ -13169,7 +13804,8 @@
             "swsh": 97,
             "swsh_tundra": 32,
             "la": 218,
-            "sv": 353
+            "sv": 353,
+            "sv_blueberry": 160
         },
         "forms": [
             {
@@ -13199,7 +13835,8 @@
             "swsh": 293,
             "swsh_tundra": 29,
             "la": 204,
-            "sv": 231
+            "sv": 231,
+            "sv_kitakami": 165
         },
         "forms": [
             {
@@ -13225,11 +13862,15 @@
             "b2w2": 50,
             "xy_mountain": 71,
             "oras": 86,
+            "sm": 49,
+            "sm_melemele": 49,
+            "sm_ulaula": 27,
             "usum": 56,
             "usum_melemele": 56,
             "swsh_armor": 107,
             "la": 179,
-            "sv": 211
+            "sv": 211,
+            "sv_blueberry": 118
         },
         "forms": [
             {
@@ -13285,7 +13926,8 @@
             "oras": 178,
             "swsh": 266,
             "swsh_armor": 185,
-            "la": 122
+            "la": 122,
+            "sv_blueberry": 7
         },
         "forms": [
             {
@@ -13335,9 +13977,12 @@
             "national": 466,
             "pt": 199,
             "b2w2": 58,
+            "sm": 228,
+            "sm_ulaula": 100,
             "usum": 297,
             "swsh_tundra": 17,
-            "la": 184
+            "la": 184,
+            "sv_blueberry": 12
         },
         "forms": [
             {
@@ -13361,10 +14006,13 @@
             "national": 467,
             "pt": 202,
             "b2w2": 55,
+            "sm": 168,
+            "sm_akala": 95,
             "usum": 202,
             "usum_akala": 103,
             "swsh_tundra": 20,
-            "la": 176
+            "la": 176,
+            "sv_blueberry": 15
         },
         "forms": [
             {
@@ -13414,7 +14062,8 @@
             "hgss": 102,
             "b2w2": 287,
             "xy_coastal": 88,
-            "la": 106
+            "la": 106,
+            "sv_kitakami": 4
         },
         "forms": [
             {
@@ -13439,6 +14088,8 @@
             "pt": 169,
             "b2w2": 97,
             "xy_coastal": 83,
+            "sm": 129,
+            "sm_akala": 56,
             "usum": 159,
             "usum_akala": 60,
             "swsh": 202,
@@ -13469,6 +14120,8 @@
             "pt": 170,
             "b2w2": 98,
             "xy_coastal": 84,
+            "sm": 130,
+            "sm_akala": 57,
             "usum": 160,
             "usum_akala": 61,
             "swsh": 203,
@@ -13499,7 +14152,8 @@
             "pt": 154,
             "b2w2": 222,
             "xy_mountain": 116,
-            "la": 186
+            "la": 186,
+            "sv_kitakami": 116
         },
         "forms": [
             {
@@ -13527,7 +14181,8 @@
             "xy_mountain": 78,
             "swsh": 77,
             "swsh_tundra": 9,
-            "la": 214
+            "la": 214,
+            "sv_kitakami": 46
         },
         "forms": [
             {
@@ -13550,9 +14205,12 @@
         "regionalDexId": {
             "national": 474,
             "pt": 194,
+            "sm": 219,
+            "sm_ulaula": 91,
             "usum": 283,
             "swsh_armor": 210,
-            "la": 135
+            "la": 135,
+            "sv_blueberry": 131
         },
         "forms": [
             {
@@ -13580,7 +14238,8 @@
             "swsh": 123,
             "swsh_armor": 37,
             "la": 104,
-            "sv": 65
+            "sv": 65,
+            "sv_kitakami": 54
         },
         "forms": [
             {
@@ -13606,9 +14265,12 @@
             "b2w2": 165,
             "xy_coastal": 94,
             "oras": 62,
+            "sm": 199,
+            "sm_akala": 126,
             "usum": 255,
             "usum_akala": 156,
-            "la": 191
+            "la": 191,
+            "sv_kitakami": 102
         },
         "forms": [
             {
@@ -13633,7 +14295,8 @@
             "pt": 191,
             "oras": 155,
             "swsh": 137,
-            "la": 160
+            "la": 160,
+            "sv_kitakami": 135
         },
         "forms": [
             {
@@ -13657,11 +14320,14 @@
             "national": 478,
             "pt": 208,
             "oras": 181,
+            "sm": 248,
+            "sm_ulaula": 120,
             "usum": 325,
             "swsh": 81,
             "swsh_tundra": 27,
             "la": 207,
-            "sv": 359
+            "sv": 359,
+            "sv_kitakami": 168
         },
         "forms": [
             {
@@ -13687,7 +14353,8 @@
             "xy_mountain": 68,
             "swsh": 372,
             "la": 194,
-            "sv": 310
+            "sv": 310,
+            "sv_blueberry": 41
         },
         "forms": [
             {
@@ -14386,7 +15053,8 @@
         "regionalDexId": {
             "national": 495,
             "bw": 1,
-            "b2w2": 1
+            "b2w2": 1,
+            "sv_blueberry": 200
         },
         "forms": [
             {
@@ -14409,7 +15077,8 @@
         "regionalDexId": {
             "national": 496,
             "bw": 2,
-            "b2w2": 2
+            "b2w2": 2,
+            "sv_blueberry": 201
         },
         "forms": [
             {
@@ -14432,7 +15101,8 @@
         "regionalDexId": {
             "national": 497,
             "bw": 3,
-            "b2w2": 3
+            "b2w2": 3,
+            "sv_blueberry": 202
         },
         "forms": [
             {
@@ -14455,7 +15125,8 @@
         "regionalDexId": {
             "national": 498,
             "bw": 4,
-            "b2w2": 4
+            "b2w2": 4,
+            "sv_blueberry": 203
         },
         "forms": [
             {
@@ -14478,7 +15149,8 @@
         "regionalDexId": {
             "national": 499,
             "bw": 5,
-            "b2w2": 5
+            "b2w2": 5,
+            "sv_blueberry": 204
         },
         "forms": [
             {
@@ -14501,7 +15173,8 @@
         "regionalDexId": {
             "national": 500,
             "bw": 6,
-            "b2w2": 6
+            "b2w2": 6,
+            "sv_blueberry": 205
         },
         "forms": [
             {
@@ -14525,7 +15198,8 @@
             "national": 501,
             "bw": 7,
             "b2w2": 7,
-            "la": 7
+            "la": 7,
+            "sv_blueberry": 206
         },
         "forms": [
             {
@@ -14549,7 +15223,8 @@
             "national": 502,
             "bw": 8,
             "b2w2": 8,
-            "la": 8
+            "la": 8,
+            "sv_blueberry": 207
         },
         "forms": [
             {
@@ -14573,7 +15248,8 @@
             "national": 503,
             "bw": 9,
             "b2w2": 9,
-            "la": 9
+            "la": 9,
+            "sv_blueberry": 208
         },
         "forms": [
             {
@@ -14650,6 +15326,8 @@
             "national": 506,
             "bw": 12,
             "b2w2": 22,
+            "sm": 120,
+            "sm_akala": 47,
             "usum": 150,
             "usum_akala": 51,
             "swsh_armor": 113
@@ -14676,6 +15354,8 @@
             "national": 507,
             "bw": 13,
             "b2w2": 23,
+            "sm": 121,
+            "sm_akala": 48,
             "usum": 151,
             "usum_akala": 52,
             "swsh_armor": 114
@@ -14702,6 +15382,8 @@
             "national": 508,
             "bw": 14,
             "b2w2": 24,
+            "sm": 122,
+            "sm_akala": 49,
             "usum": 152,
             "usum_akala": 53,
             "swsh_armor": 115
@@ -15041,7 +15723,8 @@
         "regionalDexId": {
             "national": 522,
             "bw": 28,
-            "b2w2": 147
+            "b2w2": 147,
+            "sv_blueberry": 23
         },
         "forms": [
             {
@@ -15064,7 +15747,8 @@
         "regionalDexId": {
             "national": 523,
             "bw": 29,
-            "b2w2": 148
+            "b2w2": 148,
+            "sv_blueberry": 24
         },
         "forms": [
             {
@@ -15089,6 +15773,9 @@
             "bw": 30,
             "b2w2": 68,
             "xy_coastal": 120,
+            "sm": 98,
+            "sm_melemele": 98,
+            "sm_poni": 48,
             "usum": 120,
             "usum_melemele": 120,
             "usum_poni": 60,
@@ -15118,6 +15805,9 @@
             "bw": 31,
             "b2w2": 69,
             "xy_coastal": 121,
+            "sm": 99,
+            "sm_melemele": 99,
+            "sm_poni": 49,
             "usum": 121,
             "usum_melemele": 121,
             "usum_poni": 61,
@@ -15147,6 +15837,9 @@
             "bw": 32,
             "b2w2": 70,
             "xy_coastal": 122,
+            "sm": 100,
+            "sm_melemele": 100,
+            "sm_poni": 50,
             "usum": 122,
             "usum_melemele": 122,
             "usum_poni": 62,
@@ -15227,7 +15920,8 @@
             "national": 529,
             "bw": 35,
             "b2w2": 76,
-            "swsh": 166
+            "swsh": 166,
+            "sv_blueberry": 99
         },
         "forms": [
             {
@@ -15251,7 +15945,8 @@
             "national": 530,
             "bw": 36,
             "b2w2": 77,
-            "swsh": 167
+            "swsh": 167,
+            "sv_blueberry": 100
         },
         "forms": [
             {
@@ -15302,7 +15997,8 @@
             "b2w2": 73,
             "xy_mountain": 93,
             "swsh": 171,
-            "swsh_tundra": 57
+            "swsh_tundra": 57,
+            "sv_kitakami": 79
         },
         "forms": [
             {
@@ -15328,7 +16024,8 @@
             "b2w2": 74,
             "xy_mountain": 94,
             "swsh": 172,
-            "swsh_tundra": 58
+            "swsh_tundra": 58,
+            "sv_kitakami": 80
         },
         "forms": [
             {
@@ -15354,7 +16051,8 @@
             "b2w2": 75,
             "xy_mountain": 95,
             "swsh": 173,
-            "swsh_tundra": 59
+            "swsh_tundra": 59,
+            "sv_kitakami": 81
         },
         "forms": [
             {
@@ -15499,7 +16197,8 @@
         "regionalDexId": {
             "national": 540,
             "bw": 46,
-            "b2w2": 17
+            "b2w2": 17,
+            "sv_kitakami": 13
         },
         "forms": [
             {
@@ -15522,7 +16221,8 @@
         "regionalDexId": {
             "national": 541,
             "bw": 47,
-            "b2w2": 18
+            "b2w2": 18,
+            "sv_kitakami": 14
         },
         "forms": [
             {
@@ -15545,7 +16245,8 @@
         "regionalDexId": {
             "national": 542,
             "bw": 48,
-            "b2w2": 19
+            "b2w2": 19,
+            "sv_kitakami": 15
         },
         "forms": [
             {
@@ -15644,11 +16345,16 @@
             "national": 546,
             "bw": 52,
             "b2w2": 82,
+            "sm": 87,
+            "sm_melemele": 87,
+            "sm_ulaula": 47,
+            "sm_poni": 37,
             "usum": 105,
             "usum_melemele": 105,
             "usum_poni": 49,
             "swsh": 262,
-            "swsh_tundra": 168
+            "swsh_tundra": 168,
+            "sv_blueberry": 56
         },
         "forms": [
             {
@@ -15672,11 +16378,16 @@
             "national": 547,
             "bw": 53,
             "b2w2": 83,
+            "sm": 88,
+            "sm_melemele": 88,
+            "sm_ulaula": 48,
+            "sm_poni": 38,
             "usum": 106,
             "usum_melemele": 106,
             "usum_poni": 50,
             "swsh": 263,
-            "swsh_tundra": 169
+            "swsh_tundra": 169,
+            "sv_blueberry": 57
         },
         "forms": [
             {
@@ -15700,12 +16411,17 @@
             "national": 548,
             "bw": 54,
             "b2w2": 84,
+            "sm": 85,
+            "sm_melemele": 85,
+            "sm_ulaula": 45,
+            "sm_poni": 35,
             "usum": 103,
             "usum_melemele": 103,
             "usum_poni": 47,
             "swsh_armor": 201,
             "la": 93,
-            "sv": 104
+            "sv": 104,
+            "sv_kitakami": 60
         },
         "forms": [
             {
@@ -15729,12 +16445,17 @@
             "national": 549,
             "bw": 55,
             "b2w2": 85,
+            "sm": 86,
+            "sm_melemele": 86,
+            "sm_ulaula": 46,
+            "sm_poni": 36,
             "usum": 104,
             "usum_melemele": 104,
             "usum_poni": 48,
             "swsh_armor": 202,
             "la": 94,
-            "sv": 105
+            "sv": 105,
+            "sv_kitakami": 61
         },
         "forms": [
             {
@@ -15770,7 +16491,8 @@
             "swsh": 154,
             "swsh_tundra": 64,
             "la": 166,
-            "sv": 138
+            "sv": 138,
+            "sv_kitakami": 188
         },
         "forms": [
             {
@@ -15819,9 +16541,12 @@
             "bw": 57,
             "b2w2": 99,
             "xy_coastal": 43,
+            "sm": 232,
+            "sm_ulaula": 104,
             "usum": 301,
             "swsh_armor": 176,
-            "sv": 267
+            "sv": 267,
+            "sv_blueberry": 27
         },
         "forms": [
             {
@@ -15846,9 +16571,12 @@
             "bw": 58,
             "b2w2": 100,
             "xy_coastal": 44,
+            "sm": 233,
+            "sm_ulaula": 105,
             "usum": 302,
             "swsh_armor": 177,
-            "sv": 268
+            "sv": 268,
+            "sv_blueberry": 28
         },
         "forms": [
             {
@@ -15873,9 +16601,12 @@
             "bw": 59,
             "b2w2": 101,
             "xy_coastal": 45,
+            "sm": 234,
+            "sm_ulaula": 106,
             "usum": 303,
             "swsh_armor": 178,
-            "sv": 269
+            "sv": 269,
+            "sv_blueberry": 29
         },
         "forms": [
             {
@@ -16044,7 +16775,8 @@
             "xy_central": 100,
             "usum": 335,
             "swsh": 224,
-            "swsh_armor": 161
+            "swsh_armor": 161,
+            "sv_blueberry": 121
         },
         "forms": [
             {
@@ -16071,7 +16803,8 @@
             "xy_central": 101,
             "usum": 336,
             "swsh": 225,
-            "swsh_armor": 162
+            "swsh_armor": 162,
+            "sv_blueberry": 122
         },
         "forms": [
             {
@@ -16173,6 +16906,8 @@
             "national": 564,
             "bw": 70,
             "b2w2": 126,
+            "sm": 194,
+            "sm_akala": 121,
             "usum": 241,
             "usum_akala": 142,
             "swsh_tundra": 147
@@ -16199,6 +16934,8 @@
             "national": 565,
             "bw": 71,
             "b2w2": 127,
+            "sm": 195,
+            "sm_akala": 122,
             "usum": 242,
             "usum_akala": 143,
             "swsh_tundra": 148
@@ -16225,6 +16962,8 @@
             "national": 566,
             "bw": 72,
             "b2w2": 128,
+            "sm": 192,
+            "sm_akala": 119,
             "usum": 239,
             "usum_akala": 140,
             "swsh_tundra": 149
@@ -16251,6 +16990,8 @@
             "national": 567,
             "bw": 73,
             "b2w2": 129,
+            "sm": 193,
+            "sm_akala": 120,
             "usum": 240,
             "usum_akala": 141,
             "swsh_tundra": 150
@@ -16278,6 +17019,8 @@
             "bw": 74,
             "b2w2": 105,
             "xy_mountain": 74,
+            "sm": 206,
+            "sm_ulaula": 78,
             "usum": 264,
             "swsh": 157
         },
@@ -16304,6 +17047,8 @@
             "bw": 75,
             "b2w2": 106,
             "xy_mountain": 75,
+            "sm": 207,
+            "sm_ulaula": 79,
             "usum": 265,
             "swsh": 158
         },
@@ -16400,7 +17145,8 @@
             "bw": 78,
             "b2w2": 107,
             "usum": 266,
-            "swsh": 50
+            "swsh": 50,
+            "sv_blueberry": 111
         },
         "forms": [
             {
@@ -16425,7 +17171,8 @@
             "bw": 79,
             "b2w2": 108,
             "usum": 267,
-            "swsh": 51
+            "swsh": 51,
+            "sv_blueberry": 112
         },
         "forms": [
             {
@@ -16452,7 +17199,8 @@
             "xy_mountain": 126,
             "swsh": 267,
             "swsh_tundra": 51,
-            "sv": 234
+            "sv": 234,
+            "sv_blueberry": 101
         },
         "forms": [
             {
@@ -16479,7 +17227,8 @@
             "xy_mountain": 127,
             "swsh": 268,
             "swsh_tundra": 52,
-            "sv": 235
+            "sv": 235,
+            "sv_blueberry": 102
         },
         "forms": [
             {
@@ -16506,7 +17255,8 @@
             "xy_mountain": 128,
             "swsh": 269,
             "swsh_tundra": 53,
-            "sv": 236
+            "sv": 236,
+            "sv_blueberry": 103
         },
         "forms": [
             {
@@ -16532,7 +17282,8 @@
             "b2w2": 139,
             "xy_coastal": 115,
             "swsh": 270,
-            "swsh_tundra": 54
+            "swsh_tundra": 54,
+            "sv_blueberry": 148
         },
         "forms": [
             {
@@ -16558,7 +17309,8 @@
             "b2w2": 140,
             "xy_coastal": 116,
             "swsh": 271,
-            "swsh_tundra": 55
+            "swsh_tundra": 55,
+            "sv_blueberry": 149
         },
         "forms": [
             {
@@ -16584,7 +17336,8 @@
             "b2w2": 141,
             "xy_coastal": 117,
             "swsh": 272,
-            "swsh_tundra": 56
+            "swsh_tundra": 56,
+            "sv_blueberry": 150
         },
         "forms": [
             {
@@ -16608,7 +17361,8 @@
             "national": 580,
             "bw": 86,
             "b2w2": 153,
-            "xy_central": 127
+            "xy_central": 127,
+            "sv_kitakami": 175
         },
         "forms": [
             {
@@ -16632,7 +17386,8 @@
             "national": 581,
             "bw": 87,
             "b2w2": 154,
-            "xy_central": 128
+            "xy_central": 128,
+            "sv_kitakami": 176
         },
         "forms": [
             {
@@ -16737,7 +17492,8 @@
             "national": 585,
             "bw": 91,
             "b2w2": 159,
-            "sv": 190
+            "sv": 190,
+            "sv_blueberry": 38
         },
         "forms": [
             {
@@ -16810,7 +17566,8 @@
             "national": 586,
             "bw": 92,
             "b2w2": 160,
-            "sv": 191
+            "sv": 191,
+            "sv_blueberry": 39
         },
         "forms": [
             {
@@ -17069,9 +17826,12 @@
             "bw": 100,
             "b2w2": 182,
             "xy_coastal": 149,
+            "sm": 157,
+            "sm_akala": 84,
             "usum": 191,
             "usum_akala": 92,
-            "sv": 336
+            "sv": 336,
+            "sv_blueberry": 85
         },
         "forms": [
             {
@@ -17096,7 +17856,8 @@
             "bw": 101,
             "b2w2": 173,
             "swsh": 64,
-            "swsh_tundra": 93
+            "swsh_tundra": 93,
+            "sv_blueberry": 132
         },
         "forms": [
             {
@@ -17121,7 +17882,8 @@
             "bw": 102,
             "b2w2": 174,
             "swsh": 65,
-            "swsh_tundra": 94
+            "swsh_tundra": 94,
+            "sv_blueberry": 133
         },
         "forms": [
             {
@@ -17269,7 +18031,9 @@
             "national": 602,
             "bw": 108,
             "b2w2": 177,
-            "sv": 341
+            "sv": 341,
+            "sv_kitakami": 169,
+            "sv_blueberry": 134
         },
         "forms": [
             {
@@ -17293,7 +18057,9 @@
             "national": 603,
             "bw": 109,
             "b2w2": 178,
-            "sv": 342
+            "sv": 342,
+            "sv_kitakami": 170,
+            "sv_blueberry": 135
         },
         "forms": [
             {
@@ -17317,7 +18083,9 @@
             "national": 604,
             "bw": 110,
             "b2w2": 179,
-            "sv": 343
+            "sv": 343,
+            "sv_kitakami": 171,
+            "sv_blueberry": 136
         },
         "forms": [
             {
@@ -17393,7 +18161,8 @@
             "b2w2": 190,
             "xy_mountain": 65,
             "swsh": 287,
-            "swsh_tundra": 48
+            "swsh_tundra": 48,
+            "sv_kitakami": 140
         },
         "forms": [
             {
@@ -17419,7 +18188,8 @@
             "b2w2": 191,
             "xy_mountain": 66,
             "swsh": 288,
-            "swsh_tundra": 49
+            "swsh_tundra": 49,
+            "sv_kitakami": 141
         },
         "forms": [
             {
@@ -17445,7 +18215,8 @@
             "b2w2": 192,
             "xy_mountain": 67,
             "swsh": 289,
-            "swsh_tundra": 50
+            "swsh_tundra": 50,
+            "sv_kitakami": 142
         },
         "forms": [
             {
@@ -17471,7 +18242,8 @@
             "b2w2": 183,
             "xy_central": 148,
             "swsh": 324,
-            "sv": 155
+            "sv": 155,
+            "sv_blueberry": 140
         },
         "forms": [
             {
@@ -17497,7 +18269,8 @@
             "b2w2": 184,
             "xy_central": 149,
             "swsh": 325,
-            "sv": 156
+            "sv": 156,
+            "sv_blueberry": 141
         },
         "forms": [
             {
@@ -17523,7 +18296,8 @@
             "b2w2": 185,
             "xy_central": 150,
             "swsh": 326,
-            "sv": 157
+            "sv": 157,
+            "sv_blueberry": 142
         },
         "forms": [
             {
@@ -17550,7 +18324,8 @@
             "xy_mountain": 81,
             "swsh": 279,
             "swsh_tundra": 121,
-            "sv": 355
+            "sv": 355,
+            "sv_blueberry": 153
         },
         "forms": [
             {
@@ -17577,7 +18352,8 @@
             "xy_mountain": 82,
             "swsh": 280,
             "swsh_tundra": 122,
-            "sv": 356
+            "sv": 356,
+            "sv_blueberry": 154
         },
         "forms": [
             {
@@ -17714,7 +18490,8 @@
             "xy_coastal": 3,
             "usum": 359,
             "usum_poni": 106,
-            "swsh_armor": 163
+            "swsh_armor": 163,
+            "sv_kitakami": 131
         },
         "forms": [
             {
@@ -17741,7 +18518,8 @@
             "xy_coastal": 4,
             "usum": 360,
             "usum_poni": 107,
-            "swsh_armor": 164
+            "swsh_armor": 164,
+            "sv_kitakami": 132
         },
         "forms": [
             {
@@ -17796,7 +18574,8 @@
             "xy_coastal": 91,
             "usum": 312,
             "swsh": 88,
-            "swsh_tundra": 153
+            "swsh_tundra": 153,
+            "sv_blueberry": 123
         },
         "forms": [
             {
@@ -17823,7 +18602,8 @@
             "xy_coastal": 92,
             "usum": 313,
             "swsh": 89,
-            "swsh_tundra": 154
+            "swsh_tundra": 154,
+            "sv_blueberry": 124
         },
         "forms": [
             {
@@ -17851,7 +18631,8 @@
             "usum": 337,
             "swsh": 246,
             "swsh_armor": 29,
-            "sv": 367
+            "sv": 367,
+            "sv_kitakami": 180
         },
         "forms": [
             {
@@ -17879,7 +18660,8 @@
             "usum": 338,
             "swsh": 247,
             "swsh_armor": 30,
-            "sv": 368
+            "sv": 368,
+            "sv_kitakami": 181
         },
         "forms": [
             {
@@ -17927,13 +18709,17 @@
             "national": 627,
             "bw": 133,
             "b2w2": 109,
+            "sm": 75,
+            "sm_melemele": 75,
+            "sm_poni": 26,
             "usum": 89,
             "usum_melemele": 89,
             "usum_poni": 35,
             "swsh": 281,
             "swsh_armor": 179,
             "la": 221,
-            "sv": 365
+            "sv": 365,
+            "sv_blueberry": 32
         },
         "forms": [
             {
@@ -17957,13 +18743,17 @@
             "national": 628,
             "bw": 134,
             "b2w2": 110,
+            "sm": 76,
+            "sm_melemele": 76,
+            "sm_poni": 27,
             "usum": 90,
             "usum_melemele": 90,
             "usum_poni": 36,
             "swsh": 282,
             "swsh_armor": 180,
             "la": 222,
-            "sv": 366
+            "sv": 366,
+            "sv_blueberry": 33
         },
         "forms": [
             {
@@ -17992,11 +18782,16 @@
             "national": 629,
             "bw": 135,
             "b2w2": 111,
+            "sm": 77,
+            "sm_melemele": 77,
+            "sm_poni": 28,
             "usum": 91,
             "usum_melemele": 91,
             "usum_poni": 37,
             "swsh": 283,
-            "swsh_armor": 181
+            "swsh_armor": 181,
+            "sv_kitakami": 121,
+            "sv_blueberry": 34
         },
         "forms": [
             {
@@ -18020,11 +18815,16 @@
             "national": 630,
             "bw": 136,
             "b2w2": 112,
+            "sm": 78,
+            "sm_melemele": 78,
+            "sm_poni": 29,
             "usum": 92,
             "usum_melemele": 92,
             "usum_poni": 38,
             "swsh": 284,
-            "swsh_armor": 182
+            "swsh_armor": 182,
+            "sv_kitakami": 122,
+            "sv_blueberry": 35
         },
         "forms": [
             {
@@ -18599,7 +19399,8 @@
         },
         "regionalDexId": {
             "national": 650,
-            "xy_central": 1
+            "xy_central": 1,
+            "sv_blueberry": 209
         },
         "forms": [
             {
@@ -18621,7 +19422,8 @@
         },
         "regionalDexId": {
             "national": 651,
-            "xy_central": 2
+            "xy_central": 2,
+            "sv_blueberry": 210
         },
         "forms": [
             {
@@ -18643,7 +19445,8 @@
         },
         "regionalDexId": {
             "national": 652,
-            "xy_central": 3
+            "xy_central": 3,
+            "sv_blueberry": 211
         },
         "forms": [
             {
@@ -18665,7 +19468,8 @@
         },
         "regionalDexId": {
             "national": 653,
-            "xy_central": 4
+            "xy_central": 4,
+            "sv_blueberry": 212
         },
         "forms": [
             {
@@ -18687,7 +19491,8 @@
         },
         "regionalDexId": {
             "national": 654,
-            "xy_central": 5
+            "xy_central": 5,
+            "sv_blueberry": 213
         },
         "forms": [
             {
@@ -18709,7 +19514,8 @@
         },
         "regionalDexId": {
             "national": 655,
-            "xy_central": 6
+            "xy_central": 6,
+            "sv_blueberry": 214
         },
         "forms": [
             {
@@ -18731,7 +19537,8 @@
         },
         "regionalDexId": {
             "national": 656,
-            "xy_central": 7
+            "xy_central": 7,
+            "sv_blueberry": 215
         },
         "forms": [
             {
@@ -18753,7 +19560,8 @@
         },
         "regionalDexId": {
             "national": 657,
-            "xy_central": 8
+            "xy_central": 8,
+            "sv_blueberry": 216
         },
         "forms": [
             {
@@ -18775,7 +19583,8 @@
         },
         "regionalDexId": {
             "national": 658,
-            "xy_central": 9
+            "xy_central": 9,
+            "sv_blueberry": 217
         },
         "forms": [
             {
@@ -18849,10 +19658,13 @@
         "regionalDexId": {
             "national": 661,
             "xy_central": 14,
+            "sm": 158,
+            "sm_akala": 85,
             "usum": 192,
             "usum_akala": 93,
             "swsh_armor": 22,
-            "sv": 19
+            "sv": 19,
+            "sv_blueberry": 87
         },
         "forms": [
             {
@@ -18875,10 +19687,13 @@
         "regionalDexId": {
             "national": 662,
             "xy_central": 15,
+            "sm": 159,
+            "sm_akala": 86,
             "usum": 193,
             "usum_akala": 94,
             "swsh_armor": 23,
-            "sv": 20
+            "sv": 20,
+            "sv_blueberry": 88
         },
         "forms": [
             {
@@ -18901,10 +19716,13 @@
         "regionalDexId": {
             "national": 663,
             "xy_central": 16,
+            "sm": 160,
+            "sm_akala": 87,
             "usum": 194,
             "usum_akala": 95,
             "swsh_armor": 24,
-            "sv": 21
+            "sv": 21,
+            "sv_blueberry": 89
         },
         "forms": [
             {
@@ -19256,7 +20074,8 @@
             "xy_central": 57,
             "usum": 370,
             "usum_poni": 117,
-            "sv": 224
+            "sv": 224,
+            "sv_blueberry": 36
         },
         "forms": [
             {
@@ -19281,7 +20100,8 @@
             "xy_central": 58,
             "usum": 371,
             "usum_poni": 118,
-            "sv": 225
+            "sv": 225,
+            "sv_blueberry": 37
         },
         "forms": [
             {
@@ -19614,6 +20434,8 @@
         "regionalDexId": {
             "national": 674,
             "xy_central": 91,
+            "sm": 220,
+            "sm_ulaula": 92,
             "usum": 284,
             "swsh": 111
         },
@@ -19638,6 +20460,8 @@
         "regionalDexId": {
             "national": 675,
             "xy_central": 92,
+            "sm": 221,
+            "sm_ulaula": 93,
             "usum": 285,
             "swsh": 112
         },
@@ -19687,7 +20511,8 @@
         "regionalDexId": {
             "national": 677,
             "xy_central": 114,
-            "swsh": 208
+            "swsh": 208,
+            "sv_blueberry": 104
         },
         "forms": [
             {
@@ -19710,7 +20535,8 @@
         "regionalDexId": {
             "national": 678,
             "xy_central": 115,
-            "swsh": 209
+            "swsh": 209,
+            "sv_blueberry": 105
         },
         "forms": [
             {
@@ -19913,7 +20739,8 @@
             "usum_melemele": 26,
             "usum_poni": 10,
             "swsh": 290,
-            "swsh_armor": 108
+            "swsh_armor": 108,
+            "sv_blueberry": 80
         },
         "forms": [
             {
@@ -19940,7 +20767,8 @@
             "usum_melemele": 27,
             "usum_poni": 11,
             "swsh": 291,
-            "swsh_armor": 109
+            "swsh_armor": 109,
+            "sv_blueberry": 81
         },
         "forms": [
             {
@@ -20259,6 +21087,8 @@
         "regionalDexId": {
             "national": 700,
             "xy_coastal": 85,
+            "sm": 131,
+            "sm_akala": 58,
             "usum": 161,
             "usum_akala": 62,
             "swsh": 204,
@@ -20338,10 +21168,14 @@
         "regionalDexId": {
             "national": 703,
             "xy_coastal": 124,
+            "sm": 101,
+            "sm_melemele": 101,
+            "sm_poni": 51,
             "usum": 123,
             "usum_melemele": 123,
             "usum_poni": 63,
-            "swsh_tundra": 128
+            "swsh_tundra": 128,
+            "sv_kitakami": 161
         },
         "forms": [
             {
@@ -20364,13 +21198,18 @@
         "regionalDexId": {
             "national": 704,
             "xy_mountain": 19,
+            "sm": 178,
+            "sm_akala": 105,
+            "sm_ulaula": 74,
+            "sm_poni": 66,
             "usum": 217,
             "usum_akala": 118,
             "usum_poni": 79,
             "swsh": 389,
             "swsh_armor": 60,
             "la": 115,
-            "sv": 172
+            "sv": 172,
+            "sv_kitakami": 172
         },
         "forms": [
             {
@@ -20393,13 +21232,18 @@
         "regionalDexId": {
             "national": 705,
             "xy_mountain": 20,
+            "sm": 179,
+            "sm_akala": 106,
+            "sm_ulaula": 75,
+            "sm_poni": 67,
             "usum": 218,
             "usum_akala": 119,
             "usum_poni": 80,
             "swsh": 390,
             "swsh_armor": 61,
             "la": 116,
-            "sv": 173
+            "sv": 173,
+            "sv_kitakami": 173
         },
         "forms": [
             {
@@ -20427,13 +21271,18 @@
         "regionalDexId": {
             "national": 706,
             "xy_mountain": 21,
+            "sm": 180,
+            "sm_akala": 107,
+            "sm_ulaula": 76,
+            "sm_poni": 68,
             "usum": 219,
             "usum_akala": 120,
             "usum_poni": 81,
             "swsh": 391,
             "swsh_armor": 62,
             "la": 117,
-            "sv": 174
+            "sv": 174,
+            "sv_kitakami": 174
         },
         "forms": [
             {
@@ -20461,6 +21310,8 @@
         "regionalDexId": {
             "national": 707,
             "xy_mountain": 50,
+            "sm": 241,
+            "sm_ulaula": 113,
             "usum": 314,
             "swsh_armor": 28,
             "sv": 240
@@ -20486,10 +21337,13 @@
         "regionalDexId": {
             "national": 708,
             "xy_mountain": 61,
+            "sm": 196,
+            "sm_akala": 123,
             "usum": 250,
             "usum_akala": 151,
             "swsh": 338,
-            "swsh_tundra": 33
+            "swsh_tundra": 33,
+            "sv_kitakami": 62
         },
         "forms": [
             {
@@ -20512,10 +21366,13 @@
         "regionalDexId": {
             "national": 709,
             "xy_mountain": 62,
+            "sm": 197,
+            "sm_akala": 124,
             "usum": 251,
             "usum_akala": 152,
             "swsh": 339,
-            "swsh_tundra": 34
+            "swsh_tundra": 34,
+            "sv_kitakami": 63
         },
         "forms": [
             {
@@ -20712,7 +21569,8 @@
             "usum_poni": 29,
             "swsh": 176,
             "swsh_tundra": 181,
-            "sv": 303
+            "sv": 303,
+            "sv_kitakami": 82
         },
         "forms": [
             {
@@ -20740,7 +21598,8 @@
             "usum_poni": 30,
             "swsh": 177,
             "swsh_tundra": 182,
-            "sv": 304
+            "sv": 304,
+            "sv_kitakami": 83
         },
         "forms": [
             {
@@ -20807,6 +21666,7 @@
         "regionalDexId": {
             "national": 718,
             "xy_mountain": 150,
+            "sm": 205,
             "usum": 263
         },
         "forms": [
@@ -20931,9 +21791,12 @@
         },
         "regionalDexId": {
             "national": 722,
+            "sm": 1,
+            "sm_melemele": 1,
             "usum": 1,
             "usum_melemele": 1,
-            "la": 1
+            "la": 1,
+            "sv_blueberry": 218
         },
         "forms": [
             {
@@ -20955,9 +21818,12 @@
         },
         "regionalDexId": {
             "national": 723,
+            "sm": 2,
+            "sm_melemele": 2,
             "usum": 2,
             "usum_melemele": 2,
-            "la": 2
+            "la": 2,
+            "sv_blueberry": 219
         },
         "forms": [
             {
@@ -20979,9 +21845,12 @@
         },
         "regionalDexId": {
             "national": 724,
+            "sm": 3,
+            "sm_melemele": 3,
             "usum": 3,
             "usum_melemele": 3,
-            "la": 3
+            "la": 3,
+            "sv_blueberry": 220
         },
         "forms": [
             {
@@ -21008,8 +21877,11 @@
         },
         "regionalDexId": {
             "national": 725,
+            "sm": 4,
+            "sm_melemele": 4,
             "usum": 4,
-            "usum_melemele": 4
+            "usum_melemele": 4,
+            "sv_blueberry": 221
         },
         "forms": [
             {
@@ -21031,8 +21903,11 @@
         },
         "regionalDexId": {
             "national": 726,
+            "sm": 5,
+            "sm_melemele": 5,
             "usum": 5,
-            "usum_melemele": 5
+            "usum_melemele": 5,
+            "sv_blueberry": 222
         },
         "forms": [
             {
@@ -21054,8 +21929,11 @@
         },
         "regionalDexId": {
             "national": 727,
+            "sm": 6,
+            "sm_melemele": 6,
             "usum": 6,
-            "usum_melemele": 6
+            "usum_melemele": 6,
+            "sv_blueberry": 223
         },
         "forms": [
             {
@@ -21077,8 +21955,11 @@
         },
         "regionalDexId": {
             "national": 728,
+            "sm": 7,
+            "sm_melemele": 7,
             "usum": 7,
-            "usum_melemele": 7
+            "usum_melemele": 7,
+            "sv_blueberry": 224
         },
         "forms": [
             {
@@ -21100,8 +21981,11 @@
         },
         "regionalDexId": {
             "national": 729,
+            "sm": 8,
+            "sm_melemele": 8,
             "usum": 8,
-            "usum_melemele": 8
+            "usum_melemele": 8,
+            "sv_blueberry": 225
         },
         "forms": [
             {
@@ -21123,8 +22007,11 @@
         },
         "regionalDexId": {
             "national": 730,
+            "sm": 9,
+            "sm_melemele": 9,
             "usum": 9,
-            "usum_melemele": 9
+            "usum_melemele": 9,
+            "sv_blueberry": 226
         },
         "forms": [
             {
@@ -21146,10 +22033,16 @@
         },
         "regionalDexId": {
             "national": 731,
+            "sm": 10,
+            "sm_melemele": 10,
+            "sm_akala": 1,
+            "sm_ulaula": 1,
+            "sm_poni": 1,
             "usum": 10,
             "usum_melemele": 10,
             "usum_akala": 1,
-            "usum_poni": 1
+            "usum_poni": 1,
+            "sv_blueberry": 47
         },
         "forms": [
             {
@@ -21171,10 +22064,16 @@
         },
         "regionalDexId": {
             "national": 732,
+            "sm": 11,
+            "sm_melemele": 11,
+            "sm_akala": 2,
+            "sm_ulaula": 2,
+            "sm_poni": 2,
             "usum": 11,
             "usum_melemele": 11,
             "usum_akala": 2,
-            "usum_poni": 2
+            "usum_poni": 2,
+            "sv_blueberry": 48
         },
         "forms": [
             {
@@ -21196,10 +22095,16 @@
         },
         "regionalDexId": {
             "national": 733,
+            "sm": 12,
+            "sm_melemele": 12,
+            "sm_akala": 3,
+            "sm_ulaula": 3,
+            "sm_poni": 3,
             "usum": 12,
             "usum_melemele": 12,
             "usum_akala": 3,
-            "usum_poni": 3
+            "usum_poni": 3,
+            "sv_blueberry": 49
         },
         "forms": [
             {
@@ -21221,6 +22126,11 @@
         },
         "regionalDexId": {
             "national": 734,
+            "sm": 13,
+            "sm_melemele": 13,
+            "sm_akala": 4,
+            "sm_ulaula": 4,
+            "sm_poni": 4,
             "usum": 13,
             "usum_melemele": 13,
             "usum_akala": 4,
@@ -21247,6 +22157,11 @@
         },
         "regionalDexId": {
             "national": 735,
+            "sm": 14,
+            "sm_melemele": 14,
+            "sm_akala": 5,
+            "sm_ulaula": 5,
+            "sm_poni": 5,
             "usum": 14,
             "usum_melemele": 14,
             "usum_akala": 5,
@@ -21273,10 +22188,15 @@
         },
         "regionalDexId": {
             "national": 736,
+            "sm": 27,
+            "sm_melemele": 27,
+            "sm_akala": 11,
+            "sm_ulaula": 12,
             "usum": 34,
             "usum_melemele": 34,
             "usum_akala": 11,
-            "swsh": 16
+            "swsh": 16,
+            "sv_kitakami": 106
         },
         "forms": [
             {
@@ -21298,10 +22218,15 @@
         },
         "regionalDexId": {
             "national": 737,
+            "sm": 28,
+            "sm_melemele": 28,
+            "sm_akala": 12,
+            "sm_ulaula": 13,
             "usum": 35,
             "usum_melemele": 35,
             "usum_akala": 12,
-            "swsh": 17
+            "swsh": 17,
+            "sv_kitakami": 107
         },
         "forms": [
             {
@@ -21323,10 +22248,15 @@
         },
         "regionalDexId": {
             "national": 738,
+            "sm": 29,
+            "sm_melemele": 29,
+            "sm_akala": 13,
+            "sm_ulaula": 14,
             "usum": 36,
             "usum_melemele": 36,
             "usum_akala": 13,
-            "swsh": 18
+            "swsh": 18,
+            "sv_kitakami": 108
         },
         "forms": [
             {
@@ -21348,11 +22278,17 @@
         },
         "regionalDexId": {
             "national": 739,
+            "sm": 59,
+            "sm_melemele": 59,
+            "sm_akala": 21,
+            "sm_ulaula": 30,
+            "sm_poni": 17,
             "usum": 71,
             "usum_melemele": 71,
             "usum_akala": 21,
             "usum_poni": 24,
-            "sv": 118
+            "sv": 118,
+            "sv_blueberry": 72
         },
         "forms": [
             {
@@ -21374,11 +22310,17 @@
         },
         "regionalDexId": {
             "national": 740,
+            "sm": 60,
+            "sm_melemele": 60,
+            "sm_akala": 22,
+            "sm_ulaula": 31,
+            "sm_poni": 18,
             "usum": 72,
             "usum_melemele": 72,
             "usum_akala": 22,
             "usum_poni": 25,
-            "sv": 119
+            "sv": 119,
+            "sv_blueberry": 73
         },
         "forms": [
             {
@@ -21400,11 +22342,18 @@
         },
         "regionalDexId": {
             "national": 741,
+            "sm": 82,
+            "sm_melemele": 82,
+            "sm_akala": 31,
+            "sm_ulaula": 42,
+            "sm_poni": 32,
             "usum": 97,
             "usum_melemele": 97,
             "usum_akala": 31,
             "usum_poni": 41,
-            "sv": 100
+            "sv": 100,
+            "sv_kitakami": 109,
+            "sv_blueberry": 74
         },
         "forms": [
             {
@@ -21459,10 +22408,15 @@
         },
         "regionalDexId": {
             "national": 742,
+            "sm": 83,
+            "sm_melemele": 83,
+            "sm_ulaula": 43,
+            "sm_poni": 33,
             "usum": 98,
             "usum_melemele": 98,
             "usum_poni": 42,
-            "swsh": 187
+            "swsh": 187,
+            "sv_kitakami": 16
         },
         "forms": [
             {
@@ -21484,10 +22438,15 @@
         },
         "regionalDexId": {
             "national": 743,
+            "sm": 84,
+            "sm_melemele": 84,
+            "sm_ulaula": 44,
+            "sm_poni": 34,
             "usum": 99,
             "usum_melemele": 99,
             "usum_poni": 43,
-            "swsh": 188
+            "swsh": 188,
+            "sv_kitakami": 17
         },
         "forms": [
             {
@@ -21509,11 +22468,15 @@
         },
         "regionalDexId": {
             "national": 744,
+            "sm": 103,
+            "sm_melemele": 103,
+            "sm_poni": 53,
             "usum": 126,
             "usum_melemele": 126,
             "usum_poni": 65,
             "swsh_armor": 157,
-            "sv": 89
+            "sv": 89,
+            "sv_kitakami": 64
         },
         "forms": [
             {
@@ -21535,11 +22498,15 @@
         },
         "regionalDexId": {
             "national": 745,
+            "sm": 104,
+            "sm_melemele": 104,
+            "sm_poni": 54,
             "usum": 127,
             "usum_melemele": 127,
             "usum_poni": 66,
             "swsh_armor": 158,
-            "sv": 90
+            "sv": 90,
+            "sv_kitakami": 65
         },
         "forms": [
             {
@@ -21585,6 +22552,10 @@
         },
         "regionalDexId": {
             "national": 746,
+            "sm": 110,
+            "sm_melemele": 110,
+            "sm_akala": 42,
+            "sm_ulaula": 57,
             "usum": 133,
             "usum_melemele": 133,
             "usum_akala": 42,
@@ -21611,6 +22582,9 @@
         },
         "regionalDexId": {
             "national": 747,
+            "sm": 113,
+            "sm_melemele": 113,
+            "sm_akala": 45,
             "usum": 136,
             "usum_melemele": 136,
             "usum_akala": 45,
@@ -21638,6 +22612,9 @@
         },
         "regionalDexId": {
             "national": 748,
+            "sm": 114,
+            "sm_melemele": 114,
+            "sm_akala": 46,
             "usum": 137,
             "usum_melemele": 137,
             "usum_akala": 46,
@@ -21665,11 +22642,16 @@
         },
         "regionalDexId": {
             "national": 749,
+            "sm": 132,
+            "sm_akala": 59,
+            "sm_ulaula": 58,
+            "sm_poni": 59,
             "usum": 165,
             "usum_akala": 66,
             "usum_poni": 71,
             "swsh": 84,
-            "sv": 272
+            "sv": 272,
+            "sv_kitakami": 123
         },
         "forms": [
             {
@@ -21691,11 +22673,16 @@
         },
         "regionalDexId": {
             "national": 750,
+            "sm": 133,
+            "sm_akala": 60,
+            "sm_ulaula": 59,
+            "sm_poni": 60,
             "usum": 166,
             "usum_akala": 67,
             "usum_poni": 72,
             "swsh": 85,
-            "sv": 273
+            "sv": 273,
+            "sv_kitakami": 124
         },
         "forms": [
             {
@@ -21717,10 +22704,14 @@
         },
         "regionalDexId": {
             "national": 751,
+            "sm": 141,
+            "sm_akala": 68,
+            "sm_ulaula": 62,
             "usum": 174,
             "usum_akala": 75,
             "swsh": 214,
-            "swsh_tundra": 91
+            "swsh_tundra": 91,
+            "sv_blueberry": 90
         },
         "forms": [
             {
@@ -21742,10 +22733,14 @@
         },
         "regionalDexId": {
             "national": 752,
+            "sm": 142,
+            "sm_akala": 69,
+            "sm_ulaula": 63,
             "usum": 175,
             "usum_akala": 76,
             "swsh": 215,
-            "swsh_tundra": 92
+            "swsh_tundra": 92,
+            "sv_blueberry": 91
         },
         "forms": [
             {
@@ -21767,10 +22762,13 @@
         },
         "regionalDexId": {
             "national": 753,
+            "sm": 143,
+            "sm_akala": 70,
             "usum": 176,
             "usum_akala": 77,
             "swsh_armor": 17,
-            "sv": 247
+            "sv": 247,
+            "sv_kitakami": 31
         },
         "forms": [
             {
@@ -21792,10 +22790,13 @@
         },
         "regionalDexId": {
             "national": 754,
+            "sm": 144,
+            "sm_akala": 71,
             "usum": 177,
             "usum_akala": 78,
             "swsh_armor": 18,
-            "sv": 248
+            "sv": 248,
+            "sv_kitakami": 32
         },
         "forms": [
             {
@@ -21817,6 +22818,9 @@
         },
         "regionalDexId": {
             "national": 755,
+            "sm": 145,
+            "sm_akala": 72,
+            "sm_ulaula": 64,
             "usum": 178,
             "usum_akala": 79,
             "swsh": 340
@@ -21841,6 +22845,9 @@
         },
         "regionalDexId": {
             "national": 756,
+            "sm": 146,
+            "sm_akala": 73,
+            "sm_ulaula": 65,
             "usum": 179,
             "usum_akala": 80,
             "swsh": 341
@@ -21865,11 +22872,14 @@
         },
         "regionalDexId": {
             "national": 757,
+            "sm": 161,
+            "sm_akala": 88,
             "usum": 195,
             "usum_akala": 96,
             "swsh": 244,
             "swsh_armor": 159,
-            "sv": 120
+            "sv": 120,
+            "sv_kitakami": 162
         },
         "forms": [
             {
@@ -21891,11 +22901,14 @@
         },
         "regionalDexId": {
             "national": 758,
+            "sm": 162,
+            "sm_akala": 89,
             "usum": 196,
             "usum_akala": 97,
             "swsh": 245,
             "swsh_armor": 160,
-            "sv": 121
+            "sv": 121,
+            "sv_kitakami": 163
         },
         "forms": [
             {
@@ -21917,6 +22930,9 @@
         },
         "regionalDexId": {
             "national": 759,
+            "sm": 169,
+            "sm_akala": 96,
+            "sm_poni": 63,
             "usum": 205,
             "usum_akala": 106,
             "usum_poni": 76,
@@ -21942,6 +22958,9 @@
         },
         "regionalDexId": {
             "national": 760,
+            "sm": 170,
+            "sm_akala": 97,
+            "sm_poni": 64,
             "usum": 206,
             "usum_akala": 107,
             "usum_poni": 77,
@@ -21967,6 +22986,8 @@
         },
         "regionalDexId": {
             "national": 761,
+            "sm": 171,
+            "sm_akala": 98,
             "usum": 207,
             "usum_akala": 108,
             "swsh": 52,
@@ -21992,6 +23013,8 @@
         },
         "regionalDexId": {
             "national": 762,
+            "sm": 172,
+            "sm_akala": 99,
             "usum": 208,
             "usum_akala": 109,
             "swsh": 53,
@@ -22017,6 +23040,8 @@
         },
         "regionalDexId": {
             "national": 763,
+            "sm": 173,
+            "sm_akala": 100,
             "usum": 209,
             "usum_akala": 110,
             "swsh": 54,
@@ -22042,9 +23067,12 @@
         },
         "regionalDexId": {
             "national": 764,
+            "sm": 174,
+            "sm_akala": 101,
             "usum": 210,
             "usum_akala": 111,
-            "swsh_armor": 79
+            "swsh_armor": 79,
+            "sv_blueberry": 58
         },
         "forms": [
             {
@@ -22066,6 +23094,8 @@
         },
         "regionalDexId": {
             "national": 765,
+            "sm": 176,
+            "sm_akala": 103,
             "usum": 215,
             "usum_akala": 116,
             "swsh": 342,
@@ -22092,6 +23122,8 @@
         },
         "regionalDexId": {
             "national": 766,
+            "sm": 177,
+            "sm_akala": 104,
             "usum": 216,
             "usum_akala": 117,
             "swsh": 343,
@@ -22118,6 +23150,9 @@
         },
         "regionalDexId": {
             "national": 767,
+            "sm": 182,
+            "sm_akala": 109,
+            "sm_poni": 70,
             "usum": 221,
             "usum_akala": 122,
             "usum_poni": 83,
@@ -22144,6 +23179,9 @@
         },
         "regionalDexId": {
             "national": 768,
+            "sm": 183,
+            "sm_akala": 110,
+            "sm_poni": 71,
             "usum": 222,
             "usum_akala": 123,
             "usum_poni": 84,
@@ -22170,6 +23208,8 @@
         },
         "regionalDexId": {
             "national": 769,
+            "sm": 186,
+            "sm_akala": 113,
             "usum": 225,
             "usum_akala": 126,
             "swsh_armor": 133,
@@ -22195,6 +23235,8 @@
         },
         "regionalDexId": {
             "national": 770,
+            "sm": 187,
+            "sm_akala": 114,
             "usum": 226,
             "usum_akala": 127,
             "swsh_armor": 134,
@@ -22220,6 +23262,8 @@
         },
         "regionalDexId": {
             "national": 771,
+            "sm": 200,
+            "sm_akala": 127,
             "usum": 256,
             "usum_akala": 157,
             "swsh": 156
@@ -22244,6 +23288,7 @@
         },
         "regionalDexId": {
             "national": 772,
+            "sm": 203,
             "usum": 259,
             "swsh": 381
         },
@@ -22267,6 +23312,7 @@
         },
         "regionalDexId": {
             "national": 773,
+            "sm": 204,
             "usum": 260,
             "swsh": 382
         },
@@ -22557,7 +23603,10 @@
         },
         "regionalDexId": {
             "national": 774,
-            "usum": 277
+            "sm": 213,
+            "sm_ulaula": 85,
+            "usum": 277,
+            "sv_blueberry": 106
         },
         "forms": [
             {
@@ -22639,6 +23688,8 @@
         },
         "regionalDexId": {
             "national": 775,
+            "sm": 222,
+            "sm_ulaula": 94,
             "usum": 286,
             "sv": 315
         },
@@ -22662,6 +23713,8 @@
         },
         "regionalDexId": {
             "national": 776,
+            "sm": 224,
+            "sm_ulaula": 96,
             "usum": 288,
             "swsh": 347
         },
@@ -22685,6 +23738,8 @@
         },
         "regionalDexId": {
             "national": 777,
+            "sm": 225,
+            "sm_ulaula": 97,
             "usum": 292,
             "swsh": 348
         },
@@ -22708,10 +23763,13 @@
         },
         "regionalDexId": {
             "national": 778,
+            "sm": 242,
+            "sm_ulaula": 114,
             "usum": 315,
             "swsh": 301,
             "swsh_tundra": 46,
-            "sv": 239
+            "sv": 239,
+            "sv_kitakami": 183
         },
         "forms": [
             {
@@ -22733,8 +23791,11 @@
         },
         "regionalDexId": {
             "national": 779,
+            "sm": 243,
+            "sm_ulaula": 115,
             "usum": 320,
-            "sv": 335
+            "sv": 335,
+            "sv_blueberry": 55
         },
         "forms": [
             {
@@ -22756,6 +23817,8 @@
         },
         "regionalDexId": {
             "national": 780,
+            "sm": 244,
+            "sm_ulaula": 116,
             "usum": 321,
             "swsh": 346
         },
@@ -22807,7 +23870,8 @@
             "usum": 361,
             "usum_poni": 108,
             "swsh": 392,
-            "swsh_armor": 165
+            "swsh_armor": 165,
+            "sv_kitakami": 125
         },
         "forms": [
             {
@@ -22832,7 +23896,8 @@
             "usum": 362,
             "usum_poni": 109,
             "swsh": 393,
-            "swsh_armor": 166
+            "swsh_armor": 166,
+            "sv_kitakami": 126
         },
         "forms": [
             {
@@ -22857,7 +23922,8 @@
             "usum": 363,
             "usum_poni": 110,
             "swsh": 394,
-            "swsh_armor": 167
+            "swsh_armor": 167,
+            "sv_kitakami": 127
         },
         "forms": [
             {
@@ -23457,7 +24523,8 @@
         },
         "regionalDexId": {
             "national": 810,
-            "swsh": 1
+            "swsh": 1,
+            "sv_blueberry": 227
         },
         "forms": [
             {
@@ -23479,7 +24546,8 @@
         },
         "regionalDexId": {
             "national": 811,
-            "swsh": 2
+            "swsh": 2,
+            "sv_blueberry": 228
         },
         "forms": [
             {
@@ -23501,7 +24569,8 @@
         },
         "regionalDexId": {
             "national": 812,
-            "swsh": 3
+            "swsh": 3,
+            "sv_blueberry": 229
         },
         "forms": [
             {
@@ -23523,7 +24592,8 @@
         },
         "regionalDexId": {
             "national": 813,
-            "swsh": 4
+            "swsh": 4,
+            "sv_blueberry": 230
         },
         "forms": [
             {
@@ -23545,7 +24615,8 @@
         },
         "regionalDexId": {
             "national": 814,
-            "swsh": 5
+            "swsh": 5,
+            "sv_blueberry": 231
         },
         "forms": [
             {
@@ -23567,7 +24638,8 @@
         },
         "regionalDexId": {
             "national": 815,
-            "swsh": 6
+            "swsh": 6,
+            "sv_blueberry": 232
         },
         "forms": [
             {
@@ -23589,7 +24661,8 @@
         },
         "regionalDexId": {
             "national": 816,
-            "swsh": 7
+            "swsh": 7,
+            "sv_blueberry": 233
         },
         "forms": [
             {
@@ -23611,7 +24684,8 @@
         },
         "regionalDexId": {
             "national": 817,
-            "swsh": 8
+            "swsh": 8,
+            "sv_blueberry": 234
         },
         "forms": [
             {
@@ -23633,7 +24707,8 @@
         },
         "regionalDexId": {
             "national": 818,
-            "swsh": 9
+            "swsh": 9,
+            "sv_blueberry": 235
         },
         "forms": [
             {
@@ -23658,7 +24733,8 @@
             "swsh": 24,
             "swsh_armor": 9,
             "swsh_tundra": 5,
-            "sv": 29
+            "sv": 29,
+            "sv_kitakami": 66
         },
         "forms": [
             {
@@ -23683,7 +24759,8 @@
             "swsh": 25,
             "swsh_armor": 10,
             "swsh_tundra": 6,
-            "sv": 30
+            "sv": 30,
+            "sv_kitakami": 67
         },
         "forms": [
             {
@@ -23984,7 +25061,8 @@
             "national": 833,
             "swsh": 42,
             "swsh_armor": 56,
-            "sv": 57
+            "sv": 57,
+            "sv_kitakami": 177
         },
         "forms": [
             {
@@ -24008,7 +25086,8 @@
             "national": 834,
             "swsh": 43,
             "swsh_armor": 57,
-            "sv": 58
+            "sv": 58,
+            "sv_kitakami": 178
         },
         "forms": [
             {
@@ -24150,7 +25229,8 @@
             "national": 840,
             "swsh": 205,
             "swsh_armor": 19,
-            "sv": 108
+            "sv": 108,
+            "sv_kitakami": 33
         },
         "forms": [
             {
@@ -24174,7 +25254,8 @@
             "national": 841,
             "swsh": 206,
             "swsh_armor": 20,
-            "sv": 109
+            "sv": 109,
+            "sv_kitakami": 34
         },
         "forms": [
             {
@@ -24198,7 +25279,8 @@
             "national": 842,
             "swsh": 207,
             "swsh_armor": 21,
-            "sv": 110
+            "sv": 110,
+            "sv_kitakami": 35
         },
         "forms": [
             {
@@ -24269,7 +25351,8 @@
         "regionalDexId": {
             "national": 845,
             "swsh": 309,
-            "swsh_armor": 93
+            "swsh_armor": 93,
+            "sv_kitakami": 179
         },
         "forms": [
             {
@@ -24293,7 +25376,8 @@
             "national": 846,
             "swsh": 180,
             "swsh_armor": 96,
-            "sv": 136
+            "sv": 136,
+            "sv_kitakami": 84
         },
         "forms": [
             {
@@ -24317,7 +25401,8 @@
             "national": 847,
             "swsh": 181,
             "swsh_armor": 97,
-            "sv": 137
+            "sv": 137,
+            "sv_kitakami": 85
         },
         "forms": [
             {
@@ -24494,7 +25579,8 @@
             "national": 854,
             "swsh": 335,
             "swsh_tundra": 132,
-            "sv": 237
+            "sv": 237,
+            "sv_blueberry": 127
         },
         "forms": [
             {
@@ -24535,7 +25621,8 @@
             "national": 855,
             "swsh": 336,
             "swsh_tundra": 133,
-            "sv": 238
+            "sv": 238,
+            "sv_blueberry": 128
         },
         "forms": [
             {
@@ -24576,7 +25663,8 @@
             "national": 856,
             "swsh": 241,
             "swsh_tundra": 40,
-            "sv": 282
+            "sv": 282,
+            "sv_kitakami": 86
         },
         "forms": [
             {
@@ -24600,7 +25688,8 @@
             "national": 857,
             "swsh": 242,
             "swsh_tundra": 41,
-            "sv": 283
+            "sv": 283,
+            "sv_kitakami": 87
         },
         "forms": [
             {
@@ -24624,7 +25713,8 @@
             "national": 858,
             "swsh": 243,
             "swsh_tundra": 42,
-            "sv": 284
+            "sv": 284,
+            "sv_kitakami": 88
         },
         "forms": [
             {
@@ -24648,7 +25738,8 @@
             "national": 859,
             "swsh": 238,
             "swsh_tundra": 37,
-            "sv": 285
+            "sv": 285,
+            "sv_kitakami": 184
         },
         "forms": [
             {
@@ -24672,7 +25763,8 @@
             "national": 860,
             "swsh": 239,
             "swsh_tundra": 38,
-            "sv": 286
+            "sv": 286,
+            "sv_kitakami": 185
         },
         "forms": [
             {
@@ -24696,7 +25788,8 @@
             "national": 861,
             "swsh": 240,
             "swsh_tundra": 39,
-            "sv": 287
+            "sv": 287,
+            "sv_kitakami": 186
         },
         "forms": [
             {
@@ -24852,7 +25945,8 @@
         },
         "regionalDexId": {
             "national": 868,
-            "swsh": 185
+            "swsh": 185,
+            "sv_blueberry": 42
         },
         "forms": [
             {
@@ -24874,7 +25968,8 @@
         },
         "regionalDexId": {
             "national": 869,
-            "swsh": 186
+            "swsh": 186,
+            "sv_blueberry": 43
         },
         "forms": [
             {
@@ -25174,7 +26269,8 @@
             "national": 876,
             "swsh": 337,
             "swsh_tundra": 171,
-            "sv": 241
+            "sv": 241,
+            "sv_kitakami": 187
         },
         "forms": [
             {
@@ -25213,7 +26309,8 @@
             "national": 877,
             "swsh": 344,
             "swsh_armor": 104,
-            "swsh_tundra": 157
+            "swsh_tundra": 157,
+            "sv_kitakami": 89
         },
         "forms": [
             {
@@ -25371,7 +26468,8 @@
         },
         "regionalDexId": {
             "national": 884,
-            "swsh": 371
+            "swsh": 371,
+            "sv_blueberry": 161
         },
         "forms": [
             {
@@ -25767,7 +26865,8 @@
         },
         "regionalDexId": {
             "national": 900,
-            "la": 73
+            "la": 73,
+            "sv_blueberry": 21
         },
         "forms": [
             {
@@ -25789,7 +26888,8 @@
         },
         "regionalDexId": {
             "national": 901,
-            "la": 114
+            "la": 114,
+            "sv_kitakami": 190
         },
         "forms": [
             {
@@ -25821,7 +26921,8 @@
         },
         "regionalDexId": {
             "national": 902,
-            "la": 167
+            "la": 167,
+            "sv_kitakami": 189
         },
         "forms": [
             {
@@ -25880,7 +26981,8 @@
         },
         "regionalDexId": {
             "national": 904,
-            "la": 85
+            "la": 85,
+            "sv_blueberry": 147
         },
         "forms": [
             {
@@ -26350,7 +27452,8 @@
         },
         "regionalDexId": {
             "national": 924,
-            "sv": 71
+            "sv": 71,
+            "sv_kitakami": 91
         },
         "forms": [
             {
@@ -26372,7 +27475,8 @@
         },
         "regionalDexId": {
             "national": 925,
-            "sv": 72
+            "sv": 72,
+            "sv_kitakami": 92
         },
         "forms": [
             {
@@ -26926,7 +28030,8 @@
         },
         "regionalDexId": {
             "national": 948,
-            "sv": 244
+            "sv": 244,
+            "sv_kitakami": 68
         },
         "forms": [
             {
@@ -26948,7 +28053,8 @@
         },
         "regionalDexId": {
             "national": 949,
-            "sv": 245
+            "sv": 245,
+            "sv_kitakami": 69
         },
         "forms": [
             {
@@ -27036,7 +28142,8 @@
         },
         "regionalDexId": {
             "national": 953,
-            "sv": 254
+            "sv": 254,
+            "sv_blueberry": 30
         },
         "forms": [
             {
@@ -27058,7 +28165,8 @@
         },
         "regionalDexId": {
             "national": 954,
-            "sv": 255
+            "sv": 255,
+            "sv_blueberry": 31
         },
         "forms": [
             {
@@ -27234,7 +28342,8 @@
         },
         "regionalDexId": {
             "national": 962,
-            "sv": 290
+            "sv": 290,
+            "sv_kitakami": 128
         },
         "forms": [
             {
@@ -27366,7 +28475,8 @@
         },
         "regionalDexId": {
             "national": 968,
-            "sv": 296
+            "sv": 296,
+            "sv_kitakami": 90
         },
         "forms": [
             {
@@ -27388,7 +28498,8 @@
         },
         "regionalDexId": {
             "national": 969,
-            "sv": 308
+            "sv": 308,
+            "sv_kitakami": 150
         },
         "forms": [
             {
@@ -27410,7 +28521,8 @@
         },
         "regionalDexId": {
             "national": 970,
-            "sv": 309
+            "sv": 309,
+            "sv_kitakami": 151
         },
         "forms": [
             {
@@ -27632,7 +28744,8 @@
         },
         "regionalDexId": {
             "national": 979,
-            "sv": 160
+            "sv": 160,
+            "sv_kitakami": 95
         },
         "forms": [
             {
@@ -27676,7 +28789,8 @@
         },
         "regionalDexId": {
             "national": 981,
-            "sv": 193
+            "sv": 193,
+            "sv_blueberry": 26
         },
         "forms": [
             {
@@ -27698,7 +28812,8 @@
         },
         "regionalDexId": {
             "national": 982,
-            "sv": 189
+            "sv": 189,
+            "sv_kitakami": 155
         },
         "forms": [
             {
@@ -27735,7 +28850,8 @@
         },
         "regionalDexId": {
             "national": 983,
-            "sv": 369
+            "sv": 369,
+            "sv_kitakami": 182
         },
         "forms": [
             {
@@ -28321,7 +29437,8 @@
             "zh-Hans": "波荡水"
         },
         "regionalDexId": {
-            "national": 1009
+            "national": 1009,
+            "sv_blueberry": 241
         },
         "forms": [
             {
@@ -28342,7 +29459,8 @@
             "zh-Hans": "铁斑叶"
         },
         "regionalDexId": {
-            "national": 1010
+            "national": 1010,
+            "sv_blueberry": 242
         },
         "forms": [
             {
@@ -28359,7 +29477,8 @@
             "fr": "Pomdramour"
         },
         "regionalDexId": {
-            "national": 1011
+            "national": 1011,
+            "sv_kitakami": 36
         },
         "forms": [
             {
@@ -28376,7 +29495,8 @@
             "fr": "Poltchageist"
         },
         "regionalDexId": {
-            "national": 1012
+            "national": 1012,
+            "sv_kitakami": 70
         },
         "forms": [
             {
@@ -28400,11 +29520,12 @@
         "id": 1013,
         "name": {
             "en": "Sinistcha",
-            "ja": "ヤバソチャ ",
+            "ja": "ヤバソチャ",
             "fr": "Théffroyable"
         },
         "regionalDexId": {
-            "national": 1013
+            "national": 1013,
+            "sv_kitakami": 71
         },
         "forms": [
             {
@@ -28432,7 +29553,8 @@
             "fr": "Félicanis"
         },
         "regionalDexId": {
-            "national": 1014
+            "national": 1014,
+            "sv_kitakami": 191
         },
         "forms": [
             {
@@ -28449,7 +29571,8 @@
             "fr": "Fortusimia"
         },
         "regionalDexId": {
-            "national": 1015
+            "national": 1015,
+            "sv_kitakami": 192
         },
         "forms": [
             {
@@ -28466,7 +29589,8 @@
             "fr": "Favianos"
         },
         "regionalDexId": {
-            "national": 1016
+            "national": 1016,
+            "sv_kitakami": 193
         },
         "forms": [
             {
@@ -28483,12 +29607,157 @@
             "fr": "Ogerpon"
         },
         "regionalDexId": {
-            "national": 1017
+            "national": 1017,
+            "sv_kitakami": 194
         },
         "forms": [
             {
                 "id": 0,
                 "sex": "fo"
+            }
+        ]
+    },
+    {
+        "id": 1018,
+        "name": {
+            "en": "Archaludon",
+            "ja": "ブリジュラス",
+            "fr": "Pondralugon"
+        },
+        "regionalDexId": {
+            "national": 1018,
+            "sv_blueberry": 162
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 1019,
+        "name": {
+            "en": "Kamitsuorochi",
+            "ja": "カミツオロチ",
+            "fr": "Pomdorochi"
+        },
+        "regionalDexId": {
+            "national": 1019,
+            "sv_blueberry": 163
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 1020,
+        "name": {
+            "en": "Gouging Fire",
+            "ja": "ウガツホムラ",
+            "fr": "Feu-Perçant"
+        },
+        "regionalDexId": {
+            "national": 1020,
+            "sv_blueberry": 236
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1021,
+        "name": {
+            "en": "Raging Bolt",
+            "ja": "タケルライコ",
+            "fr": "Ire-Foudre"
+        },
+        "regionalDexId": {
+            "national": 1021,
+            "sv_blueberry": 237
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1022,
+        "name": {
+            "en": "Iron Boulder",
+            "ja": "テツノイワオ",
+            "fr": "Roc-de-Fer"
+        },
+        "regionalDexId": {
+            "national": 1022,
+            "sv_blueberry": 239
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1023,
+        "name": {
+            "en": "Iron Crown",
+            "ja": "テツノカシラ",
+            "fr": "Chef-de-Fer"
+        },
+        "regionalDexId": {
+            "national": 1023,
+            "sv_blueberry": 238
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
+            }
+        ]
+    },
+    {
+        "id": 1024,
+        "name": {
+            "en": "Terapagos",
+            "ja": "テラパゴス",
+            "fr": "Terapagos"
+        },
+        "regionalDexId": {
+            "national": 1024,
+            "sv_blueberry": 240
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "mf"
+            }
+        ]
+    },
+    {
+        "id": 1025,
+        "name": {
+            "en": "Pecharunt",
+            "ja": "モモワロウ",
+            "fr": "Pêchaminus"
+        },
+        "regionalDexId": {
+            "national": 1025,
+            "sv_blueberry": 243
+        },
+        "forms": [
+            {
+                "id": 0,
+                "sex": "uk"
             }
         ]
     }

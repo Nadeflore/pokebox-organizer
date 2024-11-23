@@ -86,35 +86,35 @@
  {
    "id": "sm",
    "name": {
-      "fr": "Pokédex d'Alola (USUM)",
+      "fr": "Pokédex d'Alola (SL)",
       "en": "Alola Pokédex (SM)"
    }
 },
  {
    "id": "sm_melemele",
    "name": {
-      "fr": "Pokédex d'Alola : Mele-Mele (USUM)",
+      "fr": "Pokédex d'Alola : Mele-Mele (SL)",
       "en": "Alola Pokédex : Melemele (SM)"
    }
 },
  {
    "id": "sm_akala",
    "name": {
-      "fr": "Pokédex d'Alola : Akala (USUM)",
+      "fr": "Pokédex d'Alola : Akala (SL)",
       "en": "Alola Pokédex : Akala (SM)"
    }
 },
  {
    "id": "sm_ulaula",
    "name": {
-      "fr": "Pokédex d'Alola : Ula-Ula (USUM)",
+      "fr": "Pokédex d'Alola : Ula-Ula (SL)",
       "en": "Alola Pokédex : Ula’ula (SM)"
    }
 },
  {
    "id": "sm_poni",
    "name": {
-      "fr": "Pokédex d'Alola : Poni (USUM)",
+      "fr": "Pokédex d'Alola : Poni (SL)",
       "en": "Alola Pokédex : Poni (SM)"
    }
 },
@@ -186,6 +186,20 @@
    "name": {
       "fr": "Pokédex de Paldea",
       "en": "Paldea Pokédex"
+   }
+},
+ {
+   "id": "sv_kitakami",
+   "name": {
+      "fr": "Pokédex de Septentria",
+      "en": "Kitakami Pokédex"
+   }
+},
+ {
+   "id": "sv_blueberry",
+   "name": {
+      "fr": "Pokédex Myrtille",
+      "en": "Blueberry Pokédex"
    }
 }
 ]
