@@ -9,6 +9,7 @@ from itertools import groupby
 
 from dataclasses import dataclass
 from enum import Enum
+from collections import defaultdict
 
 import cv2
 FOLDER_PATH = '../../../Downloads/[HOME] Pokémon Renders/Normal'
@@ -60,6 +61,8 @@ def append_to_file(filename, value):
 # Open Pokemon data
 import csv
 
+idsBypokedex = defaultdict(list)
+
 with open('pokemondata.csv', newline='') as csvfile:
     cf = csv.DictReader(csvfile) 
 
@@ -78,14 +81,39 @@ with open('pokemondata.csv', newline='') as csvfile:
         pokemon_data_by_id[id]["name"] = namei18n
 
         regionalId = {}
-        for region, number in pokemondata.items():
-            if not region.startswith("name_") and number:
-                regionalId[region] = int(number)
+        for region, regInfo in pokemondata.items():
+            if not region.startswith("name_") and regInfo:
+                
+                if "-" in regInfo:
+                    regIdStr, formsIdsStr = regInfo.split("-", 1)
+                    formIds = [int(formId) for formId in formsIdsStr.split(",")]
+                    regionalId[region] = {"id": int(regIdStr), "forms": formIds}
+                else:
+                    regionalId[region] = {"id": int(regInfo)}
+                    
+                idsBypokedex[region].append(regionalId[region]["id"])
 
-        pokemon_data_by_id[id]["regionalDexId"] = regionalId
+        pokemon_data_by_id[id]["regionalDex"] = regionalId
 
 
 print(str(pokemon_data_by_id))
+
+# Check regional dexes makes sense
+for dex, ids in sorted(idsBypokedex.items()):
+    # Check for duplicates first, should not have any
+    duplicates = set([x for x in ids if ids.count(x) > 1])
+    if duplicates:
+        raise Exception("duplicates in dex {}: {}".format(dex, duplicates))
+
+    # Check numbers are in sequence and start at 1 (except for BW where it starts at 0)
+
+    ids = sorted(ids)
+    print("dex {} has size {}".format(dex, len(ids)))
+    startingNumber = 0 if dex in ["bw","b2w2"] else 1
+    for expected, actual in zip(range(startingNumber, startingNumber + len(ids)), ids):
+        if expected != actual:
+            raise Exception("dex {}, Numbers not in sequence : expected {} got {}".format(dex, expected, actual))
+
 
 with open('forms_info', newline='') as csvfile:
     cf = csv.DictReader(csvfile, delimiter=";", fieldnames=['id', 'form_type'])
@@ -243,10 +271,33 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
         forms_json.append(form_json)
 
 
+
+    expectedRegionalFormByPokedex = {"sm": "ALOLA", "sm_melemele": "ALOLA", "sm_akala": "ALOLA", "sm_ulaula": "ALOLA","sm_poni": "ALOLA","usum": "ALOLA","usum_melemele": "ALOLA","usum_akala": "ALOLA","usum_ulaula": "ALOLA","usum_poni": "ALOLA",
+        "swsh": "GALAR", "swsh_armor": "GALAR", "swsh_tundra": "GALAR", "la": "HISUI", "sv": "PALDEA", "sv_kitakami": "PALDEA", "sv_blueberry": "PALDEA"}
+
+
     pokemonJson = pokemon_data_by_id[dex_id]
     if forms_json:
         pokemonJson["forms"] = forms_json
 
+        # For pokemons with regional forms, regional pokedex should only include the normal form, or only the regional form from it's regions, unless forms were explicited specified
+
+        formsByRegion = defaultdict(list)
+        for form in forms_json:
+            formsByRegion[form.get("region")].append(form)
+
+        if len(formsByRegion) > 1:
+            for regDex, regInfo in pokemonJson["regionalDex"].items():
+                # only update the ones with no specified info and never update national
+                if "forms" not in regInfo and regDex != "national":
+                    #Region of this pokedex
+                    region = expectedRegionalFormByPokedex.get(regDex)
+                    if region and region in formsByRegion:
+                        regInfo["forms"] = [f["id"] for f in formsByRegion[region]]
+                    else:
+                        regInfo["forms"] = [f["id"] for f in formsByRegion[None]]
+                    
+            
 
     if normalCount > 1:
         if pokemonFormType:
@@ -255,6 +306,8 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     if pokemonFormType:
         pokemonJson["formType"] = pokemonFormType.name
+
+
 
     pokemons_json.append(pokemonJson)
 

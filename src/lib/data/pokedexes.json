@@ -7,6 +7,13 @@
    }
 },
  {
+   "id": "rgby",
+   "name": {
+      "fr": "Pokédex de Kanto (RBJ)",
+      "en": "Kanto Pokédex (RBY)"
+   }
+},
+ {
    "id": "gsc",
    "name": {
       "fr": "Pokédex de Johto (OAC)",

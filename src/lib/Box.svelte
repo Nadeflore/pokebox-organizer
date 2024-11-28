@@ -5,12 +5,12 @@
 	import { checked } from './stores';
 	export let box: {name: string, pokemons: Pokemon[]};
 	function getTitleFromPokemon(pokemon: Pokemon) {
-		let title = `${pokemon.id} ${pokemon.name['fr']}`;
-		if (pokemon.region) {
-			title += ` Region ${pokemon.region}`;
+		let title = `${pokemon.dexNumber} ${pokemon.pokemonData.name['fr']}, NatNb ${pokemon.pokemonData.id}`;
+		if (pokemon.forms[0].region) {
+			title += ` Region ${pokemon.forms[0].region}`;
 		}
-		if (pokemon.formNames.length) {
-			title += ` forms ${pokemon.formNames}`;
+		if (pokemon.forms.some(f => f.name)) {
+			title += ` forms ${pokemon.forms.map(f => f.name?.fr || f.name?.en).join(", ")}`;
 		}
 		if (pokemon.sexes.length) {
 			title += ` Sexes ${pokemon.sexes}`;
@@ -19,7 +19,7 @@
 	}
 
 	function getPokemonSignature(pokemon: Pokemon) {
-		return `${pokemon.id}-${pokemon.formIds[0]}-${pokemon.sexes[0] || ''}`;
+		return `${pokemon.pokemonData.id}-${pokemon.forms[0].id}-${pokemon.sexes[0] || ''}`;
 	}
 
 	function onPokemonClicked(pokemon: Pokemon) {
@@ -42,13 +42,13 @@
 				}}
 				class="pokemon"
 				class:sexform={pokemon.sexForm}
-				class:regionalform={pokemon.region}
-				class:form={pokemon.multipleForms || pokemon.event}
+				class:regionalform={pokemon.forms[0].region}
+				class:form={pokemon.multipleForms || pokemon.forms[0].event}
 				class:highlight={pokemon.matchSearch}
 				class:checked={$checked.includes(getPokemonSignature(pokemon))}
 			>
+				<div class="infobar"></div>
 				<PokemonPicture {pokemon} title={getTitleFromPokemon(pokemon)} />
-				<!-- <div class="name">{pokemon.name}</div> -->
 			</button>
 		{/each}
 	</div>
@@ -73,20 +73,30 @@
 		height: auto;
 	}
 
+	.pokemon {
+		position: relative;
+	}
+	.pokemon .infobar {
+		position: absolute;
+		bottom: 0px;
+		height: 3px;
+		width: 100%;
+	}
+
 	.pokemon:hover,
 	.pokemon:focus {
 		border: 1px solid grey;
 	}
 
-	.pokemon.form {
+	.pokemon.form .infobar {
 		background-color: rgb(222, 221, 248);
 	}
 
-	.pokemon.sexform {
+	.pokemon.sexform .infobar {
 		background-color: rgb(224, 250, 226);
 	}
 
-	.pokemon.regionalform {
+	.pokemon.regionalform .infobar {
 		background-color: rgb(248, 229, 221);
 	}
 
@@ -98,7 +108,7 @@
 		opacity: 20%;
 	}
 
-	/* .pokemon .name {
-		font-size: 2px;
-	} */
+	.pokemon.checked {
+		background-image: url("images/checkmark.svg");
+	}
 </style>
