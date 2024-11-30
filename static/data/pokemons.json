@@ -33699,7 +33699,143 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "やせいのすがた",
+                    "en": "Natural Form",
+                    "fr": "Forme Sauvage",
+                    "de": "Zottelform",
+                    "es": "Forma Salvaje",
+                    "it": "Forma Selvatica",
+                    "ko": "야생의 모습"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "ハートカット",
+                    "en": "Heart Trim",
+                    "fr": "Coupe Cœur",
+                    "de": "Herzchenschnitt",
+                    "es": "Corte Corazón",
+                    "it": "Taglio Cuore",
+                    "ko": "하트컷"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "スターカット",
+                    "en": "Star Trim",
+                    "fr": "Coupe Étoile",
+                    "de": "Sternchenschnitt",
+                    "es": "Corte Estrella",
+                    "it": "Taglio Stella",
+                    "ko": "스타컷"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "ダイヤカット",
+                    "en": "Diamond Trim",
+                    "fr": "Coupe Diamant",
+                    "de": "Diamantenschnitt",
+                    "es": "Corte Rombo",
+                    "it": "Taglio Diamante",
+                    "ko": "다이아컷"
+                }
+            },
+            {
+                "id": 4,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "レディカット",
+                    "en": "Debutante Trim",
+                    "fr": "Coupe Demoiselle",
+                    "de": "Fräuleinschnitt",
+                    "es": "Corte Señorita",
+                    "it": "Taglio Signorina",
+                    "ko": "레이디컷"
+                }
+            },
+            {
+                "id": 5,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "マダムカット",
+                    "en": "Matron Trim",
+                    "fr": "Coupe Madame",
+                    "de": "Damenschnitt",
+                    "es": "Corte Dama",
+                    "it": "Taglio Gentildonna",
+                    "ko": "마담컷"
+                }
+            },
+            {
+                "id": 6,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "ジェントルカット",
+                    "en": "Dandy Trim",
+                    "fr": "Coupe Monsieur",
+                    "de": "Kavaliersschnitt",
+                    "es": "Corte Caballero",
+                    "it": "Taglio Gentiluomo",
+                    "ko": "젠틀컷"
+                }
+            },
+            {
+                "id": 7,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "クイーンカット",
+                    "en": "La Reine Trim",
+                    "fr": "Coupe Reine",
+                    "de": "Königinnenschnitt",
+                    "es": "Corte Aristocrático",
+                    "it": "Taglio Regina",
+                    "ko": "퀸컷"
+                }
+            },
+            {
+                "id": 8,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "カブキカット",
+                    "en": "Kabuki Trim",
+                    "fr": "Coupe Kabuki",
+                    "de": "Kabuki-Schnitt",
+                    "es": "Corte Kabuki",
+                    "it": "Taglio Kabuki",
+                    "ko": "가부키컷"
+                }
+            },
+            {
+                "id": 9,
+                "sex": "mf",
+                "event": true,
+                "name": {
+                    "ja": "キングダムカット",
+                    "en": "Pharaoh Trim",
+                    "fr": "Coupe Pharaon",
+                    "de": "Herrscherschnitt",
+                    "es": "Corte Faraónico",
+                    "it": "Taglio Faraone",
+                    "ko": "킹덤컷"
+                }
             }
         ]
     },
