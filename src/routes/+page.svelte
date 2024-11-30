@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { pokemonsData, config, checked, state } from '$lib/stores';
 	import Boxes from '$lib/Boxes.svelte';
-	import PokemonsMatcherField from '$lib/PokemonsMatcherField.svelte';
 	import SettingsPanel from '$lib/SettingsPanel.svelte';
 	import Header from '$lib/Header.svelte';
 	import Tabs from '$lib/Tabs.svelte';
@@ -10,14 +9,15 @@
 
 	let search: string[] = [];
 	let settingsPanelOpen = false;
+	let checkMode = false;
 </script>
 
 <div class="page" class:panel-open={settingsPanelOpen}>
 	<div class="header">
-		<Header bind:search bind:settingsPanelOpen />
+		<Header bind:search bind:settingsPanelOpen bind:checkMode />
 	</div>
 	<div class="content">
-		<Boxes config={$config} {search} />
+		<Boxes config={$config} {search} {checkMode}/>
 	</div>
 	<div class="panel" class:closed={!settingsPanelOpen}>
 		<SettingsPanel />

@@ -23,7 +23,7 @@
 	pokedexes;
 	const regionalFormsOptions = Object.values(Region).map((r) => ({
 		value: `r-${r}`,
-		text: `Pokemons avec forme de ${r}`
+		text: `Forme de ${r}`
 	}));
 
 	$: matcherOptionsGroups = [

@@ -1,11 +1,25 @@
 <script lang="ts">
-	import type { Pokemon } from './box-order-generator/box-order-generator';
+	import { Sex, type Pokemon } from './box-order-generator/box-order-generator';
 
 	export let pokemon: Pokemon;
 	export let title: string;
+	export let formIndex = 0;
+
+	function getImageFileName(pokemon: Pokemon): string {
+		const pokemonId = pokemon.pokemonData.id;
+		const firstForm = pokemon.sexedForms[formIndex];
+		const formId = firstForm.form.id;
+		const sex = firstForm.form.sex == "fd" && firstForm.sex == Sex.M ? "md" : firstForm.form.sex;
+		const formId2 = pokemonId == 869 ? formId % 7 : 0;
+		const name = `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_${String(formId2).padStart(8, '0')}_f_n.webp`;
+		return name
+	}
+
+
+
 </script>
 
-<img src={pokemon.imageName} {title} alt={title} />
+<img src={getImageFileName(pokemon)} {title} alt={title} />
 
 <style scoped>
 	img {

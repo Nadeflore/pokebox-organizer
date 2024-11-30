@@ -1,56 +1,79 @@
 <script lang="ts">
-	import { start_hydrating } from 'svelte/internal';
-	import type { Pokemon } from './box-order-generator/box-order-generator';
+	import { Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
+	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
 	import { checked } from './stores';
 	export let box: {name: string, pokemons: Pokemon[]};
-	function getTitleFromPokemon(pokemon: Pokemon) {
-		let title = `${pokemon.dexNumber} ${pokemon.pokemonData.name['fr']}, NatNb ${pokemon.pokemonData.id}`;
-		if (pokemon.forms[0].region) {
-			title += ` Region ${pokemon.forms[0].region}`;
-		}
-		if (pokemon.forms.some(f => f.name)) {
-			title += ` forms ${pokemon.forms.map(f => f.name?.fr || f.name?.en).join(", ")}`;
-		}
-		if (pokemon.sexes.length) {
-			title += ` Sexes ${pokemon.sexes}`;
-		}
-		return title;
-	}
+	export let checkMode: boolean;
 
 	function getPokemonSignature(pokemon: Pokemon) {
-		return `${pokemon.pokemonData.id}-${pokemon.forms[0].id}-${pokemon.sexes[0] || ''}`;
+		const firstForm = pokemon.sexedForms[0];
+		const sex = firstForm.sex && firstForm.sex != Sex.MF ? firstForm.sex : firstForm.form.sex == "mf" ? Sex.M: "";
+		return `${pokemon.pokemonData.id}-${firstForm.form.id}-${sex}`;
 	}
 
-	function onPokemonClicked(pokemon: Pokemon) {
-		const signature = getPokemonSignature(pokemon);
-		if ($checked.includes(signature)) {
-			checked.set($checked.filter((s) => s !== signature));
+	function isMale(pokemon: Pokemon) {
+		return pokemon.sexedForms.map(sf => sf.sex).every(s => s == Sex.M);
+	}
+
+	function isFemale(pokemon: Pokemon) {
+		return pokemon.sexedForms.map(sf => sf.sex).every(s => s == Sex.F);
+	}
+
+	function isMaleFemale(pokemon: Pokemon) {
+		const sexes = pokemon.sexedForms.map(sf => sf.sex)
+		return (sexes.some(s => s == Sex.F) && sexes.some(s => s == Sex.M)) || sexes.some(s => s == Sex.MF);
+	}
+
+	function onPokemonClicked(pokemon: Pokemon, index: number) {
+		if (checkMode) {
+			const signature = getPokemonSignature(pokemon);
+			if ($checked.includes(signature)) {
+				checked.set($checked.filter((s) => s !== signature));
+			} else {
+				checked.set([...$checked, signature]);
+			}
 		} else {
-			checked.set([...$checked, signature]);
+			infoPanelPokemon = pokemon;
+			infoPanelPokemonIndex = index;
 		}
 	}
+
+	let infoPanelPokemon: Pokemon | null = null;
+	let infoPanelPokemonIndex = 0;
 </script>
 
-<div class="box">
+<div class="box" class:check-mode={checkMode} on:mouseleave={() => {infoPanelPokemon = null}}>
 	<h3>{box.name}</h3>
 	<div class="box-content">
-		{#each box.pokemons as pokemon (pokemon.imageName)}
+		{#each box.pokemons as pokemon, i (getPokemonSignature(pokemon))}
 			<button
 				on:click={() => {
-					onPokemonClicked(pokemon);
+					onPokemonClicked(pokemon, i);
 				}}
 				class="pokemon"
-				class:sexform={pokemon.sexForm}
-				class:regionalform={pokemon.forms[0].region}
-				class:form={pokemon.multipleForms || pokemon.forms[0].event}
 				class:highlight={pokemon.matchSearch}
 				class:checked={$checked.includes(getPokemonSignature(pokemon))}
+				class:first={pokemon.group == Group.FIRST}
+				class:middle={pokemon.group == Group.MIDDLE}
+				class:last={pokemon.group == Group.LAST}
+				class:male={isMale(pokemon)}
+				class:female={isFemale(pokemon)}
+				class:male-female={isMaleFemale(pokemon)}
 			>
-				<div class="infobar"></div>
-				<PokemonPicture {pokemon} title={getTitleFromPokemon(pokemon)} />
+				<div class="groupbar" style="--bar-color: rgb(145, 225, 203)"></div>
+				<div class="check"></div>
+				<div class="sex"></div>
+				{#if pokemon.sexedForms.length > 1}
+					<div class="multiple-forms">{pokemon.sexedForms.length}</div>
+				{/if}
+				<PokemonPicture {pokemon} title={pokemon.pokemonData.name.fr || ""} />
 			</button>
 		{/each}
+		{#if infoPanelPokemon}
+		<div class="details-panel" style="top: {(Math.floor(infoPanelPokemonIndex / 6) + 1) * 20}%">
+		<InfoPanel pokemon={infoPanelPokemon}/></div>
+		{/if}
 	</div>
 </div>
 
@@ -68,47 +91,109 @@
 		display: grid;
 		grid-template-rows: repeat(5, 1fr); /* creates 5 rows */
 		grid-template-columns: repeat(6, 1fr); /* creates 6 columns */
-		grid-gap: 5px; /* sets the gap between the grid items */
 		width: auto;
 		height: auto;
+		position: relative;
+	}
+
+	.details-panel {
+		position: absolute;
+		width: 100%;
+		z-index: 10;
 	}
 
 	.pokemon {
 		position: relative;
+		overflow: hidden;
 	}
-	.pokemon .infobar {
+	.pokemon .groupbar {
 		position: absolute;
-		bottom: 0px;
-		height: 3px;
+		bottom: 0;
+		height: 5%;
 		width: 100%;
 	}
+
+	.pokemon .groupbar {
+		position: absolute;
+		bottom: 0;
+		height: 5%;
+		width: 100%;
+	}
+
+	.pokemon.first .groupbar {
+		left: 20%;
+		border-left: 2px solid var(--bar-color);
+		border-bottom: 2px solid var(--bar-color);
+	}
+
+	.pokemon.middle .groupbar {
+		border-bottom: 2px solid var(--bar-color);
+	}
+
+	.pokemon.last .groupbar {
+		right: 20%;
+		border-right: 2px solid var(--bar-color);
+		border-bottom: 2px solid var(--bar-color);
+	}
+
 
 	.pokemon:hover,
 	.pokemon:focus {
 		border: 1px solid grey;
 	}
 
-	.pokemon.form .infobar {
-		background-color: rgb(222, 221, 248);
-	}
-
-	.pokemon.sexform .infobar {
-		background-color: rgb(224, 250, 226);
-	}
-
-	.pokemon.regionalform .infobar {
-		background-color: rgb(248, 229, 221);
-	}
-
 	.pokemon.highlight {
 		background-color: rgb(255, 76, 76);
 	}
 
-	:global(.pokemon.checked img) {
-		opacity: 20%;
+	:global(.check-mode .pokemon img) {
+		opacity: 70%;
+	}
+	.pokemon .check {
+		position: absolute;
+		top: 5%;
+		right: 5%;
+		width: 20%;
+		height: 20%;
 	}
 
-	.pokemon.checked {
+	.box:not(.check-mode) .pokemon.checked .check {
 		background-image: url("images/checkmark.svg");
 	}
-</style>
+
+	.box.check-mode .pokemon.checked {
+		background-image: url("images/checkmark.svg");
+	}
+	.box.check-mode .pokemon:not(.checked) {
+		background-image: url("images/crossmark.svg");
+	}
+
+	.pokemon .sex {
+		position: absolute;
+		bottom: 6%;
+		left: 6%;
+		width: 17%;
+		height: 17%;
+	}
+
+	.pokemon.male .sex {
+		background-image: url("images/maleicon.svg");
+	}
+
+	.pokemon.female .sex {
+		background-image: url("images/femaleicon.svg");
+	}
+
+	.pokemon .multiple-forms {
+		background-image: url("images/multipleformsicon.svg");
+		position: absolute;
+		bottom: 6%;
+		right: 6%;
+		width: 17%;
+		height: 17%;
+		color: white;
+		font-size: 60%;
+		font-weight: bold;
+	}
+
+	</style>

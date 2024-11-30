@@ -1251,42 +1251,66 @@
             {
                 "id": 1,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Original Cap"
+                }
             },
             {
                 "id": 2,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Hoenn Cap"
+                }
             },
             {
                 "id": 3,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Sinnoh Cap"
+                }
             },
             {
                 "id": 4,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Unova Cap"
+                }
             },
             {
                 "id": 5,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Kalos Cap"
+                }
             },
             {
                 "id": 6,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Alola Cap"
+                }
             },
             {
                 "id": 7,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "Partner Cap"
+                }
             },
             {
                 "id": 9,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "en": "World Cap"
+                }
             }
         ]
     },
@@ -8364,10 +8388,7 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo",
-                "name": {
-                    "ja": "ケンタロス"
-                }
+                "sex": "mo"
             },
             {
                 "id": 1,
@@ -11696,18 +11717,12 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd",
-                "name": {
-                    "ja": "ウパー"
-                }
+                "sex": "fd"
             },
             {
                 "id": 1,
                 "sex": "mf",
-                "region": "PALDEA",
-                "name": {
-                    "ja": "パルデアのすがた"
-                }
+                "region": "PALDEA"
             }
         ]
     },
@@ -25074,10 +25089,7 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "ディアルガ"
-                }
+                "sex": "uk"
             },
             {
                 "id": 1,
@@ -25119,10 +25131,7 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "パルキア"
-                }
+                "sex": "uk"
             },
             {
                 "id": 1,
@@ -28182,18 +28191,12 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf",
-                "name": {
-                    "ja": "ノーマルモード"
-                }
+                "sex": "mf"
             },
             {
                 "id": 2,
                 "sex": "mf",
-                "region": "GALAR",
-                "name": {
-                    "ja": "ノーマルモード"
-                }
+                "region": "GALAR"
             }
         ]
     },
@@ -32589,7 +32592,10 @@
             {
                 "id": 2,
                 "sex": "mo",
-                "event": true
+                "event": true,
+                "name": {
+                    "fr": "Forme Sacha "
+                }
             }
         ]
     },
@@ -39376,10 +39382,7 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "ネクロズマ"
-                }
+                "sex": "uk"
             },
             {
                 "id": 1,
@@ -39431,7 +39434,10 @@
             },
             {
                 "id": 1,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "fr": "Forme Couleur du Passé"
+                }
             }
         ],
         "formType": "NORMAL"
@@ -42421,7 +42427,10 @@
             {
                 "id": 1,
                 "sex": "uk",
-                "event": true
+                "event": true,
+                "name": {
+                    "fr": "Forme Papa"
+                }
             }
         ]
     },
@@ -42546,11 +42555,7 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "バドレックス",
-                    "fr": "Forme normale"
-                }
+                "sex": "uk"
             },
             {
                 "id": 1,

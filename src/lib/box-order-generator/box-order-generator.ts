@@ -1,5 +1,4 @@
 import generations from '../data/generations.json'
-import pokedexes from '../data/pokedexes.json'
 export interface Generation {
     id: number;
     name: LocalizedName;
@@ -38,7 +37,6 @@ interface PokemonFormsFilter {
     types: FormType[];
     event: boolean;
     regions: Region[];
-    onlySpecialForms: boolean;
 }
 
 export enum FormType {
@@ -57,7 +55,15 @@ export enum Region {
 
 export enum Sex {
     M = "M",
-    F = "F"
+    F = "F",
+    MF = "MF",
+}
+
+// Enum used to visually group several forms of the same pokemon
+export enum Group {
+    FIRST = "FIRST",
+    MIDDLE = "MIDDLE",
+    LAST = "LAST"
 }
 
 interface LocalizedName {
@@ -72,14 +78,10 @@ interface LocalizedName {
 
 export interface Pokemon {
     pokemonData: PokemonData;
-    forms: FormData[];
-    sexes: Sex[];
-    imageName: string;
-    sexForm?: boolean;
-    multipleForms?: boolean;
+    sexedForms: SexedForm[];
     dexNumber?: number;
     matchSearch?: boolean;
-    checked?: boolean;
+    group?: Group;
 }
 
 interface FormData {
@@ -88,6 +90,11 @@ interface FormData {
     sex: string;
     region?: Region;
     event?: boolean;
+}
+
+export interface SexedForm {
+    form: FormData;
+    sex?: Sex;
 }
 
 export interface regionalDexInfo {
@@ -103,70 +110,68 @@ export interface PokemonData {
     regionalDex: Record<string, regionalDexInfo>
 }
 
-function getPokemonsWithForms(pokemons: PokemonData[], formsFilter: PokemonFormsFilter): Pokemon[] {
-    const result = pokemons.flatMap((pokemon) => {
+function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[] {
+    const result = pokemonsData.flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
 
-        const forms = pokemon.forms
-            .flatMap((form: FormData) => {
+        // Filter forms to keep
+        const forms = pokemon.forms.filter(f => isPokemonFormIncluded(pokemon, f, filter));
+
+        if (forms.length === 0) {
+            return []
+        }
+
+        // squash forms we don't need in separate slots
+        const separateForms = forms.filter(f => shouldFormHasSeparateSlot(f, formType, filter.forms)).map(f => [f]);
+        const squashedForms = forms.filter(f => !shouldFormHasSeparateSlot(f, formType, filter.forms));
+        // Special forms are only merged if there is a normal form to merge to, otherwise just exclude the form
+        const formesSquashed = squashedForms.length && (separateForms.length === 0 || squashedForms.some(f => !f.event && !f.region)) ? [squashedForms, ...separateForms] : separateForms
+
+        return formesSquashed.flatMap((forms: FormData[]) => {
+            // Separate male and female with different appearance for each form (to be at least displayed in alternate forms)
+            const sexedForms: SexedForm[] = forms.flatMap(form => {
                 switch (form.sex) {
-                    case 'fd':
-                        if (formsFilter.maleFemaleForms) {
-                            return [{ ...form, sex: 'md', sexes: [Sex.M], sexForm: true }, { ...form, sexes: [Sex.F], sexForm: true }];
-                        } else {
-                            return [{ ...form, sexes: [Sex.M, Sex.F], sexForm: false }];
-                        }
-                    case 'mf':
-                        return [{ ...form, sexes: [Sex.M, Sex.F], sexForm: false }];
-                    case 'mo':
-                        return [{ ...form, sexes: [Sex.M], sexForm: false }];
-                    case 'fo':
-                        return [{ ...form, sexes: [Sex.F], sexForm: false }];
-                    case 'uk':
-                        return [{ ...form, sexes: [], sexForm: false }];
+                    case "fd":
+                        return [{form, sex: Sex.M}, {form, sex: Sex.F}];
+                    case "mo":
+                        return [{form, sex: Sex.M}];
+                    case "fo":
+                        return [{form, sex: Sex.F}];
+                    case "mf":
+                        return [{form, sex: Sex.MF}];
                     default:
-                        throw new Error("Invalid sex: " + form.sex)
+                        return [{form}];
                 }
-            }).map(form => ({
-                pokemonData: pokemon,
-                forms: [form],
-                sexes: form.sexes,
-                imageName: getImageFileName(pokemon.id, form.id, form.sex),
-                sexForm: form.sexForm,
-            } as Pokemon));
+            })
 
-
-        // Regional and event forms are always separated, but may be excluded (never squashed)
-        // Squash other forms if the form type is not requested
-        const eventAndRegionalForms = forms.filter(form => (form.forms[0].event || form.forms[0].region) && (formsFilter.event || !form.forms[0].event) && (!form.forms[0].region || formsFilter.regions.includes(form.forms[0].region)));
-        let otherForms = forms.filter(form => !form.forms[0].event && !form.forms[0].region)
-
-        if (formType) {
-            if (formsFilter.types.includes(formType)) {
-                otherForms = otherForms.map(form => ({ ...form, multipleForms: true }))
-            } else {
-                otherForms = [otherForms.reduce((a, b) => ({
-                    ...a,
-                    formIds: a.forms.concat(b.forms),
-                    sexes: [...new Set(a.sexes.concat(b.sexes))],
-                }))]
+            if (filter.forms.maleFemaleForms && sexedForms.some(f => f.form.sex == "fd")) {
+                // If we request male and female forms in separate slots, and at least one of the forms has male and female forms, group by sex
+                const maleForms = sexedForms.filter(f => f.sex === Sex.M)
+                const femaleForms = sexedForms.filter(f => f.sex === Sex.F)
+                return [maleForms, femaleForms]
             }
-        }
 
-        if (formsFilter.onlySpecialForms) {
-            return eventAndRegionalForms;
-        } else {
-            return otherForms.concat(eventAndRegionalForms)
-        }
+            return [sexedForms]
+        }).map(sexedForms => ({
+                pokemonData: pokemon,
+                sexedForms,
+            } as Pokemon));
     });
 
     return result;
 }
 
-function getImageFileName(pokemonId: number, formId: number, sex: string): string {
-    const formId2 = pokemonId == 869 ? formId % 7 : 0;
-    const name = `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_${String(formId2).padStart(8, '0')}_f_n.webp`;
-    return name
+function shouldFormHasSeparateSlot(form: FormData, formType: FormType, filter: PokemonFormsFilter) {
+    if (form.event) {
+        return filter.event;
+    }
+
+    if (form.region) {
+        return filter.regions.includes(form.region);
+    }
+
+    return filter.types.includes(formType);
+        
 }
 
 function splitArray<Type>(arr: Array<Type>, size: number): Array<Array<Type>> {
@@ -204,21 +209,49 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
         return [];
     }
 
-    let pokemons = getPokemonsWithForms(pokemonsData, filter.forms);
+    let pokemons = getPokemonsWithFormsFiltered(pokemonsData, filter);
 
-    // Filter pokemons to keep
-    pokemons = pokemons.filter(p => isPokemonIncluded(p, filter));
+    if (filter.pokedex == "national") {
+        pokemons.sort((a, b) => ((a.pokemonData.id || 0) - (b.pokemonData.id || 0)))
+    } else {
+        // Add regional dex id
+        pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
 
-
-    // Add regional dex id
-    pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
-
-    // Sort
-    pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
+        // Sort
+        pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
+    }
 
     // Check which pokemon matches search 
     if (search.length) {
-        pokemons = pokemons.map(p => search.some(m => isPokemonMatch(p, m)) ? { ...p, matchSearch: true } : p)
+        pokemons = pokemons.map(p => search.some(m => p.sexedForms.some(f => isPokemonFormMatch(p.pokemonData, f.form, m))) ? { ...p, matchSearch: true } : p)
+    }
+
+    // Add group info of the same pokemon
+    let previousPokemon: Pokemon | undefined;
+    for (const pokemon of pokemons) {
+        if (!previousPokemon) {
+            pokemon.group = Group.FIRST;
+        } else {
+            if (pokemon.pokemonData.id != previousPokemon.pokemonData.id) {
+                pokemon.group = Group.FIRST;
+                if (previousPokemon.group == Group.MIDDLE) {
+                    previousPokemon.group = Group.LAST;
+                } else if (previousPokemon.group == Group.FIRST) {
+                    previousPokemon.group = undefined;
+                }
+            } else {
+                pokemon.group = Group.MIDDLE;
+            }
+        }
+
+        previousPokemon = pokemon;
+    }
+    if (previousPokemon) {
+        if (previousPokemon.group == Group.MIDDLE) {
+            previousPokemon.group = Group.LAST;
+        } else if (previousPokemon.group == Group.FIRST) {
+            previousPokemon.group = undefined;
+        }
     }
 
     const newBoxAtGenerations = filter.pokedex == "national" ? filter.newBoxAtGenerations : [];
@@ -264,25 +297,25 @@ function addBoxNames(boxes: Pokemon[][], namePattern: string) {
     });
 }
 
-function isPokemonIncluded(pokemon: Pokemon, filter: PokemonFilterConfig) {
-    if (!isPokemonInPokedex(pokemon, filter.pokedex)) {
+function isPokemonFormIncluded(pokemon: PokemonData, form: FormData, filter: PokemonFilterConfig) {
+    if (!isPokemonFormInPokedex(pokemon, form, filter.pokedex)) {
         return false;
     }
-    if (filter.include.length && !filter.include.some(m => isPokemonMatch(pokemon, m))) {
+    if (filter.include.length && !filter.include.some(m => isPokemonFormMatch(pokemon, form, m))) {
         return false;
     }
 
-    if (filter.exclude.some(m => isPokemonMatch(pokemon, m))) {
+    if (filter.exclude.some(m => isPokemonFormMatch(pokemon, form, m))) {
         return false;
     }
 
     return true;
 }
 
-function isPokemonMatch(pokemon: Pokemon, matcher: string) {
+function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: string) {
     const matchPokemon = matcher.match(/p-(\d+)/)
     if (matchPokemon) {
-        return pokemon.pokemonData.id === +matchPokemon[1]
+        return pokemon.id === +matchPokemon[1]
     }
 
     const matchGeneration = matcher.match(/g-(\d+)/)
@@ -292,26 +325,26 @@ function isPokemonMatch(pokemon: Pokemon, matcher: string) {
         if (!generation) {
             return false;
         }
-        return pokemon.pokemonData.id >= generation.start && pokemon.pokemonData.id <= generation.end;
+        return pokemon.id >= generation.start && pokemon.id <= generation.end;
     }
 
     const matchPokedex = matcher.match(/d-(\w+)/)
     if (matchPokedex) {
         const dexId = matchPokedex[1]
-        return isPokemonInPokedex(pokemon, dexId);
+        return isPokemonFormInPokedex(pokemon, form, dexId);
     }
 
     const matchRegionalForm = matcher.match(/r-(\w+)/)
     if (matchRegionalForm) {
         const region = matchRegionalForm[1]
-        return pokemon.forms.some(f => f.region === region)
+        return form.region === region;
     }
 
     return false
 }
 
-function isPokemonInPokedex(pokemon: Pokemon, dexId: string) {
-    const regInfo = pokemon.pokemonData.regionalDex[dexId]
+function isPokemonFormInPokedex(pokemon: PokemonData, form: FormData, dexId: string) {
+    const regInfo = pokemon.regionalDex[dexId]
     // this pokemon has to be in this pokedex, and either no forms specified (meaning are included) or the form is included in the specified forms
-    return regInfo !== undefined && (regInfo.forms === undefined ||  pokemon.forms.some(f => regInfo.forms.includes(f.id)));
+    return regInfo !== undefined && (regInfo.forms === undefined ||  regInfo.forms.includes(form.id));
 }

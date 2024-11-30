@@ -5,6 +5,7 @@
 
 	export let search: string[];
 	export let settingsPanelOpen: boolean;
+	export let checkMode: boolean;
 </script>
 
 <div class="header">
@@ -12,6 +13,8 @@
 		<PokemonsMatcherField bind:value={search} placeholder="Search" />
 	</div>
 	<div class="controls">
+		<Button on:click={() => (checkMode = !checkMode)}>Check Mode {checkMode ? "On" :"Off"}</Button>
+
 		<Button on:click={() => (confirm('Clear all checked ?') ? checked.set([]) : null)}>Clear</Button
 		>
 		<Button on:click={() => (settingsPanelOpen = !settingsPanelOpen)}>Settings</Button>

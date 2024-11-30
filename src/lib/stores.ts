@@ -1,5 +1,5 @@
 import { derived, writable } from 'svelte/store';
-import { defaultConfig, type PokemonData, type PokemonFilterConfig } from './box-order-generator/box-order-generator';
+import { defaultConfig, type Pokemon, type PokemonData, type PokemonFilterConfig } from './box-order-generator/box-order-generator';
 import { browser } from '$app/environment';
 
 export interface Tab {
