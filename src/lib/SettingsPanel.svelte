@@ -13,6 +13,12 @@
 </div>
 
 <style>
+	@media only screen and (min-width: 800px) {
+		.settings-panel {
+			width: 25em;
+		}
+	}
+
 	.settings-panel {
 		padding: 20px;
 	}

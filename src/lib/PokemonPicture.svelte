@@ -14,9 +14,6 @@
 		const name = `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_${String(formId2).padStart(8, '0')}_f_n.webp`;
 		return name
 	}
-
-
-
 </script>
 
 <img src={getImageFileName(pokemon)} {title} alt={title} />

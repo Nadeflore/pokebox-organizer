@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { FormType, Region } from './box-order-generator/box-order-generator';
+	import { FormType, MaleFemaleFormsType, Region } from './box-order-generator/box-order-generator';
 	import generations from '$lib/data/generations.json';
 	import pokedexes from '$lib/data/pokedexes.json';
 	import PokemonsMatcherField from './PokemonsMatcherField.svelte';
@@ -15,6 +15,7 @@
 		id: dex.id,
 		name: dex.name.fr
 	}));
+
 </script>
 
 <div class="filter-form">
@@ -39,22 +40,23 @@
 	</section>
 	<section>
 		<h3>Forms to include</h3>
+		<h4>Male and Female forms</h4>
+		<ul>
+			{#each Object.values(MaleFemaleFormsType) as type}
+				<li>
+					<label>
+						<input type="radio" bind:group={$config.forms.maleFemaleForms} name="mftypes" value={type} />
+						{type}
+					</label>
+				</li>
+			{/each}
+		</ul>
 		<div>
-			<label>
-				<input type="checkbox" bind:checked={$config.forms.maleFemaleForms} />
-				Male and female forms
-			</label>
 		</div>
 		<div>
-			<label>
-				<input type="checkbox" bind:checked={$config.forms.event} />
-				Event forms
-			</label>
-		</div>
-		<div>
-			Form Types
+			<h4>Form Types</h4>
 			<ul>
-				{#each Object.values(FormType) as type}
+				{#each [FormType.NORMAL, FormType.CHANGE, FormType.CHANGE_LEG] as type}
 					<li>
 						<label>
 							<input type="checkbox" bind:group={$config.forms.types} name="types" value={type} />
@@ -62,6 +64,12 @@
 						</label>
 					</li>
 				{/each}
+				<li>
+					<label>	
+						<input type="checkbox" bind:checked={$config.forms.event} />
+						Event forms
+					</label>
+				</li>
 			</ul>
 		</div>
 		<div>

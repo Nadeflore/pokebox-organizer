@@ -16,24 +16,16 @@ export interface PokemonFilterConfig {
     boxNamePattern: string;
 }
 
-export const defaultConfig = {
-    name: "New config",
-    pokedex: 'national',
-    include: [],
-    exclude: [],
-    newBoxAtGenerations: [],
-    forms: {
-        maleFemaleForms: false,
-        types: [],
-        event: false,
-        regions: [],
-        onlySpecialForms: false
-    },
-    boxNamePattern: "{gen}G - {genboxnb}",
-};
+
+export enum MaleFemaleFormsType {
+    ALL = "ALL",
+    APPEARANCE = "APPEARANCE",
+    SPECS = "SPECS",
+    NONE = "NONE",
+}
 
 interface PokemonFormsFilter {
-    maleFemaleForms: boolean;
+    maleFemaleForms: MaleFemaleFormsType;
     types: FormType[];
     event: boolean;
     regions: Region[];
@@ -110,6 +102,22 @@ export interface PokemonData {
     regionalDex: Record<string, regionalDexInfo>
 }
 
+export const defaultConfig = {
+    name: "New config",
+    pokedex: 'national',
+    include: [],
+    exclude: [],
+    newBoxAtGenerations: [],
+    forms: {
+        maleFemaleForms: MaleFemaleFormsType.NONE,
+        types: [],
+        event: false,
+        regions: [],
+        onlySpecialForms: false
+    },
+    boxNamePattern: "{gen}G - {genboxnb}",
+};
+
 function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[] {
     const result = pokemonsData.flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
@@ -138,17 +146,21 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
                     case "fo":
                         return [{form, sex: Sex.F}];
                     case "mf":
-                        return [{form, sex: Sex.MF}];
+                        if (filter.forms.maleFemaleForms == MaleFemaleFormsType.ALL) {
+                            return [{form, sex: Sex.M}, {form, sex: Sex.F}];
+                        } else {
+                            return [{form, sex: Sex.MF}];
+                        }
                     default:
                         return [{form}];
                 }
             })
 
-            if (filter.forms.maleFemaleForms && sexedForms.some(f => f.form.sex == "fd")) {
+            if (filter.forms.maleFemaleForms == MaleFemaleFormsType.APPEARANCE && sexedForms.some(f => f.form.sex == "fd") || filter.forms.maleFemaleForms == MaleFemaleFormsType.ALL && sexedForms.some(f => f.form.sex == "fd" || f.form.sex == "mf")) {
                 // If we request male and female forms in separate slots, and at least one of the forms has male and female forms, group by sex
                 const maleForms = sexedForms.filter(f => f.sex === Sex.M)
                 const femaleForms = sexedForms.filter(f => f.sex === Sex.F)
-                return [maleForms, femaleForms]
+                return [maleForms, femaleForms].filter(forms => forms.length > 0)
             }
 
             return [sexedForms]
@@ -170,7 +182,7 @@ function shouldFormHasSeparateSlot(form: FormData, formType: FormType, filter: P
         return filter.regions.includes(form.region);
     }
 
-    return filter.types.includes(formType);
+    return filter.types.includes(formType) || filter.maleFemaleForms != MaleFemaleFormsType.NONE && formType == FormType.SEX;
         
 }
 
