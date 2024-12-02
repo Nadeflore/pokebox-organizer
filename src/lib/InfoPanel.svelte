@@ -41,6 +41,10 @@
             }
         }
 
+        if (sexedForm.subFormId !== undefined && pokemon.pokemonData.subForms) {
+            name += " " + pokemon.pokemonData.subForms[sexedForm.subFormId].name?.fr
+        }
+
         return name;
     }
 </script>

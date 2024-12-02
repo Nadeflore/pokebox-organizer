@@ -140,6 +140,24 @@ with open('formnames.csv', newline='') as csvfile:
 
 print(form_names)
 
+subform_names = {}
+with open('subformnames.csv', newline='') as csvfile:
+    cf = csv.DictReader(csvfile)
+
+    for subformname in cf:
+        id = int(subformname["id"])
+        subform_id = int(subformname["subformId"])
+        if id not in subform_names:
+            subform_names[id] = {}
+
+        namei18n = {}
+        for lang, name in subformname.items():
+            if lang not in ["id", "subformId"] and name:
+                namei18n[lang] = name
+
+        subform_names[id][subform_id] = namei18n
+
+print(subform_names)
 
 # Get images filenames
 filenames = os.listdir(FOLDER_PATH)
@@ -153,11 +171,14 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
     if dex_id == 0:
         continue
 
+    forms = list(forms)
+
+    hasGigamax = any([f.giga for f in forms])
     # Remove gigamax and back images
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
     forms.sort(key=lambda e: e.form_id)
-    print("Pokemon {}".format(dex_id))
+    print("Pokemon {} {}".format(dex_id, forms if len(forms) > 1 else ''))
 
     forms_json = []
 
@@ -165,6 +186,16 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     pokemonFormType = None
     normalCount = 0
+
+
+    form2Ids = set([f.form2_id for f in forms])
+
+    subFormsJson = []
+
+    if len(form2Ids) > 1:
+        for form2Id in form2Ids:
+            subFormsJson.append({"id": form2Id, "name": subform_names[dex_id][form2Id]})
+        
 
     # print(subFormsByFormId)
     for form_id, subforms in subFormsByFormId.items():
@@ -308,6 +339,8 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
         pokemonJson["formType"] = pokemonFormType.name
 
 
+    if len(subFormsJson) > 1:
+        pokemonJson["subForms"] = subFormsJson
 
     pokemons_json.append(pokemonJson)
 

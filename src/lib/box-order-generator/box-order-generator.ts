@@ -28,6 +28,7 @@ interface PokemonFormsFilter {
     maleFemaleForms: MaleFemaleFormsType;
     types: FormType[];
     event: boolean;
+    subForm: boolean;
     regions: Region[];
 }
 
@@ -87,11 +88,17 @@ interface FormData {
 export interface SexedForm {
     form: FormData;
     sex?: Sex;
+    subFormId?: number;
 }
 
-export interface regionalDexInfo {
+export interface RegionalDexInfo {
     id: number,
     forms: number[]
+}
+
+interface SubForm {
+    id: number;
+    name?: LocalizedName;
 }
 
 export interface PokemonData {
@@ -99,7 +106,8 @@ export interface PokemonData {
     formType: "NORMAL" | "CHANGE_LEG" | "CHANGE" | "SEX";
     id: number;
     name: LocalizedName;
-    regionalDex: Record<string, regionalDexInfo>
+    regionalDex: Record<string, RegionalDexInfo>;
+    subForms?: SubForm[];
 }
 
 export const defaultConfig = {
@@ -146,6 +154,7 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
                     case "fo":
                         return [{form, sex: Sex.F}];
                     case "mf":
+                        // separate every male female (if requested)
                         if (filter.forms.maleFemaleForms == MaleFemaleFormsType.ALL) {
                             return [{form, sex: Sex.M}, {form, sex: Sex.F}];
                         } else {
@@ -164,6 +173,22 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
             }
 
             return [sexedForms]
+        }).flatMap((sexedForms: SexedForm[]) => {
+            if (!pokemon.subForms) {
+                return [sexedForms];
+            }
+            // Create a separate entry for each subform
+            const subForms = sexedForms.flatMap(sexedForm => {
+                return pokemon.subForms.map(subForm => ({...sexedForm, subFormId: subForm.id}))
+            })
+
+            if (filter.forms.subForm) {
+                // Separate each subform
+                return pokemon.subForms.map(subForm => subForms.filter(f => f.subFormId == subForm.id));
+            }
+
+            return[subForms];
+
         }).map(sexedForms => ({
                 pokemonData: pokemon,
                 sexedForms,
@@ -364,7 +389,11 @@ function isPokemonFormInPokedex(pokemon: PokemonData, form: FormData, dexId: str
 export function getPokemonSignature(pokemon: Pokemon) {
     const firstForm = pokemon.sexedForms[0];
     const sex = firstForm.sex && firstForm.sex != Sex.MF ? firstForm.sex : firstForm.form.sex == "mf" ? Sex.M: "";
-    return `${pokemon.pokemonData.id}-${firstForm.form.id}-${sex}`;
+    let signature =  `${pokemon.pokemonData.id}-${firstForm.form.id}-${sex}`;
+    if (pokemon.pokemonData.subForms) {
+        signature += `-${firstForm.subFormId}`
+    }
+    return signature
 }
 
 export function isEveryPokemonChecked(pokemonsData: PokemonData[], filter: PokemonFilterConfig, checked: string[]) {

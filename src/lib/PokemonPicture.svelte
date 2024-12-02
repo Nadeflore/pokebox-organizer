@@ -7,10 +7,10 @@
 
 	function getImageFileName(pokemon: Pokemon): string {
 		const pokemonId = pokemon.pokemonData.id;
-		const firstForm = pokemon.sexedForms[formIndex];
-		const formId = firstForm.form.id;
-		const sex = firstForm.form.sex == "fd" && firstForm.sex == Sex.M ? "md" : firstForm.form.sex;
-		const formId2 = pokemonId == 869 ? formId % 7 : 0;
+		const sexedForm = pokemon.sexedForms[formIndex];
+		const formId = sexedForm.form.id;
+		const sex = sexedForm.form.sex == "fd" && sexedForm.sex == Sex.M ? "md" : sexedForm.form.sex;
+		const formId2 = sexedForm.subFormId || 0;
 		const name = `/images/pokemons/poke_capture_${String(pokemonId).padStart(4, '0')}_${String(formId).padStart(3, '0')}_${sex}_n_${String(formId2).padStart(8, '0')}_f_n.webp`;
 		return name
 	}

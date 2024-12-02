@@ -39,7 +39,7 @@
 		</div>
 	</section>
 	<section>
-		<h3>Forms to include</h3>
+		<h3>Forms to be in separate slot</h3>
 		<h4>Male and Female forms</h4>
 		<ul>
 			{#each Object.values(MaleFemaleFormsType) as type}
@@ -68,6 +68,12 @@
 					<label>	
 						<input type="checkbox" bind:checked={$config.forms.event} />
 						Event forms
+					</label>
+				</li>
+				<li>
+					<label>	
+						<input type="checkbox" bind:checked={$config.forms.subForm} />
+						Charmilly sub forms
 					</label>
 				</li>
 			</ul>

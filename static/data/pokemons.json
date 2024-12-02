@@ -41249,7 +41249,51 @@
                 }
             }
         ],
-        "formType": "NORMAL"
+        "formType": "NORMAL",
+        "subForms": [
+            {
+                "id": 0,
+                "name": {
+                    "fr": "Fraise en Sucre"
+                }
+            },
+            {
+                "id": 1,
+                "name": {
+                    "fr": "Baie en Sucre"
+                }
+            },
+            {
+                "id": 2,
+                "name": {
+                    "fr": "Cœur en Sucre"
+                }
+            },
+            {
+                "id": 3,
+                "name": {
+                    "fr": "Étoile en Sucre"
+                }
+            },
+            {
+                "id": 4,
+                "name": {
+                    "fr": "Trèfle en Sucre"
+                }
+            },
+            {
+                "id": 5,
+                "name": {
+                    "fr": "Fleur en Sucre"
+                }
+            },
+            {
+                "id": 6,
+                "name": {
+                    "fr": "Ruban en Sucre"
+                }
+            }
+        ]
     },
     {
         "id": 870,
