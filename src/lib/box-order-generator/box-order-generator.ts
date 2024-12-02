@@ -122,7 +122,7 @@ export const defaultConfig = {
         types: [],
         event: false,
         regions: [],
-        onlySpecialForms: false
+        subForm: false
     },
     boxNamePattern: "{gen}G - {genboxnb}",
 };

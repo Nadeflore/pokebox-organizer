@@ -5,6 +5,7 @@
 	import PokemonsMatcherField from './PokemonsMatcherField.svelte';
 	import { config } from './stores';
 	import Svelecte from 'svelecte';
+	import { each } from 'svelte/internal';
 
 	function toogleNewBoxGeneration(e: Event) {
 		const checkbox = e.target as HTMLInputElement;
@@ -97,35 +98,37 @@
 			</ul>
 		</div>
 	</section>
-	<section>
-		<h3>Grouping options</h3>
-		<div>
-			<label>
-				<input
-					type="checkbox"
-					on:change={toogleNewBoxGeneration}
-					name="newBoxGenerations"
-					checked={$config.newBoxAtGenerations.length == generations.length}
-				/>
-				New box at generation
-			</label>
-			<ul>
-				{#each generations as generation}
-					<li>
-						<label>
-							<input
-								type="checkbox"
-								bind:group={$config.newBoxAtGenerations}
-								name="newBoxGenerations"
-								value={generation.id}
-							/>
-							{generation.name.fr}
-						</label>
-					</li>
-				{/each}
-			</ul>
-		</div>
-	</section>
+	{#if $config.pokedex == "national"}
+		<section>
+			<h3>Grouping options</h3>
+			<div>
+				<label>
+					<input
+						type="checkbox"
+						on:change={toogleNewBoxGeneration}
+						name="newBoxGenerations"
+						checked={$config.newBoxAtGenerations.length == generations.length}
+					/>
+					New box at generation
+				</label>
+				<ul>
+					{#each generations as generation}
+						<li>
+							<label>
+								<input
+									type="checkbox"
+									bind:group={$config.newBoxAtGenerations}
+									name="newBoxGenerations"
+									value={generation.id}
+								/>
+								{generation.name.fr}
+							</label>
+						</li>
+					{/each}
+				</ul>
+			</div>
+		</section>
+	{/if}
 	<section>
 		<h3>Box name</h3>
 		<label>

@@ -89,3 +89,10 @@ function createChecked() {
 export const config = createConfig();
 
 export const checked = createChecked();
+
+config.subscribe(c => {
+    if ((c.boxNamePattern.includes("{gen}") || c.boxNamePattern.includes("{genboxnb}")) && c.pokedex != "national") {
+        c.boxNamePattern = "Box {boxnb}"
+        config.set(c);
+    }
+})
