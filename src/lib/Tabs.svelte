@@ -1,5 +1,10 @@
-<script>
-	import { state } from './stores';
+<script lang="ts">
+	import { isEveryPokemonChecked } from './box-order-generator/box-order-generator';
+	import { state, pokemonsData, type Tab } from './stores';
+	
+	function isTabComplete(tab: Tab) {
+		return 
+	}
 </script>
 
 <div class="tabs">
@@ -7,7 +12,8 @@
 		{@const active = $state.activeTabId === i}
 		<div class="tab" class:active>
 			<button on:click={() => ($state.activeTabId = i)}>
-				{tab.config.name}
+				<div class="icon" class:checked={isEveryPokemonChecked($pokemonsData, tab.config, tab.checked)}></div>
+				<div class="name">{tab.config.name}</div>
 			</button>
 			{#if i != 0 || $state.tabs.length > 1}
 				<button
@@ -56,4 +62,19 @@
 		overflow-x: auto;
 		background-color: white;
 	}
+
+	.tab button {
+		display: flex;
+	}
+
+	.icon {
+		height: 1em;
+		margin-right: 0.1em;
+	}
+
+	.icon.checked {
+		width: 1em;
+		background-image: url("/images/checkmark.svg");
+	}
+
 </style>

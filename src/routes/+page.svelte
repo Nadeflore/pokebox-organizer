@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { pokemonsData, config, checked, state } from '$lib/stores';
+	import { pokemonsData } from '$lib/stores';
 	import Boxes from '$lib/Boxes.svelte';
 	import SettingsPanel from '$lib/SettingsPanel.svelte';
 	import Header from '$lib/Header.svelte';
@@ -17,7 +17,7 @@
 		<Header bind:search bind:settingsPanelOpen bind:checkMode />
 	</div>
 	<div class="content">
-		<Boxes config={$config} {search} {checkMode}/>
+		<Boxes {search} {checkMode}/>
 	</div>
 	<div class="panel" class:closed={!settingsPanelOpen}>
 		<SettingsPanel />

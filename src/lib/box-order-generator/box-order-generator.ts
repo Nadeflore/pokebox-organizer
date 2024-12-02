@@ -360,3 +360,13 @@ function isPokemonFormInPokedex(pokemon: PokemonData, form: FormData, dexId: str
     // this pokemon has to be in this pokedex, and either no forms specified (meaning are included) or the form is included in the specified forms
     return regInfo !== undefined && (regInfo.forms === undefined ||  regInfo.forms.includes(form.id));
 }
+
+export function getPokemonSignature(pokemon: Pokemon) {
+    const firstForm = pokemon.sexedForms[0];
+    const sex = firstForm.sex && firstForm.sex != Sex.MF ? firstForm.sex : firstForm.form.sex == "mf" ? Sex.M: "";
+    return `${pokemon.pokemonData.id}-${firstForm.form.id}-${sex}`;
+}
+
+export function isEveryPokemonChecked(pokemonsData: PokemonData[], filter: PokemonFilterConfig, checked: string[]) {
+    return getPokemonsWithFormsFiltered(pokemonsData, filter).every(p => checked.includes(getPokemonSignature(p)));
+}

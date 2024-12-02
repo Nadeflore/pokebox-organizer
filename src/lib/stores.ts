@@ -25,7 +25,7 @@ function fromLocalStorage(storageKey: string, fallbackValue: any, serverFallback
 function toLocalStorage(store, storageKey: string) {
     if (browser) {
         store.subscribe(value => {
-            let storageValue = (typeof value === 'object')
+            const storageValue = (typeof value === 'object')
                 ? JSON.stringify(value)
                 : value
 

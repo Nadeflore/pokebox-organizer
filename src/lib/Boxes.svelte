@@ -1,14 +1,12 @@
 <script lang="ts">
 	import {
 		getPokemonBoxes,
-		type PokemonFilterConfig
 	} from './box-order-generator/box-order-generator';
 	import Box from './Box.svelte';
-	import { pokemonsData } from './stores';
-	export let config: PokemonFilterConfig;
+	import { config, pokemonsData } from './stores';
 	export let search: string[];
 	export let checkMode: boolean;
-	$: boxes = getPokemonBoxes($pokemonsData, config, search);
+	$: boxes = getPokemonBoxes($pokemonsData, $config, search);
 </script>
 
 <div class="boxes">

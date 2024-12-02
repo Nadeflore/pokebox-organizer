@@ -1,16 +1,10 @@
 <script lang="ts">
-	import { Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
+	import { getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
 	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
 	import { checked } from './stores';
 	export let box: {name: string, pokemons: Pokemon[]};
 	export let checkMode: boolean;
-
-	function getPokemonSignature(pokemon: Pokemon) {
-		const firstForm = pokemon.sexedForms[0];
-		const sex = firstForm.sex && firstForm.sex != Sex.MF ? firstForm.sex : firstForm.form.sex == "mf" ? Sex.M: "";
-		return `${pokemon.pokemonData.id}-${firstForm.form.id}-${sex}`;
-	}
 
 	function isMale(pokemon: Pokemon) {
 		return pokemon.sexedForms.map(sf => sf.sex).every(s => s == Sex.M);
