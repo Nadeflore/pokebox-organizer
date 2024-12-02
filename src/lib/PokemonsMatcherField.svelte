@@ -40,6 +40,13 @@
 			items: regionalFormsOptions
 		},
 		{
+			groupHeader: 'Specificité',
+			items: [{
+				value: "gigantamax",
+				text: "Possède une forme gigamax"
+			}]
+		},
+		{
 			groupHeader: 'Pokemons',
 			items: pokemonsOptions
 		}

@@ -108,6 +108,7 @@ export interface PokemonData {
     name: LocalizedName;
     regionalDex: Record<string, RegionalDexInfo>;
     subForms?: SubForm[];
+    gigantamax?: boolean;
 }
 
 export const defaultConfig = {
@@ -177,14 +178,15 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
             if (!pokemon.subForms) {
                 return [sexedForms];
             }
+            const pokemonSubForms = pokemon.subForms;
             // Create a separate entry for each subform
             const subForms = sexedForms.flatMap(sexedForm => {
-                return pokemon.subForms.map(subForm => ({...sexedForm, subFormId: subForm.id}))
+                return pokemonSubForms.map(subForm => ({...sexedForm, subFormId: subForm.id}))
             })
 
             if (filter.forms.subForm) {
                 // Separate each subform
-                return pokemon.subForms.map(subForm => subForms.filter(f => f.subFormId == subForm.id));
+                return pokemonSubForms.map(subForm => subForms.filter(f => f.subFormId == subForm.id));
             }
 
             return[subForms];
@@ -377,7 +379,12 @@ function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: strin
         return form.region === region;
     }
 
-    return false
+    switch(matcher) {
+        case "gigantamax":
+            return pokemon.gigantamax;
+    }
+
+    throw new Error(`Unknown matcher : ${matcher}`)
 }
 
 function isPokemonFormInPokedex(pokemon: PokemonData, form: FormData, dexId: string) {

@@ -173,7 +173,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     forms = list(forms)
 
-    hasGigamax = any([f.giga for f in forms])
+    hasGigantamax = any([f.giga for f in forms])
     # Remove gigamax and back images
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
@@ -341,6 +341,9 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     if len(subFormsJson) > 1:
         pokemonJson["subForms"] = subFormsJson
+
+    if hasGigantamax:
+        pokemonJson["gigantamax"] = True
 
     pokemons_json.append(pokemonJson)
 

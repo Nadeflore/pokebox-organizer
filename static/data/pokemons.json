@@ -120,7 +120,8 @@
                 "id": 0,
                 "sex": "fd"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 4,
@@ -243,7 +244,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 7,
@@ -366,7 +368,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 10,
@@ -534,7 +537,8 @@
                 "id": 0,
                 "sex": "fd"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 13,
@@ -1312,7 +1316,8 @@
                     "en": "World Cap"
                 }
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 26,
@@ -3226,7 +3231,8 @@
                 "sex": "mf",
                 "region": "GALAR"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 53,
@@ -4395,7 +4401,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 69,
@@ -6354,7 +6361,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 95,
@@ -6586,7 +6594,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 100,
@@ -8669,7 +8678,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 132,
@@ -8793,7 +8803,8 @@
                 "id": 0,
                 "sex": "fd"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 134,
@@ -9323,7 +9334,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 144,
@@ -28523,7 +28535,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 570,
@@ -39211,7 +39224,8 @@
                 "id": 0,
                 "sex": "uk"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 810,
@@ -39298,7 +39312,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 813,
@@ -39385,7 +39400,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 816,
@@ -39472,7 +39488,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 819,
@@ -39644,7 +39661,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 824,
@@ -39731,7 +39749,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 827,
@@ -39969,7 +39988,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 835,
@@ -40123,7 +40143,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 840,
@@ -40193,7 +40214,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 842,
@@ -40228,7 +40250,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 843,
@@ -40292,7 +40315,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 845,
@@ -40467,7 +40491,8 @@
                 }
             }
         ],
-        "formType": "NORMAL"
+        "formType": "NORMAL",
+        "gigantamax": true
     },
     {
         "id": 850,
@@ -40525,7 +40550,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 852,
@@ -40792,7 +40818,8 @@
                 "id": 0,
                 "sex": "fo"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 859,
@@ -40897,7 +40924,8 @@
                 "id": 0,
                 "sex": "mo"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 862,
@@ -41293,7 +41321,8 @@
                     "fr": "Ruban en Sucre"
                 }
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 870,
@@ -41634,7 +41663,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 880,
@@ -41767,7 +41797,8 @@
                 "id": 0,
                 "sex": "mf"
             }
-        ]
+        ],
+        "gigantamax": true
     },
     {
         "id": 885,
@@ -42008,7 +42039,8 @@
                 }
             }
         ],
-        "formType": "NORMAL"
+        "formType": "NORMAL",
+        "gigantamax": true
     },
     {
         "id": 893,
