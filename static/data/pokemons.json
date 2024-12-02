@@ -25090,18 +25090,8 @@
             {
                 "id": 0,
                 "sex": "uk"
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "オリジンフォルム",
-                    "en": "Origin Forme",
-                    "fr": "Forme Originelle"
-                }
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 484,
@@ -25132,18 +25122,8 @@
             {
                 "id": 0,
                 "sex": "uk"
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "オリジンフォルム",
-                    "en": "Origin Forme",
-                    "fr": "Forme Originelle"
-                }
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 485,
@@ -25222,24 +25202,9 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "アナザーフォルム",
-                    "en": "Altered Forme",
-                    "fr": "Forme Alternative"
-                }
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "オリジンフォルム",
-                    "en": "Origin Forme",
-                    "fr": "Forme Originelle"
-                }
+                "sex": "uk"
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 488,
@@ -25414,234 +25379,9 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "ノーマルタイプ",
-                    "en": "Normal Type",
-                    "fr": "Normal",
-                    "de": "Normalform",
-                    "es": "Tipo Normal",
-                    "it": "Tipo Normale"
-                }
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "かくとうタイプ",
-                    "en": "Fighting Type",
-                    "fr": "Combat",
-                    "de": "Kampf",
-                    "es": "Tipo Lucha",
-                    "it": "Tipo Lotta"
-                }
-            },
-            {
-                "id": 2,
-                "sex": "uk",
-                "name": {
-                    "ja": "ひこうタイプ",
-                    "en": "Flying Type",
-                    "fr": "Vol",
-                    "de": "Flug",
-                    "es": "Tipo Volador",
-                    "it": "Tipo Volante"
-                }
-            },
-            {
-                "id": 3,
-                "sex": "uk",
-                "name": {
-                    "ja": "どくタイプ",
-                    "en": "Poison Type",
-                    "fr": "Poison",
-                    "de": "Gift",
-                    "es": "Tipo Veneno",
-                    "it": "Tipo Veleno"
-                }
-            },
-            {
-                "id": 4,
-                "sex": "uk",
-                "name": {
-                    "ja": "じめんタイプ",
-                    "en": "Ground Type",
-                    "fr": "Sol",
-                    "de": "Boden",
-                    "es": "Tipo Tierra",
-                    "it": "Tipo Terra"
-                }
-            },
-            {
-                "id": 5,
-                "sex": "uk",
-                "name": {
-                    "ja": "いわタイプ",
-                    "en": "Rock Type",
-                    "fr": "Roche",
-                    "de": "Gestein",
-                    "es": "Tipo Roca",
-                    "it": "Tipo Roccia"
-                }
-            },
-            {
-                "id": 6,
-                "sex": "uk",
-                "name": {
-                    "ja": "むしタイプ",
-                    "en": "Bug Type",
-                    "fr": "Insecte",
-                    "de": "Käfer",
-                    "es": "Tipo Bicho",
-                    "it": "Tipo Coleottero"
-                }
-            },
-            {
-                "id": 7,
-                "sex": "uk",
-                "name": {
-                    "ja": "ゴーストタイプ",
-                    "en": "Ghost Type",
-                    "fr": "Spectre",
-                    "de": "Geist",
-                    "es": "Tipo Fantasma",
-                    "it": "Tipo Spettro"
-                }
-            },
-            {
-                "id": 8,
-                "sex": "uk",
-                "name": {
-                    "ja": "はがねタイプ",
-                    "en": "Steel Type",
-                    "fr": "Acier",
-                    "de": "Stahl",
-                    "es": "Tipo Acero",
-                    "it": "Tipo Acciaio"
-                }
-            },
-            {
-                "id": 9,
-                "sex": "uk",
-                "name": {
-                    "ja": "ほのおタイプ",
-                    "en": "Fire Type",
-                    "fr": "Feu",
-                    "de": "Feuer",
-                    "es": "Tipo Fuego",
-                    "it": "Tipo Fuoco"
-                }
-            },
-            {
-                "id": 10,
-                "sex": "uk",
-                "name": {
-                    "ja": "みずタイプ",
-                    "en": "Water Type",
-                    "fr": "Eau",
-                    "de": "Wasser",
-                    "es": "Tipo Agua",
-                    "it": "Tipo Acqua"
-                }
-            },
-            {
-                "id": 11,
-                "sex": "uk",
-                "name": {
-                    "ja": "くさタイプ",
-                    "en": "Grass Type",
-                    "fr": "Plante",
-                    "de": "Pflanze",
-                    "es": "Tipo Planta",
-                    "it": "Tipo Erba"
-                }
-            },
-            {
-                "id": 12,
-                "sex": "uk",
-                "name": {
-                    "ja": "でんきタイプ",
-                    "en": "Electric Type",
-                    "fr": "Électrik",
-                    "de": "Elektro",
-                    "es": "Tipo Eléctrico",
-                    "it": "Tipo Elettro"
-                }
-            },
-            {
-                "id": 13,
-                "sex": "uk",
-                "name": {
-                    "ja": "エスパータイプ",
-                    "en": "Psychic Type",
-                    "fr": "Psy",
-                    "de": "Psycho",
-                    "es": "Tipo Psíquico",
-                    "it": "Tipo Psico"
-                }
-            },
-            {
-                "id": 14,
-                "sex": "uk",
-                "name": {
-                    "ja": "こおりタイプ",
-                    "en": "Ice Type",
-                    "fr": "Glace",
-                    "de": "Eis",
-                    "es": "Tipo Hielo",
-                    "it": "Tipo Ghiaccio"
-                }
-            },
-            {
-                "id": 15,
-                "sex": "uk",
-                "name": {
-                    "ja": "ドラゴンタイプ",
-                    "en": "Dragon Type",
-                    "fr": "Dragon",
-                    "de": "Drache",
-                    "es": "Tipo Dragón",
-                    "it": "Tipo Drago"
-                }
-            },
-            {
-                "id": 16,
-                "sex": "uk",
-                "name": {
-                    "ja": "あくタイプ",
-                    "en": "Dark Type",
-                    "fr": "Ténèbres",
-                    "de": "Unlicht",
-                    "es": "Tipo Siniestro",
-                    "it": "Tipo Buio"
-                }
-            },
-            {
-                "id": 17,
-                "sex": "uk",
-                "name": {
-                    "ja": "フェアリータイプ",
-                    "en": "Fairy Type",
-                    "fr": "Fée",
-                    "de": "Fee",
-                    "es": "Tipo Hada",
-                    "it": "Tipo Folletto"
-                }
-            },
-            {
-                "id": 18,
-                "sex": "uk",
-                "name": {
-                    "ja": "？？？タイプ",
-                    "en": "??? Type",
-                    "fr": "???",
-                    "de": "???",
-                    "es": "Tipo ???",
-                    "it": "Tipo ???"
-                }
+                "sex": "uk"
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 494,
@@ -32200,33 +31940,9 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "キュレムのすがた",
-                    "en": "Kyurem",
-                    "fr": "Kyurem"
-                }
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "ホワイトキュレム",
-                    "en": "White Kyurem",
-                    "fr": "Kyurem Blanc"
-                }
-            },
-            {
-                "id": 2,
-                "sex": "uk",
-                "name": {
-                    "ja": "ブラックキュレム",
-                    "en": "Black Kyurem",
-                    "fr": "Kyurem Noir"
-                }
+                "sex": "uk"
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 647,
@@ -38252,276 +37968,9 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ノーマル",
-                    "en": "Type: Normal",
-                    "fr": "Type : Normal",
-                    "de": "Typ:Normal",
-                    "es": "Tipo: Normal",
-                    "it": "Tipo Normale",
-                    "ko": "타입:노말",
-                    "zh-Hant": "屬性：一般",
-                    "zh-Hans": "属性：一般"
-                }
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ファイト",
-                    "en": "Type: Fighting",
-                    "fr": "Type : Combat",
-                    "de": "Typ:Kampf",
-                    "es": "Tipo: Lucha",
-                    "it": "Tipo Lotta",
-                    "ko": "타입:파이팅",
-                    "zh-Hant": "屬性：戰鬥",
-                    "zh-Hans": "属性：战斗"
-                }
-            },
-            {
-                "id": 2,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：フライング",
-                    "en": "Type: Flying",
-                    "fr": "Type : Vol",
-                    "de": "Typ:Flug",
-                    "es": "Tipo: Volador",
-                    "it": "Tipo Volante",
-                    "ko": "타입:플라잉",
-                    "zh-Hant": "屬性：飛翔",
-                    "zh-Hans": "属性：飞翔"
-                }
-            },
-            {
-                "id": 3,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ポイズン",
-                    "en": "Type: Poison",
-                    "fr": "Type : Poison",
-                    "de": "Typ:Gift",
-                    "es": "Tipo: Veneno",
-                    "it": "Tipo Veleno",
-                    "ko": "타입:포이즌",
-                    "zh-Hant": "屬性：毒",
-                    "zh-Hans": "属性：毒"
-                }
-            },
-            {
-                "id": 4,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：グラウンド",
-                    "en": "Type: Ground",
-                    "fr": "Type : Sol",
-                    "de": "Typ:Boden",
-                    "es": "Tipo: Tierra",
-                    "it": "Tipo Terra",
-                    "ko": "타입:그라운드",
-                    "zh-Hant": "屬性：大地",
-                    "zh-Hans": "属性：大地"
-                }
-            },
-            {
-                "id": 5,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ロック",
-                    "en": "Type: Rock",
-                    "fr": "Type : Roche",
-                    "de": "Typ:Gestein",
-                    "es": "Tipo: Roca",
-                    "it": "Tipo Roccia",
-                    "ko": "타입:락",
-                    "zh-Hant": "屬性：岩石",
-                    "zh-Hans": "属性：岩石"
-                }
-            },
-            {
-                "id": 6,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：バグ",
-                    "en": "Type: Bug",
-                    "fr": "Type : Insecte",
-                    "de": "Typ:Käfer",
-                    "es": "Tipo: Bicho",
-                    "it": "Tipo Coleottero",
-                    "ko": "타입:버그",
-                    "zh-Hant": "屬性：蟲子",
-                    "zh-Hans": "属性：虫子"
-                }
-            },
-            {
-                "id": 7,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ゴースト",
-                    "en": "Type: Ghost",
-                    "fr": "Type : Spectre",
-                    "de": "Typ:Geist",
-                    "es": "Tipo: Fantasma",
-                    "it": "Tipo Spettro",
-                    "ko": "타입:고스트",
-                    "zh-Hant": "屬性：幽靈",
-                    "zh-Hans": "属性：幽灵"
-                }
-            },
-            {
-                "id": 8,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：スチール",
-                    "en": "Type: Steel",
-                    "fr": "Type : Acier",
-                    "de": "Typ:Stahl",
-                    "es": "Tipo: Acero",
-                    "it": "Tipo Acciaio",
-                    "ko": "타입:스틸",
-                    "zh-Hant": "屬性：鋼鐵",
-                    "zh-Hans": "属性：钢铁"
-                }
-            },
-            {
-                "id": 9,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ファイヤー",
-                    "en": "Type: Fire",
-                    "fr": "Type : Feu",
-                    "de": "Typ:Feuer",
-                    "es": "Tipo: Fuego",
-                    "it": "Tipo Fuoco",
-                    "ko": "타입:파이어",
-                    "zh-Hant": "屬性：火焰",
-                    "zh-Hans": "属性：火焰"
-                }
-            },
-            {
-                "id": 10,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ウオーター",
-                    "en": "Type: Water",
-                    "fr": "Type : Eau",
-                    "de": "Typ:Wasser",
-                    "es": "Tipo: Agua",
-                    "it": "Tipo Acqua",
-                    "ko": "타입:워터",
-                    "zh-Hant": "屬性：清水",
-                    "zh-Hans": "属性：清水"
-                }
-            },
-            {
-                "id": 11,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：グラス",
-                    "en": "Type: Grass",
-                    "fr": "Type : Plante",
-                    "de": "Typ:Pflanze",
-                    "es": "Tipo: Planta",
-                    "it": "Tipo Erba",
-                    "ko": "타입:그래스",
-                    "zh-Hant": "屬性：青草",
-                    "zh-Hans": "属性：青草"
-                }
-            },
-            {
-                "id": 12,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：エレクトロ",
-                    "en": "Type: Electric",
-                    "fr": "Type : Électrik",
-                    "de": "Typ:Elektro",
-                    "es": "Tipo: Eléctrico",
-                    "it": "Tipo Elettro",
-                    "ko": "타입:일렉트릭",
-                    "zh-Hant": "屬性：電子",
-                    "zh-Hans": "属性：电子"
-                }
-            },
-            {
-                "id": 13,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：サイキック",
-                    "en": "Type: Psychic",
-                    "fr": "Type : Psy",
-                    "de": "Typ:Psycho",
-                    "es": "Tipo: Psíquico",
-                    "it": "Tipo Psico",
-                    "ko": "타입:사이킥",
-                    "zh-Hant": "屬性：精神",
-                    "zh-Hans": "属性：精神"
-                }
-            },
-            {
-                "id": 14,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：アイス",
-                    "en": "Type: Ice",
-                    "fr": "Type : Glace",
-                    "de": "Typ:Eis",
-                    "es": "Tipo: Hielo",
-                    "it": "Tipo Ghiaccio",
-                    "ko": "타입:아이스",
-                    "zh-Hant": "屬性：冰雪",
-                    "zh-Hans": "属性：冰雪"
-                }
-            },
-            {
-                "id": 15,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ドラゴン",
-                    "en": "Type: Dragon",
-                    "fr": "Type : Dragon",
-                    "de": "Typ:Drache",
-                    "es": "Tipo: Dragón",
-                    "it": "Tipo Drago",
-                    "ko": "타입:드래곤",
-                    "zh-Hant": "屬性：龍",
-                    "zh-Hans": "属性：龙"
-                }
-            },
-            {
-                "id": 16,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：ダーク",
-                    "en": "Type: Dark",
-                    "fr": "Type : Ténèbres",
-                    "de": "Typ:Unlicht",
-                    "es": "Tipo: Siniestro",
-                    "it": "Tipo Buio",
-                    "ko": "타입:다크",
-                    "zh-Hant": "屬性：黑暗",
-                    "zh-Hans": "属性：黑暗"
-                }
-            },
-            {
-                "id": 17,
-                "sex": "uk",
-                "name": {
-                    "ja": "タイプ：フェアリー",
-                    "en": "Type: Fairy",
-                    "fr": "Type : Fée",
-                    "de": "Typ:Fee",
-                    "es": "Tipo: Hada",
-                    "it": "Tipo Folletto",
-                    "ko": "타입:페어리",
-                    "zh-Hant": "屬性：妖精",
-                    "zh-Hans": "属性：妖精"
-                }
+                "sex": "uk"
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 774,
@@ -39519,27 +38968,8 @@
             {
                 "id": 0,
                 "sex": "uk"
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "たそがれのたてがみ",
-                    "en": "Dusk Mane",
-                    "fr": "Crinière du Couchant"
-                }
-            },
-            {
-                "id": 2,
-                "sex": "uk",
-                "name": {
-                    "ja": "あかつきのつばさ",
-                    "en": "Dawn Wings",
-                    "fr": "Ailes de l'Aurore"
-                }
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 801,
@@ -42692,27 +42122,8 @@
             {
                 "id": 0,
                 "sex": "uk"
-            },
-            {
-                "id": 1,
-                "sex": "uk",
-                "name": {
-                    "ja": "はくばじょうのすがた",
-                    "en": "Ice Rider",
-                    "fr": "Cavalier du Froid"
-                }
-            },
-            {
-                "id": 2,
-                "sex": "uk",
-                "name": {
-                    "ja": "こくばじょうのすがた",
-                    "en": "Shadow Rider",
-                    "fr": "Cavalier d'Effroi"
-                }
             }
-        ],
-        "formType": "CHANGE_LEG"
+        ]
     },
     {
         "id": 899,
