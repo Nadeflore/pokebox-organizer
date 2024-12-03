@@ -147,14 +147,14 @@
 	}
 
 	.box:not(.check-mode) .pokemon.checked .check {
-		background-image: url("images/checkmark.svg");
+		background-image: url("/images/checkmark.svg");
 	}
 
 	.box.check-mode .pokemon.checked {
-		background-image: url("images/checkmark.svg");
+		background-image: url("/images/checkmark.svg");
 	}
 	.box.check-mode .pokemon:not(.checked) {
-		background-image: url("images/crossmark.svg");
+		background-image: url("/images/crossmark.svg");
 	}
 
 	.pokemon .sex {
@@ -166,15 +166,15 @@
 	}
 
 	.pokemon.male .sex {
-		background-image: url("images/maleicon.svg");
+		background-image: url("/images/maleicon.svg");
 	}
 
 	.pokemon.female .sex {
-		background-image: url("images/femaleicon.svg");
+		background-image: url("/images/femaleicon.svg");
 	}
 
 	.pokemon .multiple-forms {
-		background-image: url("images/multipleformsicon.svg");
+		background-image: url("/images/multipleformsicon.svg");
 		position: absolute;
 		bottom: 6%;
 		right: 6%;
