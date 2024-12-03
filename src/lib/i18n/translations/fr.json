@@ -1,0 +1,67 @@
+{
+    "name": "Français",
+    "texts" :{
+        "header": {
+            "settings": "Configuration",
+            "search": "Rechercher",
+            "checkMode": "Mode Pointage"
+        },
+        "matcher":
+        {
+            "generation": "Génération",
+            "characteristic": "Caractéristiques",
+            "gigantamax": "Pokémon avec forme Gigamax",
+            "pokemon": "Pokémon"
+        },
+        "configEdit": {
+            "name": "Nom",
+            "toInclude": "Pokémons à inclure",
+            "include": "Inclure",
+            "pokemonsToInclude": "Pokémons à inclure",
+            "exclude": "Exclure",
+            "pokemonsToExclude": "Pokémons à exclure",
+            "formsToSeparte": "Formes à mettre dans une case séparée",
+            "box": "Options de boîtes",
+            "newBoxAtGeneration": "Nouvelle boîtes à chaque génération",
+            "boxName": "Nom des boîtes",
+            "pattern": "Pattern"
+        },
+        "genderForms":
+        {
+            "title": "Formes mâle/femelle",
+            "ALL": "Séparer tous les mâle/femelle",
+            "APPEARANCE": "Seulement si apparence différente",
+            "SPECS": "Seulement si statistiques différentes",
+            "NONE": "Ne jamais séparer mâle/femelle"
+        },
+        "formTypes": {
+            "title": "Types de formes",
+            "eventForms": "Formes évennementielles",
+            "subForms": "Sous formes de Charmilly",
+            "NORMAL": "Formes ne pouvant changer",
+            "CHANGE": "Formes pouvant changer (Sauf légendaires)",
+            "CHANGE_LEG": "Formes pouvant changer (Légendaires)"
+        },
+        "regionalForms":{
+            "title": "Formes régionales",
+            "ALOLA": "Forme d'Alola",
+            "GALAR": "Forme de Galar",
+            "HISUI": "Forme de Hisui",
+            "PALDEA": "Forme de Paldea"
+        },
+        "forms": {
+            "form": "Forme",
+            "normal": "Forme Normale",
+            "male": "Forme Mâle",
+            "female": "Forme Femelle"
+        },
+        "pokedex":{
+            "title": "Pokédex",
+            "regional": "Regional",
+            "national": "National"
+        },
+        "tab": {
+            "closeConfirm": "Retirer {{name}}?"
+        }
+    }
+}

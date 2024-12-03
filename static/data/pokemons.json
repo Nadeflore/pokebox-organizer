@@ -1257,7 +1257,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Original Cap"
+                    "ja": "オリジナルキャップ",
+                    "en": "Original Cap",
+                    "fr": "Casquette Originale",
+                    "de": "Original-Kappe",
+                    "es": "Gorra Original",
+                    "it": "Berretto Originale",
+                    "ko": "오리지널캡 ",
+                    "zh-Hant": "初始帽子 ",
+                    "zh-Hans": "初始帽子 "
                 }
             },
             {
@@ -1265,7 +1273,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Hoenn Cap"
+                    "ja": "ホウエンキャップ",
+                    "en": "Hoenn Cap",
+                    "fr": "Casquette de Hoenn",
+                    "de": "Hoenn-Kappe",
+                    "es": "Gorra Hoenn",
+                    "it": "Berretto Hoenn",
+                    "ko": "호연캡 ",
+                    "zh-Hant": "豐緣帽子 ",
+                    "zh-Hans": "丰缘帽子 "
                 }
             },
             {
@@ -1273,7 +1289,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Sinnoh Cap"
+                    "ja": "シンオウキャップ",
+                    "en": "Sinnoh Cap",
+                    "fr": "Casquette de Sinnoh",
+                    "de": "Sinnoh-Kappe",
+                    "es": "Gorra Sinnoh",
+                    "it": "Berretto Sinnoh",
+                    "ko": "신오캡 ",
+                    "zh-Hant": "神奧帽子 ",
+                    "zh-Hans": "神奥帽子 "
                 }
             },
             {
@@ -1281,7 +1305,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Unova Cap"
+                    "ja": "イッシュキャップ",
+                    "en": "Unova Cap",
+                    "fr": "Casquette d'Unys",
+                    "de": "Einall-Kappe",
+                    "es": "Gorra Teselia",
+                    "it": "Berretto Unima",
+                    "ko": "하나캡 ",
+                    "zh-Hant": "合眾帽子 ",
+                    "zh-Hans": "合众帽子 "
                 }
             },
             {
@@ -1289,7 +1321,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Kalos Cap"
+                    "ja": "カロスキャップ",
+                    "en": "Kalos Cap",
+                    "fr": "Casquette de Kalos",
+                    "de": "Kalos-Kappe",
+                    "es": "Gorra Kalos",
+                    "it": "Berretto Kalos",
+                    "ko": "칼로스캡 ",
+                    "zh-Hant": "卡洛斯帽子 ",
+                    "zh-Hans": "卡洛斯帽子 "
                 }
             },
             {
@@ -1297,7 +1337,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Alola Cap"
+                    "ja": "アローラキャップ",
+                    "en": "Alola Cap",
+                    "fr": "Casquette d'Alola",
+                    "de": "Alola-Kappe",
+                    "es": "Gorra Alola",
+                    "it": "Berretto Alola",
+                    "ko": "알로라캡 ",
+                    "zh-Hant": "阿羅拉帽子 ",
+                    "zh-Hans": "阿罗拉帽子 "
                 }
             },
             {
@@ -1305,7 +1353,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "Partner Cap"
+                    "ja": "キミにきめたキャップ",
+                    "en": "Partner Cap",
+                    "fr": "Casquette Partenaire",
+                    "de": "Partnerkappe",
+                    "es": "Gorra Compañero",
+                    "it": "Berretto Compagni",
+                    "ko": "너로정했다캡 ",
+                    "zh-Hant": "就決定是你了帽子 ",
+                    "zh-Hans": "就决定是你了帽子 "
                 }
             },
             {
@@ -1313,7 +1369,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "en": "World Cap"
+                    "ja": "ワールドキャップ",
+                    "en": "World Cap",
+                    "fr": "Casquette Monde",
+                    "de": "Weltreise-Kappe",
+                    "es": "Gorra Trotamundos",
+                    "it": "Berretto Giramondo",
+                    "ko": "월드캡 ",
+                    "zh-Hant": "世界帽子 ",
+                    "zh-Hans": "世界帽子 "
                 }
             }
         ],
@@ -8404,7 +8468,7 @@
                 "sex": "mo",
                 "region": "PALDEA",
                 "name": {
-                    "ja": "パルデアのすがた・コンバットしゅ",
+                    "ja": "コンバットしゅ",
                     "en": "Combat Breed",
                     "fr": "Race Combative"
                 }
@@ -8414,7 +8478,7 @@
                 "sex": "mo",
                 "region": "PALDEA",
                 "name": {
-                    "ja": "パルデアのすがた・ブレイズしゅ",
+                    "ja": "ブレイズしゅ",
                     "en": "Blaze Breed",
                     "fr": "Race Flamboyante"
                 }
@@ -8424,7 +8488,7 @@
                 "sex": "mo",
                 "region": "PALDEA",
                 "name": {
-                    "ja": "パルデアのすがた・ウォーターしゅ",
+                    "ja": "ウォーターしゅ",
                     "en": "Aqua Breed",
                     "fr": "Race Aquatique"
                 }
@@ -12183,7 +12247,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "A",
-                    "en": "A"
+                    "en": "A",
+                    "fr": "A"
                 }
             },
             {
@@ -12191,7 +12256,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "B",
-                    "en": "B"
+                    "en": "B",
+                    "fr": "B"
                 }
             },
             {
@@ -12199,7 +12265,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "C",
-                    "en": "C"
+                    "en": "C",
+                    "fr": "C"
                 }
             },
             {
@@ -12207,7 +12274,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "D",
-                    "en": "D"
+                    "en": "D",
+                    "fr": "D"
                 }
             },
             {
@@ -12215,7 +12283,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "E",
-                    "en": "E"
+                    "en": "E",
+                    "fr": "E"
                 }
             },
             {
@@ -12223,7 +12292,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "F",
-                    "en": "F"
+                    "en": "F",
+                    "fr": "F"
                 }
             },
             {
@@ -12231,7 +12301,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "G",
-                    "en": "G"
+                    "en": "G",
+                    "fr": "G"
                 }
             },
             {
@@ -12239,7 +12310,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "H",
-                    "en": "H"
+                    "en": "H",
+                    "fr": "H"
                 }
             },
             {
@@ -12247,7 +12319,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "I",
-                    "en": "I"
+                    "en": "I",
+                    "fr": "I"
                 }
             },
             {
@@ -12255,7 +12328,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "J",
-                    "en": "J"
+                    "en": "J",
+                    "fr": "J"
                 }
             },
             {
@@ -12263,7 +12337,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "K",
-                    "en": "K"
+                    "en": "K",
+                    "fr": "K"
                 }
             },
             {
@@ -12271,7 +12346,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "L",
-                    "en": "L"
+                    "en": "L",
+                    "fr": "L"
                 }
             },
             {
@@ -12279,7 +12355,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "M",
-                    "en": "M"
+                    "en": "M",
+                    "fr": "M"
                 }
             },
             {
@@ -12287,7 +12364,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "N",
-                    "en": "N"
+                    "en": "N",
+                    "fr": "N"
                 }
             },
             {
@@ -12295,7 +12373,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "O",
-                    "en": "O"
+                    "en": "O",
+                    "fr": "O"
                 }
             },
             {
@@ -12303,7 +12382,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "P",
-                    "en": "P"
+                    "en": "P",
+                    "fr": "P"
                 }
             },
             {
@@ -12311,7 +12391,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "Q",
-                    "en": "Q"
+                    "en": "Q",
+                    "fr": "Q"
                 }
             },
             {
@@ -12319,7 +12400,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "R",
-                    "en": "R"
+                    "en": "R",
+                    "fr": "R"
                 }
             },
             {
@@ -12327,7 +12409,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "S",
-                    "en": "S"
+                    "en": "S",
+                    "fr": "S"
                 }
             },
             {
@@ -12335,7 +12418,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "T",
-                    "en": "T"
+                    "en": "T",
+                    "fr": "T"
                 }
             },
             {
@@ -12343,7 +12427,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "U",
-                    "en": "U"
+                    "en": "U",
+                    "fr": "U"
                 }
             },
             {
@@ -12351,7 +12436,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "V",
-                    "en": "V"
+                    "en": "V",
+                    "fr": "V"
                 }
             },
             {
@@ -12359,7 +12445,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "W",
-                    "en": "W"
+                    "en": "W",
+                    "fr": "W"
                 }
             },
             {
@@ -12367,7 +12454,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "X",
-                    "en": "X"
+                    "en": "X",
+                    "fr": "X"
                 }
             },
             {
@@ -12375,7 +12463,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "Y",
-                    "en": "Y"
+                    "en": "Y",
+                    "fr": "Y"
                 }
             },
             {
@@ -12383,7 +12472,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "Z",
-                    "en": "Z"
+                    "en": "Z",
+                    "fr": "Z"
                 }
             },
             {
@@ -12391,7 +12481,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "！",
-                    "en": "!"
+                    "en": "!",
+                    "fr": "!"
                 }
             },
             {
@@ -12399,7 +12490,8 @@
                 "sex": "uk",
                 "name": {
                     "ja": "？",
-                    "en": "?"
+                    "en": "?",
+                    "fr": "?"
                 }
             }
         ],
@@ -32323,7 +32415,15 @@
                 "sex": "mo",
                 "event": true,
                 "name": {
-                    "fr": "Forme Sacha "
+                    "ja": "サトシゲッコウガ",
+                    "en": "Ash-Greninja",
+                    "fr": "Sachanobi",
+                    "de": "Ash-Quajutsu",
+                    "es": "Greninja Ash",
+                    "it": "Greninja Forma Ash",
+                    "ko": "지우개굴닌자 ",
+                    "zh-Hant": "小智版甲賀忍蛙 ",
+                    "zh-Hans": "小智版甲贺忍蛙 "
                 }
             }
         ]
@@ -39015,7 +39115,15 @@
                 "id": 1,
                 "sex": "uk",
                 "name": {
-                    "fr": "Forme Couleur du Passé"
+                    "ja": "500ねんまえのいろ",
+                    "en": "Original Color",
+                    "fr": "Couleur du Passé",
+                    "de": "Originalfarbe",
+                    "es": "Color Vetusto",
+                    "it": "Colore Antico",
+                    "ko": "500년 전의 색 ",
+                    "zh-Hant": "500年前的顏色 ",
+                    "zh-Hans": "500年前的颜色 "
                 }
             }
         ],
@@ -41282,43 +41390,99 @@
             {
                 "id": 0,
                 "name": {
-                    "fr": "Fraise en Sucre"
+                    "ja": "いちごアメざいく",
+                    "en": "Strawberry Sweet",
+                    "fr": "Fraise en Sucre",
+                    "de": "Zucker-Erdbeere",
+                    "es": "Confite Fresa",
+                    "it": "Bonbonfragola",
+                    "ko": "딸기사탕공예",
+                    "zh-Hant": "草莓糖飾 ",
+                    "zh-Hans": "草莓糖饰 "
                 }
             },
             {
                 "id": 1,
                 "name": {
-                    "fr": "Baie en Sucre"
+                    "ja": "ベリーアメざいく",
+                    "en": "Berry Sweet",
+                    "fr": "Baie en Sucre",
+                    "de": "Zucker-Beere",
+                    "es": "Confite Fruto",
+                    "it": "Bonbonbosco",
+                    "ko": "베리사탕공예",
+                    "zh-Hant": "野莓糖飾 ",
+                    "zh-Hans": "野莓糖饰 "
                 }
             },
             {
                 "id": 2,
                 "name": {
-                    "fr": "Cœur en Sucre"
+                    "ja": "ハートアメざいく",
+                    "en": "Love Sweet",
+                    "fr": "Cœur en Sucre",
+                    "de": "Zucker-Herz",
+                    "es": "Confite Corazón",
+                    "it": "Bonboncuore",
+                    "ko": "하트사탕공예",
+                    "zh-Hant": "愛心糖飾 ",
+                    "zh-Hans": "爱心糖饰 "
                 }
             },
             {
                 "id": 3,
                 "name": {
-                    "fr": "Étoile en Sucre"
+                    "ja": "スターアメざいく",
+                    "en": "Star Sweet",
+                    "fr": "Étoile en Sucre",
+                    "de": "Zucker-Stern",
+                    "es": "Confite Estrella",
+                    "it": "Bonbonstella",
+                    "ko": "스타사탕공예",
+                    "zh-Hant": "星星糖飾 ",
+                    "zh-Hans": "星星糖饰 "
                 }
             },
             {
                 "id": 4,
                 "name": {
-                    "fr": "Trèfle en Sucre"
+                    "ja": "よつばアメざいく",
+                    "en": "Clover Sweet",
+                    "fr": "Trèfle en Sucre",
+                    "de": "Zucker-Kleeblatt",
+                    "es": "Confite Trébol",
+                    "it": "Bonbonfoglio",
+                    "ko": "네잎사탕공예",
+                    "zh-Hant": "幸運草糖飾 ",
+                    "zh-Hans": "幸运草糖饰 "
                 }
             },
             {
                 "id": 5,
                 "name": {
-                    "fr": "Fleur en Sucre"
+                    "ja": "おはなアメざいく",
+                    "en": "Flower Sweet",
+                    "fr": "Fleur en Sucre",
+                    "de": "Zucker-Blume",
+                    "es": "Confite Flor",
+                    "it": "Bonbonfiore",
+                    "ko": "꽃사탕공예",
+                    "zh-Hant": "花朵糖飾 ",
+                    "zh-Hans": "花朵糖饰 "
                 }
             },
             {
                 "id": 6,
                 "name": {
-                    "fr": "Ruban en Sucre"
+                    "ja": "リボンアメざいく",
+                    "en": "Ribbon Sweet",
+                    "fr": "Ruban en Sucre",
+                    "de": "Zucker-Schleife",
+                    "es": "Confite Lazo",
+                    "it": "Bonbonfiocco",
+                    "ko": "리본사탕공예",
+                    "zh-Hant": "蝴蝶結糖飾 ",
+                    "zh-Hans": "蝴蝶结糖饰 "
                 }
             }
         ],
@@ -42071,7 +42235,15 @@
                 "sex": "uk",
                 "event": true,
                 "name": {
-                    "fr": "Forme Papa"
+                    "ja": "とうちゃん",
+                    "en": "Dada",
+                    "fr": "Papa",
+                    "de": "Papa",
+                    "es": "Papá",
+                    "it": "Papa",
+                    "ko": "아빠 ",
+                    "zh-Hant": "阿爸 ",
+                    "zh-Hans": "阿爸 "
                 }
             }
         ]
@@ -45372,14 +45544,30 @@
                 "id": 0,
                 "sex": "uk",
                 "name": {
-                    "fr": "Forme Imitation"
+                    "ja": "マガイモノのすがた",
+                    "en": "Counterfeit Form",
+                    "fr": "Forme Imitation",
+                    "de": "Imitationsform",
+                    "es": "Forma Fraudulenta",
+                    "it": "Forma Taroccata",
+                    "ko": "가짜배기의 모습",
+                    "zh-Hant": "冒牌貨的樣子",
+                    "zh-Hans": "冒牌货的样子"
                 }
             },
             {
                 "id": 1,
                 "sex": "uk",
                 "name": {
-                    "fr": "Forme Onéreuse"
+                    "ja": "タカイモノのすがた",
+                    "en": "Artisan Form",
+                    "fr": "Forme Onéreuse",
+                    "de": "Kostbarkeitsform",
+                    "es": "Forma Opulenta",
+                    "it": "Forma Pregiata",
+                    "ko": "알짜배기의 모습",
+                    "zh-Hant": "高檔貨的樣子",
+                    "zh-Hans": "高档货的样子"
                 }
             }
         ],
@@ -45405,14 +45593,30 @@
                 "id": 0,
                 "sex": "uk",
                 "name": {
-                    "fr": "Forme Médiocre"
+                    "ja": "ボンサクのすがた",
+                    "en": "Unremarkable Form",
+                    "fr": "Forme Médiocre",
+                    "de": "Simple Form",
+                    "es": "Forma Mediocre",
+                    "it": "Forma Dozzinale",
+                    "ko": "범작의 모습",
+                    "zh-Hant": "凡作的樣子",
+                    "zh-Hans": "凡作的样子"
                 }
             },
             {
                 "id": 1,
                 "sex": "uk",
                 "name": {
-                    "fr": "Forme Exceptionnelle"
+                    "ja": "ケッサクのすがた",
+                    "en": "Masterpiece Form",
+                    "fr": "Forme Exceptionnelle",
+                    "de": "Edle Form",
+                    "es": "Forma Exquisita",
+                    "it": "Forma Eccezionale",
+                    "ko": "걸작의 모습",
+                    "zh-Hant": "傑作的樣子",
+                    "zh-Hans": "杰作的样子"
                 }
             }
         ],

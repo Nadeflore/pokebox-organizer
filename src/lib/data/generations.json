@@ -3,7 +3,8 @@
    "id": 1,
    "name": {
       "fr": "1ère Génération",
-      "en": "Generation I"
+      "en": "Generation I",
+      "ja": "第一世代"
    },
    "start": 1,
    "end": 151
@@ -12,7 +13,8 @@
    "id": 2,
    "name": {
       "fr": "2ème Génération",
-      "en": "Generation II"
+      "en": "Generation II",
+      "ja": "第二世代"
    },
    "start": 152,
    "end": 251
@@ -21,7 +23,8 @@
    "id": 3,
    "name": {
       "fr": "3ème Génération",
-      "en": "Generation III"
+      "en": "Generation III",
+      "ja": "第三世代"
    },
    "start": 252,
    "end": 386
@@ -30,7 +33,8 @@
    "id": 4,
    "name": {
       "fr": "4ème Génération",
-      "en": "Generation IV"
+      "en": "Generation IV",
+      "ja": "第四世代"
    },
    "start": 387,
    "end": 493
@@ -39,7 +43,8 @@
    "id": 5,
    "name": {
       "fr": "5ème Génération",
-      "en": "Generation V"
+      "en": "Generation V",
+      "ja": "第五世代"
    },
    "start": 494,
    "end": 649
@@ -48,7 +53,8 @@
    "id": 6,
    "name": {
       "fr": "6ème Génération",
-      "en": "Generation VI"
+      "en": "Generation VI",
+      "ja": "第六世代"
    },
    "start": 650,
    "end": 721
@@ -57,7 +63,8 @@
    "id": 7,
    "name": {
       "fr": "7ème Génération",
-      "en": "Generation VII"
+      "en": "Generation VII",
+      "ja": "第七世代"
    },
    "start": 722,
    "end": 809
@@ -66,7 +73,8 @@
    "id": 8,
    "name": {
       "fr": "8ème Génération (Epée Bouclier)",
-      "en": "Generation VIII (Sword Shield)"
+      "en": "Generation VIII (Sword Shield)",
+      "ja": "第八世代（ソード・シールド）"
    },
    "start": 810,
    "end": 898
@@ -75,7 +83,8 @@
    "id": 8.5,
    "name": {
       "fr": "8ème Génération (Légendes : Arceus)",
-      "en": "Generation VIII (Legends: Arceus)"
+      "en": "Generation VIII (Legends: Arceus)",
+      "ja": "第八世代（LEGENDS アルセウス）"
    },
    "start": 899,
    "end": 905
@@ -84,7 +93,8 @@
    "id": 9,
    "name": {
       "fr": "9ème Génération",
-      "en": "Generation IX"
+      "en": "Generation IX",
+      "ja": "第九世代"
    },
    "start": 906,
    "end": 1025

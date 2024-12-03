@@ -4,50 +4,51 @@
 	import Svelecte from 'svelecte';
 	import { Region } from './box-order-generator/box-order-generator';
 	import { pokemonsData } from './stores';
+	import { t, tl } from './i18n/i18n';
 
 	export let placeholder: string;
 
 	export let value: string[];
 
-	$: pokemonsOptions = $pokemonsData.map((p) => ({ value: `p-${p.id}`, text: p.name.fr }));
+	$: pokemonsOptions = $pokemonsData.map((p) => ({ value: `p-${p.id}`, text: $tl(p.name) }));
 
-	const generationsOptions = generations.map((g) => ({
+	$: generationsOptions = generations.map((g) => ({
 		value: `g-${g.id}`,
-		text: g.name.fr
+		text: $tl(g.name)
 	}));
 
-	const pokedexesOptions = pokedexes.map((dex) => ({
+	$: pokedexesOptions = pokedexes.map((dex) => ({
 		value: `d-${dex.id}`,
-		text: dex.name.fr
+		text: $tl(dex.name)
 	}));
-	pokedexes;
-	const regionalFormsOptions = Object.values(Region).map((r) => ({
+	
+	$: regionalFormsOptions = Object.values(Region).map((r) => ({
 		value: `r-${r}`,
-		text: `Forme de ${r}`
+		text: $t(`regionalForms.${r}`)
 	}));
 
 	$: matcherOptionsGroups = [
 		{
-			groupHeader: 'Générations',
+			groupHeader: $t('matcher.generation'),
 			items: generationsOptions
 		},
 		{
-			groupHeader: 'Pokedexes',
+			groupHeader: $t('pokedex.title'),
 			items: pokedexesOptions
 		},
 		{
-			groupHeader: 'Formes régionales',
+			groupHeader: $t('regionalForms.title'),
 			items: regionalFormsOptions
 		},
 		{
-			groupHeader: 'Specificité',
+			groupHeader: $t('matcher.characteristic'),
 			items: [{
 				value: "gigantamax",
-				text: "Possède une forme gigamax"
+				text: $t('matcher.gigantamax')
 			}]
 		},
 		{
-			groupHeader: 'Pokemons',
+			groupHeader: $t('matcher.pokemon'),
 			items: pokemonsOptions
 		}
 	];

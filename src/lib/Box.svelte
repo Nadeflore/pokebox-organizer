@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
+	import { tl } from './i18n/i18n';
 	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
 	import { checked } from './stores';
@@ -12,11 +13,6 @@
 
 	function isFemale(pokemon: Pokemon) {
 		return pokemon.sexedForms.map(sf => sf.sex).every(s => s == Sex.F);
-	}
-
-	function isMaleFemale(pokemon: Pokemon) {
-		const sexes = pokemon.sexedForms.map(sf => sf.sex)
-		return (sexes.some(s => s == Sex.F) && sexes.some(s => s == Sex.M)) || sexes.some(s => s == Sex.MF);
 	}
 
 	function onPokemonClicked(pokemon: Pokemon, index: number) {
@@ -53,7 +49,6 @@
 				class:last={pokemon.group == Group.LAST}
 				class:male={isMale(pokemon)}
 				class:female={isFemale(pokemon)}
-				class:male-female={isMaleFemale(pokemon)}
 			>
 				<div class="groupbar" style="--bar-color: rgb(145, 225, 203)"></div>
 				<div class="check"></div>
@@ -61,7 +56,7 @@
 				{#if pokemon.sexedForms.length > 1}
 					<div class="multiple-forms">{pokemon.sexedForms.length}</div>
 				{/if}
-				<PokemonPicture {pokemon} title={pokemon.pokemonData.name.fr || ""} />
+				<PokemonPicture {pokemon} title={$tl(pokemon.pokemonData.name)} />
 			</button>
 		{/each}
 		{#if infoPanelPokemon}

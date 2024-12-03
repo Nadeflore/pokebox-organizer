@@ -96,3 +96,6 @@ config.subscribe(c => {
         config.set(c);
     }
 })
+
+export const locale = writable(fromLocalStorage("locale","en") as string);
+toLocalStorage(locale, "locale")

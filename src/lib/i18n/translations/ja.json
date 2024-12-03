@@ -1,0 +1,67 @@
+{
+    "name": "日本語",
+    "texts" :{
+        "header": {
+            "settings": "設定",
+            "search": "検索",
+            "checkMode": ""
+        },
+        "matcher":
+        {
+            "generation": "世代",
+            "characteristic": "個性",
+            "gigantamax": "キョダイマックス",
+            "pokemon": "ポケモン"
+        },
+        "configEdit": {
+            "name": "名前",
+            "toInclude": "含むポケモン",
+            "include": "含む",
+            "pokemonsToInclude": "含むポケモン",
+            "exclude": "除外",
+            "pokemonsToExclude": "除外するポケモン",
+            "formsToSeparte": "わけるフォルム",
+            "box": "ボックス",
+            "newBoxAtGeneration": "世代にボックス",
+            "boxName": "ボックスの名前",
+            "pattern": "パターン"
+        },
+        "genderForms":
+        {
+            "title": "性別",
+            "ALL": "全部分ける",
+            "APPEARANCE": "違いがあるときにわける",
+            "SPECS": "能力が違うのわける",
+            "NONE": "わけない"
+        },
+        "formTypes": {
+            "title": "フォルムのタイプ",
+            "eventForms": "イベントのフォルム",
+            "subForms": "マホイップのアメざいくの種類",
+            "NORMAL": "フォルムチェンジできない",
+            "CHANGE": "フォルムチェンジできる(伝説意外)",
+            "CHANGE_LEG": "フォルムチェンジできる(伝説)"
+        },
+        "regionalForms":{
+            "title": "リージョンフォーム",
+            "ALOLA": "アローラのすがた",
+            "GALAR": "ガラルのすがた",
+            "HISUI": "ヒスイのすがた",
+            "PALDEA": "パルデアのすがた"
+        },
+        "forms": {
+            "form": "フォルム",
+            "normal": "通常フォルム",
+            "male": "オスのすがた",
+            "female": "メスのすがた"
+        },
+        "pokedex":{
+            "title": "図鑑",
+            "regional": "地方図鑑",
+            "national": "全国図鑑"
+        },
+        "tab": {
+            "closeConfirm": "「{{name}}」を閉じる?"
+        }
+    }
+}

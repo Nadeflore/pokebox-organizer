@@ -2,6 +2,7 @@
     import { onMount } from 'svelte';
 	import { type SexedForm, type Pokemon, Sex } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
+	import { t, tl } from './i18n/i18n';
 
     export let pokemon: Pokemon;
 
@@ -14,27 +15,27 @@
 	});
 
     function getFormName(sexedForm: SexedForm) {
-        let name;
+        let name = "";
         // First generate the base name depending on the region and specified form name
 
         if (sexedForm.form.region) {
-            name = `Forme de ${sexedForm.form.region.toLocaleLowerCase()}`;
+            name = $t(`regionalForms.${sexedForm.form.region}`);
             if (sexedForm.form.name) {
-                name += " " + sexedForm.form.name.fr || sexedForm.form.name.en
+                name += " " + $tl(sexedForm.form.name)
             }
         } else if (sexedForm.form.name) {
-            name = sexedForm.form.name.fr || sexedForm.form.name.en || "";
-        } else {
-            name = "Forme normale"
+            name = $tl(sexedForm.form.name);
+        } else if(sexedForm.form.sex != "fd"){
+            name = $t('forms.normal')
         }
 
         if (sexedForm.form.sex == "fd") {
             switch(sexedForm.sex) {
                 case Sex.M:
-                    name += " mâle";
+                    name += " " + $t('forms.male');
                     break;
                 case Sex.F:
-                    name += " femelle"
+                    name += " " + $t('forms.female');
                     break;
                 default:
                     throw new Error(`Unexpected sex for double form : ${sexedForm.sex}`)
@@ -42,10 +43,10 @@
         }
 
         if (sexedForm.subFormId !== undefined && pokemon.pokemonData.subForms) {
-            name += " " + pokemon.pokemonData.subForms[sexedForm.subFormId].name?.fr
+            name += " " + $tl(pokemon.pokemonData.subForms[sexedForm.subFormId].name)
         }
 
-        return name;
+        return name.trim();
     }
 </script>
 
@@ -53,15 +54,15 @@
     <div class="header">
         {#if pokemon.dexNumber}
             <div class="dex-number regional">
-                <div class="title">Regional</div>
+                <div class="title">{$t('pokedex.regional')}</div>
                 N°{pokemon.dexNumber}
             </div>
         {/if}
         <div class="dex-number national">
-            <div class="title">National</div>
+            <div class="title">{$t('pokedex.national')}</div>
             N°{pokemon.pokemonData.id}
         </div>
-        <div class="pokemon-name">{pokemon.pokemonData.name.fr}</div>
+        <div class="pokemon-name">{$tl(pokemon.pokemonData.name)}</div>
     </div>
     {#each pokemon.sexedForms as sexedForm, i}
         <div class="form">

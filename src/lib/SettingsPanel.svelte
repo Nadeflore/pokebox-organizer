@@ -1,11 +1,11 @@
 <script lang="ts">
-	import type { PokemonFilterConfig } from './box-order-generator/box-order-generator';
 	import ConfigEdit from './ConfigEdit.svelte';
+	import { t } from './i18n/i18n';
 </script>
 
 <div class="settings-panel">
 	<div class="header">
-		<h2>Settings</h2>
+		<h2>{$t('header.settings')}</h2>
 	</div>
 	<div class="content">
 		<ConfigEdit />

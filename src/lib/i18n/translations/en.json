@@ -1,0 +1,67 @@
+{
+    "name": "English",
+    "texts" :{
+        "header": {
+            "settings": "Config",
+            "search": "Search",
+            "checkMode": "Check Mode"
+        },
+        "matcher":
+        {
+            "generation": "Generation",
+            "characteristic": "Characteristic",
+            "gigantamax": "Pokémon with a Gigantamax form",
+            "pokemon": "Pokémon"
+        },
+        "configEdit": {
+            "name": "Name",
+            "toInclude": "Pokémons to include",
+            "include": "Include",
+            "pokemonsToInclude": "Pokémons to include",
+            "exclude": "Exclude",
+            "pokemonsToExclude": "Pokémons to exclude",
+            "formsToSeparte": "Forms to include in a separate slot",
+            "box": "Box options",
+            "newBoxAtGeneration": "New box at each generation",
+            "boxName": "Box name",
+            "pattern": "Pattern"
+        },
+        "genderForms":
+        {
+            "title": "Gender forms",
+            "ALL": "Separate every gender",
+            "APPEARANCE": "Only visible gender differences",
+            "SPECS": "Only when genders have different stats",
+            "NONE": "Never separate gender"
+        },
+        "formTypes": {
+            "title": "Form types",
+            "eventForms": "Event forms",
+            "subForms": "Alcremy sub forms",
+            "NORMAL": "Unchangeable form",
+            "CHANGE": "Changeable form (Except legendary)",
+            "CHANGE_LEG": "Changeable form (legendary)"
+        },
+        "regionalForms":{
+            "title": "Regional Forms",
+            "ALOLA": "Alolan form",
+            "GALAR": "Galarian form",
+            "HISUI": "Hisuian form",
+            "PALDEA": "Paldean form"
+        },
+        "forms": {
+            "form": "form",
+            "normal": "Normal form",
+            "male": "Male form",
+            "female": "Female form"
+        },
+        "pokedex":{
+            "title": "Pokédex",
+            "regional": "Regional",
+            "national": "National"
+        },
+        "tab": {
+            "closeConfirm": "Remove {{name}}?"
+        }
+    }
+}

@@ -3,210 +3,240 @@
    "id": "national",
    "name": {
       "fr": "Pokédex National",
-      "en": "National Pokédex "
+      "en": "National Pokédex",
+      "ja": "全国図鑑"
    }
 },
  {
    "id": "rgby",
    "name": {
       "fr": "Pokédex de Kanto (RBJ)",
-      "en": "Kanto Pokédex (RBY)"
+      "en": "Kanto Pokédex (RBY)",
+      "ja": "カントー図鑑（赤・緑・青・ピカチュウ）"
    }
 },
  {
    "id": "gsc",
    "name": {
       "fr": "Pokédex de Johto (OAC)",
-      "en": "Johto Pokédex (GSC)"
+      "en": "Johto Pokédex (GSC)",
+      "ja": "ジョウト図鑑（金・銀・クリスタル）"
    }
 },
  {
    "id": "rse",
    "name": {
       "fr": "Pokédex de Hoenn (RSE)",
-      "en": "Hoenn Pokédex (RSE)"
+      "en": "Hoenn Pokédex (RSE)",
+      "ja": "ホウエン図鑑（ルビー・サファイア・エメラルド）"
    }
 },
  {
    "id": "dp",
    "name": {
       "fr": "Pokédex de Sinnoh (DP)",
-      "en": "Sinnoh Pokédex (DP)"
+      "en": "Sinnoh Pokédex (DP)",
+      "ja": "シンオウ図鑑（ダイヤモンド・パール）"
    }
 },
  {
    "id": "pt",
    "name": {
       "fr": "Pokédex de Sinnoh (Platine)",
-      "en": "Sinnoh Pokédex (Platinum)"
+      "en": "Sinnoh Pokédex (Platinum)",
+      "ja": "シンオウ図鑑（プラチナ）"
    }
 },
  {
    "id": "hgss",
    "name": {
       "fr": "Pokédex de Johto (HGSS)",
-      "en": "Johto Pokédex (HGSS)"
+      "en": "Johto Pokédex (HGSS)",
+      "ja": "ジョウト図鑑（ハートゴールド・ソウルシルバー）"
    }
 },
  {
    "id": "bw",
    "name": {
       "fr": "Pokédex d'Unys (NB)",
-      "en": "Unova Pokédex (BW)"
+      "en": "Unova Pokédex (BW)",
+      "ja": "イッシュ図鑑（ブラック・ホワイト）"
    }
 },
  {
    "id": "b2w2",
    "name": {
       "fr": "Pokédex d'Unys (N2B2)",
-      "en": "Unova Pokédex (B2W2)"
+      "en": "Unova Pokédex (B2W2)",
+      "ja": "イッシュ図鑑（ブラック２・ホワイト２）"
    }
 },
  {
    "id": "xy_central",
    "name": {
       "fr": "Pokédex de Kalos : Centre",
-      "en": "Central Kalos Pokédex"
+      "en": "Central Kalos Pokédex",
+      "ja": "セントラルカロス図鑑"
    }
 },
  {
    "id": "xy_coastal",
    "name": {
       "fr": "Pokédex de Kalos : Côtes",
-      "en": "Coastal Kalos Pokédex"
+      "en": "Coastal Kalos Pokédex",
+      "ja": "コーストカロス図鑑"
    }
 },
  {
    "id": "xy_mountain",
    "name": {
       "fr": "Pokédex de Kalos : Monts",
-      "en": "Mountain Kalos Pokédex"
+      "en": "Mountain Kalos Pokédex",
+      "ja": "マウンテンカロス図鑑"
    }
 },
  {
    "id": "oras",
    "name": {
       "fr": "Pokédex de Hoenn (ROSA)",
-      "en": "Hoenn Pokédex (ORAS)"
+      "en": "Hoenn Pokédex (ORAS)",
+      "ja": "ホウエン図鑑（オメガルビー・アルファサファイア）"
    }
 },
  {
    "id": "sm",
    "name": {
       "fr": "Pokédex d'Alola (SL)",
-      "en": "Alola Pokédex (SM)"
+      "en": "Alola Pokédex (SM)",
+      "ja": "アローラ図鑑（サン・ムーン）"
    }
 },
  {
    "id": "sm_melemele",
    "name": {
       "fr": "Pokédex d'Alola : Mele-Mele (SL)",
-      "en": "Alola Pokédex : Melemele (SM)"
+      "en": "Alola Pokédex : Melemele (SM)",
+      "ja": "メレメレ図鑑（サン・ムーン）"
    }
 },
  {
    "id": "sm_akala",
    "name": {
       "fr": "Pokédex d'Alola : Akala (SL)",
-      "en": "Alola Pokédex : Akala (SM)"
+      "en": "Alola Pokédex : Akala (SM)",
+      "ja": "アーカラ図鑑（サン・ムーン）"
    }
 },
  {
    "id": "sm_ulaula",
    "name": {
       "fr": "Pokédex d'Alola : Ula-Ula (SL)",
-      "en": "Alola Pokédex : Ula’ula (SM)"
+      "en": "Alola Pokédex : Ula’ula (SM)",
+      "ja": "ウラウラ図鑑（サン・ムーン）"
    }
 },
  {
    "id": "sm_poni",
    "name": {
       "fr": "Pokédex d'Alola : Poni (SL)",
-      "en": "Alola Pokédex : Poni (SM)"
+      "en": "Alola Pokédex : Poni (SM)",
+      "ja": "ポニ図鑑（サン・ムーン）"
    }
 },
  {
    "id": "usum",
    "name": {
       "fr": "Pokédex d'Alola (USUL)",
-      "en": "Alola Pokédex (USUM)"
+      "en": "Alola Pokédex (USUM)",
+      "ja": "アローラ図鑑（ウルトラサン・ウルトラムーン）"
    }
 },
  {
    "id": "usum_melemele",
    "name": {
       "fr": "Pokédex d'Alola : Mele-Mele (USUL)",
-      "en": "Alola Pokédex : Melemele (USUM)"
+      "en": "Alola Pokédex : Melemele (USUM)",
+      "ja": "メレメレ図鑑（ウルトラサン・ウルトラムーン）"
    }
 },
  {
    "id": "usum_akala",
    "name": {
       "fr": "Pokédex d'Alola : Akala (USUL)",
-      "en": "Alola Pokédex : Akala (USUM)"
+      "en": "Alola Pokédex : Akala (USUM)",
+      "ja": "アーカラ図鑑（ウルトラサン・ウルトラムーン）"
    }
 },
  {
    "id": "usum_ulaula",
    "name": {
       "fr": "Pokédex d'Alola : Ula-Ula (USUL)",
-      "en": "Alola Pokédex : Ula’ula (USUM)"
+      "en": "Alola Pokédex : Ula’ula (USUM)",
+      "ja": "ウラウラ図鑑（ウルトラサン・ウルトラムーン）"
    }
 },
  {
    "id": "usum_poni",
    "name": {
       "fr": "Pokédex d'Alola : Poni (USUL)",
-      "en": "Alola Pokédex : Poni (USUM)"
+      "en": "Alola Pokédex : Poni (USUM)",
+      "ja": "ポニ図鑑（ウルトラサン・ウルトラムーン）"
    }
 },
  {
    "id": "swsh",
    "name": {
       "fr": "Pokédex de Galar",
-      "en": "Galar Pokédex"
+      "en": "Galar Pokédex",
+      "ja": "ガラル図鑑"
    }
 },
  {
    "id": "swsh_armor",
    "name": {
       "fr": "Pokédex d'Isolarmure",
-      "en": "Isle of Armor Pokédex"
+      "en": "Isle of Armor Pokédex",
+      "ja": "ヨロイじま図鑑"
    }
 },
  {
    "id": "swsh_tundra",
    "name": {
       "fr": "Pokédex de Couronneige",
-      "en": "Crown Tundra Pokédex"
+      "en": "Crown Tundra Pokédex",
+      "ja": "カンムリせつげん図鑑"
    }
 },
  {
    "id": "la",
    "name": {
       "fr": "Pokédex de Hisui",
-      "en": "Hisui Pokédex"
+      "en": "Hisui Pokédex",
+      "ja": "ヒスイ図鑑"
    }
 },
  {
    "id": "sv",
    "name": {
       "fr": "Pokédex de Paldea",
-      "en": "Paldea Pokédex"
+      "en": "Paldea Pokédex",
+      "ja": "パルデア図鑑"
    }
 },
  {
    "id": "sv_kitakami",
    "name": {
       "fr": "Pokédex de Septentria",
-      "en": "Kitakami Pokédex"
+      "en": "Kitakami Pokédex",
+      "ja": "キタカミ図鑑"
    }
 },
  {
    "id": "sv_blueberry",
    "name": {
       "fr": "Pokédex Myrtille",
-      "en": "Blueberry Pokédex"
+      "en": "Blueberry Pokédex",
+      "ja": "ブルーベリー図鑑"
    }
 }
 ]

@@ -1,53 +1,53 @@
 <script lang="ts">
-	import { FormType, MaleFemaleFormsType, Region } from './box-order-generator/box-order-generator';
+	import { FormType, GenderFormsType, Region } from './box-order-generator/box-order-generator';
 	import generations from '$lib/data/generations.json';
 	import pokedexes from '$lib/data/pokedexes.json';
 	import PokemonsMatcherField from './PokemonsMatcherField.svelte';
 	import { config } from './stores';
 	import Svelecte from 'svelecte';
-	import { each } from 'svelte/internal';
+	import { t, tl } from './i18n/i18n';
 
 	function toogleNewBoxGeneration(e: Event) {
 		const checkbox = e.target as HTMLInputElement;
 		$config.newBoxAtGenerations = checkbox.checked ? generations.map((g) => g.id) : [];
 	}
 
-	const pokedexesOptions = pokedexes.map((dex) => ({
+	$: pokedexesOptions = pokedexes.map((dex) => ({
 		id: dex.id,
-		name: dex.name.fr
+		name: $tl(dex.name)
 	}));
 
 </script>
 
 <div class="filter-form">
 	<label>
-		name
+		{$t('configEdit.name')}
 		<input bind:value={$config.name} />
 	</label>
 	<section>
-		<h3>Pokemons to include</h3>
+		<h3>{$t('configEdit.toInclude')}</h3>
 		<div>
-			Pokedex
+			{$t('pokedex.title')}
 			<Svelecte options={pokedexesOptions} bind:value={$config.pokedex} searchable={false} />
 		</div>
 		<div>
-			Include
-			<PokemonsMatcherField bind:value={$config.include} placeholder="Pokemons to include" />
+			{$t('configEdit.include')}
+			<PokemonsMatcherField bind:value={$config.include} placeholder={$t('configEdit.pokemonsToInclude')} />
 		</div>
 		<div>
-			Exclude
-			<PokemonsMatcherField bind:value={$config.exclude} placeholder="Pokemons to exclude" />
+			{$t('configEdit.exclude')}
+			<PokemonsMatcherField bind:value={$config.exclude} placeholder={$t('configEdit.pokemonsToExclude')} />
 		</div>
 	</section>
 	<section>
-		<h3>Forms to be in separate slot</h3>
-		<h4>Male and Female forms</h4>
+		<h3>{$t('configEdit.formsToSeparte')}</h3>
+		<h4>{$t('genderForms.title')}</h4>
 		<ul>
-			{#each Object.values(MaleFemaleFormsType) as type}
+			{#each Object.values(GenderFormsType) as type}
 				<li>
 					<label>
-						<input type="radio" bind:group={$config.forms.maleFemaleForms} name="mftypes" value={type} />
-						{type}
+						<input type="radio" bind:group={$config.forms.genderForms} name="mftypes" value={type} />
+						{$t(`genderForms.${type}`)}
 					</label>
 				</li>
 			{/each}
@@ -55,32 +55,32 @@
 		<div>
 		</div>
 		<div>
-			<h4>Form Types</h4>
+			<h4>{$t('formTypes.title')}</h4>
 			<ul>
 				{#each [FormType.NORMAL, FormType.CHANGE, FormType.CHANGE_LEG] as type}
 					<li>
 						<label>
 							<input type="checkbox" bind:group={$config.forms.types} name="types" value={type} />
-							{type}
+							{$t(`formTypes.${type}`)}
 						</label>
 					</li>
 				{/each}
 				<li>
 					<label>	
 						<input type="checkbox" bind:checked={$config.forms.event} />
-						Event forms
+						{$t('formTypes.eventForms')}
 					</label>
 				</li>
 				<li>
 					<label>	
 						<input type="checkbox" bind:checked={$config.forms.subForm} />
-						Charmilly sub forms
+						{$t('formTypes.subForms')}
 					</label>
 				</li>
 			</ul>
 		</div>
 		<div>
-			<h4>Regional Forms</h4>
+			<h4>{$t('regionalForms.title')}</h4>
 			<ul>
 				{#each Object.values(Region) as region}
 					<li>
@@ -91,7 +91,7 @@
 								name="region"
 								value={region}
 							/>
-							{region}
+							{$t(`regionalForms.${region}`)}
 						</label>
 					</li>
 				{/each}
@@ -100,7 +100,7 @@
 	</section>
 	{#if $config.pokedex == "national"}
 		<section>
-			<h3>Grouping options</h3>
+			<h3>{$t('configEdit.box')}</h3>
 			<div>
 				<label>
 					<input
@@ -109,7 +109,7 @@
 						name="newBoxGenerations"
 						checked={$config.newBoxAtGenerations.length == generations.length}
 					/>
-					New box at generation
+					{$t('configEdit.newBoxAtGeneration')}
 				</label>
 				<ul>
 					{#each generations as generation}
@@ -121,7 +121,7 @@
 									name="newBoxGenerations"
 									value={generation.id}
 								/>
-								{generation.name.fr}
+								{$tl(generation.name)}
 							</label>
 						</li>
 					{/each}
@@ -130,9 +130,9 @@
 		</section>
 	{/if}
 	<section>
-		<h3>Box name</h3>
+		<h3>{$t('configEdit.boxName')}</h3>
 		<label>
-			Pattern
+			{$t('configEdit.pattern')}
 			<input bind:value={$config.boxNamePattern} />
 		</label>
 	</section>

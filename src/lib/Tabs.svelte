@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { isEveryPokemonChecked } from './box-order-generator/box-order-generator';
+	import { t } from './i18n/i18n';
 	import { state, pokemonsData, type Tab } from './stores';
 	
 	function isTabComplete(tab: Tab) {
@@ -18,7 +19,7 @@
 			{#if i != 0 || $state.tabs.length > 1}
 				<button
 					class="close"
-					on:click={() => (confirm(`Remove ${tab.config.name} ?`) ? state.removeTab(i) : null)}
+					on:click={() => (confirm($t('tab.closeConfirm', {name: tab.config.name})) ? state.removeTab(i) : null)}
 					>⨉</button
 				>
 			{/if}
