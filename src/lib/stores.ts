@@ -5,6 +5,7 @@ import { browser } from '$app/environment';
 export interface Tab {
     config: PokemonFilterConfig;
     checked: string[];
+    notes: Record<string, string>;
 }
 
 function fromLocalStorage(storageKey: string, fallbackValue: any, serverFallbackValue?: any) {
@@ -37,8 +38,8 @@ function toLocalStorage(store, storageKey: string) {
 export const pokemonsData = writable([] as PokemonData[]);
 
 // compatibility with previous format stored in local storage under keys "config" and "checked"
-const stateDefaultValueWithRetroCompat = { activeTabId: 0, tabs: [{ name: "Config 1", config: fromLocalStorage("config", defaultConfig), checked: fromLocalStorage("checked", []) }] }
-const tabDefaultValue = { config: defaultConfig, checked: [] } as Tab;
+const stateDefaultValueWithRetroCompat = { activeTabId: 0, tabs: [{ name: "Config 1", config: fromLocalStorage("config", defaultConfig), checked: fromLocalStorage("checked", []), notes: {} }] }
+const tabDefaultValue = { config: defaultConfig, checked: [], notes: {} } as Tab;
 
 function createState() {
     const { subscribe, set, update } = writable(fromLocalStorage("state", stateDefaultValueWithRetroCompat) as { activeTabId: number, tabs: Tab[] });
@@ -86,9 +87,26 @@ function createChecked() {
     }
 };
 
+function createNotes() {
+    const { subscribe } = derived(
+        state,
+        $tabs => $tabs.tabs[$tabs.activeTabId].notes || {}
+    );
+
+    return {
+        subscribe,
+        set: (value: Record<string,string>) => state.update(tabs => {
+            tabs.tabs[tabs.activeTabId].notes = value;
+            return tabs;
+        })
+    }
+};
+
 export const config = createConfig();
 
 export const checked = createChecked();
+
+export const notes = createNotes();
 
 config.subscribe(c => {
     if (c.boxNamePattern && (c.boxNamePattern.includes("{gen}") || c.boxNamePattern.includes("{genboxnb}")) && c.pokedex != "national") {

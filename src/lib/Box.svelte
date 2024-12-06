@@ -60,8 +60,11 @@
 			</button>
 		{/each}
 		{#if infoPanelPokemon}
-		<div class="details-panel" style="top: {(Math.floor(infoPanelPokemonIndex / 6) + 1) * 20}%">
-		<InfoPanel pokemon={infoPanelPokemon}/></div>
+			{#key getPokemonSignature(infoPanelPokemon)}
+			<div class="details-panel" style="top: {(Math.floor(infoPanelPokemonIndex / 6) + 1) * 20}%">
+				<InfoPanel pokemon={infoPanelPokemon}/>
+			</div>
+			{/key}
 		{/if}
 	</div>
 </div>

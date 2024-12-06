@@ -1,18 +1,27 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-	import { type SexedForm, type Pokemon, Sex } from "./box-order-generator/box-order-generator";
+	import { type SexedForm, type Pokemon, Sex, getPokemonSignature } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
 	import { t, tl } from './i18n/i18n';
+	import { notes } from './stores';
 
     export let pokemon: Pokemon;
 
     let infoPanel: HTMLElement | undefined;
+    let noteInput: HTMLElement;
 
 	onMount(() => {
         if (infoPanel) {
 		    infoPanel.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
         }
+        onNoteInput();
 	});
+
+    function onNoteInput() {
+        // Resize to fit the text
+        noteInput.style.height = '1px';
+        noteInput.style.height = `${noteInput.scrollHeight}px`;
+    }
 
     function getFormName(sexedForm: SexedForm) {
         let name = "";
@@ -63,6 +72,10 @@
             N°{pokemon.pokemonData.id}
         </div>
         <div class="pokemon-name">{$tl(pokemon.pokemonData.name)}</div>
+    </div>
+    <div class="note">
+        <div class="title">Note</div>
+        <textarea bind:value={$notes[getPokemonSignature(pokemon)]} on:input={onNoteInput} bind:this={noteInput} rows="1" ></textarea>
     </div>
     {#each pokemon.sexedForms as sexedForm, i}
         <div class="form">
@@ -118,6 +131,22 @@
 
     .picture {
         width: 7em;
+    }
+
+
+    .note {
+            display: flex;
+            margin: 0.5em;
+    }
+
+    .note .title {
+        margin-top: 0.25em;
+        margin-right: 0.5em;
+    }
+
+    .note textarea {
+        flex: 1;
+        resize: none;
     }
 
 
