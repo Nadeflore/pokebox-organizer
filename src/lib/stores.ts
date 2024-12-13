@@ -108,10 +108,15 @@ export const checked = createChecked();
 
 export const notes = createNotes();
 
+const DEFAULT_REGIONAL_BOX_NAME = "Box {boxnb}"
+
 config.subscribe(c => {
     if (c.boxNamePattern && (c.boxNamePattern.includes("{gen}") || c.boxNamePattern.includes("{genboxnb}")) && c.pokedex != "national") {
-        c.boxNamePattern = "Box {boxnb}"
+        c.boxNamePattern = DEFAULT_REGIONAL_BOX_NAME;
         config.set(c);
+    }
+    if (c.pokedex == "national" && c.boxNamePattern == DEFAULT_REGIONAL_BOX_NAME) {
+        c.boxNamePattern = defaultConfig.boxNamePattern;
     }
 })
 

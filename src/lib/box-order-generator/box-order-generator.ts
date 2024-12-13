@@ -286,7 +286,7 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
     }
 
     const newBoxAtGenerations = filter.pokedex == "national" ? filter.newBoxAtGenerations : [];
-    return addBoxNames(splitByGeneration(pokemons, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30)), filter.boxNamePattern);
+    return addBoxNames(splitByGeneration(pokemons, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30)), filter.boxNamePattern, filter.pokedex == "national");
 }
 
 function getGeneration(pokemon: Pokemon) {
@@ -298,7 +298,7 @@ function getGeneration(pokemon: Pokemon) {
     return generation;
 }
 
-function addBoxNames(boxes: Pokemon[][], namePattern: string) {
+function addBoxNames(boxes: Pokemon[][], namePattern: string, nationalDex: boolean) {
     // Fallback to default pattern
     if (!namePattern) {
         namePattern = defaultConfig.boxNamePattern;
@@ -318,7 +318,11 @@ function addBoxNames(boxes: Pokemon[][], namePattern: string) {
                 currentGen = g;
                 currentGenBox = 1;
             }
-            return namePattern.replaceAll("{gen}", g.id.toString()).replaceAll("{genboxnb}", currentGenBox.toString()).replaceAll("{boxnb}", boxNb.toString());
+            let boxName = namePattern.replaceAll("{boxnb}", boxNb.toString());
+            if (nationalDex) {
+                boxName = boxName.replaceAll("{gen}", g.id.toString()).replaceAll("{genboxnb}", currentGenBox.toString())
+            }
+            return boxName;
         }))].join(", ");
 
         return {
