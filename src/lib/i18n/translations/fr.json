@@ -40,7 +40,10 @@
             "subForms": "Sous formes de Charmilly",
             "NORMAL": "Formes ne pouvant changer",
             "CHANGE": "Formes pouvant changer (Sauf légendaires)",
-            "CHANGE_LEG": "Formes pouvant changer (Légendaires)"
+            "CHANGE_LEG": "Formes pouvant changer (Légendaires)",
+            "regionalInSeparateBox": "Formes régionales dans boite séparée",
+            "genderFormsInSeparateBox": "Formes femelle dans boite séparée",
+            "otherFormsInSeparateBox": "Autres formes dans boite séparée"
         },
         "regionalForms":{
             "title": "Formes régionales",
@@ -53,7 +56,8 @@
             "form": "Forme",
             "normal": "Forme Normale",
             "male": "Forme Mâle",
-            "female": "Forme Femelle"
+            "female": "Forme Femelle",
+            "other": "Autre Forme"
         },
         "pokedex":{
             "title": "Pokédex",

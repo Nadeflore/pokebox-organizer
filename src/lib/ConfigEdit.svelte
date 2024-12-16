@@ -127,6 +127,28 @@
 					{/each}
 				</ul>
 			</div>
+			<div>
+				<ul>
+					<li>
+						<label>	
+							<input type="checkbox" bind:checked={$config.forms.genderFormsInSeparateBox} />
+							{$t('formTypes.genderFormsInSeparateBox')}
+						</label>
+					</li>
+					<li>
+						<label>	
+							<input type="checkbox" bind:checked={$config.forms.regionalFormsInSeparateBox} />
+							{$t('formTypes.regionalInSeparateBox')}
+						</label>
+					</li>
+					<li>
+						<label>	
+							<input type="checkbox" bind:checked={$config.forms.otherFormsInSeparateBox} />
+							{$t('formTypes.otherFormsInSeparateBox')}
+						</label>
+					</li>
+				</ul>
+			</div>
 		</section>
 	{/if}
 	<section>

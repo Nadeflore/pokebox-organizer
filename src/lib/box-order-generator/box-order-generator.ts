@@ -30,6 +30,9 @@ interface PokemonFormsFilter {
     event: boolean;
     subForm: boolean;
     regions: Region[];
+    genderFormsInSeparateBox: boolean;
+    regionalFormsInSeparateBox: boolean;
+    otherFormsInSeparateBox: boolean;
 }
 
 export enum FormType {
@@ -235,58 +238,109 @@ function splitByGeneration(pokemons: Pokemon[], genIds: number[]) {
     }).filter(e => e.length);
 }
 
+function partition(array: Pokemon[], isToBeSeparated: (pokemon: Pokemon, previousPokemon: Pokemon | null) => boolean) {
+    return array.reduce(([notSeparated, separated], elem, i) => {
+        const previousPokemon = i == 0 ? null : array[i-1];
+        // Only separate from the second form of the same pokemon
+        return (previousPokemon?.pokemonData.id == elem.pokemonData.id && isToBeSeparated(elem, previousPokemon)) ? [notSeparated, [...separated, elem]] : [[...notSeparated, elem], separated];
+    }, [[] as Pokemon[], [] as Pokemon[]]);
+  }
+
+function separateFormsToBeInSeparateBox(pokemons: Pokemon[], formsConfig: PokemonFormsFilter) {
+    const result = [
+        {
+            pokemons
+        } as {namePrefix?: string, pokemons: Pokemon[]}
+    ]
+
+    if (formsConfig.genderFormsInSeparateBox) {
+        const [other, regionForms] = partition(result[0].pokemons, (pokemon, previousPokemon) => pokemon.sexedForms.length == 1 && pokemon.sexedForms[0].sex == Sex.F &&
+            previousPokemon?.sexedForms.length == 1 && previousPokemon.sexedForms[0].sex == Sex.M)
+
+        result[0].pokemons = other;
+        result.push({namePrefix: "forms.female", pokemons: regionForms})
+    }
+
+    if (formsConfig.regionalFormsInSeparateBox) {
+        for (const region of Object.values(Region)) {
+        const [other, regionForms] = partition(result[0].pokemons, pokemon => pokemon.sexedForms.length == 1 && pokemon.sexedForms[0].form.region == region)
+
+        result[0].pokemons = other;
+        result.push({namePrefix: `regionalForms.${region}`, pokemons: regionForms})
+        }
+    }
+
+    if (formsConfig.otherFormsInSeparateBox) {
+        const [other, regionForms] = partition(result[0].pokemons, pokemon => pokemon.sexedForms.length == 1 && !pokemon.sexedForms[0].form.region && (!!pokemon.pokemonData.formType || pokemon.sexedForms[0].form.event))
+
+        result[0].pokemons = other;
+        result.push({namePrefix: "forms.other", pokemons: regionForms})
+    }
+
+    return result;
+}
+
 export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig, search: string[]) {
     if (!filter) {
         return [];
     }
 
-    let pokemons = getPokemonsWithFormsFiltered(pokemonsData, filter);
+    const pokemons = getPokemonsWithFormsFiltered(pokemonsData, filter);
 
-    if (filter.pokedex == "national") {
-        pokemons.sort((a, b) => ((a.pokemonData.id || 0) - (b.pokemonData.id || 0)))
-    } else {
-        // Add regional dex id
-        pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
+    return separateFormsToBeInSeparateBox(pokemons, filter.forms).flatMap(group => {
 
-        // Sort
-        pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
-    }
+        let pokemons = group.pokemons;
 
-    // Check which pokemon matches search 
-    if (search.length) {
-        pokemons = pokemons.map(p => search.some(m => p.sexedForms.some(f => isPokemonFormMatch(p.pokemonData, f.form, m))) ? { ...p, matchSearch: true } : p)
-    }
+        const boxNamePattern = group.namePrefix ? "- {boxnb}" : filter.boxNamePattern;
 
-    // Add group info of the same pokemon
-    let previousPokemon: Pokemon | undefined;
-    for (const pokemon of pokemons) {
-        if (!previousPokemon) {
-            pokemon.group = Group.FIRST;
+        if (filter.pokedex == "national") {
+            pokemons.sort((a, b) => ((a.pokemonData.id) - (b.pokemonData.id)))
         } else {
-            if (pokemon.pokemonData.id != previousPokemon.pokemonData.id) {
+            // Add regional dex id
+            pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
+
+            // Sort
+            pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
+        }
+
+        // Check which pokemon matches search 
+        if (search.length) {
+            pokemons = pokemons.map(p => search.some(m => p.sexedForms.some(f => isPokemonFormMatch(p.pokemonData, f.form, m))) ? { ...p, matchSearch: true } : p)
+        }
+
+        // Add group info of the same pokemon
+        let previousPokemon: Pokemon | undefined;
+        for (const pokemon of pokemons) {
+            if (!previousPokemon) {
                 pokemon.group = Group.FIRST;
-                if (previousPokemon.group == Group.MIDDLE) {
-                    previousPokemon.group = Group.LAST;
-                } else if (previousPokemon.group == Group.FIRST) {
-                    previousPokemon.group = undefined;
-                }
             } else {
-                pokemon.group = Group.MIDDLE;
+                if (pokemon.pokemonData.id != previousPokemon.pokemonData.id) {
+                    pokemon.group = Group.FIRST;
+                    if (previousPokemon.group == Group.MIDDLE) {
+                        previousPokemon.group = Group.LAST;
+                    } else if (previousPokemon.group == Group.FIRST) {
+                        previousPokemon.group = undefined;
+                    }
+                } else {
+                    pokemon.group = Group.MIDDLE;
+                }
+            }
+
+            previousPokemon = pokemon;
+        }
+        if (previousPokemon) {
+            if (previousPokemon.group == Group.MIDDLE) {
+                previousPokemon.group = Group.LAST;
+            } else if (previousPokemon.group == Group.FIRST) {
+                previousPokemon.group = undefined;
             }
         }
 
-        previousPokemon = pokemon;
-    }
-    if (previousPokemon) {
-        if (previousPokemon.group == Group.MIDDLE) {
-            previousPokemon.group = Group.LAST;
-        } else if (previousPokemon.group == Group.FIRST) {
-            previousPokemon.group = undefined;
-        }
-    }
+        const nationalDexAndRegular = filter.pokedex == "national" && !group.namePrefix;
+        const pokemonsByGeneration = nationalDexAndRegular ? splitByGeneration(pokemons, filter.newBoxAtGenerations) : [pokemons];
+        return addBoxNames(pokemonsByGeneration.flatMap((pokemons) => splitArray(pokemons, 30)), group.namePrefix, boxNamePattern, nationalDexAndRegular);
 
-    const newBoxAtGenerations = filter.pokedex == "national" ? filter.newBoxAtGenerations : [];
-    return addBoxNames(splitByGeneration(pokemons, newBoxAtGenerations).flatMap((pokemons) => splitArray(pokemons, 30)), filter.boxNamePattern, filter.pokedex == "national");
+    })
 }
 
 function getGeneration(pokemon: Pokemon) {
@@ -298,7 +352,7 @@ function getGeneration(pokemon: Pokemon) {
     return generation;
 }
 
-function addBoxNames(boxes: Pokemon[][], namePattern: string, nationalDex: boolean) {
+function addBoxNames(boxes: Pokemon[][], namePrefix: string | undefined, namePattern: string, nationalDex: boolean) {
     // Fallback to default pattern
     if (!namePattern) {
         namePattern = defaultConfig.boxNamePattern;
@@ -326,6 +380,7 @@ function addBoxNames(boxes: Pokemon[][], namePattern: string, nationalDex: boole
         }))].join(", ");
 
         return {
+            namePrefix,
             name: boxName,
             pokemons: box
         }

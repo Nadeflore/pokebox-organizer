@@ -40,7 +40,10 @@
             "subForms": "Alcremy sub forms",
             "NORMAL": "Unchangeable form",
             "CHANGE": "Changeable form (Except legendary)",
-            "CHANGE_LEG": "Changeable form (legendary)"
+            "CHANGE_LEG": "Changeable form (legendary)",
+            "regionalInSeparateBox": "Regional Forms in separate box",
+            "genderFormsInSeparateBox": "Gender forms in separate box",
+            "otherFormsInSeparateBox": "Other forms in separate box"
         },
         "regionalForms":{
             "title": "Regional Forms",
@@ -53,7 +56,8 @@
             "form": "form",
             "normal": "Normal form",
             "male": "Male form",
-            "female": "Female form"
+            "female": "Female form",
+            "other": "Other form"
         },
         "pokedex":{
             "title": "Pokédex",

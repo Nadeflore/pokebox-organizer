@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
-	import { tl } from './i18n/i18n';
+	import { t, tl } from './i18n/i18n';
 	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
 	import { checked } from './stores';
-	export let box: {name: string, pokemons: Pokemon[]};
+	export let box: {name: string, namePrefix: string | undefined, pokemons: Pokemon[]};
 	export let checkMode: boolean;
 
 	function isMale(pokemon: Pokemon) {
@@ -34,7 +34,7 @@
 </script>
 
 <div class="box" class:check-mode={checkMode} on:mouseleave={() => {infoPanelPokemon = null}}>
-	<h3>{box.name}</h3>
+	<h3>{#if box.namePrefix}{$t(box.namePrefix)} {/if}{box.name}</h3>
 	<div class="box-content">
 		{#each box.pokemons as pokemon, i (getPokemonSignature(pokemon))}
 			<button
