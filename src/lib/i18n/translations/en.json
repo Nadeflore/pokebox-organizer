@@ -65,7 +65,7 @@
             "national": "National"
         },
         "tab": {
-            "closeConfirm": "Remove {{name}}?"
+            "closeConfirm": "Remove \"{{name}}\"?"
         }
     }
 }

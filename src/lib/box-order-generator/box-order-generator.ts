@@ -117,10 +117,13 @@ export const defaultConfig = {
         types: [],
         event: false,
         regions: [],
-        subForm: false
-    },
+        subForm: false,
+        genderFormsInSeparateBox: false,
+        regionalFormsInSeparateBox: false,
+        otherFormsInSeparateBox: false,
+    } as PokemonFormsFilter,
     boxNamePattern: "{gen}G - {genboxnb}",
-};
+} as PokemonFilterConfig;
 
 function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[] {
     const result = pokemonsData.flatMap((pokemon) => {
@@ -238,43 +241,54 @@ function splitByGeneration(pokemons: Pokemon[], genIds: number[]) {
     }).filter(e => e.length);
 }
 
-function partition(array: Pokemon[], isToBeSeparated: (pokemon: Pokemon, previousPokemon: Pokemon | null) => boolean) {
-    return array.reduce(([notSeparated, separated], elem, i) => {
-        const previousPokemon = i == 0 ? null : array[i-1];
-        // Only separate from the second form of the same pokemon
-        return (previousPokemon?.pokemonData.id == elem.pokemonData.id && isToBeSeparated(elem, previousPokemon)) ? [notSeparated, [...separated, elem]] : [[...notSeparated, elem], separated];
-    }, [[] as Pokemon[], [] as Pokemon[]]);
-  }
-
 function separateFormsToBeInSeparateBox(pokemons: Pokemon[], formsConfig: PokemonFormsFilter) {
-    const result = [
-        {
-            pokemons
-        } as {namePrefix?: string, pokemons: Pokemon[]}
-    ]
+    console.log("Separate called again")
+    const normal = [] as Pokemon[];
+    const genderForms = [] as Pokemon[];
+    const regionalFormsByRegion = {} as Record<Region, Pokemon[]>;
+    const otherForms = [] as Pokemon[];
 
-    if (formsConfig.genderFormsInSeparateBox) {
-        const [other, regionForms] = partition(result[0].pokemons, (pokemon, previousPokemon) => pokemon.sexedForms.length == 1 && pokemon.sexedForms[0].sex == Sex.F &&
-            previousPokemon?.sexedForms.length == 1 && previousPokemon.sexedForms[0].sex == Sex.M)
+    pokemons.forEach((current, i) => {
+        const previous = i== 0 ? null : pokemons[i-1]
 
-        result[0].pokemons = other;
-        result.push({namePrefix: "forms.female", pokemons: regionForms})
+        if (previous?.pokemonData.id == current.pokemonData.id) {
+            if (formsConfig.genderFormsInSeparateBox && current.sexedForms.length == 1 && current.sexedForms[0].sex == Sex.F &&
+                    previous?.sexedForms.length == 1 && previous.sexedForms[0].sex == Sex.M) {
+                genderForms.push(current);
+                return;
+            }
+
+            if (formsConfig.regionalFormsInSeparateBox && current.sexedForms.length == 1 && current.sexedForms[0].form.region) {
+                const region = current.sexedForms[0].form.region;
+                if (!regionalFormsByRegion[region]) {
+                    regionalFormsByRegion[region] = [];
+                }
+                regionalFormsByRegion[region].push(current);
+                return;
+            }
+
+            if (formsConfig.otherFormsInSeparateBox && current.sexedForms.length == 1 && !current.sexedForms[0].form.region && (!!current.pokemonData.formType || current.sexedForms[0].form.event)) {
+                otherForms.push(current);
+                return;
+            }
+        }
+
+        normal.push(current);
+    })
+
+    const result = [{pokemons: normal}] as {pokemons: Pokemon[], namePrefix: string | undefined}[];
+
+    if (genderForms.length > 0) {
+        result.push({namePrefix: "forms.female", pokemons: genderForms})
     }
 
-    if (formsConfig.regionalFormsInSeparateBox) {
-        for (const region of Object.values(Region)) {
-        const [other, regionForms] = partition(result[0].pokemons, pokemon => pokemon.sexedForms.length == 1 && pokemon.sexedForms[0].form.region == region)
-
-        result[0].pokemons = other;
-        result.push({namePrefix: `regionalForms.${region}`, pokemons: regionForms})
+    for (const [region, pokemons] of Object.entries(regionalFormsByRegion)) {
+        if (pokemons.length > 0) {
+            result.push({namePrefix: `regionalForms.${region}`, pokemons})
         }
     }
-
-    if (formsConfig.otherFormsInSeparateBox) {
-        const [other, regionForms] = partition(result[0].pokemons, pokemon => pokemon.sexedForms.length == 1 && !pokemon.sexedForms[0].form.region && (!!pokemon.pokemonData.formType || pokemon.sexedForms[0].form.event))
-
-        result[0].pokemons = other;
-        result.push({namePrefix: "forms.other", pokemons: regionForms})
+    if (otherForms.length > 0) {
+        result.push({namePrefix: "forms.other", pokemons: otherForms})
     }
 
     return result;

@@ -65,7 +65,7 @@
             "national": "National"
         },
         "tab": {
-            "closeConfirm": "Retirer {{name}}?"
+            "closeConfirm": "Retirer \"{{name}}\" ?"
         }
     }
 }
