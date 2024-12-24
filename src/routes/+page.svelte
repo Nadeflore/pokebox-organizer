@@ -1,10 +1,26 @@
 <script lang="ts">
-	import { pokemonsData } from '$lib/stores';
+	import { page } from '$app/stores'
+	import { pokemonsData, state } from '$lib/stores';
 	import Boxes from '$lib/Boxes.svelte';
 	import SettingsPanel from '$lib/SettingsPanel.svelte';
 	import Header from '$lib/Header.svelte';
 	import Tabs from '$lib/Tabs.svelte';
+	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
+	import LZString from 'lz-string';
 	export let data;
+
+	const addTabParamName = "addTab";
+	
+	onMount(() => {
+		const addTab = $page.url.searchParams.get(addTabParamName)
+		if (addTab) {
+			state.addTab(JSON.parse(LZString.decompressFromEncodedURIComponent(addTab)));
+			$page.url.searchParams.delete(addTabParamName)
+			goto(`?${$page.url.searchParams.toString()}`);
+		}
+	});
+
 	$: pokemonsData.set(data.pokemonsData);
 
 	let search: string[] = [];

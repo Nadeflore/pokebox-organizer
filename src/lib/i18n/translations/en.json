@@ -65,7 +65,9 @@
             "national": "National"
         },
         "tab": {
-            "closeConfirm": "Remove \"{{name}}\"?"
+            "closeConfirm": "Remove \"{{name}}\"?",
+            "share": "Share this tab",
+            "copy": "Copy"
         }
     }
 }

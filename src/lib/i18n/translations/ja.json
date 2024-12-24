@@ -65,7 +65,9 @@
             "national": "全国図鑑"
         },
         "tab": {
-            "closeConfirm": "「{{name}}」を閉じる?"
+            "closeConfirm": "「{{name}}」を閉じる?",
+            "share": "このタブを共有する",
+            "copy": "コピー"
         }
     }
 }

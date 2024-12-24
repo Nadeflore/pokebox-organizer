@@ -65,7 +65,9 @@
             "national": "National"
         },
         "tab": {
-            "closeConfirm": "Retirer \"{{name}}\" ?"
+            "closeConfirm": "Retirer \"{{name}}\" ?",
+            "share": "Partager cette config",
+            "copy": "Copier"
         }
     }
 }
