@@ -11,7 +11,8 @@
             "generation": "Génération",
             "characteristic": "Caractéristiques",
             "gigantamax": "Pokémon avec forme Gigamax",
-            "pokemon": "Pokémon"
+            "pokemon": "Pokémon",
+            "form": "Forme"
         },
         "configEdit": {
             "name": "Nom",

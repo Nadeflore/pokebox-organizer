@@ -11,7 +11,8 @@
             "generation": "Generation",
             "characteristic": "Characteristic",
             "gigantamax": "Pokémon with a Gigantamax form",
-            "pokemon": "Pokémon"
+            "pokemon": "Pokémon",
+            "form": "Form"
         },
         "configEdit": {
             "name": "Name",
@@ -37,7 +38,7 @@
         "formTypes": {
             "title": "Form types",
             "eventForms": "Event forms",
-            "subForms": "Alcremy sub forms",
+            "subForms": "Alcremy sub forms (Not needed for pokemon Home pokedex)",
             "NORMAL": "Unchangeable form",
             "CHANGE": "Changeable form (Except legendary)",
             "CHANGE_LEG": "Changeable form (legendary)",

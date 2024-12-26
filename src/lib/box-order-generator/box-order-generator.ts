@@ -72,7 +72,7 @@ export interface Pokemon {
     group?: Group;
 }
 
-interface FormData {
+export interface FormData {
     id: number;
     name?: LocalizedName;
     sex: string;
@@ -442,6 +442,13 @@ function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: strin
     if (matchRegionalForm) {
         const region = matchRegionalForm[1]
         return form.region === region;
+    }
+
+    const matchForm = matcher.match(/f-(\d+)-(\d+)/)
+    if (matchForm) {
+        const pokemonId = +matchForm[1]
+        const formId = +matchForm[2]
+        return pokemon.id == pokemonId && form.id == formId;
     }
 
     switch(matcher) {

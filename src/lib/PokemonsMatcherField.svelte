@@ -2,7 +2,7 @@
 	import generations from '$lib/data/generations.json';
 	import pokedexes from '$lib/data/pokedexes.json';
 	import Svelecte from 'svelecte';
-	import { Region } from './box-order-generator/box-order-generator';
+	import { type FormData, Region } from './box-order-generator/box-order-generator';
 	import { pokemonsData } from './stores';
 	import { t, tl } from './i18n/i18n';
 
@@ -10,7 +10,25 @@
 
 	export let value: string[];
 
+	function getFormName(form: FormData) {
+        let name = "";
+        if (form.region) {
+            name = $t(`regionalForms.${form.region}`);
+            if (form.name) {
+                name += " " + $tl(form.name)
+            }
+        } else if (form.name) {
+            name = $tl(form.name);
+        } else {
+            name = $t('forms.normal')
+        }
+
+        return name.trim();
+    }
+
 	$: pokemonsOptions = $pokemonsData.map((p) => ({ value: `p-${p.id}`, text: $tl(p.name) }));
+
+	$: formsOptions = $pokemonsData.filter(p => p.forms.length > 1).flatMap((p) => p.forms.map((f) => ({ value: `f-${p.id}-${f.id}`, text: `${$tl(p.name)} - ${getFormName(f)}` })));
 
 	$: generationsOptions = generations.map((g) => ({
 		value: `g-${g.id}`,
@@ -50,6 +68,10 @@
 		{
 			groupHeader: $t('matcher.pokemon'),
 			items: pokemonsOptions
+		},
+		{
+			groupHeader: $t('matcher.form'),
+			items: formsOptions
 		}
 	];
 </script>

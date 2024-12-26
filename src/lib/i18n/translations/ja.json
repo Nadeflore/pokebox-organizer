@@ -11,7 +11,8 @@
             "generation": "世代",
             "characteristic": "個性",
             "gigantamax": "キョダイマックス",
-            "pokemon": "ポケモン"
+            "pokemon": "ポケモン",
+            "form": "フォーム"
         },
         "configEdit": {
             "name": "名前",
