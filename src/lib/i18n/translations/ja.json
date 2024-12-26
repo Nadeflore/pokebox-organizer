@@ -30,6 +30,7 @@
         "genderForms":
         {
             "title": "性別",
+            "DOUBLE_ALL": "どのポケモンでも二匹にする",
             "ALL": "全部分ける",
             "APPEARANCE": "違いがあるときにわける",
             "SPECS": "能力が違うのわける",

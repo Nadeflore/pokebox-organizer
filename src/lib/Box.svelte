@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
+	import { GenderFormsType, getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
 	import { t, tl } from './i18n/i18n';
 	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
-	import { checked } from './stores';
+	import { checked, config } from './stores';
 	export let box: {name: string, namePrefix: string | undefined, pokemons: Pokemon[]};
 	export let checkMode: boolean;
 
@@ -31,11 +31,41 @@
 
 	let infoPanelPokemon: Pokemon | null = null;
 	let infoPanelPokemonIndex = 0;
+	const defaultPokemon = [] as Pokemon[][];
 </script>
 
 <div class="box" class:check-mode={checkMode} on:mouseleave={() => {infoPanelPokemon = null}}>
 	<h3>{#if box.namePrefix}{$t(box.namePrefix)} {/if}{box.name}</h3>
-	<div class="box-content">
+	<div class="box-content" class:effie={$config.forms.genderForms == GenderFormsType.DOUBLE_ALL}>
+		{#if $config.forms.genderForms == GenderFormsType.DOUBLE_ALL}
+			{#each box.pokemons.reduce((result, p, i, a) => i % 2 === 0 ? [...result, (a[i+1] ? [p, a[i+1]]: [p])] : result, defaultPokemon) as pokemonGroup, i}
+				<div class="group">
+					{#each pokemonGroup as p, j}
+						<button
+							on:click={() => {
+								onPokemonClicked(p, i*2 + j);
+							}}
+							class="pokemon"
+							class:highlight={p.matchSearch}
+							class:checked={$checked.includes(getPokemonSignature(p))}
+							class:first={p.group == Group.FIRST}
+							class:middle={p.group == Group.MIDDLE}
+							class:last={p.group == Group.LAST}
+							class:male={isMale(p)}
+							class:female={isFemale(p)}
+						>
+							<div class="groupbar" style="--bar-color: rgb(145, 225, 203)"></div>
+							<div class="check"></div>
+							<div class="sex"></div>
+							{#if p.sexedForms.length > 1}
+								<div class="multiple-forms">{p.sexedForms.length}</div>
+							{/if}
+							<PokemonPicture pokemon={p} title={$tl(p.pokemonData.name)} />
+						</button>
+					{/each}
+				</div>
+			{/each}
+		{:else}
 		{#each box.pokemons as pokemon, i (getPokemonSignature(pokemon))}
 			<button
 				on:click={() => {
@@ -59,6 +89,7 @@
 				<PokemonPicture {pokemon} title={$tl(pokemon.pokemonData.name)} />
 			</button>
 		{/each}
+		{/if}
 		{#if infoPanelPokemon}
 			{#key getPokemonSignature(infoPanelPokemon)}
 			<div class="details-panel" style="top: {(Math.floor(infoPanelPokemonIndex / 6) + 1) * 20}%">
@@ -86,6 +117,11 @@
 		width: auto;
 		height: auto;
 		position: relative;
+	}
+
+	.box-content.effie {
+		grid-template-columns: repeat(3, 1fr); /* creates 6 columns */
+		grid-auto-flow: column;
 	}
 
 	.details-panel {
@@ -186,6 +222,10 @@
 		color: white;
 		font-size: 60%;
 		font-weight: bold;
+	}
+
+	.group {
+		display: flex;
 	}
 
 	</style>

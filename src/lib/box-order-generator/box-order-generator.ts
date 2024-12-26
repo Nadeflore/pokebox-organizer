@@ -18,6 +18,7 @@ export interface PokemonFilterConfig {
 
 
 export enum GenderFormsType {
+    DOUBLE_ALL = "DOUBLE_ALL",
     ALL = "ALL",
     APPEARANCE = "APPEARANCE",
     SPECS = "SPECS",
@@ -154,7 +155,7 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
                         return [{form, sex: Sex.F}];
                     case "mf":
                         // separate every male female (if requested)
-                        if (filter.forms.genderForms == GenderFormsType.ALL) {
+                        if ([GenderFormsType.ALL, GenderFormsType.DOUBLE_ALL].includes(filter.forms.genderForms)) {
                             return [{form, sex: Sex.M}, {form, sex: Sex.F}];
                         } else {
                             return [{form, sex: Sex.MF}];
@@ -164,11 +165,15 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
                 }
             })
 
-            if (filter.forms.genderForms == GenderFormsType.APPEARANCE && sexedForms.some(f => f.form.sex == "fd") || filter.forms.genderForms == GenderFormsType.ALL && sexedForms.some(f => f.form.sex == "fd" || f.form.sex == "mf")) {
+            if (filter.forms.genderForms == GenderFormsType.APPEARANCE && sexedForms.some(f => f.form.sex == "fd") || [GenderFormsType.ALL, GenderFormsType.DOUBLE_ALL].includes(filter.forms.genderForms) && sexedForms.some(f => f.form.sex == "fd" || f.form.sex == "mf")) {
                 // If we request male and female forms in separate slots, and at least one of the forms has male and female forms, group by sex
                 const maleForms = sexedForms.filter(f => f.sex === Sex.M)
                 const femaleForms = sexedForms.filter(f => f.sex === Sex.F)
                 return [maleForms, femaleForms].filter(forms => forms.length > 0)
+            }
+
+            if (filter.forms.genderForms == GenderFormsType.DOUBLE_ALL && sexedForms.length == 1) {
+                return [sexedForms, sexedForms];
             }
 
             return [sexedForms]

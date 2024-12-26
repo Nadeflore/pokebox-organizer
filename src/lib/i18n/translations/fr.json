@@ -30,6 +30,7 @@
         "genderForms":
         {
             "title": "Formes mâle/femelle",
+            "DOUBLE_ALL": "Double tous les pokemons même si asexué",
             "ALL": "Séparer tous les mâle/femelle",
             "APPEARANCE": "Seulement si apparence différente",
             "SPECS": "Seulement si statistiques différentes",
@@ -38,7 +39,7 @@
         "formTypes": {
             "title": "Types de formes",
             "eventForms": "Formes évennementielles",
-            "subForms": "Sous formes de Charmilly",
+            "subForms": "Sous formes de Charmilly (non requis pour le pokedex de Pokemon Home)",
             "NORMAL": "Formes ne pouvant changer",
             "CHANGE": "Formes pouvant changer (Sauf légendaires)",
             "CHANGE_LEG": "Formes pouvant changer (Légendaires)",

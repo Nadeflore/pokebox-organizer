@@ -30,6 +30,7 @@
         "genderForms":
         {
             "title": "Gender forms",
+            "DOUBLE_ALL": "Double every pokemon even if not gendered",
             "ALL": "Separate every gender",
             "APPEARANCE": "Only visible gender differences",
             "SPECS": "Only when genders have different stats",
