@@ -39260,6 +39260,16 @@
         },
         "forms": [
             {
+                "id": 0,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "りゅうせいのすがた",
+                    "en": "Meteor Form",
+                    "fr": "Forme Météore"
+                }
+            },
+            {
                 "id": 7,
                 "sex": "uk",
                 "name": {
