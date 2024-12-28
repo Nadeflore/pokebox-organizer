@@ -63,11 +63,19 @@ export enum Group {
     LAST = "LAST"
 }
 
+export enum UndepositableType {
+    MEGA = "MEGA",
+    BATTLE = "BATTLE",
+    FUSION = "FUSION",
+    GAME_ONLY = "GAME_ONLY",
+}
+
 export type LocalizedName = Record<string, string>;
 
 export interface Pokemon {
     pokemonData: PokemonData;
     sexedForms: SexedForm[];
+    undepositableForms: FormData[];
     dexNumber?: number;
     matchSearch?: boolean;
     group?: Group;
@@ -79,6 +87,8 @@ export interface FormData {
     sex: string;
     region?: Region;
     event?: boolean;
+    gigantamax?: boolean;
+    undepositable: UndepositableType;
 }
 
 export interface SexedForm {
@@ -104,7 +114,6 @@ export interface PokemonData {
     name: LocalizedName;
     regionalDex: Record<string, RegionalDexInfo>;
     subForms?: SubForm[];
-    gigantamax?: boolean;
 }
 
 export const defaultConfig = {
@@ -130,8 +139,9 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
     const result = pokemonsData.flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
 
+        const undepositableForms = pokemon.forms.filter(f => f.undepositable);
         // Filter forms to keep
-        const forms = pokemon.forms.filter(f => isPokemonFormIncluded(pokemon, f, filter));
+        const forms = pokemon.forms.filter(f => isPokemonFormIncluded(pokemon, f, filter) && !f.undepositable);
 
         if (forms.length === 0) {
             return []
@@ -194,10 +204,16 @@ function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: Pokem
 
             return[subForms];
 
-        }).map(sexedForms => ({
+        }).map(sexedForms => {
+            const regions = sexedForms.map(f => f.form.region);
+            // Only include undepositable forms of the same region
+            const undepositableFormsToInclude = undepositableForms.filter(f => regions.includes(f.region))
+            return {
                 pokemonData: pokemon,
                 sexedForms,
-            } as Pokemon));
+                undepositableForms: undepositableFormsToInclude,
+            } as Pokemon
+        });
     });
 
     return result;
@@ -458,7 +474,9 @@ function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: strin
 
     switch(matcher) {
         case "gigantamax":
-            return pokemon.gigantamax;
+            return form.gigantamax;
+        case "mega":
+            return pokemon.forms.some(f => f.undepositable == UndepositableType.MEGA);
     }
 
     throw new Error(`Unknown matcher : ${matcher}`)

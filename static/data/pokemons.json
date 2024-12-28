@@ -118,10 +118,15 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd"
+                "sex": "fd",
+                "gigantamax": true
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 4,
@@ -242,10 +247,30 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA",
+                "name": {
+                    "ja": "Ｘ",
+                    "en": "X",
+                    "fr": "X"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "undepositable": "MEGA",
+                "name": {
+                    "ja": "Ｙ",
+                    "en": "Y",
+                    "fr": "Y"
+                }
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 7,
@@ -366,10 +391,15 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 10,
@@ -535,10 +565,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd"
+                "sex": "fd",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 13,
@@ -642,6 +672,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -747,6 +782,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -1250,7 +1290,8 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd"
+                "sex": "fd",
+                "gigantamax": true
             },
             {
                 "id": 1,
@@ -1380,8 +1421,7 @@
                     "zh-Hans": "世界帽子 "
                 }
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 26,
@@ -3283,7 +3323,8 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             },
             {
                 "id": 1,
@@ -3295,8 +3336,7 @@
                 "sex": "mf",
                 "region": "GALAR"
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 53,
@@ -4251,6 +4291,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -4463,10 +4508,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 69,
@@ -5384,61 +5429,71 @@
             "rgby": {
                 "id": 80,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "gsc": {
                 "id": 81,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "hgss": {
                 "id": 81,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "xy_coastal": {
                 "id": 134,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "sm": {
                 "id": 38,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "sm_melemele": {
                 "id": 38,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "sm_ulaula": {
                 "id": 19,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "usum": {
                 "id": 45,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "usum_melemele": {
                 "id": 45,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "usum_ulaula": {
                 "id": 19,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "swsh_armor": {
@@ -5450,7 +5505,8 @@
             "sv": {
                 "id": 325,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "sv_blueberry": {
@@ -5464,6 +5520,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             },
             {
                 "id": 2,
@@ -6423,10 +6484,15 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 95,
@@ -6656,10 +6722,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 100,
@@ -7622,6 +7688,11 @@
             {
                 "id": 0,
                 "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -8359,6 +8430,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -8682,6 +8758,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -8740,10 +8821,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 132,
@@ -8865,10 +8946,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fd"
+                "sex": "fd",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 134,
@@ -9332,6 +9413,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -9396,10 +9482,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 144,
@@ -9766,6 +9852,26 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "MEGA",
+                "name": {
+                    "ja": "Ｘ",
+                    "en": "X",
+                    "fr": "X"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "MEGA",
+                "name": {
+                    "ja": "Ｙ",
+                    "en": "Y",
+                    "fr": "Y"
+                }
             }
         ]
     },
@@ -11177,6 +11283,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -12799,6 +12910,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -13022,6 +13138,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -13128,6 +13249,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -14002,6 +14128,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -14850,6 +14981,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -15033,6 +15169,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -15129,6 +15270,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -15225,6 +15371,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -16194,6 +16345,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17032,6 +17188,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17076,6 +17237,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17190,6 +17356,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17272,6 +17443,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17354,6 +17530,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17705,6 +17886,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -17887,6 +18073,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -18386,6 +18577,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -19211,7 +19407,66 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ポワルンのすがた",
+                    "en": "Normal",
+                    "fr": "Forme Normale",
+                    "de": "Normalform",
+                    "es": "Normal",
+                    "it": "Forma Castform",
+                    "ko": "캐스퐁의 모습 ",
+                    "zh-Hant": "飄浮泡泡的樣子 ",
+                    "zh-Hans": "飘浮泡泡的样子 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "たいようのすがた ",
+                    "en": "Sunny Form ",
+                    "fr": "Forme Solaire ",
+                    "de": "Sonnenform ",
+                    "es": "Forma Sol ",
+                    "it": "Forma Sole ",
+                    "ko": "태양의 모습 ",
+                    "zh-Hant": "太陽的樣子 ",
+                    "zh-Hans": "太阳的样子 "
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "あまみずのすがた ",
+                    "en": "Rainy Form ",
+                    "fr": "Forme Eau de Pluie ",
+                    "de": "Regenform ",
+                    "es": "Forma Lluvia ",
+                    "it": "Forma Pioggia ",
+                    "ko": "빗방울의 모습 ",
+                    "zh-Hant": "雨水的樣子 ",
+                    "zh-Hans": "雨水的样子 "
+                }
+            },
+            {
+                "id": 3,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ゆきぐものすがた ",
+                    "en": "Snowy Form ",
+                    "fr": "Forme Blizzard ",
+                    "de": "Schneeform ",
+                    "es": "Forma Nieve ",
+                    "it": "Forma Nuvola di Neve ",
+                    "ko": "설운의 모습 ",
+                    "zh-Hant": "雪雲的樣子 ",
+                    "zh-Hans": "雪云的样子 "
+                }
             }
         ]
     },
@@ -19338,6 +19593,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -19561,6 +19821,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -19714,6 +19979,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -20204,6 +20474,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -20354,6 +20629,11 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -20479,6 +20759,11 @@
             {
                 "id": 0,
                 "sex": "fo"
+            },
+            {
+                "id": 1,
+                "sex": "fo",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -20508,6 +20793,11 @@
             {
                 "id": 0,
                 "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -20537,6 +20827,21 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ゲンシカイキ ",
+                    "en": "Primal Reversion ",
+                    "fr": "Primo-Résurgence ",
+                    "de": "Protomorphose ",
+                    "es": "Regresión Primigenia ",
+                    "it": "Archeorisveglio ",
+                    "ko": "원시회귀 ",
+                    "zh-Hant": "回復原始 "
+                }
             }
         ]
     },
@@ -20566,6 +20871,21 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ゲンシカイキ ",
+                    "en": "Primal Reversion ",
+                    "fr": "Primo-Résurgence ",
+                    "de": "Protomorphose ",
+                    "es": "Regresión Primigenia ",
+                    "it": "Archeorisveglio ",
+                    "ko": "원시회귀 ",
+                    "zh-Hant": "回復原始 "
+                }
             }
         ]
     },
@@ -20595,6 +20915,11 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -22132,7 +22457,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ネガフォルム",
+                    "en": "Overcast Form",
+                    "fr": "Temps Couvert",
+                    "de": "Wolkenform",
+                    "es": "Forma Encapotado",
+                    "it": "Forma Nuvola",
+                    "ko": "네거폼",
+                    "zh-Hant": "陰天形態",
+                    "zh-Hans": "阴天形态"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ポジフォルム",
+                    "en": "Sunshine Form",
+                    "fr": "Temps Ensoleillé",
+                    "de": "Sonnenform",
+                    "es": "Forma Soleado",
+                    "it": "Forma Splendore",
+                    "ko": "포지폼",
+                    "zh-Hant": "晴天形態",
+                    "zh-Hans": "晴天形态"
+                }
             }
         ]
     },
@@ -22543,6 +22895,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -23342,6 +23699,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -23522,6 +23884,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -24107,6 +24474,11 @@
             {
                 "id": 0,
                 "sex": "fd"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -24827,6 +25199,11 @@
             {
                 "id": 0,
                 "sex": "mo"
+            },
+            {
+                "id": 1,
+                "sex": "mo",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -25194,6 +25571,16 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ]
     },
@@ -25226,6 +25613,16 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ]
     },
@@ -25306,7 +25703,22 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "アナザーフォルム",
+                    "en": "Altered Forme",
+                    "fr": "Forme Alternative"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "オリジンフォルム",
+                    "en": "Origin Forme",
+                    "fr": "Forme Originelle"
+                }
             }
         ]
     },
@@ -25483,7 +25895,236 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ノーマルタイプ",
+                    "en": "Normal Type",
+                    "fr": "Normal",
+                    "de": "Normalform",
+                    "es": "Tipo Normal",
+                    "it": "Tipo Normale"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "かくとうタイプ",
+                    "en": "Fighting Type",
+                    "fr": "Combat",
+                    "de": "Kampf",
+                    "es": "Tipo Lucha",
+                    "it": "Tipo Lotta"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "ひこうタイプ",
+                    "en": "Flying Type",
+                    "fr": "Vol",
+                    "de": "Flug",
+                    "es": "Tipo Volador",
+                    "it": "Tipo Volante"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "どくタイプ",
+                    "en": "Poison Type",
+                    "fr": "Poison",
+                    "de": "Gift",
+                    "es": "Tipo Veneno",
+                    "it": "Tipo Veleno"
+                }
+            },
+            {
+                "id": 4,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "じめんタイプ",
+                    "en": "Ground Type",
+                    "fr": "Sol",
+                    "de": "Boden",
+                    "es": "Tipo Tierra",
+                    "it": "Tipo Terra"
+                }
+            },
+            {
+                "id": 5,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "いわタイプ",
+                    "en": "Rock Type",
+                    "fr": "Roche",
+                    "de": "Gestein",
+                    "es": "Tipo Roca",
+                    "it": "Tipo Roccia"
+                }
+            },
+            {
+                "id": 6,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "むしタイプ",
+                    "en": "Bug Type",
+                    "fr": "Insecte",
+                    "de": "Käfer",
+                    "es": "Tipo Bicho",
+                    "it": "Tipo Coleottero"
+                }
+            },
+            {
+                "id": 7,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "ゴーストタイプ",
+                    "en": "Ghost Type",
+                    "fr": "Spectre",
+                    "de": "Geist",
+                    "es": "Tipo Fantasma",
+                    "it": "Tipo Spettro"
+                }
+            },
+            {
+                "id": 8,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "はがねタイプ",
+                    "en": "Steel Type",
+                    "fr": "Acier",
+                    "de": "Stahl",
+                    "es": "Tipo Acero",
+                    "it": "Tipo Acciaio"
+                }
+            },
+            {
+                "id": 9,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "ほのおタイプ",
+                    "en": "Fire Type",
+                    "fr": "Feu",
+                    "de": "Feuer",
+                    "es": "Tipo Fuego",
+                    "it": "Tipo Fuoco"
+                }
+            },
+            {
+                "id": 10,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "みずタイプ",
+                    "en": "Water Type",
+                    "fr": "Eau",
+                    "de": "Wasser",
+                    "es": "Tipo Agua",
+                    "it": "Tipo Acqua"
+                }
+            },
+            {
+                "id": 11,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "くさタイプ",
+                    "en": "Grass Type",
+                    "fr": "Plante",
+                    "de": "Pflanze",
+                    "es": "Tipo Planta",
+                    "it": "Tipo Erba"
+                }
+            },
+            {
+                "id": 12,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "でんきタイプ",
+                    "en": "Electric Type",
+                    "fr": "Électrik",
+                    "de": "Elektro",
+                    "es": "Tipo Eléctrico",
+                    "it": "Tipo Elettro"
+                }
+            },
+            {
+                "id": 13,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "エスパータイプ",
+                    "en": "Psychic Type",
+                    "fr": "Psy",
+                    "de": "Psycho",
+                    "es": "Tipo Psíquico",
+                    "it": "Tipo Psico"
+                }
+            },
+            {
+                "id": 14,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "こおりタイプ",
+                    "en": "Ice Type",
+                    "fr": "Glace",
+                    "de": "Eis",
+                    "es": "Tipo Hielo",
+                    "it": "Tipo Ghiaccio"
+                }
+            },
+            {
+                "id": 15,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "ドラゴンタイプ",
+                    "en": "Dragon Type",
+                    "fr": "Dragon",
+                    "de": "Drache",
+                    "es": "Tipo Dragón",
+                    "it": "Tipo Drago"
+                }
+            },
+            {
+                "id": 16,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "あくタイプ",
+                    "en": "Dark Type",
+                    "fr": "Ténèbres",
+                    "de": "Unlicht",
+                    "es": "Tipo Siniestro",
+                    "it": "Tipo Buio"
+                }
+            },
+            {
+                "id": 17,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "フェアリータイプ",
+                    "en": "Fairy Type",
+                    "fr": "Fée",
+                    "de": "Fee",
+                    "es": "Tipo Hada",
+                    "it": "Tipo Folletto"
+                }
             }
         ]
     },
@@ -26858,6 +27499,11 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -28010,37 +28656,96 @@
             "bw": {
                 "id": 61,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "b2w2": {
                 "id": 103,
                 "forms": [
-                    0
+                    0,
+                    1
                 ]
             },
             "swsh": {
                 "id": 368,
                 "forms": [
-                    2
+                    2,
+                    3
                 ]
             },
             "swsh_tundra": {
                 "id": 104,
                 "forms": [
-                    2
+                    2,
+                    3
                 ]
             }
         },
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ノーマルモード ",
+                    "en": "Standard Mode ",
+                    "fr": "Mode Normal ",
+                    "de": "Normalmodus ",
+                    "es": "Modo Normal ",
+                    "it": "Stato Normale ",
+                    "ko": "노말모드 ",
+                    "zh-Hant": "普通模式 ",
+                    "zh-Hans": "普通模式 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ダルマモード ",
+                    "en": "Zen Mode ",
+                    "fr": "Mode Transe ",
+                    "de": "Trance-Modus ",
+                    "es": "Modo Daruma ",
+                    "it": "Stato Zen ",
+                    "ko": "달마모드 ",
+                    "zh-Hant": "達摩模式 ",
+                    "zh-Hans": "达摩模式 "
+                }
             },
             {
                 "id": 2,
                 "sex": "mf",
-                "region": "GALAR"
+                "region": "GALAR",
+                "name": {
+                    "ja": "ノーマルモード ",
+                    "en": "Standard Mode ",
+                    "fr": "Mode Normal ",
+                    "de": "Normalmodus ",
+                    "es": "Modo Normal ",
+                    "it": "Stato Normale ",
+                    "ko": "노말모드 ",
+                    "zh-Hant": "普通模式 ",
+                    "zh-Hans": "普通模式 "
+                }
+            },
+            {
+                "id": 3,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "region": "GALAR",
+                "name": {
+                    "ja": "ダルマモード ",
+                    "en": "Zen Mode ",
+                    "fr": "Mode Transe ",
+                    "de": "Trance-Modus ",
+                    "es": "Modo Daruma ",
+                    "it": "Stato Zen ",
+                    "ko": "달마모드 ",
+                    "zh-Hant": "達摩模式 ",
+                    "zh-Hans": "达摩模式 "
+                }
             }
         ]
     },
@@ -28625,10 +29330,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 570,
@@ -32046,6 +32751,26 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "ホワイトキュレム",
+                    "en": "White Kyurem",
+                    "fr": "Kyurem Blanc"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "ブラックキュレム",
+                    "en": "Black Kyurem",
+                    "fr": "Kyurem Noir"
+                }
             }
         ]
     },
@@ -32118,7 +32843,22 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "ボイスフォルム",
+                    "en": "Aria Forme",
+                    "fr": "Forme Chant"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ステップフォルム",
+                    "en": "Pirouette Forme",
+                    "fr": "Forme Danse"
+                }
             }
         ]
     },
@@ -32148,6 +32888,62 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "アクアカセット",
+                    "en": "Douse Drive",
+                    "fr": "Module Aqua",
+                    "de": "Aquamodul",
+                    "es": "HidroROM",
+                    "it": "Idromodulo",
+                    "ko": "아쿠아카세트"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "イナズマカセット",
+                    "en": "Shock Drive",
+                    "fr": "Module Choc",
+                    "de": "Blitzmodul",
+                    "es": "FulgoROM",
+                    "it": "Voltmodulo",
+                    "ko": "번개카세트"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "ブレイズカセット",
+                    "en": "Burn Drive",
+                    "fr": "Module Pyro",
+                    "de": "Flammenmodul",
+                    "es": "PiroROM",
+                    "it": "Piromodulo",
+                    "ko": "블레이즈카세트"
+                }
+            },
+            {
+                "id": 4,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "フリーズカセット",
+                    "en": "Chill Drive",
+                    "fr": "Module Cryo",
+                    "de": "Gefriermodul",
+                    "es": "CrioROM",
+                    "it": "Gelomodulo",
+                    "ko": "프리즈카세트"
+                }
             }
         ]
     },
@@ -33830,7 +34626,22 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "シールドフォルム",
+                    "en": "Shield Forme",
+                    "fr": "Forme Parade"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ブレードフォルム",
+                    "en": "Blade Forme",
+                    "fr": "Forme Assaut"
+                }
             }
         ]
     },
@@ -35385,7 +36196,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "リラックスモード",
+                    "en": "Neutral Mode",
+                    "fr": "Mode Paisible",
+                    "de": "Ruhe-Modus",
+                    "es": "Modo Relajado",
+                    "it": "Modo Relax",
+                    "ko": "릴랙스모드",
+                    "zh-Hant": "放鬆模式",
+                    "zh-Hans": "放松模式"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "アクティブモード",
+                    "en": "Active Mode",
+                    "fr": "Mode Déchaîné",
+                    "de": "Aktiv-Modus",
+                    "es": "Modo Activo",
+                    "it": "Modo Attivo",
+                    "ko": "액티브모드",
+                    "zh-Hant": "活躍模式",
+                    "zh-Hans": "活跃模式"
+                }
             }
         ]
     },
@@ -35462,6 +36300,7 @@
             {
                 "id": 4,
                 "sex": "uk",
+                "undepositable": "BATTLE",
                 "name": {
                     "ja": "パーフェクトフォルム",
                     "en": "Complete Forme",
@@ -35494,6 +36333,11 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "MEGA"
             }
         ]
     },
@@ -36881,7 +37725,22 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "たんどくのすがた",
+                    "en": "Solo Form",
+                    "fr": "Forme Solitaire"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "むれたすがた",
+                    "en": "School Form",
+                    "fr": "Forme Banc"
+                }
             }
         ]
     },
@@ -38081,7 +38940,290 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "タイプ：ノーマル",
+                    "en": "Type: Normal",
+                    "fr": "Type : Normal",
+                    "de": "Typ:Normal",
+                    "es": "Tipo: Normal",
+                    "it": "Tipo Normale",
+                    "ko": "타입:노말",
+                    "zh-Hant": "屬性：一般",
+                    "zh-Hans": "属性：一般"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ファイト",
+                    "en": "Type: Fighting",
+                    "fr": "Type : Combat",
+                    "de": "Typ:Kampf",
+                    "es": "Tipo: Lucha",
+                    "it": "Tipo Lotta",
+                    "ko": "타입:파이팅",
+                    "zh-Hant": "屬性：戰鬥",
+                    "zh-Hans": "属性：战斗"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：フライング",
+                    "en": "Type: Flying",
+                    "fr": "Type : Vol",
+                    "de": "Typ:Flug",
+                    "es": "Tipo: Volador",
+                    "it": "Tipo Volante",
+                    "ko": "타입:플라잉",
+                    "zh-Hant": "屬性：飛翔",
+                    "zh-Hans": "属性：飞翔"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ポイズン",
+                    "en": "Type: Poison",
+                    "fr": "Type : Poison",
+                    "de": "Typ:Gift",
+                    "es": "Tipo: Veneno",
+                    "it": "Tipo Veleno",
+                    "ko": "타입:포이즌",
+                    "zh-Hant": "屬性：毒",
+                    "zh-Hans": "属性：毒"
+                }
+            },
+            {
+                "id": 4,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：グラウンド",
+                    "en": "Type: Ground",
+                    "fr": "Type : Sol",
+                    "de": "Typ:Boden",
+                    "es": "Tipo: Tierra",
+                    "it": "Tipo Terra",
+                    "ko": "타입:그라운드",
+                    "zh-Hant": "屬性：大地",
+                    "zh-Hans": "属性：大地"
+                }
+            },
+            {
+                "id": 5,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ロック",
+                    "en": "Type: Rock",
+                    "fr": "Type : Roche",
+                    "de": "Typ:Gestein",
+                    "es": "Tipo: Roca",
+                    "it": "Tipo Roccia",
+                    "ko": "타입:락",
+                    "zh-Hant": "屬性：岩石",
+                    "zh-Hans": "属性：岩石"
+                }
+            },
+            {
+                "id": 6,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：バグ",
+                    "en": "Type: Bug",
+                    "fr": "Type : Insecte",
+                    "de": "Typ:Käfer",
+                    "es": "Tipo: Bicho",
+                    "it": "Tipo Coleottero",
+                    "ko": "타입:버그",
+                    "zh-Hant": "屬性：蟲子",
+                    "zh-Hans": "属性：虫子"
+                }
+            },
+            {
+                "id": 7,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ゴースト",
+                    "en": "Type: Ghost",
+                    "fr": "Type : Spectre",
+                    "de": "Typ:Geist",
+                    "es": "Tipo: Fantasma",
+                    "it": "Tipo Spettro",
+                    "ko": "타입:고스트",
+                    "zh-Hant": "屬性：幽靈",
+                    "zh-Hans": "属性：幽灵"
+                }
+            },
+            {
+                "id": 8,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：スチール",
+                    "en": "Type: Steel",
+                    "fr": "Type : Acier",
+                    "de": "Typ:Stahl",
+                    "es": "Tipo: Acero",
+                    "it": "Tipo Acciaio",
+                    "ko": "타입:스틸",
+                    "zh-Hant": "屬性：鋼鐵",
+                    "zh-Hans": "属性：钢铁"
+                }
+            },
+            {
+                "id": 9,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ファイヤー",
+                    "en": "Type: Fire",
+                    "fr": "Type : Feu",
+                    "de": "Typ:Feuer",
+                    "es": "Tipo: Fuego",
+                    "it": "Tipo Fuoco",
+                    "ko": "타입:파이어",
+                    "zh-Hant": "屬性：火焰",
+                    "zh-Hans": "属性：火焰"
+                }
+            },
+            {
+                "id": 10,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ウオーター",
+                    "en": "Type: Water",
+                    "fr": "Type : Eau",
+                    "de": "Typ:Wasser",
+                    "es": "Tipo: Agua",
+                    "it": "Tipo Acqua",
+                    "ko": "타입:워터",
+                    "zh-Hant": "屬性：清水",
+                    "zh-Hans": "属性：清水"
+                }
+            },
+            {
+                "id": 11,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：グラス",
+                    "en": "Type: Grass",
+                    "fr": "Type : Plante",
+                    "de": "Typ:Pflanze",
+                    "es": "Tipo: Planta",
+                    "it": "Tipo Erba",
+                    "ko": "타입:그래스",
+                    "zh-Hant": "屬性：青草",
+                    "zh-Hans": "属性：青草"
+                }
+            },
+            {
+                "id": 12,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：エレクトロ",
+                    "en": "Type: Electric",
+                    "fr": "Type : Électrik",
+                    "de": "Typ:Elektro",
+                    "es": "Tipo: Eléctrico",
+                    "it": "Tipo Elettro",
+                    "ko": "타입:일렉트릭",
+                    "zh-Hant": "屬性：電子",
+                    "zh-Hans": "属性：电子"
+                }
+            },
+            {
+                "id": 13,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：サイキック",
+                    "en": "Type: Psychic",
+                    "fr": "Type : Psy",
+                    "de": "Typ:Psycho",
+                    "es": "Tipo: Psíquico",
+                    "it": "Tipo Psico",
+                    "ko": "타입:사이킥",
+                    "zh-Hant": "屬性：精神",
+                    "zh-Hans": "属性：精神"
+                }
+            },
+            {
+                "id": 14,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：アイス",
+                    "en": "Type: Ice",
+                    "fr": "Type : Glace",
+                    "de": "Typ:Eis",
+                    "es": "Tipo: Hielo",
+                    "it": "Tipo Ghiaccio",
+                    "ko": "타입:아이스",
+                    "zh-Hant": "屬性：冰雪",
+                    "zh-Hans": "属性：冰雪"
+                }
+            },
+            {
+                "id": 15,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ドラゴン",
+                    "en": "Type: Dragon",
+                    "fr": "Type : Dragon",
+                    "de": "Typ:Drache",
+                    "es": "Tipo: Dragón",
+                    "it": "Tipo Drago",
+                    "ko": "타입:드래곤",
+                    "zh-Hant": "屬性：龍",
+                    "zh-Hans": "属性：龙"
+                }
+            },
+            {
+                "id": 16,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：ダーク",
+                    "en": "Type: Dark",
+                    "fr": "Type : Ténèbres",
+                    "de": "Typ:Unlicht",
+                    "es": "Tipo: Siniestro",
+                    "it": "Tipo Buio",
+                    "ko": "타입:다크",
+                    "zh-Hant": "屬性：黑暗",
+                    "zh-Hans": "属性：黑暗"
+                }
+            },
+            {
+                "id": 17,
+                "sex": "uk",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "タイプ：フェアリー",
+                    "en": "Type: Fairy",
+                    "fr": "Type : Fée",
+                    "de": "Typ:Fee",
+                    "es": "Tipo: Hada",
+                    "it": "Tipo Folletto",
+                    "ko": "타입:페어리",
+                    "zh-Hant": "屬性：妖精",
+                    "zh-Hans": "属性：妖精"
+                }
             }
         ]
     },
@@ -38340,7 +39482,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ばけたすがた ",
+                    "en": "Disguised Form ",
+                    "fr": "Forme Déguisée ",
+                    "de": "Verkleidete Form ",
+                    "es": "Forma Encubierta ",
+                    "it": "Forma Mascherata ",
+                    "ko": "둔갑한 모습 ",
+                    "zh-Hant": "化形的樣子 ",
+                    "zh-Hans": "化形的样子 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ばれたすがた ",
+                    "en": "Busted Form ",
+                    "fr": "Forme Démasquée ",
+                    "de": "Entlarvte Form ",
+                    "es": "Forma Descubierta ",
+                    "it": "Forma Smascherata ",
+                    "ko": "들킨 모습 ",
+                    "zh-Hant": "現形的樣子 ",
+                    "zh-Hans": "现形的样子 "
+                }
             }
         ]
     },
@@ -39081,6 +40250,36 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "たそがれのたてがみ",
+                    "en": "Dusk Mane",
+                    "fr": "Crinière du Couchant"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "あかつきのつばさ",
+                    "en": "Dawn Wings",
+                    "fr": "Ailes de l'Aurore"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "ウルトラネクロズマ",
+                    "en": "Ultra Necrozma",
+                    "fr": "Ultra-Necrozma"
+                }
             }
         ]
     },
@@ -39330,10 +40529,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 810,
@@ -39418,10 +40617,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 813,
@@ -39506,10 +40705,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 816,
@@ -39594,10 +40793,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 819,
@@ -39767,10 +40966,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 824,
@@ -39855,10 +41054,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 827,
@@ -40094,10 +41293,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 835,
@@ -40249,10 +41448,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 840,
@@ -40320,10 +41519,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 842,
@@ -40356,10 +41555,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 843,
@@ -40421,10 +41620,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 845,
@@ -40455,6 +41654,38 @@
             {
                 "id": 0,
                 "sex": "mf"
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "うのみのすがた ",
+                    "en": "Gulping Form ",
+                    "fr": "Forme Gobe-Tout ",
+                    "de": "Schlingform ",
+                    "es": "Forma Tragatodo ",
+                    "it": "Forma Inghiottitutto ",
+                    "ko": "그대로 삼킨 모습 ",
+                    "zh-Hant": "一口吞的樣子 ",
+                    "zh-Hans": "一口吞的样子 "
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "まるのみのすがた ",
+                    "en": "Gorging Form ",
+                    "fr": "Forme Gobe-Chu ",
+                    "de": "Stopfform ",
+                    "es": "Forma Engulletodo ",
+                    "it": "Forma Inghiottintero ",
+                    "ko": "통째로 삼킨 모습 ",
+                    "zh-Hant": "大口吞的樣子 ",
+                    "zh-Hans": "大口吞的样子 "
+                }
             }
         ]
     },
@@ -40583,6 +41814,7 @@
             {
                 "id": 0,
                 "sex": "mf",
+                "gigantamax": true,
                 "name": {
                     "ja": "ハイなすがた",
                     "en": "Amped Form",
@@ -40592,6 +41824,7 @@
             {
                 "id": 1,
                 "sex": "mf",
+                "gigantamax": true,
                 "name": {
                     "ja": "ローなすがた",
                     "en": "Low Key Form",
@@ -40599,8 +41832,7 @@
                 }
             }
         ],
-        "formType": "NORMAL",
-        "gigantamax": true
+        "formType": "NORMAL"
     },
     {
         "id": 850,
@@ -40656,10 +41888,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 852,
@@ -40924,10 +42156,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 859,
@@ -41030,10 +42262,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mo"
+                "sex": "mo",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 862,
@@ -41252,6 +42484,7 @@
             {
                 "id": 0,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィバニラ",
                     "en": "Vanilla Cream",
@@ -41267,6 +42500,7 @@
             {
                 "id": 1,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィルビー",
                     "en": "Ruby Cream",
@@ -41282,6 +42516,7 @@
             {
                 "id": 2,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィまっちゃ",
                     "en": "Matcha Cream",
@@ -41297,6 +42532,7 @@
             {
                 "id": 3,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィミント",
                     "en": "Mint Cream",
@@ -41312,6 +42548,7 @@
             {
                 "id": 4,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィレモン",
                     "en": "Lemon Cream",
@@ -41327,6 +42564,7 @@
             {
                 "id": 5,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ミルキィソルト",
                     "en": "Salted Cream",
@@ -41342,6 +42580,7 @@
             {
                 "id": 6,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "ルビーミックス",
                     "en": "Ruby Swirl",
@@ -41357,6 +42596,7 @@
             {
                 "id": 7,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "キャラメルミックス",
                     "en": "Caramel Swirl",
@@ -41372,6 +42612,7 @@
             {
                 "id": 8,
                 "sex": "fo",
+                "gigantamax": true,
                 "name": {
                     "ja": "トリプルミックス",
                     "en": "Rainbow Swirl",
@@ -41485,8 +42726,7 @@
                     "zh-Hans": "蝴蝶结糖饰 "
                 }
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 870,
@@ -41676,7 +42916,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "アイスフェイス ",
+                    "en": "Ice Face ",
+                    "fr": "Tête de Gel ",
+                    "de": "Tiefkühlkopf ",
+                    "es": "Cara de Hielo ",
+                    "it": "Gelofaccia ",
+                    "ko": "아이스페이스 ",
+                    "zh-Hant": "結凍頭 ",
+                    "zh-Hans": "结冻头 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ナイスフェイス ",
+                    "en": "Noice Face ",
+                    "fr": "Tête Dégel ",
+                    "de": "Wohlfühlkopf ",
+                    "es": "Cara Deshielo ",
+                    "it": "Liquefaccia ",
+                    "ko": "나이스페이스 ",
+                    "zh-Hant": "解凍頭 ",
+                    "zh-Hans": "解冻头 "
+                }
             }
         ]
     },
@@ -41761,7 +43028,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "まんぷくもよう ",
+                    "en": "Full Belly Mode ",
+                    "fr": "Mode Rassasié ",
+                    "de": "Pappsattmuster ",
+                    "es": "Forma Saciada ",
+                    "it": "Motivo Panciapiena ",
+                    "ko": "배부른 모양 ",
+                    "zh-Hant": "滿腹花紋 ",
+                    "zh-Hans": "满腹花纹 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "はらぺこもよう ",
+                    "en": "Hangry Mode ",
+                    "fr": "Mode Affamé ",
+                    "de": "Kohldampfmuster ",
+                    "es": "Forma Voraz ",
+                    "it": "Motivo Panciavuota ",
+                    "ko": "배고픈 모양 ",
+                    "zh-Hant": "空腹花紋 ",
+                    "zh-Hans": "空腹花纹 "
+                }
             }
         ]
     },
@@ -41825,10 +43119,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 880,
@@ -41959,10 +43253,10 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "gigantamax": true
             }
-        ],
-        "gigantamax": true
+        ]
     },
     {
         "id": 885,
@@ -42082,7 +43376,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "れきせんのゆうしゃ ",
+                    "en": "Hero of Many Battles ",
+                    "fr": "Héros Aguerri ",
+                    "de": "Heldenhafter Krieger ",
+                    "es": "Guerrero Avezado ",
+                    "it": "Eroe di Mille Lotte ",
+                    "ko": "역전의 용사 ",
+                    "zh-Hant": "百戰勇者 ",
+                    "zh-Hans": "百战勇者 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "けんのおう ",
+                    "en": "Crowned Sword ",
+                    "fr": "Épée Suprême ",
+                    "de": "König des Schwertes ",
+                    "es": "Espada Suprema ",
+                    "it": "Re delle Spade ",
+                    "ko": "검왕 ",
+                    "zh-Hant": "劍之王 ",
+                    "zh-Hans": "剑之王 "
+                }
             }
         ]
     },
@@ -42108,7 +43429,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "uk"
+                "sex": "uk",
+                "name": {
+                    "ja": "れきせんのゆうしゃ ",
+                    "en": "Hero of Many Battles ",
+                    "fr": "Héros Aguerri ",
+                    "de": "Heldenhafter Krieger ",
+                    "es": "Guerrero Avezado ",
+                    "it": "Eroe di Mille Lotte ",
+                    "ko": "역전의 용사 ",
+                    "zh-Hant": "百戰勇者 ",
+                    "zh-Hans": "百战勇者 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "たてのおう ",
+                    "en": "Crowned Shield ",
+                    "fr": "Bouclier Suprême ",
+                    "de": "König des Schildes ",
+                    "es": "Escudo Supremo ",
+                    "it": "Re degli Scudi ",
+                    "ko": "방패왕 ",
+                    "zh-Hant": "盾之王 ",
+                    "zh-Hans": "盾之王 "
+                }
             }
         ]
     },
@@ -42135,6 +43483,22 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ムゲンダイマックス ",
+                    "en": "Eternamax ",
+                    "fr": "Infinimax ",
+                    "de": "Unendynamax ",
+                    "es": "Dinamax Infinito ",
+                    "it": "Dynamax Infinito ",
+                    "ko": "무한다이맥스 ",
+                    "zh-Hant": "無極巨化 ",
+                    "zh-Hans": "无极巨化 "
+                }
             }
         ]
     },
@@ -42187,6 +43551,7 @@
             {
                 "id": 0,
                 "sex": "mf",
+                "gigantamax": true,
                 "name": {
                     "ja": "いちげきのかた",
                     "en": "Single Strike Style",
@@ -42196,6 +43561,7 @@
             {
                 "id": 1,
                 "sex": "mf",
+                "gigantamax": true,
                 "name": {
                     "ja": "れんげきのかた",
                     "en": "Rapid Strike Style",
@@ -42203,8 +43569,7 @@
                 }
             }
         ],
-        "formType": "NORMAL",
-        "gigantamax": true
+        "formType": "NORMAL"
     },
     {
         "id": 893,
@@ -42370,6 +43735,26 @@
             {
                 "id": 0,
                 "sex": "uk"
+            },
+            {
+                "id": 1,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "はくばじょうのすがた",
+                    "en": "Ice Rider",
+                    "fr": "Cavalier du Froid"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "uk",
+                "undepositable": "FUSION",
+                "name": {
+                    "ja": "こくばじょうのすがた",
+                    "en": "Shadow Rider",
+                    "fr": "Cavalier d'Effroi"
+                }
             }
         ]
     },
@@ -44227,7 +45612,34 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ナイーブフォルム ",
+                    "en": "Zero Form ",
+                    "fr": "Forme Ordinaire ",
+                    "de": "Alltagsform ",
+                    "es": "Forma Ingenua ",
+                    "it": "Forma Ingenua ",
+                    "ko": "나이브폼 ",
+                    "zh-Hant": "平凡形態 ",
+                    "zh-Hans": "平凡形态 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "マイティフォルム ",
+                    "en": "Hero Form ",
+                    "fr": "Forme Super ",
+                    "de": "Heldenform ",
+                    "es": "Forma Heroica ",
+                    "it": "Forma Possente ",
+                    "ko": "마이티폼 ",
+                    "zh-Hant": "全能形態 ",
+                    "zh-Hans": "全能形态 "
+                }
             }
         ]
     },
@@ -45706,7 +47118,66 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "fo"
+                "sex": "fo",
+                "name": {
+                    "ja": "みどりのめん ",
+                    "en": "Teal Mask ",
+                    "fr": "Masque Turquoise ",
+                    "de": "Türkisgrüne Maske ",
+                    "es": "Máscara Turquesa ",
+                    "it": "Maschera Turchese ",
+                    "ko": "벽록의가면",
+                    "zh-Hant": "碧草面具",
+                    "zh-Hans": "碧草面具"
+                }
+            },
+            {
+                "id": 1,
+                "sex": "fo",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "いどのめん ",
+                    "en": "Wellspring Mask ",
+                    "fr": "Masque du Puits ",
+                    "de": "Brunnenmaske ",
+                    "es": "Máscara Fuente ",
+                    "it": "Maschera Pozzo ",
+                    "ko": "우물의가면",
+                    "zh-Hant": "水井面具",
+                    "zh-Hans": "水井面具"
+                }
+            },
+            {
+                "id": 2,
+                "sex": "fo",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "かまどのめん ",
+                    "en": "Hearthflame Mask ",
+                    "fr": "Masque du Fourneau ",
+                    "de": "Ofenmaske ",
+                    "es": "Máscara Horno ",
+                    "it": "Maschera Focolare ",
+                    "ko": "화덕의가면",
+                    "zh-Hant": "火灶面具",
+                    "zh-Hans": "火灶面具"
+                }
+            },
+            {
+                "id": 3,
+                "sex": "fo",
+                "undepositable": "GAME_ONLY",
+                "name": {
+                    "ja": "いしずえのめん ",
+                    "en": "Cornerstone Mask ",
+                    "fr": "Masque de la Pierre ",
+                    "de": "Fundamentmaske ",
+                    "es": "Máscara Cimiento ",
+                    "it": "Maschera Fondamenta ",
+                    "ko": "주춧돌의가면",
+                    "zh-Hant": "礎石面具",
+                    "zh-Hans": "礎石面具"
+                }
             }
         ]
     },
@@ -45860,7 +47331,50 @@
         "forms": [
             {
                 "id": 0,
-                "sex": "mf"
+                "sex": "mf",
+                "name": {
+                    "ja": "ノーマルフォルム ",
+                    "en": "Normal Form ",
+                    "fr": "Forme Normale ",
+                    "de": "Normalform ",
+                    "es": "Forma normal ",
+                    "it": "Forma Normale ",
+                    "ko": "노말폼 ",
+                    "zh-Hant": "普通形態 ",
+                    "zh-Hans": "普通形态 "
+                }
+            },
+            {
+                "id": 1,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "テラスタルフォルム ",
+                    "en": "Terastal Form ",
+                    "fr": "Forme Téracristal ",
+                    "de": "Terakristall-Form ",
+                    "es": "Forma teracristal ",
+                    "it": "Forma Teracristal ",
+                    "ko": "테라스탈폼 ",
+                    "zh-Hant": "太晶形態 ",
+                    "zh-Hans": "太晶形态 "
+                }
+            },
+            {
+                "id": 2,
+                "sex": "mf",
+                "undepositable": "BATTLE",
+                "name": {
+                    "ja": "ステラフォルム ",
+                    "en": "Stellar Form ",
+                    "fr": "Forme Stellaire ",
+                    "de": "Stellarform ",
+                    "es": "Forma astral ",
+                    "it": "Forma Astrale ",
+                    "ko": "스텔라폼 ",
+                    "zh-Hant": "星晶形態 ",
+                    "zh-Hans": "星晶形态 "
+                }
             }
         ]
     },

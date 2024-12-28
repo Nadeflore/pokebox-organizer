@@ -1,4 +1,6 @@
 id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
+6,1,Ｘ,X,X,,,,,,
+6,2,Ｙ,Y,Y,,,,,,
 25,1,オリジナルキャップ,Original Cap,Casquette Originale,Original-Kappe,Gorra Original,Berretto Originale,오리지널캡 ,初始帽子 ,初始帽子 
 25,2,ホウエンキャップ,Hoenn Cap,Casquette de Hoenn,Hoenn-Kappe,Gorra Hoenn,Berretto Hoenn,호연캡 ,豐緣帽子 ,丰缘帽子 
 25,3,シンオウキャップ,Sinnoh Cap,Casquette de Sinnoh,Sinnoh-Kappe,Gorra Sinnoh,Berretto Sinnoh,신오캡 ,神奧帽子 ,神奥帽子 
@@ -10,6 +12,8 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 128,1,コンバットしゅ,Combat Breed,Race Combative,,,,,,
 128,2,ブレイズしゅ,Blaze Breed,Race Flamboyante,,,,,,
 128,3,ウォーターしゅ,Aqua Breed,Race Aquatique,,,,,,
+150,1,Ｘ,X,X,,,,,,
+150,2,Ｙ,Y,Y,,,,,,
 201,0,A,A,A,,,,,,
 201,1,B,B,B,,,,,,
 201,2,C,C,C,,,,,,
@@ -38,6 +42,12 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 201,25,Z,Z,Z,,,,,,
 201,26,！,!,!,,,,,,
 201,27,？,?,?,,,,,,
+351,0,ポワルンのすがた,Normal,Forme Normale,Normalform,Normal,Forma Castform,캐스퐁의 모습 ,飄浮泡泡的樣子 ,飘浮泡泡的样子 
+351,1,たいようのすがた ,Sunny Form ,Forme Solaire ,Sonnenform ,Forma Sol ,Forma Sole ,태양의 모습 ,太陽的樣子 ,太阳的样子 
+351,2,あまみずのすがた ,Rainy Form ,Forme Eau de Pluie ,Regenform ,Forma Lluvia ,Forma Pioggia ,빗방울의 모습 ,雨水的樣子 ,雨水的样子 
+351,3,ゆきぐものすがた ,Snowy Form ,Forme Blizzard ,Schneeform ,Forma Nieve ,Forma Nuvola di Neve ,설운의 모습 ,雪雲的樣子 ,雪云的样子 
+382,1,ゲンシカイキ ,Primal Reversion ,Primo-Résurgence ,Protomorphose ,Regresión Primigenia ,Archeorisveglio ,원시회귀 ,回復原始 ,
+383,1,ゲンシカイキ ,Primal Reversion ,Primo-Résurgence ,Protomorphose ,Regresión Primigenia ,Archeorisveglio ,원시회귀 ,回復原始 ,
 386,0,ノーマルフォルム,Normal Forme,Forme Normale,,,,,,
 386,1,アタックフォルム,Attack Forme,Forme Attaque,,,,,,
 386,2,ディフェンスフォルム,Defense Forme,Forme Défense,,,,,,
@@ -87,6 +97,10 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 493,18,？？？タイプ,??? Type,???,???,Tipo ???,Tipo ???,,,
 550,0,あかすじのすがた,Red-Striped Form,Motif Rouge,,,,,,
 550,1,あおすじのすがた,Blue-Striped Form,Motif Bleu,,,,,,
+555,0,ノーマルモード ,Standard Mode ,Mode Normal ,Normalmodus ,Modo Normal ,Stato Normale ,노말모드 ,普通模式 ,普通模式 
+555,1,ダルマモード ,Zen Mode ,Mode Transe ,Trance-Modus ,Modo Daruma ,Stato Zen ,달마모드 ,達摩模式 ,达摩模式 
+555,2,ノーマルモード ,Standard Mode ,Mode Normal ,Normalmodus ,Modo Normal ,Stato Normale ,노말모드 ,普通模式 ,普通模式 
+555,3,ダルマモード ,Zen Mode ,Mode Transe ,Trance-Modus ,Modo Daruma ,Stato Zen ,달마모드 ,達摩模式 ,达摩模式 
 550,2,しろすじのすがた,White-Striped Form,Motif Blanc,,,,,,
 585,0,はるのすがた,Spring Form,Forme Printemps,Frühlingsform,Forma Primavera,Forma Primavera,봄의 모습,,
 585,1,なつのすがた,Summer Form,Forme Été,Sommerform,Forma Verano,Forma Estate,여름의 모습,,
@@ -102,7 +116,6 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 642,1,れいじゅうフォルム,Therian Forme,Forme Totémique,,,,,,
 645,0,けしんフォルム,Incarnate Forme,Forme Avatar,,,,,,
 645,1,れいじゅうフォルム,Therian Forme,Forme Totémique,,,,,,
-646,0,キュレムのすがた,Kyurem,Kyurem,,,,,,
 646,1,ホワイトキュレム,White Kyurem,Kyurem Blanc,,,,,,
 646,2,ブラックキュレム,Black Kyurem,Kyurem Noir,,,,,,
 647,0,いつものすがた,Ordinary Form,Aspect Normal,,,,,,
@@ -213,10 +226,14 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 774,11,みずいろのコア,Blue Core,Noyau Bleu,,,,,,
 774,12,あおいろのコア,Indigo Core,Noyau Indigo,,,,,,
 774,13,むらさきいろのコア,Violet Core,Noyau Violet,,,,,,
+778,0,ばけたすがた ,Disguised Form ,Forme Déguisée ,Verkleidete Form ,Forma Encubierta ,Forma Mascherata ,둔갑한 모습 ,化形的樣子 ,化形的样子 
+778,1,ばれたすがた ,Busted Form ,Forme Démasquée ,Entlarvte Form ,Forma Descubierta ,Forma Smascherata ,들킨 모습 ,現形的樣子 ,现形的样子 
 800,1,たそがれのたてがみ,Dusk Mane,Crinière du Couchant,,,,,,
 800,2,あかつきのつばさ,Dawn Wings,Ailes de l'Aurore,,,,,,
 800,3,ウルトラネクロズマ,Ultra Necrozma,Ultra-Necrozma,,,,,,
 801,1,500ねんまえのいろ,Original Color,Couleur du Passé,Originalfarbe,Color Vetusto,Colore Antico,500년 전의 색 ,500年前的顏色 ,500年前的颜色 
+845,1,うのみのすがた ,Gulping Form ,Forme Gobe-Tout ,Schlingform ,Forma Tragatodo ,Forma Inghiottitutto ,그대로 삼킨 모습 ,一口吞的樣子 ,一口吞的样子 
+845,2,まるのみのすがた ,Gorging Form ,Forme Gobe-Chu ,Stopfform ,Forma Engulletodo ,Forma Inghiottintero ,통째로 삼킨 모습 ,大口吞的樣子 ,大口吞的样子 
 849,0,ハイなすがた,Amped Form,Forme Aigüe,,,,,,
 849,1,ローなすがた,Low Key Form,Forme Grave,,,,,,
 854,0,がんさくフォルム,Phony Form,Forme Contrefaçon,Fälschungsform,,,,,
@@ -232,8 +249,17 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 869,6,ルビーミックス,Ruby Swirl,Mélange Ruby,Ruby-Mix,Mezcla Rosa,Rosamix,루비믹스,紅鑽綜合,红钻综合
 869,7,キャラメルミックス,Caramel Swirl,Mélange Caramel,Karamell-Mix,Mezcla Caramelo,Caramelmix,캐러멜믹스,焦糖綜合,焦糖综合
 869,8,トリプルミックス,Rainbow Swirl,Mélange Tricolore,Trio-Mix,Tres Sabores,Triplomix,트리플믹스,三色綜合,三色综合
+875,0,アイスフェイス ,Ice Face ,Tête de Gel ,Tiefkühlkopf ,Cara de Hielo ,Gelofaccia ,아이스페이스 ,結凍頭 ,结冻头 
+875,1,ナイスフェイス ,Noice Face ,Tête Dégel ,Wohlfühlkopf ,Cara Deshielo ,Liquefaccia ,나이스페이스 ,解凍頭 ,解冻头 
 876,0,オスのすがた,Male,Mâle,,,,,,
 876,1,メスのすがた,Female,Femelle,,,,,,
+877,0,まんぷくもよう ,Full Belly Mode ,Mode Rassasié ,Pappsattmuster ,Forma Saciada ,Motivo Panciapiena ,배부른 모양 ,滿腹花紋 ,满腹花纹 
+877,1,はらぺこもよう ,Hangry Mode ,Mode Affamé ,Kohldampfmuster ,Forma Voraz ,Motivo Panciavuota ,배고픈 모양 ,空腹花紋 ,空腹花纹 
+888,0,れきせんのゆうしゃ ,Hero of Many Battles ,Héros Aguerri ,Heldenhafter Krieger ,Guerrero Avezado ,Eroe di Mille Lotte ,역전의 용사 ,百戰勇者 ,百战勇者 
+888,1,けんのおう ,Crowned Sword ,Épée Suprême ,König des Schwertes ,Espada Suprema ,Re delle Spade ,검왕 ,劍之王 ,剑之王 
+889,0,れきせんのゆうしゃ ,Hero of Many Battles ,Héros Aguerri ,Heldenhafter Krieger ,Guerrero Avezado ,Eroe di Mille Lotte ,역전의 용사 ,百戰勇者 ,百战勇者 
+889,1,たてのおう ,Crowned Shield ,Bouclier Suprême ,König des Schildes ,Escudo Supremo ,Re degli Scudi ,방패왕 ,盾之王 ,盾之王 
+890,1,ムゲンダイマックス ,Eternamax ,Infinimax ,Unendynamax ,Dinamax Infinito ,Dynamax Infinito ,무한다이맥스 ,無極巨化 ,无极巨化 
 892,0,いちげきのかた,Single Strike Style,Style Poing Final,,,,,,
 892,1,れんげきのかた,Rapid Strike Style,Style Mille Poings,,,,,,
 893,1,とうちゃん,Dada,Papa,Papa,Papá,Papa,아빠 ,阿爸 ,阿爸 
@@ -252,6 +278,8 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 931,1,ブルーフェザー,Blue Plumage,Plumage Bleu,,,,,,
 931,2,イエローフェザー,Yellow Plumage,Plumage Jaune,,,,,,
 931,3,ホワイトフェザー,White Plumage,Plumage Blanc,,,,,,
+964,0,ナイーブフォルム ,Zero Form ,Forme Ordinaire ,Alltagsform ,Forma Ingenua ,Forma Ingenua ,나이브폼 ,平凡形態 ,平凡形态 
+964,1,マイティフォルム ,Hero Form ,Forme Super ,Heldenform ,Forma Heroica ,Forma Possente ,마이티폼 ,全能形態 ,全能形态 
 978,0,そったすがた,Curly Form,Forme Courbée,,,,,,
 978,1,たれたすがた,Droopy Form,Forme Affalée,,,,,,
 978,2,のびたすがた,Stretchy Form,Forme Raide,,,,,,
@@ -263,3 +291,10 @@ id,formId,ja,en,fr,de,es,it,ko,zh-Hant,zh-Hans
 1012,1,タカイモノのすがた,Artisan Form,Forme Onéreuse,Kostbarkeitsform,Forma Opulenta,Forma Pregiata,알짜배기의 모습,高檔貨的樣子,高档货的样子
 1013,0,ボンサクのすがた,Unremarkable Form,Forme Médiocre,Simple Form,Forma Mediocre,Forma Dozzinale,범작의 모습,凡作的樣子,凡作的样子
 1013,1,ケッサクのすがた,Masterpiece Form,Forme Exceptionnelle,Edle Form,Forma Exquisita,Forma Eccezionale,걸작의 모습,傑作的樣子,杰作的样子
+1017,0,みどりのめん ,Teal Mask ,Masque Turquoise ,Türkisgrüne Maske ,Máscara Turquesa ,Maschera Turchese ,벽록의가면,碧草面具,碧草面具
+1017,1,いどのめん ,Wellspring Mask ,Masque du Puits ,Brunnenmaske ,Máscara Fuente ,Maschera Pozzo ,우물의가면,水井面具,水井面具
+1017,2,かまどのめん ,Hearthflame Mask ,Masque du Fourneau ,Ofenmaske ,Máscara Horno ,Maschera Focolare ,화덕의가면,火灶面具,火灶面具
+1017,3,いしずえのめん ,Cornerstone Mask ,Masque de la Pierre ,Fundamentmaske ,Máscara Cimiento ,Maschera Fondamenta ,주춧돌의가면,礎石面具,礎石面具
+1024,0,ノーマルフォルム ,Normal Form ,Forme Normale ,Normalform ,Forma normal ,Forma Normale ,노말폼 ,普通形態 ,普通形态 
+1024,1,テラスタルフォルム ,Terastal Form ,Forme Téracristal ,Terakristall-Form ,Forma teracristal ,Forma Teracristal ,테라스탈폼 ,太晶形態 ,太晶形态 
+1024,2,ステラフォルム ,Stellar Form ,Forme Stellaire ,Stellarform ,Forma astral ,Forma Astrale ,스텔라폼 ,星晶形態 ,星晶形态 

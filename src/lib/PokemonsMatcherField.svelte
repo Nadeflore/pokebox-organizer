@@ -63,6 +63,10 @@
 			items: [{
 				value: "gigantamax",
 				text: $t('matcher.gigantamax')
+			},
+			{
+				value: "mega",
+				text: $t('matcher.megaEvolution')
 			}]
 		},
 		{

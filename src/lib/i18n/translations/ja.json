@@ -11,6 +11,7 @@
             "generation": "世代",
             "characteristic": "個性",
             "gigantamax": "キョダイマックス",
+            "megaEvolution": "メガシンカ",
             "pokemon": "ポケモン",
             "form": "フォーム"
         },
@@ -59,7 +60,11 @@
             "normal": "通常フォルム",
             "male": "オスのすがた",
             "female": "メスのすがた",
-            "other": "その他のフォーム"
+            "other": "その他のフォーム",
+            "undepositable": "送れないフォーム",
+            "mega": "メガ{{name}}",
+            "gigantamax": "キョダイマックス",
+            "requireGigantamax": "キョダイマックスができる{{name}}が必要"
         },
         "pokedex":{
             "title": "図鑑",

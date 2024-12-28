@@ -11,6 +11,7 @@
             "generation": "Generation",
             "characteristic": "Characteristic",
             "gigantamax": "Pokémon with a Gigantamax form",
+            "megaEvolution": "Pokémon with a Mega Evolution",
             "pokemon": "Pokémon",
             "form": "Form"
         },
@@ -59,7 +60,11 @@
             "normal": "Normal form",
             "male": "Male form",
             "female": "Female form",
-            "other": "Other form"
+            "other": "Other form",
+            "undepositable": "Undepositable Forms",
+            "mega": "Mega {{name}}",
+            "gigantamax": "Gigantamax",
+            "requireGigantamax": "Requires a {{name}} capable of Gigantamaxing"
         },
         "pokedex":{
             "title": "Pokédex",

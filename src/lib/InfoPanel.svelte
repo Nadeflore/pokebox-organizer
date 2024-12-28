@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-	import { type SexedForm, type Pokemon, Sex, getPokemonSignature } from "./box-order-generator/box-order-generator";
+	import { type SexedForm, type Pokemon, Sex, getPokemonSignature, type FormData, type PokemonData, UndepositableType, type LocalizedName } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
 	import { t, tl } from './i18n/i18n';
 	import { notes } from './stores';
@@ -23,33 +23,8 @@
         noteInput.style.height = `${noteInput.scrollHeight}px`;
     }
 
-    function getFormName(sexedForm: SexedForm) {
-        let name = "";
-        // First generate the base name depending on the region and specified form name
-
-        if (sexedForm.form.region) {
-            name = $t(`regionalForms.${sexedForm.form.region}`);
-            if (sexedForm.form.name) {
-                name += " " + $tl(sexedForm.form.name)
-            }
-        } else if (sexedForm.form.name) {
-            name = $tl(sexedForm.form.name);
-        } else if(sexedForm.form.sex != "fd"){
-            name = $t('forms.normal')
-        }
-
-        if (sexedForm.form.sex == "fd") {
-            switch(sexedForm.sex) {
-                case Sex.M:
-                    name += " " + $t('forms.male');
-                    break;
-                case Sex.F:
-                    name += " " + $t('forms.female');
-                    break;
-                default:
-                    throw new Error(`Unexpected sex for double form : ${sexedForm.sex}`)
-            }
-        }
+    function getSexedFormName(sexedForm: SexedForm) {
+        let name = getFormName(sexedForm.form, {}, sexedForm.form.sex == "fd" ? sexedForm.sex : undefined);
 
         if (sexedForm.subFormId !== undefined && pokemon.pokemonData.subForms) {
             name += " " + $tl(pokemon.pokemonData.subForms[sexedForm.subFormId].name)
@@ -57,6 +32,62 @@
 
         return name.trim();
     }
+
+	function getFormName(form: FormData, pokemonName: LocalizedName, sex = undefined as Sex | undefined) {
+        let nameParts = [];
+
+        if (form.region) {
+            nameParts.push($t(`regionalForms.${form.region}`));
+        }
+
+        if (form.undepositable == UndepositableType.MEGA) {
+            nameParts.push($t('forms.mega', {name: $tl(pokemonName)}));
+        }
+
+        if (form.name) {
+            nameParts.push($tl(form.name));
+        }
+
+        if (sex) {
+            switch(sex) {
+                case Sex.M:
+                    nameParts.push($t('forms.male'));
+                    break;
+                case Sex.F:
+                    nameParts.push($t('forms.female'));
+                    break;
+                default:
+                    throw new Error(`Unexpected sex for double form : ${sex}`)
+            }
+        }
+
+        // Default when no name exists
+        if (nameParts.length == 0) {
+            nameParts.push($t('forms.normal'));
+        }
+
+        return nameParts.join(" ");
+    }
+
+    function getGigantamaxName(form: FormData, addFormName: boolean) {
+        let name = $t('forms.gigantamax');
+        if (form.name && addFormName) {
+            name += " " + $tl(form.name);
+        }
+        return name;
+    }
+
+    function getGigantamaxForms(pokemon: Pokemon) {
+        let gigantamaxForms = pokemon.sexedForms.map(f => f.form).filter(f => f.gigantamax).filter((v, i, a) => a.indexOf(v) === i);
+        if (pokemon.pokemonData.id == 869) {
+            // Special case for Alcremie, only one gigamax of any form is required
+            return [gigantamaxForms[0]];
+        }
+        return gigantamaxForms;
+    }
+
+    const gigantamaxForms = getGigantamaxForms(pokemon);
+    
 </script>
 
 <div class="info-panel" bind:this={infoPanel}>
@@ -77,16 +108,46 @@
         <div class="title">Note</div>
         <textarea bind:value={$notes[getPokemonSignature(pokemon)]} on:input={onNoteInput} bind:this={noteInput} rows="1" ></textarea>
     </div>
-    {#each pokemon.sexedForms as sexedForm, i}
+    {#each pokemon.sexedForms as sexedForm}
         <div class="form">
             <div class="picture">
-                <PokemonPicture {pokemon} title={`Form id ${sexedForm.form.id}`} formIndex={i}></PokemonPicture>
+                <PokemonPicture {pokemon} title={`Form id ${sexedForm.form.id}`} sexedForm={sexedForm}></PokemonPicture>
             </div>
             <div class="form-name">
-                {getFormName(sexedForm)}
+                {getSexedFormName(sexedForm)}
             </div>
         </div>
     {/each}
+
+    {#if pokemon.undepositableForms.length || gigantamaxForms.length}
+        <h3>{$t('forms.undepositable')} </h3>
+        {#each pokemon.undepositableForms as form, i}
+            <div class="form">
+                <div class="picture">
+                    <PokemonPicture {pokemon} title={`Form id ${form.id}`} {form}></PokemonPicture>
+                </div>
+                <div class="form-name">
+                    {getFormName(form, pokemon.pokemonData.name)}
+                </div>
+            </div>
+        {/each}
+        {#each gigantamaxForms as form, i}
+            <div class="form">
+                <div class="picture">
+                    <PokemonPicture {pokemon} title={`Form id ${form.id}`} {form} gigantamax></PokemonPicture>
+                </div>
+                <div class="form-name">
+                    {getGigantamaxName(form, pokemon.pokemonData.id != 869)}
+                    <div class="form-details">
+                        {$t('forms.requireGigantamax', {name: $tl(pokemon.pokemonData.name)})}
+                    </div>
+                </div>
+        
+            </div>
+        {/each}
+    {/if}
+
+
 </div>
 
 <style>
@@ -149,6 +210,16 @@
         resize: none;
     }
 
+    h3 {
+        padding: 1em;
+        background-color: rgb(239, 255, 242);
+
+    }
+
+    .form-details {
+        font-size: 0.7em;
+        padding-top: 0.5em;
+    }
 
 
 

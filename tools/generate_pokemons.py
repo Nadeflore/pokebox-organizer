@@ -12,7 +12,7 @@ from enum import Enum
 from collections import defaultdict
 
 import cv2
-FOLDER_PATH = '../../../Downloads/[HOME] Pokémon Renders/Normal'
+FOLDER_PATH = '../../imagespokemons/[HOME] Pokémon Renders/Normal'
 
 class Sex(Enum):
     uk = 1
@@ -34,8 +34,10 @@ class FormType(Enum):
     SEX = 8
     CHANGE = 9
     CHANGE_LEG = 10
-    CHANGE_TEMP = 11
+    BATTLE = 11 # Battle only form
     PALDEA = 12
+    FUSION = 13 # Fusion of 2 pokemons
+    GAME_ONLY = 14 # Changeable form, can be retain outside of battle, but not in HOME. only in game
 
 @dataclass
 class PokemonPicture:
@@ -173,7 +175,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     forms = list(forms)
 
-    hasGigantamax = any([f.giga for f in forms])
+    formIdsWithGigantamax = [f.form_id for f in forms if f.giga]
     # Remove gigamax and back images
     forms = list(filter(lambda e: not e.giga and not e.back, forms))
 
@@ -182,7 +184,7 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     forms_json = []
 
-    subFormsByFormId = {form_id : list(subforms) for form_id, subforms in groupby(forms, key=lambda e: e.form_id) if forms_info.get("{}_{}".format(dex_id, form_id)) not in [FormType.MEGA, FormType.IGNORE, FormType.CHANGE_TEMP]}
+    subFormsByFormId = {form_id : list(subforms) for form_id, subforms in groupby(forms, key=lambda e: e.form_id) if forms_info.get("{}_{}".format(dex_id, form_id)) not in [FormType.IGNORE]}
 
     pokemonFormType = None
     normalCount = 0
@@ -209,14 +211,12 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
         if len(sexes) == 1:
             sex = sexes[0]
-            if sex == Sex.fd:
-                sex = Sex.fo
-            elif sex == Sex.md:
-                sex = Sex.mo
+            if not sex in [Sex.uk, Sex.fo, Sex.mo, Sex.mf]:
+                raise Exception(f"unexpected single sex: {sex}")
 
         elif len(sexes) == 2:
             if not (Sex.fd in sexes and Sex.md in sexes):
-                raise Exception("double but not each sex")
+                raise Exception(f"double but not each sex {sexes}")
 
             sex = Sex.fd
 
@@ -244,14 +244,14 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
             info = None
             if key == 27:
                 raise Exception("Exit")
-            elif key == ord('m'):
-                info = FormType.MEGA
             elif key == ord('a'):
                 info = FormType.ALOLA
             elif key == ord('g'):
                 info = FormType.GALAR
             elif key == ord('h'):
                 info = FormType.HISUI
+            elif key == ord('p'):
+                info = FormType.PALDEA
             elif key == ord('i'):
                 info = FormType.IGNORE
             elif key == ord(' '):
@@ -264,10 +264,14 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 info = FormType.CHANGE
             elif key == ord('l'):
                 info = FormType.CHANGE_LEG
-            elif key == ord('t'):
-                info = FormType.CHANGE_TEMP
-            elif key == ord('p'):
-                info = FormType.PALDEA
+            elif key == ord('m'):
+                info = FormType.MEGA
+            elif key == ord('b'):
+                info = FormType.BATTLE
+            elif key == ord('f'):
+                info = FormType.FUSION
+            elif key == ord('o'):
+                info = FormType.GAME_ONLY
 
             if info:
                 append_to_file("forms_info", "{}_{};{}".format(dex_id, form_id, info.name))
@@ -276,6 +280,11 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 info = FormType.NORMAL
 
         form_json = {"id": form_id, "sex": sex.name, }
+
+
+        if form_id in formIdsWithGigantamax:
+            form_json["gigantamax"] = True
+
 
 
         if info:
@@ -290,6 +299,12 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 form_json["region"] = info.name
             elif info == FormType.EVENT:
                 form_json["event"] = True
+            elif info in [FormType.MEGA, FormType.BATTLE, FormType.FUSION, FormType.GAME_ONLY]:
+                form_json["undepositable"] = info.name 
+                # special case for Galarian Darmanitan which is both regional and BATTLE
+                # TODO change region to be a separate field
+                if dex_id == 555 and form_id == 3:
+                    form_json["region"] = FormType.GALAR.name
 
             # add form info
             form_names_for_pokemon = form_names.get(dex_id)
@@ -341,9 +356,6 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
 
     if len(subFormsJson) > 1:
         pokemonJson["subForms"] = subFormsJson
-
-    if hasGigantamax:
-        pokemonJson["gigantamax"] = True
 
     pokemons_json.append(pokemonJson)
 
