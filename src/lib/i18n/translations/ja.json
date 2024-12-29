@@ -13,7 +13,8 @@
             "gigantamax": "キョダイマックス",
             "megaEvolution": "メガシンカ",
             "pokemon": "ポケモン",
-            "form": "フォーム"
+            "form": "フォーム",
+            "nomatch": "一致するオプションはありません"
         },
         "configEdit": {
             "name": "名前",

@@ -77,7 +77,7 @@ export interface Pokemon {
     sexedForms: SexedForm[];
     undepositableForms: FormData[];
     dexNumber?: number;
-    matchSearch?: boolean;
+    matchSearch?: number;
     group?: Group;
 }
 
@@ -341,7 +341,8 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
 
         // Check which pokemon matches search 
         if (search.length) {
-            pokemons = pokemons.map(p => search.some(m => p.sexedForms.some(f => isPokemonFormMatch(p.pokemonData, f.form, m))) ? { ...p, matchSearch: true } : p)
+            let i = 1;
+            pokemons = pokemons.map(p => search.some(m => p.sexedForms.some(f => isPokemonFormMatch(p.pokemonData, f.form, m))) ? { ...p, matchSearch: i++ } : p)
         }
 
         // Add group info of the same pokemon

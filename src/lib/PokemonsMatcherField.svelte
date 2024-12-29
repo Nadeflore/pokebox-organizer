@@ -28,7 +28,7 @@
 
 	$: pokemonsOptions = $pokemonsData.map((p) => ({ value: `p-${p.id}`, text: $tl(p.name) }));
 
-	$: formsOptions = $pokemonsData.filter(p => p.forms.length > 1).flatMap((p) => p.forms.map((f) => ({ value: `f-${p.id}-${f.id}`, text: `${$tl(p.name)} - ${getFormName(f)}` })));
+	$: formsOptions = $pokemonsData.filter(p => p.forms.filter(f => !f.undepositable).length > 1).flatMap((p) => p.forms.filter(f=> !f.undepositable).map((f) => ({ value: `f-${p.id}-${f.id}`, text: `${$tl(p.name)} - ${getFormName(f)}` })));
 
 	$: generationsOptions = generations.map((g) => ({
 		value: `g-${g.id}`,
@@ -88,5 +88,6 @@
 		bind:value
 		multiple="true"
 		{placeholder}
+		i18n={{nomatch: $t('matcher.nomatch')}}
 	/>
 {/if}

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { afterUpdate } from 'svelte';
 	import { GenderFormsType, getPokemonSignature, Group, Sex, type Pokemon } from './box-order-generator/box-order-generator';
 	import { t, tl } from './i18n/i18n';
 	import InfoPanel from './InfoPanel.svelte';
@@ -35,11 +36,21 @@
 		document.body.removeEventListener('click', closeInfoPanel)
 	}
 
+	let boxElement: HTMLDivElement;
 	let infoPanelPokemonIndex = 0;
 	const defaultPokemon = [] as Pokemon[][];
+	let matchSearch = false;
+
+	afterUpdate(() => {
+		const newMatchSearch = box.pokemons.some(p => p.matchSearch == 1);
+		if (matchSearch == false && newMatchSearch == true) {
+			boxElement.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "nearest" });
+		}
+		matchSearch = newMatchSearch;
+	})
 </script>
 
-<div class="box" class:check-mode={checkMode}>
+<div class="box" class:check-mode={checkMode} bind:this={boxElement}>
 	<h3>{#if box.namePrefix}{$t(box.namePrefix)} {/if}{box.name}</h3>
 	<div class="box-content" class:effie={$config.forms.genderForms == GenderFormsType.DOUBLE_ALL}>
 		{#if $config.forms.genderForms == GenderFormsType.DOUBLE_ALL}

@@ -13,7 +13,8 @@
             "gigantamax": "Pokémon with a Gigantamax form",
             "megaEvolution": "Pokémon with a Mega Evolution",
             "pokemon": "Pokémon",
-            "form": "Form"
+            "form": "Form",
+            "nomatch": "No matching filter found"
         },
         "configEdit": {
             "name": "Name",
