@@ -3,7 +3,7 @@
 	import { type SexedForm, type Pokemon, Sex, getPokemonSignature, type FormData, type PokemonData, UndepositableType, type LocalizedName } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
 	import { t, tl } from './i18n/i18n';
-	import { notes } from './stores';
+	import { infoPanelPokemon, notes } from './stores';
 
     export let pokemon: Pokemon;
 
@@ -87,10 +87,11 @@
     }
 
     const gigantamaxForms = getGigantamaxForms(pokemon);
-    
+
 </script>
 
-<div class="info-panel" bind:this={infoPanel} on:click|stopPropagation={()=>{}}>
+<div class="info-panel" bind:this={infoPanel} on:click|stopPropagation={()=>{}} on:keydown={()=>{}}>
+    <button class="close" on:click={() => {$infoPanelPokemon = null}}>&#x2715;</button>
     <div class="header">
         {#if pokemon.dexNumber}
             <div class="dex-number regional">
@@ -154,7 +155,8 @@
     .info-panel {
         background-color: rgb(246, 241, 241);
         margin: 1em;
-        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);    
+        box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+        position: relative;
     }
 
     .header {
@@ -221,6 +223,10 @@
         padding-top: 0.5em;
     }
 
-
-
+    .close {
+        position: absolute;
+        padding: 1em;
+        top: 0;
+        right: 0;
+    }
 </style>

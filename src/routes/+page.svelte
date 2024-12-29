@@ -36,7 +36,7 @@
 		<Boxes {search} {checkMode}/>
 	</div>
 	<div class="panel" class:closed={!settingsPanelOpen}>
-		<SettingsPanel />
+		<SettingsPanel on:close={() => {settingsPanelOpen = false}} />
 	</div>
 	<div class="tabs">
 		<Tabs />
