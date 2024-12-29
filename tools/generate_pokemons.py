@@ -306,6 +306,14 @@ for dex_id, forms in groupby(pictures, key=lambda pic: pic.dex_id):
                 if dex_id == 555 and form_id == 3:
                     form_json["region"] = FormType.GALAR.name
 
+            if dex_id == 901 and form_id == 1:
+                # bloodmoon Ursaluna
+                form_json["generation"] = 9
+
+            if dex_id == 550 and form_id == 2:
+                # White stripe Basculin
+                form_json["generation"] = 8.5
+
             # add form info
             form_names_for_pokemon = form_names.get(dex_id)
             if form_names_for_pokemon and form_names_for_pokemon.get(form_id):

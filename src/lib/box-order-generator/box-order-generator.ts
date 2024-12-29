@@ -89,6 +89,7 @@ export interface FormData {
     event?: boolean;
     gigantamax?: boolean;
     undepositable: UndepositableType;
+    generation: number;
 }
 
 export interface SexedForm {
@@ -437,6 +438,19 @@ function isPokemonFormIncluded(pokemon: PokemonData, form: FormData, filter: Pok
     return true;
 }
 
+function convertRegionToGeneration (region: Region) {
+    switch(region) {
+        case Region.ALOLA:
+            return 7;
+        case Region.GALAR:
+            return 8;
+        case Region.HISUI:
+            return 8.5;
+        case Region.PALDEA:
+            return 9;
+    }
+}
+
 function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: string) {
     const matchPokemon = matcher.match(/p-(\d+)/)
     if (matchPokemon) {
@@ -446,6 +460,15 @@ function isPokemonFormMatch(pokemon: PokemonData, form: FormData, matcher: strin
     const matchGeneration = matcher.match(/g-(\d+)/)
     if (matchGeneration) {
         const genId = +matchGeneration[1]
+
+        if (form.generation != undefined) {
+            return form.generation == genId;
+        }
+
+        if (form.region) {
+            return convertRegionToGeneration(form.region) == genId;
+        }
+
         const generation = generations.find(g => g.id === genId)
         if (!generation) {
             return false;
