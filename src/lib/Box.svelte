@@ -3,7 +3,7 @@
 	import { t, tl } from './i18n/i18n';
 	import InfoPanel from './InfoPanel.svelte';
 	import PokemonPicture from './PokemonPicture.svelte';
-	import { checked, config } from './stores';
+	import { checked, config, infoPanelPokemon } from './stores';
 	export let box: {name: string, namePrefix: string | undefined, pokemons: Pokemon[]};
 	export let checkMode: boolean;
 
@@ -24,17 +24,22 @@
 				checked.set([...$checked, signature]);
 			}
 		} else {
-			infoPanelPokemon = pokemon;
+			$infoPanelPokemon = pokemon;
 			infoPanelPokemonIndex = index;
+			document.body.addEventListener('click', closeInfoPanel)
 		}
 	}
 
-	let infoPanelPokemon: Pokemon | null = null;
+	function closeInfoPanel() {
+		$infoPanelPokemon = null;
+		document.body.removeEventListener('click', closeInfoPanel)
+	}
+
 	let infoPanelPokemonIndex = 0;
 	const defaultPokemon = [] as Pokemon[][];
 </script>
 
-<div class="box" class:check-mode={checkMode} on:mouseleave={() => {infoPanelPokemon = null}}>
+<div class="box" class:check-mode={checkMode}>
 	<h3>{#if box.namePrefix}{$t(box.namePrefix)} {/if}{box.name}</h3>
 	<div class="box-content" class:effie={$config.forms.genderForms == GenderFormsType.DOUBLE_ALL}>
 		{#if $config.forms.genderForms == GenderFormsType.DOUBLE_ALL}
@@ -42,7 +47,7 @@
 				<div class="group">
 					{#each pokemonGroup as p, j}
 						<button
-							on:click={() => {
+							on:click|stopPropagation={() => {
 								onPokemonClicked(p, i*2 + j);
 							}}
 							class="pokemon"
@@ -68,7 +73,7 @@
 		{:else}
 		{#each box.pokemons as pokemon, i (getPokemonSignature(pokemon))}
 			<button
-				on:click={() => {
+				on:click|stopPropagation={() => {
 					onPokemonClicked(pokemon, i);
 				}}
 				class="pokemon"
@@ -90,10 +95,10 @@
 			</button>
 		{/each}
 		{/if}
-		{#if infoPanelPokemon}
-			{#key getPokemonSignature(infoPanelPokemon)}
+		{#if $infoPanelPokemon && box.pokemons.includes($infoPanelPokemon)}
+			{#key getPokemonSignature($infoPanelPokemon)}
 			<div class="details-panel" style="top: {(Math.floor(infoPanelPokemonIndex / 6) + 1) * 20}%">
-				<InfoPanel pokemon={infoPanelPokemon}/>
+				<InfoPanel pokemon={$infoPanelPokemon}/>
 			</div>
 			{/key}
 		{/if}

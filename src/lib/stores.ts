@@ -122,3 +122,6 @@ config.subscribe(c => {
 
 export const locale = writable(fromLocalStorage("locale","en") as string);
 toLocalStorage(locale, "locale")
+
+
+export const infoPanelPokemon = writable(null as Pokemon | null);

@@ -90,7 +90,7 @@
     
 </script>
 
-<div class="info-panel" bind:this={infoPanel}>
+<div class="info-panel" bind:this={infoPanel} on:click|stopPropagation={()=>{}}>
     <div class="header">
         {#if pokemon.dexNumber}
             <div class="dex-number regional">
