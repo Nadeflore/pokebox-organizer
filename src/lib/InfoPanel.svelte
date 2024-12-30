@@ -3,7 +3,7 @@
 	import { type SexedForm, type Pokemon, Sex, getPokemonSignature, type FormData, type PokemonData, UndepositableType, type LocalizedName } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
 	import { t, tl } from './i18n/i18n';
-	import { infoPanelPokemon, notes } from './stores';
+	import { config, infoPanelPokemon, notes } from './stores';
 
     export let pokemon: Pokemon;
 
@@ -93,7 +93,7 @@
 <div class="info-panel" bind:this={infoPanel} on:click|stopPropagation={()=>{}} on:keydown={()=>{}}>
     <button class="close" on:click={() => {$infoPanelPokemon = null}}>&#x2715;</button>
     <div class="header">
-        {#if pokemon.dexNumber}
+        {#if $config.pokedex != "national"}
             <div class="dex-number regional">
                 <div class="title">{$t('pokedex.regional')}</div>
                 N°{pokemon.dexNumber}

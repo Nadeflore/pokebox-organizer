@@ -27,7 +27,8 @@
             "box": "ボックス",
             "newBoxAtGeneration": "世代にボックス",
             "boxName": "ボックスの名前",
-            "pattern": "パターン"
+            "pattern": "パターン",
+            "spoilerFree": "ネタバレなしモード"
         },
         "genderForms":
         {

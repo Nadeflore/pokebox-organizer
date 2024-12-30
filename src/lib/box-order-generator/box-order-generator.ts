@@ -6,7 +6,7 @@ export interface Generation {
     end: number;
 }
 
-export interface PokemonFilterConfig {
+export interface TabConfig {
     name: string;
     include: string[];
     exclude: string[];
@@ -14,6 +14,7 @@ export interface PokemonFilterConfig {
     newBoxAtGenerations: number[];
     forms: PokemonFormsFilter;
     boxNamePattern: string;
+    spoilerFreeMode: boolean;
 }
 
 
@@ -134,9 +135,9 @@ export const defaultConfig = {
         otherFormsInSeparateBox: false,
     } as PokemonFormsFilter,
     boxNamePattern: "{gen}G - {genboxnb}",
-} as PokemonFilterConfig;
+} as TabConfig;
 
-function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: PokemonFilterConfig): Pokemon[] {
+function getPokemonsWithFormsFiltered(pokemonsData: PokemonData[], filter: TabConfig): Pokemon[] {
     const result = pokemonsData.flatMap((pokemon) => {
         const formType = FormType[pokemon.formType as keyof typeof FormType]
 
@@ -316,7 +317,7 @@ function separateFormsToBeInSeparateBox(pokemons: Pokemon[], formsConfig: Pokemo
     return result;
 }
 
-export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilterConfig, search: string[]) {
+export function getPokemonBoxes(pokemonsData: PokemonData[], filter: TabConfig, search: string[]) {
     if (!filter) {
         return [];
     }
@@ -329,15 +330,10 @@ export function getPokemonBoxes(pokemonsData: PokemonData[], filter: PokemonFilt
 
         const boxNamePattern = group.namePrefix ? "- {boxnb}" : filter.boxNamePattern;
 
-        if (filter.pokedex == "national") {
-            pokemons.sort((a, b) => ((a.pokemonData.id) - (b.pokemonData.id)))
-        } else {
-            // Add regional dex id
-            pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
+        pokemons = pokemons.map(p => ({...p, dexNumber: p.pokemonData.regionalDex[filter.pokedex].id}))
 
-            // Sort
-            pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
-        }
+        // Sort
+        pokemons.sort((a, b) => ((a.dexNumber || 0) - (b.dexNumber || 0)))
 
         // Check which pokemon matches search 
         if (search.length) {
@@ -424,7 +420,7 @@ function addBoxNames(boxes: Pokemon[][], namePrefix: string | undefined, namePat
     });
 }
 
-function isPokemonFormIncluded(pokemon: PokemonData, form: FormData, filter: PokemonFilterConfig) {
+function isPokemonFormIncluded(pokemon: PokemonData, form: FormData, filter: TabConfig) {
     if (!isPokemonFormInPokedex(pokemon, form, filter.pokedex)) {
         return false;
     }
@@ -522,6 +518,6 @@ export function getPokemonSignature(pokemon: Pokemon) {
     return signature
 }
 
-export function isEveryPokemonChecked(pokemonsData: PokemonData[], filter: PokemonFilterConfig, checked: string[]) {
+export function isEveryPokemonChecked(pokemonsData: PokemonData[], filter: TabConfig, checked: string[]) {
     return getPokemonsWithFormsFiltered(pokemonsData, filter).every(p => checked.includes(getPokemonSignature(p)));
 }

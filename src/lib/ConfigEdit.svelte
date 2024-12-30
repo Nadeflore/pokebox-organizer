@@ -20,10 +20,18 @@
 </script>
 
 <div class="filter-form">
-	<label>
-		{$t('configEdit.name')}
-		<input bind:value={$config.name} />
-	</label>
+	<p>
+		<label>
+			{$t('configEdit.name')}
+			<input bind:value={$config.name} />
+		</label>
+	</p>
+	<p>
+		<label>	
+			<input type="checkbox" bind:checked={$config.spoilerFreeMode} />
+			{$t('configEdit.spoilerFree')}
+		</label>
+	</p>
 	<section>
 		<h3>{$t('configEdit.toInclude')}</h3>
 		<div>

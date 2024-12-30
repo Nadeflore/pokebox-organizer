@@ -17,17 +17,20 @@
 	}
 
 	function onPokemonClicked(pokemon: Pokemon, index: number) {
+		const signature = getPokemonSignature(pokemon);
+		const isChecked = $checked.includes(signature);
 		if (checkMode) {
-			const signature = getPokemonSignature(pokemon);
-			if ($checked.includes(signature)) {
+			if (isChecked) {
 				checked.set($checked.filter((s) => s !== signature));
 			} else {
 				checked.set([...$checked, signature]);
 			}
-		} else {
+		} else if(isChecked || !$config.spoilerFreeMode) {
 			$infoPanelPokemon = pokemon;
 			infoPanelPokemonIndex = index;
 			document.body.addEventListener('click', closeInfoPanel)
+		} else {
+			$infoPanelPokemon = null;
 		}
 	}
 
@@ -83,26 +86,34 @@
 			{/each}
 		{:else}
 		{#each box.pokemons as pokemon, i (getPokemonSignature(pokemon))}
+		{@const checked = $checked.includes(getPokemonSignature(pokemon))}
 			<button
 				on:click|stopPropagation={() => {
 					onPokemonClicked(pokemon, i);
 				}}
 				class="pokemon"
 				class:highlight={pokemon.matchSearch}
-				class:checked={$checked.includes(getPokemonSignature(pokemon))}
+				class:checked={checked}
 				class:first={pokemon.group == Group.FIRST}
 				class:middle={pokemon.group == Group.MIDDLE}
 				class:last={pokemon.group == Group.LAST}
 				class:male={isMale(pokemon)}
 				class:female={isFemale(pokemon)}
 			>
-				<div class="groupbar" style="--bar-color: rgb(145, 225, 203)"></div>
-				<div class="check"></div>
+				
+			{#if !checked && $config.spoilerFreeMode} 
+				<div class="number">
+					<span>{String(pokemon.dexNumber).padStart(3, '0')}</span>
+				</div>
+			{:else}
 				<div class="sex"></div>
 				{#if pokemon.sexedForms.length > 1}
 					<div class="multiple-forms">{pokemon.sexedForms.length}</div>
 				{/if}
-				<PokemonPicture {pokemon} title={$tl(pokemon.pokemonData.name)} />
+			{/if}
+				<div class="check"></div>
+				<div class="groupbar" style="--bar-color: rgb(145, 225, 203)"></div>
+				<PokemonPicture {pokemon} title={$tl(pokemon.pokemonData.name)} hideImage={!checked && $config.spoilerFreeMode}/>
 			</button>
 		{/each}
 		{/if}
@@ -242,6 +253,25 @@
 
 	.group {
 		display: flex;
+	}
+
+	.pokemon .number {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		container-type: inline-size;
+	}
+	
+	.pokemon .number span {
+		font-size: 40cqw;
+		color: rgb(53, 58, 63);
+		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-weight: bolder;
 	}
 
 	</style>

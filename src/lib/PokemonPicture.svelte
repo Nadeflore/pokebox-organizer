@@ -6,8 +6,13 @@
 	export let sexedForm = undefined as SexedForm | undefined;
 	export let form = undefined as FormData | undefined;
 	export let gigantamax = false;
+	export let hideImage = false;
 
 	function getImageFileName(pokemon: Pokemon): string {
+		if (hideImage) {
+			return "/images/question-mark-icon.svg"
+		}
+
 		if (sexedForm == undefined && form == undefined) {
 			sexedForm = pokemon.sexedForms[0];
 		}

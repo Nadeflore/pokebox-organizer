@@ -27,7 +27,8 @@
             "box": "Options de boîtes",
             "newBoxAtGeneration": "Nouvelle boîtes à chaque génération",
             "boxName": "Nom des boîtes",
-            "pattern": "Pattern"
+            "pattern": "Pattern",
+            "spoilerFree": "Mode anti-spoiler"
         },
         "genderForms":
         {

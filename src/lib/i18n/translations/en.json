@@ -27,7 +27,8 @@
             "box": "Box options",
             "newBoxAtGeneration": "New box at each generation",
             "boxName": "Box name",
-            "pattern": "Pattern"
+            "pattern": "Pattern",
+            "spoilerFree": "Spoiler free mode"
         },
         "genderForms":
         {

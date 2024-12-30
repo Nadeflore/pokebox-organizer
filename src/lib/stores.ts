@@ -1,9 +1,9 @@
 import { derived, writable } from 'svelte/store';
-import { defaultConfig, type Pokemon, type PokemonData, type PokemonFilterConfig } from './box-order-generator/box-order-generator';
+import { defaultConfig, type Pokemon, type PokemonData, type TabConfig } from './box-order-generator/box-order-generator';
 import { browser } from '$app/environment';
 
 export interface Tab {
-    config: PokemonFilterConfig;
+    config: TabConfig;
     checked: string[];
     notes: Record<string, string>;
 }
@@ -65,7 +65,7 @@ function createConfig() {
 
     return {
         subscribe,
-        set: (value: PokemonFilterConfig) => state.update(tabs => {
+        set: (value: TabConfig) => state.update(tabs => {
             tabs.tabs[tabs.activeTabId].config = value;
             return tabs;
         })
