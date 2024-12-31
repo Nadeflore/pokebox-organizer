@@ -270,7 +270,7 @@
 	.pokemon .number span {
 		font-size: 40cqw;
 		color: rgb(53, 58, 63);
-		font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-family: sans-serif;
 		font-weight: bolder;
 	}
 
