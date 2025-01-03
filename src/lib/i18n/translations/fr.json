@@ -77,6 +77,10 @@
             "closeConfirm": "Retirer \"{{name}}\" ?",
             "share": "Partager cette config",
             "copy": "Copier"
+        },
+        "links": {
+            "wiki": "Pokepedia",
+            "wikiLink": "https://www.pokepedia.fr/{{name}}"
         }
     }
 }

@@ -77,6 +77,10 @@
             "closeConfirm": "Remove \"{{name}}\"?",
             "share": "Share this tab",
             "copy": "Copy"
+        },
+        "links": {
+            "wiki": "Bulbapedia",
+            "wikiLink": "https://bulbapedia.bulbagarden.net/wiki/{{name}}_(Pok%C3%A9mon)"
         }
     }
 }

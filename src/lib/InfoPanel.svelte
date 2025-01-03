@@ -3,7 +3,7 @@
 	import { type SexedForm, type Pokemon, Sex, getPokemonSignature, type FormData, type PokemonData, UndepositableType, type LocalizedName } from "./box-order-generator/box-order-generator";
 	import PokemonPicture from "./PokemonPicture.svelte";
 	import { t, tl } from './i18n/i18n';
-	import { config, infoPanelPokemon, notes } from './stores';
+	import { config, infoPanelPokemon, notes, pokemonsData } from './stores';
 
     export let pokemon: Pokemon;
 
@@ -103,12 +103,14 @@
             <div class="title">{$t('pokedex.national')}</div>
             N°{pokemon.pokemonData.id}
         </div>
-        <div class="pokemon-name">{$tl(pokemon.pokemonData.name)}</div>
+        <div class="pokemon-name"><a target="_blank" href={$t('links.wikiLink', {name: $tl(pokemon.pokemonData.name)})}>{$tl(pokemon.pokemonData.name)}</a></div>
     </div>
+    
     <div class="note">
         <div class="title">Note</div>
         <textarea bind:value={$notes[getPokemonSignature(pokemon)]} on:input={onNoteInput} bind:this={noteInput} rows="1" ></textarea>
     </div>
+
     {#each pokemon.sexedForms as sexedForm}
         <div class="form">
             <div class="picture">
@@ -198,9 +200,9 @@
 
 
     .note {
-            display: flex;
-            margin: 0.5em;
-    }
+        display: flex;
+        margin: 0.5em;
+}
 
     .note .title {
         margin-top: 0.25em;
@@ -228,5 +230,10 @@
         padding: 1em;
         top: 0;
         right: 0;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
     }
 </style>

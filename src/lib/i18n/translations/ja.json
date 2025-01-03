@@ -77,6 +77,10 @@
             "closeConfirm": "「{{name}}」を閉じる?",
             "share": "このタブを共有する",
             "copy": "コピー"
+        },
+        "links": {
+            "wiki": "ポケモンWiki",
+            "wikiLink": "https://wiki.ポケモン.com/wiki/{{name}}"
         }
     }
 }
